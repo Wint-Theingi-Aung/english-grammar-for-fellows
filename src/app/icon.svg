@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" width="32" height="32">
+  <!-- Book shape -->
+  <rect x="4" y="3" width="24" height="26" rx="2" ry="2" fill="white" stroke="#5B5FE6" stroke-width="2"/>
+  <!-- Book spine -->
+  <line x1="16" y1="3" x2="16" y2="29" stroke="#5B5FE6" stroke-width="1.5"/>
+  <!-- Book pages lines -->
+  <line x1="18" y1="8" x2="26" y2="8" stroke="#C4C7E5" stroke-width="1" stroke-linecap="round"/>
+  <line x1="18" y1="12" x2="26" y2="12" stroke="#C4C7E5" stroke-width="1" stroke-linecap="round"/>
+  <line x1="18" y1="16" x2="26" y2="16" stroke="#C4C7E5" stroke-width="1" stroke-linecap="round"/>
+  <line x1="18" y1="20" x2="26" y2="20" stroke="#C4C7E5" stroke-width="1" stroke-linecap="round"/>
+  <!-- Letter G on cover -->
+  <text x="10" y="21" font-family="Georgia, serif" font-size="14" font-weight="bold" fill="#5B5FE6" text-anchor="middle">G</text>
+</svg>

@@ -1,0 +1,100 @@
+{
+  "unit": 1,
+  "title": "Simple Present Tense, Simple Past Tense and Simple Future Tense",
+  "lessons": [
+    {
+      "id": "unit1-lesson1",
+      "title": "Verb Forms Overview",
+      "content": "There are three main tenses in English: Simple Present, Simple Past, and Simple Future. Each tense has a specific verb form.",
+      "details": [
+        {
+          "tense": "Simple Present",
+          "form": "V1 (base form)",
+          "example": "I write a letter.",
+          "burmese": "ကျွန်မ စာတစ်စောင် ရေးတယ်။"
+        },
+        {
+          "tense": "Simple Past",
+          "form": "V2 (past form)",
+          "example": "I wrote a letter last night.",
+          "burmese": "မနေ့ညက ကျွန်မ စာတစ်စောင် ရေးခဲ့တယ်။"
+        },
+        {
+          "tense": "Simple Future",
+          "form": "will + V1",
+          "example": "I will write a letter next week.",
+          "burmese": "နောက်အပတ် ကျွန်မ စာတစ်စောင် ရေးမယ်။"
+        }
+      ]
+    },
+    {
+      "id": "unit1-lesson2",
+      "title": "Subject-Verb Conjugation",
+      "content": "Different subjects use different verb forms in each tense.",
+      "conjugation": [
+        {
+          "subject": "I",
+          "present": "write",
+          "past": "wrote",
+          "future": "will write"
+        },
+        {
+          "subject": "We",
+          "present": "go",
+          "past": "went",
+          "future": "will go"
+        },
+        {
+          "subject": "You",
+          "present": "swim",
+          "past": "swam",
+          "future": "will swim"
+        },
+        {
+          "subject": "He",
+          "present": "love",
+          "past": "loved",
+          "future": "will love"
+        },
+        {
+          "subject": "She",
+          "present": "know",
+          "past": "knew",
+          "future": "will know"
+        },
+        {
+          "subject": "It",
+          "present": "rain",
+          "past": "rained",
+          "future": "will rain"
+        },
+        {
+          "subject": "They",
+          "present": "live",
+          "past": "lived",
+          "future": "will live"
+        }
+      ]
+    },
+    {
+      "id": "unit1-lesson3",
+      "title": "Sentence Forms",
+      "content": "\"Do\" is used as an auxiliary verb to make negative and question sentences of Simple Present Tense and Simple Past Tense. In Simple Future Tense, we use will + V1.",
+      "forms": {
+        "affirmative": "Subject + verb",
+        "negative": "Subject + don't/doesn't + verb (present) / didn't + verb (past) / won't + verb (future)",
+        "interrogative": "Do/Does + subject + verb (present) / Did + subject + verb (past) / Will + subject + verb (future)",
+        "negative_interrogative": "Don't/Doesn't + subject + verb (present) / Didn't + subject + verb (past) / Won't + subject + verb (future)"
+      }
+    },
+    {
+      "id": "unit1-lesson4",
+      "title": "Answer Forms",
+      "content": "When we are replying Yes/No Questions, we can use short or long form for the answer.",
+      "answer_types": {
+        "short_answer": "Yes/No + auxiliary verb",
+        "long_answer": "Yes/No + full sentence"
+      }
+    }
+  ]
+}

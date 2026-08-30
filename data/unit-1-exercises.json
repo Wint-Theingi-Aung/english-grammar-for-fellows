@@ -1,0 +1,626 @@
+{
+  "unit": 1,
+  "exercises": [
+    {
+      "id": "unit1-ex1",
+      "type": "multiple_choice",
+      "instructions": "Choose the correct verb form to complete each sentence.",
+      "questions": [
+        {
+          "id": 1,
+          "question": "You ________ in the river yesterday.",
+          "options": ["swim", "swam", "will swim"],
+          "answer": "swam",
+          "explanation": "\"Yesterday\" indicates past time, so use the past form \"swam\". မနေ့ဆိုတာ အတိတ်ကာလဖြစ်တဲ့အတွက် V2 ကိုသုံးပါ။",
+          "points": 1
+        },
+        {
+          "id": 2,
+          "question": "You ________ tomorrow.",
+          "options": ["swim", "swam", "will swim"],
+          "answer": "will swim",
+          "explanation": "\"Tomorrow\" indicates future time, so use \"will + V1\". မနက်ဖန်ဆိုတာ အနာဂတ်ကာလဖြစ်တဲ့အတွက် will + V1 ကိုသုံးပါ။",
+          "points": 1
+        },
+        {
+          "id": 3,
+          "question": "She ________ me.",
+          "options": ["know", "knew", "will know"],
+          "answer": "knew",
+          "explanation": "The context indicates past time, so use the past form \"knew\". အတိတ်ကာလဖြစ်တဲ့အတွက် V2 ကိုသုံးပါ။",
+          "points": 1
+        },
+        {
+          "id": 4,
+          "question": "She ________ me.",
+          "options": ["know", "knew", "will know"],
+          "answer": "will know",
+          "explanation": "The context indicates future time, so use \"will + V1\". အနာဂတ်ကာလဖြစ်တဲ့အတွက် will + V1 ကိုသုံးပါ။",
+          "points": 1
+        },
+        {
+          "id": 5,
+          "question": "It ________ five minutes ago.",
+          "options": ["rain", "rained", "will rain"],
+          "answer": "rained",
+          "explanation": "\"Five minutes ago\" indicates past time, so use the past form \"rained\". ငါးမိနစ်ကဆိုတာ အတိတ်ကာလဖြစ်တဲ့အတွက် V2 ကိုသုံးပါ။",
+          "points": 1
+        },
+        {
+          "id": 6,
+          "question": "It ________ tomorrow morning.",
+          "options": ["rain", "rained", "will rain"],
+          "answer": "will rain",
+          "explanation": "\"Tomorrow morning\" indicates future time, so use \"will + V1\". မနက်ဖန်မနက်ခင်ဆိုတာ အနာဂတ်ကာလဖြစ်တဲ့အတွက် will + V1 ကိုသုံးပါ။",
+          "points": 1
+        },
+        {
+          "id": 7,
+          "question": "They ________ three years ago.",
+          "options": ["live in Yangon", "lived in Yangon", "will live in Yangon"],
+          "answer": "lived in Yangon",
+          "explanation": "\"Three years ago\" indicates past time, so use the past form \"lived\". သုံးနှစ်ကဆိုတာ အတိတ်ကာလဖြစ်တဲ့အတွက် V2 ကိုသုံးပါ။",
+          "points": 1
+        },
+        {
+          "id": 8,
+          "question": "They ________ next year.",
+          "options": ["live in Yangon", "lived in Yangon", "will live in Yangon"],
+          "answer": "will live in Yangon",
+          "explanation": "\"Next year\" indicates future time, so use \"will + V1\". နောင်နှစ်ဆိုတာ အနာဂတ်ကာလဖြစ်တဲ့အတွက် will + V1 ကိုသုံးပါ။",
+          "points": 1
+        },
+        {
+          "id": 9,
+          "question": "We ________ every Sunday.",
+          "options": ["go to the park", "don't go to the park", "won't go to the park"],
+          "answer": "don't go to the park",
+          "explanation": "Negative Simple Present uses \"don't + V1\". Simple Present ရဲ့ ငြင်းဆိုချက်မှာ don't + V1 ကိုသုံးပါ။",
+          "points": 1
+        },
+        {
+          "id": 10,
+          "question": "________ go to the park every Sunday?",
+          "options": ["Do we", "Did we", "Will we"],
+          "answer": "Do we",
+          "explanation": "Simple Present interrogative uses \"Do + subject + V1\". Simple Present ရဲ့ မေးခွန်းမှာ Do + subject + V1 ကိုသုံးပါ။",
+          "points": 1
+        },
+        {
+          "id": 11,
+          "question": "We ________.",
+          "options": ["go to the park", "went to the park", "will go to the park"],
+          "answer": "went to the park",
+          "explanation": "Simple Past tense of \"go\" is \"went\". go ရဲ့ V2 က went ဖြစ်ပါတယ်။",
+          "points": 1
+        },
+        {
+          "id": 12,
+          "question": "Didn't we ________?",
+          "options": ["go to the park", "went to the park", "will go to the park"],
+          "answer": "go to the park",
+          "explanation": "After \"Didn't\", use the base form (V1). Didn't ပြီးနောက်မှာ V1 ကိုသုံးပါ။",
+          "points": 1
+        },
+        {
+          "id": 13,
+          "question": "We ________.",
+          "options": ["don't go to the park", "didn't go to the park", "won't go to the park"],
+          "answer": "won't go to the park",
+          "explanation": "Simple Future negative uses \"won't + V1\". Simple Future ရဲ့ ငြင်းဆိုချက်မှာ won't + V1 ကိုသုံးပါ။",
+          "points": 1
+        },
+        {
+          "id": 14,
+          "question": "Won't ________?",
+          "options": ["we go to the park next month", "we went to the park next month", "we will go to the park next month"],
+          "answer": "we go to the park next month",
+          "explanation": "After \"Won't\", use the base form (V1). Won't ပြီးနောက်မှာ V1 ကိုသုံးပါ။",
+          "points": 1
+        },
+        {
+          "id": 15,
+          "question": "He ________.",
+          "options": ["live in Yangon", "lives in Yangon", "will live in Yangon"],
+          "answer": "lives in Yangon",
+          "explanation": "Simple Present with \"he\" uses \"V1 + s\". he နဲ့ Simple Present မှာ V1 + s ကိုသုံးပါ။",
+          "points": 1
+        },
+        {
+          "id": 16,
+          "question": "Does he ________?",
+          "options": ["live in Yangon", "lives in Yangon", "will live in Yangon"],
+          "answer": "live in Yangon",
+          "explanation": "After \"Does\", use the base form (V1). Does ပြီးနောက်မှာ V1 ကိုသုံးပါ။",
+          "points": 1
+        },
+        {
+          "id": 17,
+          "question": "He ________.",
+          "options": ["doesn't live in Yangon", "didn't live in Yangon", "won't live in Yangon"],
+          "answer": "didn't live in Yangon",
+          "explanation": "Simple Past negative uses \"didn't + V1\". Simple Past ရဲ့ ငြင်းဆိုချက်မှာ didn't + V1 ကိုသုံးပါ။",
+          "points": 1
+        },
+        {
+          "id": 18,
+          "question": "Didn't he ________?",
+          "options": ["live in Yangon three years ago", "lived in Yangon three years ago", "will live in Yangon three years ago"],
+          "answer": "live in Yangon three years ago",
+          "explanation": "After \"Didn't\", use the base form (V1). Didn't ပြီးနောက်မှာ V1 ကိုသုံးပါ။",
+          "points": 1
+        },
+        {
+          "id": 19,
+          "question": "He ________.",
+          "options": ["doesn't live in Yangon", "didn't live in Yangon", "won't live in Yangon"],
+          "answer": "won't live in Yangon",
+          "explanation": "Simple Future negative uses \"won't + V1\". Simple Future ရဲ့ ငြင်းဆိုချက်မှာ won't + V1 ကိုသုံးပါ။",
+          "points": 1
+        },
+        {
+          "id": 20,
+          "question": "Will ________?",
+          "options": ["he live in Yangon next year", "he lives in Yangon next year", "he lived in Yangon next year"],
+          "answer": "he live in Yangon next year",
+          "explanation": "After \"Will\", use the base form (V1). Will ပြီးနောက်မှာ V1 ကိုသုံးပါ။",
+          "points": 1
+        },
+        {
+          "id": 21,
+          "question": "Won't ________?",
+          "options": ["he live in Yangon next year", "he lives in Yangon next year", "he lived in Yangon next year"],
+          "answer": "he live in Yangon next year",
+          "explanation": "After \"Won't\", use the base form (V1). Won't ပြီးနောက်မှာ V1 ကိုသုံးပါ။",
+          "points": 1
+        },
+        {
+          "id": 22,
+          "question": "No, ________.",
+          "options": ["we don't", "we didn't", "we won't"],
+          "answer": "we don't",
+          "explanation": "Short negative answer for Simple Present. Simple Present ရဲ့ အတိုချုပ် ငြင်းဆိုချက်ပါ။",
+          "points": 1
+        },
+        {
+          "id": 23,
+          "question": "No, ________.",
+          "options": ["we don't go to the park every Sunday", "we didn't go to the park every Sunday", "we won't go to the park every Sunday"],
+          "answer": "we don't go to the park every Sunday",
+          "explanation": "Long negative answer for Simple Present. Simple Present ရဲ့ အရှည် ငြင်းဆိုချက်ပါ။",
+          "points": 1
+        },
+        {
+          "id": 24,
+          "question": "Yes, ________.",
+          "options": ["we do", "we did", "we will"],
+          "answer": "we did",
+          "explanation": "Short positive answer for Simple Past. Simple Past ရဲ့ အတိုချုပ် ဖြေကြားချက်ပါ။",
+          "points": 1
+        },
+        {
+          "id": 25,
+          "question": "Yes, ________.",
+          "options": ["we go to the park", "we went to the park", "we will go to the park"],
+          "answer": "we went to the park",
+          "explanation": "Long positive answer for Simple Past. Simple Past ရဲ့ အရှည် ဖြေကြားချက်ပါ။",
+          "points": 1
+        },
+        {
+          "id": 26,
+          "question": "Yes, ________.",
+          "options": ["we do", "we did", "we will"],
+          "answer": "we will",
+          "explanation": "Short positive answer for Simple Future. Simple Future ရဲ့ အတိုချုပ် ဖြေကြားချက်ပါ။",
+          "points": 1
+        },
+        {
+          "id": 27,
+          "question": "No, ________.",
+          "options": ["we don't go to the park next month", "we didn't go to the park next month", "we won't go to the park next month"],
+          "answer": "we won't go to the park next month",
+          "explanation": "Long negative answer for Simple Future. Simple Future ရဲ့ အရှည် ငြင်းဆိုချက်ပါ။",
+          "points": 1
+        },
+        {
+          "id": 28,
+          "question": "Yes, ________.",
+          "options": ["he do", "he does", "he will"],
+          "answer": "he does",
+          "explanation": "Short positive answer for Simple Present with \"he\". he နဲ့ Simple Present ရဲ့ အတိုချုပ် ဖြေကြားချက်ပါ။",
+          "points": 1
+        },
+        {
+          "id": 29,
+          "question": "Yes, ________.",
+          "options": ["he live in Yangon", "he lives in Yangon", "he will live in Yangon"],
+          "answer": "he lives in Yangon",
+          "explanation": "Long positive answer for Simple Present with \"he\". he နဲ့ Simple Present ရဲ့ အရှည် ဖြေကြားချက်ပါ။",
+          "points": 1
+        },
+        {
+          "id": 30,
+          "question": "No, ________.",
+          "options": ["he doesn't", "he didn't", "he won't"],
+          "answer": "he didn't",
+          "explanation": "Short negative answer for Simple Past with \"he\". he နဲ့ Simple Past ရဲ့ အတိုချုပ် ငြင်းဆိုချက်ပါ။",
+          "points": 1
+        },
+        {
+          "id": 31,
+          "question": "No, ________.",
+          "options": ["he doesn't live in Yangon three years ago", "he didn't live in Yangon three years ago", "he won't live in Yangon three years ago"],
+          "answer": "he didn't live in Yangon three years ago",
+          "explanation": "Long negative answer for Simple Past with \"he\". he နဲ့ Simple Past ရဲ့ အရှည် ငြင်းဆိုချက်ပါ။",
+          "points": 1
+        },
+        {
+          "id": 32,
+          "question": "Yes, ________.",
+          "options": ["he does", "he did", "he will"],
+          "answer": "he will",
+          "explanation": "Short positive answer for Simple Future with \"he\". he နဲ့ Simple Future ရဲ့ အတိုချုပ် ဖြေကြားချက်ပါ။",
+          "points": 1
+        },
+        {
+          "id": 33,
+          "question": "No, ________.",
+          "options": ["he doesn't", "he didn't", "he won't"],
+          "answer": "he won't",
+          "explanation": "Short negative answer for Simple Future with \"he\". he နဲ့ Simple Future ရဲ့ အတိုချုပ် ငြင်းဆိုချက်ပါ။",
+          "points": 1
+        },
+        {
+          "id": 34,
+          "question": "Yes, ________.",
+          "options": ["he lives in Yangon next year", "he lived in Yangon next year", "he will live in Yangon next year"],
+          "answer": "he will live in Yangon next year",
+          "explanation": "Long positive answer for Simple Future with \"he\". he နဲ့ Simple Future ရဲ့ အရှည် ဖြေကြားချက်ပါ။",
+          "points": 1
+        },
+        {
+          "id": 35,
+          "question": "No, ________.",
+          "options": ["he doesn't live in Yangon next year", "he didn't live in Yangon next year", "he won't live in Yangon next year"],
+          "answer": "he won't live in Yangon next year",
+          "explanation": "Long negative answer for Simple Future with \"he\". he နဲ့ Simple Future ရဲ့ အရှည် ငြင်းဆိုချက်ပါ။",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "id": "unit1-ex2",
+      "type": "multiple_choice",
+      "instructions": "Choose the correct alternative.",
+      "questions": [
+        {
+          "id": 36,
+          "question": "They (gone, went, go) to Bagan last month.",
+          "options": ["gone", "went", "go"],
+          "answer": "went",
+          "explanation": "Simple Past tense of 'go' is 'went'. 'last month' indicates past time. ပြီးခဲ့တဲ့လဆိုတာ အတိတ်ကာလဖြစ်တဲ့အတွက် V2 ကိုသုံးပါ။",
+          "points": 1
+        },
+        {
+          "id": 37,
+          "question": "You (will stay, stayed, stay) at Mandalay next month.",
+          "options": ["will stay", "stayed", "stay"],
+          "answer": "will stay",
+          "explanation": "'next month' indicates future time, so we use 'will + V1'. လာမယ့်လဆိုတာ အနာဂတ်ကာလဖြစ်တဲ့အတွက် will + V1 ကိုသုံးပါ။",
+          "points": 1
+        },
+        {
+          "id": 38,
+          "question": "She doesn't (talk, taught, talks) loudly.",
+          "options": ["talk", "taught", "talks"],
+          "answer": "talk",
+          "explanation": "After 'doesn't', we use the base form of the verb (V1). doesn't ပြီးနောက်မှာ V1 ကိုသုံးပါ။",
+          "points": 1
+        },
+        {
+          "id": 39,
+          "question": "Her brother (worked, works, worker) all the time.",
+          "options": ["worked", "works", "worker"],
+          "answer": "works",
+          "explanation": "Simple Present tense with 'he' (her brother) uses 'V1 + s'. he နဲ့ Simple Present မှာ V1 + s ကိုသုံးပါ။",
+          "points": 1
+        },
+        {
+          "id": 40,
+          "question": "Do you think he will (remember, remembering, remembered) you?",
+          "options": ["remember", "remembering", "remembered"],
+          "answer": "remember",
+          "explanation": "After 'will', we use the base form of the verb (V1). will ပြီးနောက်မှာ V1 ကိုသုံးပါ။",
+          "points": 1
+        },
+        {
+          "id": 41,
+          "question": "I always (ski, skiing, skies) in the winter.",
+          "options": ["ski", "skiing", "skies"],
+          "answer": "ski",
+          "explanation": "Simple Present tense with 'I' uses the base form of the verb. I နဲ့ Simple Present မှာ V1 ကိုသုံးပါ။",
+          "points": 1
+        },
+        {
+          "id": 42,
+          "question": "She won't (love, loves, loved) him.",
+          "options": ["love", "loves", "loved"],
+          "answer": "love",
+          "explanation": "After 'won't', we use the base form of the verb (V1). won't ပြီးနောက်မှာ V1 ကိုသုံးပါ။",
+          "points": 1
+        },
+        {
+          "id": 43,
+          "question": "(Do, Does, Did) she cry yesterday?",
+          "options": ["Do", "Does", "Did"],
+          "answer": "Did",
+          "explanation": "'yesterday' indicates past time, so we use 'Did'. မနေ့ကဆိုတာ အတိတ်ကာလဖြစ်တဲ့အတွက် Did ကိုသုံးပါ။",
+          "points": 1
+        },
+        {
+          "id": 44,
+          "question": "You can (did, does, do) it.",
+          "options": ["did", "does", "do"],
+          "answer": "do",
+          "explanation": "After modal verbs like 'can', we use the base form of the verb. can လိုမတူတူကွဲတဲ့ကြောင်းတွေပြီးနောက်မှာ V1 ကိုသုံးပါ။",
+          "points": 1
+        },
+        {
+          "id": 45,
+          "question": "Don't you (forgot, forget, forgotten) your guitar?",
+          "options": ["forgot", "forget", "forgotten"],
+          "answer": "forget",
+          "explanation": "After 'Don't', we use the base form of the verb (V1). Don't ပြီးနောက်မှာ V1 ကိုသုံးပါ။",
+          "points": 1
+        },
+        {
+          "id": 46,
+          "question": "(Do, Does, Did) you like fizzy drinks?",
+          "options": ["Do", "Does", "Did"],
+          "answer": "Do",
+          "explanation": "Simple Present tense with 'you' uses 'Do'. you နဲ့ Simple Present မှာ Do ကိုသုံးပါ။",
+          "points": 1
+        },
+        {
+          "id": 47,
+          "question": "(Working, Worked, Work) in a small group and discuss your answers.",
+          "options": ["Working", "Worked", "Work"],
+          "answer": "Work",
+          "explanation": "Imperative form uses the base form of the verb. အမိန့်ပေးသည့်ပုံစံမှာ V1 ကိုသုံးပါ။",
+          "points": 1
+        },
+        {
+          "id": 48,
+          "question": "She (love, loved, loves) Greek Yoghurt.",
+          "options": ["love", "loved", "loves"],
+          "answer": "loves",
+          "explanation": "Simple Present tense with 'she' uses 'V1 + s'. she နဲ့ Simple Present မှာ V1 + s ကိုသုံးပါ။",
+          "points": 1
+        },
+        {
+          "id": 49,
+          "question": "The fans (met, meets, meeting) the star outside the cinema last night.",
+          "options": ["met", "meets", "meeting"],
+          "answer": "met",
+          "explanation": "Simple Past tense of 'meet' is 'met'. 'last night' indicates past time. မနေ့ညကဆိုတာ အတိတ်ကာလဖြစ်တဲ့အတွက် V2 ကိုသုံးပါ။",
+          "points": 1
+        },
+        {
+          "id": 50,
+          "question": "I (hated, hate, hates) washing dishes.",
+          "options": ["hated", "hate", "hates"],
+          "answer": "hate",
+          "explanation": "Simple Present tense with 'I' uses the base form of the verb. I နဲ့ Simple Present မှာ V1 ကိုသုံးပါ။",
+          "points": 1
+        },
+        {
+          "id": 51,
+          "question": "Yesterday afternoon my sister (make, makes, made) a chocolate cake.",
+          "options": ["make", "makes", "made"],
+          "answer": "made",
+          "explanation": "Simple Past tense of 'make' is 'made'. 'Yesterday afternoon' indicates past time. မနေ့ညနေကဆိုတာ အတိတ်ကာလဖြစ်တဲ့အတွက် V2 ကိုသုံးပါ။",
+          "points": 1
+        },
+        {
+          "id": 52,
+          "question": "Susan (wears, wore, worn) a new dress to the party last weekend.",
+          "options": ["wears", "wore", "worn"],
+          "answer": "wore",
+          "explanation": "Simple Past tense of 'wear' is 'wore'. 'last weekend' indicates past time. ပြီးခဲ့တဲ့အပတ်ကဆိုတာ အတိတ်ကာလဖြစ်တဲ့အတွက် V2 ကိုသုံးပါ။",
+          "points": 1
+        },
+        {
+          "id": 53,
+          "question": "James and Alice (plays, will play, play) football next Sunday.",
+          "options": ["plays", "will play", "play"],
+          "answer": "will play",
+          "explanation": "'next Sunday' indicates future time, so we use 'will + V1'. လာမယ့်တနင်္ဂနွေဆိုတာ အနာဂတ်ကာလဖြစ်တဲ့အတွက် will + V1 ကိုသုံးပါ။",
+          "points": 1
+        },
+        {
+          "id": 54,
+          "question": "Polar bears (will disappear, disappear, disappeared) soon.",
+          "options": ["will disappear", "disappear", "disappeared"],
+          "answer": "will disappear",
+          "explanation": "'soon' indicates future time, so we use 'will + V1'. မကြာခင်ဆိုတာ အနာဂတ်ကာလဖြစ်တဲ့အတွက် will + V1 ကိုသုံးပါ။",
+          "points": 1
+        },
+        {
+          "id": 55,
+          "question": "(Did, Do, Does) you see the new TV series last night?",
+          "options": ["Did", "Do", "Does"],
+          "answer": "Did",
+          "explanation": "'last night' indicates past time, so we use 'Did'. မနေ့ညကဆိုတာ အတိတ်ကာလဖြစ်တဲ့အတွက် Did ကိုသုံးပါ။",
+          "points": 1
+        },
+        {
+          "id": 56,
+          "question": "I am taking an umbrella because the weather forecast said that it (rains, rained, will rain) later.",
+          "options": ["rains", "rained", "will rain"],
+          "answer": "will rain",
+          "explanation": "'later' indicates future time, so we use 'will + V1'. နောက်ပိုင်းဆိုတာ အနာဂတ်ကာလဖြစ်တဲ့အတွက် will + V1 ကိုသုံးပါ။",
+          "points": 1
+        },
+        {
+          "id": 57,
+          "question": "I (see, saw, seeing) an eagle while I was walking in the mountains.",
+          "options": ["see", "saw", "seeing"],
+          "answer": "saw",
+          "explanation": "Simple Past tense of 'see' is 'saw'. see ရဲ့ V2 က saw ဖြစ်ပါတယ်။",
+          "points": 1
+        },
+        {
+          "id": 58,
+          "question": "It (increased, increase, increases) your vocabularies.",
+          "options": ["increased", "increase", "increases"],
+          "answer": "increases",
+          "explanation": "Simple Present tense with 'it' uses 'V1 + s'. it နဲ့ Simple Present မှာ V1 + s ကိုသုံးပါ။",
+          "points": 1
+        },
+        {
+          "id": 59,
+          "question": "I (like, likes, liked) coffee when I was 11.",
+          "options": ["like", "likes", "liked"],
+          "answer": "liked",
+          "explanation": "Simple Past tense because 'when I was 11' indicates past time. ကျွန်မ ၁၁ နှစ်အရွယ်ကဆိုတာ အတိတ်ကာလဖြစ်တဲ့အတွက် V2 ကိုသုံးပါ။",
+          "points": 1
+        },
+        {
+          "id": 60,
+          "question": "I didn't (do, does, doing) sport last weekend.",
+          "options": ["do", "does", "doing"],
+          "answer": "do",
+          "explanation": "After 'didn't', we use the base form of the verb (V1). didn't ပြီးနောက်မှာ V1 ကိုသုံးပါ။",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "id": "unit1-ex3",
+      "type": "multiple_choice",
+      "instructions": "Choose the correct English translation.",
+      "questions": [
+        {
+          "id": 61,
+          "question": "ကျယ် မင်းကို ယုံတယ်။ (I / you / believe in)",
+          "options": ["I believe in you.", "I believed in you.", "I will believe in you."],
+          "answer": "I believe in you.",
+          "explanation": "Simple Present tense: Subject + V1 + object. Simple Present ပုံစံ - Subject + V1 + object.",
+          "points": 2
+        },
+        {
+          "id": 62,
+          "question": "မင်း ငါ့ကို ကူညီမလား။ (you / me / help)",
+          "options": ["Do you help me?", "Did you help me?", "Will you help me?"],
+          "answer": "Will you help me?",
+          "explanation": "The Burmese ending \"မလား\" indicates a future question. မြန်မာစကား \"မလား\" က အနာဂတ်မေးခွန်းကိုဖော်ပြတယ်။",
+          "points": 2
+        },
+        {
+          "id": 63,
+          "question": "သူမ မနက်ဖန် ကျောင်းသို့ သွားမှာမယ်။ (She / tomorrow / go to school)",
+          "options": ["She goes to school tomorrow.", "She went to school tomorrow.", "She will go to school tomorrow."],
+          "answer": "She will go to school tomorrow.",
+          "explanation": "Simple Future tense: Subject + will + V1. \"Tomorrow\" and \"မှာမယ်\" indicate future. Simple Future ပုံစံ - Subject + will + V1.",
+          "points": 2
+        },
+        {
+          "id": 64,
+          "question": "သူ ငါ့ကို မမှတ်မိခဲ့ပါ။ (He / me / forgot)",
+          "options": ["He doesn't forget me.", "He didn't forget me.", "He won't forget me."],
+          "answer": "He didn't forget me.",
+          "explanation": "Simple Past tense negative: Subject + didn't + V1. \"ခဲ့ပါ။\" indicates past. Simple Past ငြင်းဆိုပုံ - Subject + didn't + V1.",
+          "points": 2
+        },
+        {
+          "id": 65,
+          "question": "မင်းတို့ ပန်းကန် မဆေးဘူးလား။ (you / wash the dishes)",
+          "options": ["Do you wash the dishes?", "Did you wash the dishes?", "Don't you wash the dishes?"],
+          "answer": "Don't you wash the dishes?",
+          "explanation": "Simple Present tense negative question: Don't + subject + V1? \"ဘူးလား\" indicates a negative question in present. Simple Present ငြင်းဆိုမေးခွန်း - Don't + subject + V1?",
+          "points": 2
+        },
+        {
+          "id": 66,
+          "question": "မနေ့က သူမ အဝတ်တွေ မညှစ်တက်ခဲ့လား။ (she / yesterday / iron the clothes)",
+          "options": ["Does she iron the clothes yesterday?", "Did she iron the clothes yesterday?", "Will she iron the clothes yesterday?"],
+          "answer": "Did she iron the clothes yesterday?",
+          "explanation": "Simple Past tense question: Did + subject + V1? \"မနေ့က\" indicates past. Simple Past မေးခွန်း - Did + subject + V1?",
+          "points": 2
+        },
+        {
+          "id": 67,
+          "question": "သူမ မင်းရဲ့ပန်းသီး ကို စားမှာ မဟုတ်ဘူး။ (She / eat / your apples)",
+          "options": ["She doesn't eat your apples.", "She didn't eat your apples.", "She won't eat your apples."],
+          "answer": "She won't eat your apples.",
+          "explanation": "Simple Future tense negative: Subject + won't + V1. \"မှာ မဟုတ်ဘူး\" indicates future negative. Simple Future ငြင်းဆိုပုံ - Subject + won't + V1.",
+          "points": 2
+        },
+        {
+          "id": 68,
+          "question": "သူ ဂျာမနီမှာ မနေဘူး မဟုတ်လား။ (he / in Germany / live)",
+          "options": ["Doesn't he live in Germany?", "Didn't he live in Germany?", "Won't he live in Germany?"],
+          "answer": "Doesn't he live in Germany?",
+          "explanation": "Simple Present tense negative question: Doesn't + subject + V1? \"ဘူးလား\" indicates a negative question in present. Simple Present ငြင်းဆိုမေးခွန်း - Doesn't + subject + V1?",
+          "points": 2
+        },
+        {
+          "id": 69,
+          "question": "သူမက အင်္ဂလိပ်သဒ္ဒါကို တခြားသူတွေနဲ့ မျှဝတယ်။ (She / English grammar / share / to other)",
+          "options": ["She shares English grammar with others.", "She shared English grammar with others.", "She will share English grammar with others."],
+          "answer": "She shares English grammar with others.",
+          "explanation": "Simple Present tense: Subject + V1 + s. \"တယ်\" indicates present. Simple Present ပုံစံ - Subject + V1 + s.",
+          "points": 2
+        },
+        {
+          "id": 70,
+          "question": "သူတို့ ဒီနေ့ အတန်းမတက်ခဲ့ဘူး။ (They / today / attend the class)",
+          "options": ["They don't attend the class today.", "They didn't attend the class today.", "They won't attend the class today."],
+          "answer": "They didn't attend the class today.",
+          "explanation": "Simple Past tense negative: Subject + didn't + V1. \"ခဲ့ဘူး\" indicates past negative. Simple Past ငြင်းဆိုပုံ - Subject + didn't + V1.",
+          "points": 2
+        },
+        {
+          "id": 71,
+          "question": "ငါတို့ မင်းကို နားလည်မှားခဲ့ကတယ်။ (We / you / misunderstood)",
+          "options": ["We misunderstand you.", "We misunderstood you.", "We will misunderstand you."],
+          "answer": "We misunderstood you.",
+          "explanation": "Simple Past tense: Subject + V2. \"ခဲ့ကတယ်\" indicates past. Simple Past ပုံစံ - Subject + V2.",
+          "points": 2
+        },
+        {
+          "id": 72,
+          "question": "မင်း အစောရုံစောစောမထဘူးလား။ (you / get up early)",
+          "options": ["Do you get up early?", "Did you get up early?", "Don't you get up early?"],
+          "answer": "Don't you get up early?",
+          "explanation": "Simple Present tense negative question: Don't + subject + V1? \"ဘူးလား\" indicates a negative question in present. Simple Present ငြင်းဆိုမေးခွန်း - Don't + subject + V1?",
+          "points": 2
+        },
+        {
+          "id": 73,
+          "question": "မကြာခင် သူ ဘူတာကိုရောက်လာလှမ်းမှာမယ်။ (soon / he / arrive at the station)",
+          "options": ["He arrives at the station soon.", "He arrived at the station soon.", "He will arrive at the station soon."],
+          "answer": "He will arrive at the station soon.",
+          "explanation": "Simple Future tense: Subject + will + V1. \"မကြာခင်\" and \"မှာမယ်\" indicate future. Simple Future ပုံစံ - Subject + will + V1.",
+          "points": 2
+        },
+        {
+          "id": 74,
+          "question": "သူမ သူ့ကို မချစ်ချပါဘူး။ (She / him / love)",
+          "options": ["She doesn't love him.", "She didn't love him.", "She won't love him."],
+          "answer": "She doesn't love him.",
+          "explanation": "Simple Present tense negative: Subject + doesn't + V1. \"ပါဘူး\" indicates present negative. Simple Present ငြင်းဆိုပုံ - Subject + doesn't + V1.",
+          "points": 2
+        },
+        {
+          "id": 75,
+          "question": "သူတို့ မနက်ဖန် ဘောလုံးကန်ကြလှမ်းမှာမယ်။ (They / tomorrow / play the football)",
+          "options": ["They play football tomorrow.", "They played football tomorrow.", "They will play football tomorrow."],
+          "answer": "They will play football tomorrow.",
+          "explanation": "Simple Future tense: Subject + will + V1. \"မနက်ဖန်\" and \"မှာမယ်\" indicate future. Simple Future ပုံစံ - Subject + will + V1.",
+          "points": 2
+        }
+      ]
+    }
+  ]
+}
