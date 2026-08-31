@@ -120,18 +120,18 @@
         },
         {
           "id": 15,
-          "question": "________ in Yangon?",
-          "options": ["Does he live", "Do he live", "Will he live"],
-          "answer": "Does he live",
-          "explanation": "Simple Present Interrogative (he/she/it): Does + subject + V1? Simple Present မေးခွန်းပုံ (he/she/it) - Does + subject + V1?",
+          "question": "________ he live in Yangon?",
+          "options": ["Does", "Do", "Did"],
+          "answer": "Does",
+          "explanation": "Simple Present Interrogative (he/she/it): Does + subject + V1? \"Does\" is the correct auxiliary for third person singular in present tense. \"Do\" is for I/you/we/they and \"Did\" is for past. Simple Present မေးခွန်းပုံ (he/she/it) - Does + subject + V1?",
           "points": 1
         },
         {
           "id": 16,
-          "question": "________ in Yangon?",
-          "options": ["Doesn't he live", "Don't he live", "Won't he live"],
-          "answer": "Doesn't he live",
-          "explanation": "Simple Present Negative Interrogative (he/she/it): Doesn't + subject + V1? Simple Present ငြင်းဆိုမေးခွန်း (he/she/it) - Doesn't + subject + V1?",
+          "question": "________ he live in Yangon next year?",
+          "options": ["Won't", "Doesn't", "Didn't"],
+          "answer": "Won't",
+          "explanation": "Simple Future Negative Interrogative: Won't + subject + V1? \"Next year\" indicates future time, so we use \"Won't\". \"Doesn't\" is present and \"Didn't\" is past — neither fits the future context. Simple Future ငြင်းဆိုမေးခွန်း - Won't + subject + V1?",
           "points": 1
         },
         {
@@ -322,7 +322,7 @@
           "question": "Her brother ________ all the time.",
           "options": ["works", "worked", "worker"],
           "answer": "works",
-          "explanation": "Simple Present with 'he' (her brother) uses 'V1 + s'. he နဲ့ Simple Present မှာ V1 + s ကိုသုံးပါ။",
+          "explanation": "Simple Present with 'he' (her brother) uses 'V1 + s'. 'All the time' indicates a habitual action in present. he နဲ့ Simple Present မှာ V1 + s ကိုသုံးပါ။ 'All the time' ဆိုတာ ပုံမှန်အလေ့အကျင့်ကိုဖော်ပြပါတယ်။",
           "points": 1
         },
         {
@@ -338,7 +338,7 @@
           "question": "I always ________ in the winter.",
           "options": ["ski", "skies", "skiing"],
           "answer": "ski",
-          "explanation": "Simple Present with 'I' uses the base form (V1). I နဲ့ Simple Present မှာ V1 ကိုသုံးပါ။",
+          "explanation": "Simple Present with 'I' uses the base form (V1). 'Always' indicates a habitual action. I နဲ့ Simple Present မှာ V1 ကိုသုံးပါ။ 'Always' ဆိုတာ ပုံမှန်အလေ့အကျင့်ကိုဖော်ပြပါတယ်။",
           "points": 1
         },
         {
@@ -375,10 +375,10 @@
         },
         {
           "id": 46,
-          "question": "________ you like fizzy drinks?",
+          "question": "________ you like fizzy drinks every day?",
           "options": ["Do", "Does", "Did"],
           "answer": "Do",
-          "explanation": "Simple Present with 'you' uses 'Do'. you နဲ့ Simple Present မှာ Do ကိုသုံးပါ။",
+          "explanation": "Simple Present with 'you' uses 'Do'. 'Every day' indicates present habitual time. 'Does' is for he/she/it and 'Did' is for past — neither fits. you နဲ့ Simple Present မှာ Do ကိုသုံးပါ။ 'Every day' ဆိုတာ ပုံမှန်အလေ့အကျင့်ကိုဖော်ပြပါတယ်။",
           "points": 1
         },
         {
@@ -391,10 +391,10 @@
         },
         {
           "id": 48,
-          "question": "She ________ Greek Yoghurt.",
+          "question": "She ________ Greek Yoghurt every day.",
           "options": ["loves", "love", "loved"],
           "answer": "loves",
-          "explanation": "Simple Present with 'she' uses 'V1 + s'. she နဲ့ Simple Present မှာ V1 + s ကိုသုံးပါ။",
+          "explanation": "Simple Present with 'she' uses 'V1 + s'. 'Every day' indicates present habitual time. 'Love' doesn't agree with 'she' and 'loved' is past — neither fits. she နဲ့ Simple Present မှာ V1 + s ကိုသုံးပါ။ 'Every day' ဆိုတာ ပုံမှန်အလေ့အကျင့်ကိုဖော်ပြပါတယ်။",
           "points": 1
         },
         {
@@ -407,10 +407,10 @@
         },
         {
           "id": 50,
-          "question": "I ________ washing dishes.",
+          "question": "I ________ washing dishes every day.",
           "options": ["hate", "hates", "hated"],
           "answer": "hate",
-          "explanation": "Simple Present with 'I' uses the base form (V1). I နဲ့ Simple Present မှာ V1 ကိုသုံးပါ။",
+          "explanation": "Simple Present with 'I' uses the base form (V1). 'Every day' indicates present habitual time. 'Hates' doesn't agree with 'I' and 'hated' is past — neither fits. I နဲ့ Simple Present မှာ V1 ကိုသုံးပါ။ 'Every day' ဆိုတာ ပုံမှန်အလေ့အကျင့်ကိုဖော်ပြပါတယ်။",
           "points": 1
         },
         {
@@ -466,15 +466,15 @@
           "question": "I ________ an eagle while I was walking in the mountains.",
           "options": ["saw", "see", "seeing"],
           "answer": "saw",
-          "explanation": "Simple Past tense of 'see' is 'saw'. see ရဲ့ V2 က saw ဖြစ်ပါတယ်။",
+          "explanation": "Simple Past tense of 'see' is 'saw'. 'While I was walking' indicates past time. see ရဲ့ V2 က saw ဖြစ်ပါတယ်။ 'While I was walking' ဆိုတာ အတိတ်ကာလကိုဖော်ပြပါတယ်။",
           "points": 1
         },
         {
           "id": 58,
-          "question": "It ________ your vocabularies.",
+          "question": "It ________ your vocabularies every day.",
           "options": ["increases", "increase", "increased"],
           "answer": "increases",
-          "explanation": "Simple Present with 'it' uses 'V1 + s'. it နဲ့ Simple Present မှာ V1 + s ကိုသုံးပါ။",
+          "explanation": "Simple Present with 'it' uses 'V1 + s'. 'Every day' indicates present habitual time. 'Increase' doesn't agree with 'it' and 'increased' is past — neither fits. it နဲ့ Simple Present မှာ V1 + s ကိုသုံးပါ။ 'Every day' ဆိုတာ ပုံမှန်အလေ့အကျင့်ကိုဖော်ပြပါတယ်။",
           "points": 1
         },
         {
