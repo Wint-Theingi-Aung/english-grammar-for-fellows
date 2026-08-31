@@ -1,13 +1,26 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" width="32" height="32">
-  <!-- Book shape -->
-  <rect x="4" y="3" width="24" height="26" rx="2" ry="2" fill="white" stroke="#5B5FE6" stroke-width="2"/>
+  <defs>
+    <linearGradient id="coverGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#6366f1"/>
+      <stop offset="100%" stop-color="#8b5cf6"/>
+    </linearGradient>
+    <linearGradient id="pageGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="100%" stop-color="#f1f0ff"/>
+    </linearGradient>
+  </defs>
+  <!-- Book cover -->
+  <rect x="3" y="2" width="20" height="28" rx="2.5" fill="url(#coverGrad)"/>
   <!-- Book spine -->
-  <line x1="16" y1="3" x2="16" y2="29" stroke="#5B5FE6" stroke-width="1.5"/>
-  <!-- Book pages lines -->
-  <line x1="18" y1="8" x2="26" y2="8" stroke="#C4C7E5" stroke-width="1" stroke-linecap="round"/>
-  <line x1="18" y1="12" x2="26" y2="12" stroke="#C4C7E5" stroke-width="1" stroke-linecap="round"/>
-  <line x1="18" y1="16" x2="26" y2="16" stroke="#C4C7E5" stroke-width="1" stroke-linecap="round"/>
-  <line x1="18" y1="20" x2="26" y2="20" stroke="#C4C7E5" stroke-width="1" stroke-linecap="round"/>
+  <rect x="3" y="2" width="3" height="28" rx="1" fill="#4f46e5"/>
+  <!-- Pages -->
+  <rect x="6" y="3" width="17" height="26" rx="1.5" fill="url(#pageGrad)" stroke="#e0e0f0" stroke-width="0.5"/>
+  <!-- Page lines -->
+  <line x1="9" y1="8" x2="20" y2="8" stroke="#c4c7e5" stroke-width="0.8" stroke-linecap="round"/>
+  <line x1="9" y1="11.5" x2="20" y2="11.5" stroke="#c4c7e5" stroke-width="0.8" stroke-linecap="round"/>
+  <line x1="9" y1="15" x2="17" y2="15" stroke="#c4c7e5" stroke-width="0.8" stroke-linecap="round"/>
+  <line x1="9" y1="18.5" x2="20" y2="18.5" stroke="#c4c7e5" stroke-width="0.8" stroke-linecap="round"/>
+  <line x1="9" y1="22" x2="14" y2="22" stroke="#c4c7e5" stroke-width="0.8" stroke-linecap="round"/>
   <!-- Letter G on cover -->
-  <text x="10" y="21" font-family="Georgia, serif" font-size="14" font-weight="bold" fill="#5B5FE6" text-anchor="middle">G</text>
+  <text x="11.5" y="19.5" font-family="Georgia, 'Times New Roman', serif" font-size="12" font-weight="bold" fill="white" text-anchor="middle" dominant-baseline="central">G</text>
 </svg>

@@ -3,43 +3,64 @@
 import Link from "next/link";
 import { getLessonsData } from "@/lib/data";
 
+const FORM_BADGES: Record<string, string> = {
+  Affirmative: "form-badge-affirmative",
+  Negative: "form-badge-negative",
+  Interrogative: "form-badge-interrogative",
+  "Neg. Interrogative": "form-badge-neg-interrogative",
+  "Negative Interrogative": "form-badge-neg-interrogative",
+};
+
+function FormBadge({ form }: { form: string }) {
+  const cls = FORM_BADGES[form] || "bg-slate-100 text-slate-600";
+  return <span className={`form-badge ${cls}`}>{form}</span>;
+}
+
 export default function LessonPage() {
   const data = getLessonsData();
   const [verbLesson, conjugationLesson, formsLesson, answerLesson] = data.lessons;
 
   return (
-    <div className="max-w-3xl mx-auto px-4 py-10">
-      <Link href="/unit-1" className="text-sm text-indigo-600 hover:text-indigo-800 mb-4 inline-block">
-        ← Back to Unit Overview
+    <div className="max-w-3xl mx-auto px-4 py-8 sm:py-10">
+      <Link
+        href="/unit-1"
+        className="inline-flex items-center gap-1.5 text-sm font-medium text-primary-600 hover:text-primary-700 mb-5 transition-colors duration-200"
+      >
+        <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
+          <path strokeLinecap="round" strokeLinejoin="round" d="M15 19l-7-7 7-7" />
+        </svg>
+        Back to Unit Overview
       </Link>
 
-      <h1 className="text-2xl sm:text-3xl font-bold text-slate-900 mb-8">
+      <h1 className="text-2xl sm:text-3xl font-bold text-foreground mb-8 tracking-tight">
         Grammar Lesson
       </h1>
 
       {/* Verb Forms Overview */}
-      <section className="bg-white rounded-2xl shadow-sm border border-slate-200 p-6 mb-6">
-        <h2 className="text-xl font-bold text-slate-900 mb-4">{verbLesson.title}</h2>
-        <p className="text-slate-700 mb-4">{verbLesson.content}</p>
+      <section className="bg-surface rounded-2xl border border-border p-6 mb-6 shadow-sm">
+        <h2 className="text-xl font-bold text-foreground mb-3 flex items-center gap-2">
+          <span className="w-8 h-8 rounded-lg bg-primary-50 text-primary-600 text-sm font-bold flex items-center justify-center border border-primary-100">1</span>
+          {verbLesson.title}
+        </h2>
+        <p className="text-slate-600 mb-4 leading-relaxed">{verbLesson.content}</p>
         {verbLesson.details && (
-          <div className="overflow-x-auto">
-            <table className="w-full text-sm border-collapse">
+          <div className="overflow-x-auto -mx-6 px-6">
+            <table className="w-full text-sm border-collapse min-w-[480px]">
               <thead>
-                <tr className="bg-slate-50">
-                  <th className="text-left px-4 py-2.5 font-semibold text-slate-700 border-b">Tense</th>
-                  <th className="text-left px-4 py-2.5 font-semibold text-slate-700 border-b">Form</th>
-                  <th className="text-left px-4 py-2.5 font-semibold text-slate-700 border-b">Example</th>
+                <tr>
+                  <th className="text-left px-4 py-2.5 font-semibold text-slate-500 text-xs uppercase tracking-wider border-b border-border">Tense</th>
+                  <th className="text-left px-4 py-2.5 font-semibold text-slate-500 text-xs uppercase tracking-wider border-b border-border">Form</th>
+                  <th className="text-left px-4 py-2.5 font-semibold text-slate-500 text-xs uppercase tracking-wider border-b border-border">Example</th>
                 </tr>
               </thead>
               <tbody>
                 {verbLesson.details.map((d, i) => (
-                  <tr key={i} className="border-b last:border-b-0">
-                    <td className="px-4 py-3 font-medium text-slate-800">{d.tense}</td>
-                    <td className="px-4 py-3 text-slate-600">{d.form}</td>
+                  <tr key={i} className="border-b border-border last:border-b-0 hover:bg-surface-alt transition-colors duration-150">
+                    <td className="px-4 py-3 font-semibold text-foreground">{d.tense}</td>
+                    <td className="px-4 py-3 text-slate-600 font-mono text-xs">{d.form}</td>
                     <td className="px-4 py-3">
-                      <span className="text-slate-800">{d.example}</span>
-                      <br />
-                      <span className="text-slate-500 text-xs">{d.burmese}</span>
+                      <span className="text-foreground block">{d.example}</span>
+                      <span className="myanmar-text text-slate-500 text-xs block mt-0.5">{d.burmese}</span>
                     </td>
                   </tr>
                 ))}
@@ -50,24 +71,27 @@ export default function LessonPage() {
       </section>
 
       {/* Subject-Verb Conjugation */}
-      <section className="bg-white rounded-2xl shadow-sm border border-slate-200 p-6 mb-6">
-        <h2 className="text-xl font-bold text-slate-900 mb-4">{conjugationLesson.title}</h2>
-        <p className="text-slate-700 mb-4">{conjugationLesson.content}</p>
+      <section className="bg-surface rounded-2xl border border-border p-6 mb-6 shadow-sm">
+        <h2 className="text-xl font-bold text-foreground mb-3 flex items-center gap-2">
+          <span className="w-8 h-8 rounded-lg bg-accent-50 text-accent-600 text-sm font-bold flex items-center justify-center border border-accent-100">2</span>
+          {conjugationLesson.title}
+        </h2>
+        <p className="text-slate-600 mb-4 leading-relaxed">{conjugationLesson.content}</p>
         {conjugationLesson.conjugation && (
-          <div className="overflow-x-auto">
-            <table className="w-full text-sm border-collapse">
+          <div className="overflow-x-auto -mx-6 px-6">
+            <table className="w-full text-sm border-collapse min-w-[400px]">
               <thead>
-                <tr className="bg-slate-50">
-                  <th className="text-left px-4 py-2.5 font-semibold text-slate-700 border-b">Subject</th>
-                  <th className="text-left px-4 py-2.5 font-semibold text-slate-700 border-b">Present</th>
-                  <th className="text-left px-4 py-2.5 font-semibold text-slate-700 border-b">Past</th>
-                  <th className="text-left px-4 py-2.5 font-semibold text-slate-700 border-b">Future</th>
+                <tr>
+                  <th className="text-left px-4 py-2.5 font-semibold text-slate-500 text-xs uppercase tracking-wider border-b border-border">Subject</th>
+                  <th className="text-left px-4 py-2.5 font-semibold text-success-600 text-xs uppercase tracking-wider border-b border-border">Present</th>
+                  <th className="text-left px-4 py-2.5 font-semibold text-error-600 text-xs uppercase tracking-wider border-b border-border">Past</th>
+                  <th className="text-left px-4 py-2.5 font-semibold text-info-600 text-xs uppercase tracking-wider border-b border-border">Future</th>
                 </tr>
               </thead>
               <tbody>
                 {conjugationLesson.conjugation.map((c, i) => (
-                  <tr key={i} className="border-b last:border-b-0">
-                    <td className="px-4 py-3 font-medium text-slate-800">{c.subject}</td>
+                  <tr key={i} className="border-b border-border last:border-b-0 hover:bg-surface-alt transition-colors duration-150">
+                    <td className="px-4 py-3 font-semibold text-foreground">{c.subject}</td>
                     <td className="px-4 py-3 text-slate-600">{c.present}</td>
                     <td className="px-4 py-3 text-slate-600">{c.past}</td>
                     <td className="px-4 py-3 text-slate-600">{c.future}</td>
@@ -80,31 +104,38 @@ export default function LessonPage() {
       </section>
 
       {/* Sentence Forms */}
-      <section className="bg-white rounded-2xl shadow-sm border border-slate-200 p-6 mb-6">
-        <h2 className="text-xl font-bold text-slate-900 mb-4">{formsLesson.title}</h2>
-        <p className="text-slate-700 mb-4">{formsLesson.content}</p>
+      <section className="bg-surface rounded-2xl border border-border p-6 mb-6 shadow-sm">
+        <h2 className="text-xl font-bold text-foreground mb-3 flex items-center gap-2">
+          <span className="w-8 h-8 rounded-lg bg-info-50 text-info-600 text-sm font-bold flex items-center justify-center border border-info-500/20">3</span>
+          {formsLesson.title}
+        </h2>
+        <p className="text-slate-600 mb-4 leading-relaxed">{formsLesson.content}</p>
         {formsLesson.forms && (
-          <div className="space-y-3">
-            {Object.entries(formsLesson.forms).map(([key, value]) => (
-              <div key={key} className="bg-slate-50 rounded-lg px-4 py-3">
-                <span className="font-semibold text-slate-800 capitalize">
-                  {key.replace(/_/g, " ")}:
-                </span>{" "}
-                <span className="text-slate-600">{value}</span>
-              </div>
-            ))}
+          <div className="space-y-2.5">
+            {Object.entries(formsLesson.forms).map(([key, value]) => {
+              const label = key.replace(/_/g, " ");
+              return (
+                <div key={key} className="flex items-start gap-3 bg-surface-alt rounded-xl px-4 py-3">
+                  <FormBadge form={label} />
+                  <span className="text-slate-700 leading-relaxed text-sm pt-0.5">{value}</span>
+                </div>
+              );
+            })}
           </div>
         )}
       </section>
 
-      {/* Affirmative / Negative / Interrogative Examples */}
-      <section className="bg-white rounded-2xl shadow-sm border border-slate-200 p-6 mb-6">
-        <h2 className="text-xl font-bold text-slate-900 mb-4">Sentence Form Examples</h2>
-        <p className="text-slate-600 mb-4">
+      {/* Sentence Form Examples */}
+      <section className="bg-surface rounded-2xl border border-border p-6 mb-6 shadow-sm">
+        <h2 className="text-xl font-bold text-foreground mb-3 flex items-center gap-2">
+          <span className="w-8 h-8 rounded-lg bg-primary-50 text-primary-600 text-sm font-bold flex items-center justify-center border border-primary-100">4</span>
+          Sentence Form Examples
+        </h2>
+        <p className="text-slate-600 mb-5 leading-relaxed">
           Here are examples for each tense showing all four sentence forms:
         </p>
 
-        <div className="space-y-4">
+        <div className="space-y-6">
           {[
             {
               tense: "Simple Present",
@@ -135,22 +166,24 @@ export default function LessonPage() {
             },
           ].map((block) => (
             <div key={block.tense}>
-              <h3 className="font-semibold text-slate-800 mb-2">{block.tense}</h3>
-              <div className="overflow-x-auto">
-                <table className="w-full text-sm border-collapse">
+              <h3 className="font-bold text-foreground mb-3">{block.tense}</h3>
+              <div className="overflow-x-auto -mx-6 px-6">
+                <table className="w-full text-sm border-collapse min-w-[480px]">
                   <thead>
-                    <tr className="bg-slate-50">
-                      <th className="text-left px-3 py-2 font-semibold text-slate-600 border-b text-xs">Form</th>
-                      <th className="text-left px-3 py-2 font-semibold text-slate-600 border-b text-xs">English</th>
-                      <th className="text-left px-3 py-2 font-semibold text-slate-600 border-b text-xs">Myanmar</th>
+                    <tr>
+                      <th className="text-left px-3 py-2 font-semibold text-slate-500 text-xs uppercase tracking-wider border-b border-border w-28">Form</th>
+                      <th className="text-left px-3 py-2 font-semibold text-slate-500 text-xs uppercase tracking-wider border-b border-border">English</th>
+                      <th className="text-left px-3 py-2 font-semibold text-slate-500 text-xs uppercase tracking-wider border-b border-border">Myanmar</th>
                     </tr>
                   </thead>
                   <tbody>
                     {block.sentences.map((s, i) => (
-                      <tr key={i} className="border-b last:border-b-0">
-                        <td className="px-3 py-2 text-slate-500 text-xs">{s.form}</td>
-                        <td className="px-3 py-2 text-slate-800">{s.en}</td>
-                        <td className="px-3 py-2 text-slate-500 text-xs">{s.my}</td>
+                      <tr key={i} className="border-b border-border last:border-b-0 hover:bg-surface-alt transition-colors duration-150">
+                        <td className="px-3 py-2.5">
+                          <FormBadge form={s.form} />
+                        </td>
+                        <td className="px-3 py-2.5 text-foreground">{s.en}</td>
+                        <td className="px-3 py-2.5 myanmar-text text-slate-600 text-xs">{s.my}</td>
                       </tr>
                     ))}
                   </tbody>
@@ -162,16 +195,19 @@ export default function LessonPage() {
       </section>
 
       {/* Answer Forms */}
-      <section className="bg-white rounded-2xl shadow-sm border border-slate-200 p-6 mb-8">
-        <h2 className="text-xl font-bold text-slate-900 mb-4">{answerLesson.title}</h2>
-        <p className="text-slate-700 mb-4">{answerLesson.content}</p>
-        <div className="space-y-2 text-sm">
+      <section className="bg-surface rounded-2xl border border-border p-6 mb-8 shadow-sm">
+        <h2 className="text-xl font-bold text-foreground mb-3 flex items-center gap-2">
+          <span className="w-8 h-8 rounded-lg bg-success-50 text-success-600 text-sm font-bold flex items-center justify-center border border-success-500/20">5</span>
+          {answerLesson.title}
+        </h2>
+        <p className="text-slate-600 mb-4 leading-relaxed">{answerLesson.content}</p>
+        <div className="space-y-2.5">
           {answerLesson.answer_types && Object.entries(answerLesson.answer_types).map(([key, value]) => (
-            <div key={key} className="bg-slate-50 rounded-lg px-4 py-2">
-              <span className="font-semibold text-slate-800 capitalize">
+            <div key={key} className="bg-surface-alt rounded-xl px-4 py-3">
+              <span className="font-bold text-foreground text-sm capitalize">
                 {key.replace(/_/g, " ")}:
               </span>{" "}
-              <span className="text-slate-600">{value}</span>
+              <span className="text-slate-600 text-sm">{value}</span>
             </div>
           ))}
         </div>
@@ -180,9 +216,10 @@ export default function LessonPage() {
       <div className="flex justify-center">
         <Link
           href="/unit-1/practice"
-          className="inline-flex items-center justify-center gap-2 bg-indigo-600 text-white font-semibold px-8 py-3 rounded-xl hover:bg-indigo-700 transition-colors"
+          className="inline-flex items-center justify-center gap-2 bg-gradient-to-r from-primary-600 to-primary-700 text-white font-semibold px-8 py-3.5 rounded-xl hover:from-primary-700 hover:to-primary-800 transition-all duration-200 shadow-md shadow-primary-600/20"
         >
-          Start Practice →
+          Start Practice
+          <span aria-hidden="true">→</span>
         </Link>
       </div>
     </div>

@@ -176,8 +176,8 @@ export default function PracticePage() {
   if (!current) {
     return (
       <div className="max-w-3xl mx-auto px-4 py-10 text-center">
-        <p className="text-slate-600">No questions available.</p>
-        <Link href="/unit-1" className="text-indigo-600 mt-4 inline-block">
+        <p className="text-slate-500">No questions available.</p>
+        <Link href="/unit-1" className="text-primary-600 mt-4 inline-block font-medium">
           ← Back to Unit
         </Link>
       </div>
@@ -187,16 +187,33 @@ export default function PracticePage() {
   const canSubmit = currentAnswer !== null && currentAnswer.trim() !== "" && !isSubmitted;
 
   return (
-    <div className="max-w-3xl mx-auto px-4 py-10">
-      <Link href="/unit-1" className="text-sm text-indigo-600 hover:text-indigo-800 mb-4 inline-block">
-        ← Back to Unit Overview
+    <div className="max-w-3xl mx-auto px-4 py-8 sm:py-10">
+      <Link
+        href="/unit-1"
+        className="inline-flex items-center gap-1.5 text-sm font-medium text-primary-600 hover:text-primary-700 mb-5 transition-colors duration-200"
+      >
+        <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
+          <path strokeLinecap="round" strokeLinejoin="round" d="M15 19l-7-7 7-7" />
+        </svg>
+        Back to Unit Overview
       </Link>
 
-      <div className="mb-6">
-        <ProgressBar current={currentIndex + 1} total={total} label={`Question ${currentIndex + 1} of ${total}`} />
+      {/* Question counter */}
+      <div className="flex items-center justify-between mb-3">
+        <span className="text-sm font-semibold text-primary-600">
+          Question {currentIndex + 1} of {total}
+        </span>
+        <span className="text-xs font-medium text-slate-400 bg-surface-alt px-2.5 py-1 rounded-full">
+          {current.points} pt{current.points !== 1 ? "s" : ""}
+        </span>
       </div>
 
-      <div className="bg-white rounded-2xl shadow-sm border border-slate-200 p-6 sm:p-8 mb-6">
+      <div className="mb-6">
+        <ProgressBar current={currentIndex + 1} total={total} />
+      </div>
+
+      {/* Question card */}
+      <div className="bg-surface rounded-2xl border border-border p-5 sm:p-8 mb-6 shadow-sm animate-fade-in">
         <MultipleChoice
           question={current.question}
           options={shuffledOptions}
@@ -216,14 +233,18 @@ export default function PracticePage() {
         )}
       </div>
 
+      {/* Navigation */}
       <div className="flex items-center justify-between gap-3">
         <button
           type="button"
           onClick={handlePrev}
           disabled={currentIndex === 0}
-          className="px-5 py-2.5 rounded-xl border-2 border-slate-200 text-slate-600 font-medium hover:bg-slate-50 transition-colors disabled:opacity-40 disabled:cursor-not-allowed"
+          className="inline-flex items-center gap-1.5 px-5 py-2.5 rounded-xl border-2 border-border text-slate-600 font-medium hover:bg-surface-alt hover:border-primary-200 transition-all duration-200 disabled:opacity-30 disabled:cursor-not-allowed disabled:hover:bg-transparent"
         >
-          ← Previous
+          <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
+            <path strokeLinecap="round" strokeLinejoin="round" d="M15 19l-7-7 7-7" />
+          </svg>
+          Previous
         </button>
 
         <div className="flex gap-2">
@@ -232,7 +253,7 @@ export default function PracticePage() {
               type="button"
               onClick={handleSubmit}
               disabled={!canSubmit}
-              className="px-6 py-2.5 rounded-xl bg-indigo-600 text-white font-semibold hover:bg-indigo-700 transition-colors disabled:opacity-40 disabled:cursor-not-allowed"
+              className="px-6 py-2.5 rounded-xl bg-gradient-to-r from-primary-600 to-primary-700 text-white font-semibold hover:from-primary-700 hover:to-primary-800 transition-all duration-200 shadow-md shadow-primary-600/20 disabled:opacity-40 disabled:cursor-not-allowed disabled:shadow-none"
             >
               Check Answer
             </button>
@@ -240,9 +261,23 @@ export default function PracticePage() {
             <button
               type="button"
               onClick={handleNext}
-              className="px-6 py-2.5 rounded-xl bg-indigo-600 text-white font-semibold hover:bg-indigo-700 transition-colors"
+              className="px-6 py-2.5 rounded-xl bg-gradient-to-r from-primary-600 to-primary-700 text-white font-semibold hover:from-primary-700 hover:to-primary-800 transition-all duration-200 shadow-md shadow-primary-600/20"
             >
-              {currentIndex < total - 1 ? "Next Question →" : "See Results →"}
+              {currentIndex < total - 1 ? (
+                <span className="inline-flex items-center gap-1.5">
+                  Next Question
+                  <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
+                    <path strokeLinecap="round" strokeLinejoin="round" d="M9 5l7 7-7 7" />
+                  </svg>
+                </span>
+              ) : (
+                <span className="inline-flex items-center gap-1.5">
+                  See Results
+                  <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
+                    <path strokeLinecap="round" strokeLinejoin="round" d="M9 5l7 7-7 7" />
+                  </svg>
+                </span>
+              )}
             </button>
           )}
         </div>

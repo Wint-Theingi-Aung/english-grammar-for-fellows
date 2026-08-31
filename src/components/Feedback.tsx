@@ -8,28 +8,46 @@ interface FeedbackProps {
 export default function Feedback({ isCorrect, selectedAnswer, correctAnswer, explanation }: FeedbackProps) {
   return (
     <div
-      className={`mt-4 p-4 rounded-lg border-2 ${
+      className={`mt-5 p-5 rounded-xl border-2 animate-fade-in ${
         isCorrect
-          ? "bg-emerald-50 border-emerald-300 text-emerald-800"
-          : "bg-red-50 border-red-300 text-red-800"
+          ? "bg-success-50 border-success-500/30"
+          : "bg-error-50 border-error-500/30"
       }`}
       role="alert"
     >
-      <div className="flex items-center gap-2 mb-2">
-        <span className="text-lg">{isCorrect ? "\u2713" : "\u2717"}</span>
-        <span className="font-semibold">{isCorrect ? "Correct!" : "Incorrect"}</span>
+      <div className="flex items-center gap-2.5 mb-3">
+        <span
+          className={`inline-flex items-center justify-center w-7 h-7 rounded-full text-sm font-bold ${
+            isCorrect
+              ? "bg-success-500 text-white"
+              : "bg-error-500 text-white"
+          }`}
+        >
+          {isCorrect ? "\u2713" : "\u2717"}
+        </span>
+        <span className={`font-bold text-base ${isCorrect ? "text-success-700" : "text-error-700"}`}>
+          {isCorrect ? "Correct!" : "Incorrect"}
+        </span>
       </div>
+
       {!isCorrect && selectedAnswer && (
-        <p className="text-sm mb-1">
-          <span className="font-medium">Your answer:</span> {selectedAnswer}
+        <p className="text-sm mb-1.5 text-error-600">
+          <span className="font-semibold">Your answer:</span>{" "}
+          <span className="text-error-700">{selectedAnswer}</span>
         </p>
       )}
       {!isCorrect && (
-        <p className="text-sm mb-1">
-          <span className="font-medium">Correct answer:</span> {correctAnswer}
+        <p className="text-sm mb-2 text-success-600">
+          <span className="font-semibold">Correct answer:</span>{" "}
+          <span className="text-success-700 font-medium">{correctAnswer}</span>
         </p>
       )}
-      <p className="text-sm opacity-90">{explanation}</p>
+
+      <div className="mt-3 pt-3 border-t border-current/10">
+        <p className={`text-sm leading-relaxed ${isCorrect ? "text-success-700" : "text-error-700"}`}>
+          {explanation}
+        </p>
+      </div>
     </div>
   );
 }

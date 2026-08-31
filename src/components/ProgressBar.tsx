@@ -12,14 +12,21 @@ export default function ProgressBar({ current, total, label }: ProgressBarProps)
   return (
     <div className="w-full">
       {label && (
-        <div className="flex justify-between text-sm text-slate-600 mb-1">
-          <span>{label}</span>
-          <span>{pct}%</span>
+        <div className="flex justify-between items-center text-sm mb-2">
+          <span className="text-slate-600 font-medium">{label}</span>
+          <span className="text-primary-600 font-semibold tabular-nums">{pct}%</span>
         </div>
       )}
-      <div className="w-full h-2.5 bg-slate-200 rounded-full overflow-hidden" role="progressbar" aria-valuenow={pct} aria-valuemin={0} aria-valuemax={100}>
+      <div
+        className="w-full h-2.5 bg-primary-100 rounded-full overflow-hidden"
+        role="progressbar"
+        aria-valuenow={pct}
+        aria-valuemin={0}
+        aria-valuemax={100}
+        aria-label={label}
+      >
         <div
-          className="h-full bg-indigo-600 rounded-full transition-all duration-300"
+          className="h-full rounded-full bg-gradient-to-r from-primary-500 to-accent-500 progress-fill transition-all duration-300"
           style={{ width: `${pct}%` }}
         />
       </div>
