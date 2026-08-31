@@ -6,13 +6,39 @@ import Link from "next/link";
 import ProgressBar from "@/components/ProgressBar";
 import MultipleChoice from "@/components/MultipleChoice";
 import Feedback from "@/components/Feedback";
-import { getAllQuestions, getTotalPoints } from "@/lib/data";
+import { getAllQuestions, getTotalPoints, getExercisesData } from "@/lib/data";
 import { recordAnswer, completeUnit } from "@/lib/progress";
 import { useSavedAnswersJson, useProgressCompletedAt } from "@/lib/hooks";
+import { saveExerciseAttempt, saveLessonProgress } from "@/app/actions/progress";
 import type { ExerciseQuestion, UserAnswer } from "@/lib/types";
+
+const ANON_ID_KEY = "grammar-fellows-anon-id";
+
+function getAnonymousId(): string {
+  if (typeof window === "undefined") return "";
+  try {
+    let id = localStorage.getItem(ANON_ID_KEY);
+    if (!id) {
+      id = crypto.randomUUID().replace(/-/g, "").slice(0, 24);
+      localStorage.setItem(ANON_ID_KEY, id);
+    }
+    return id;
+  } catch {
+    return "";
+  }
+}
 
 function normalize(s: string): string {
   return s.trim().toLowerCase().replace(/[.,!?;:'"]/g, "").replace(/\s+/g, " ");
+}
+
+function shuffle<T>(arr: T[]): T[] {
+  const a = [...arr];
+  for (let i = a.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [a[i], a[j]] = [a[j], a[i]];
+  }
+  return a;
 }
 
 function parseSavedAnswers(json: string): { byId: Record<number, string>; submittedIds: Set<number> } {
@@ -54,9 +80,17 @@ export default function PracticePage() {
     return obj;
   });
 
+  const [shuffleSeed] = useState(() => Math.random());
+
   const current: ExerciseQuestion | undefined = allQuestions[currentIndex];
   const currentAnswer = current ? answers[current.id] ?? null : null;
   const isSubmitted = current ? !!submitted[current.id] : false;
+
+  const shuffledOptions = useMemo(() => {
+    if (!current?.options) return [];
+    return shuffle(current.options);
+  // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [current?.id, shuffleSeed]);
 
   const isCorrect = useCallback(
     (q: ExerciseQuestion, a: string): boolean => {
@@ -80,6 +114,24 @@ export default function PracticePage() {
     };
     recordAnswer(1, userAnswer);
     setSubmitted((prev) => ({ ...prev, [current.id]: true }));
+
+    const anonId = getAnonymousId();
+    if (anonId) {
+      const exercises = getExercisesData().exercises;
+      const exerciseId = exercises.find((ex) =>
+        ex.questions.some((q) => q.id === current.id)
+      )?.id ?? "unit1-ex1";
+      saveExerciseAttempt({
+        anonymousId: anonId,
+        exerciseId,
+        questionId: current.id,
+        selectedAnswer: currentAnswer,
+        correctAnswer: current.answer,
+        isCorrect: correct,
+        score: correct ? current.points : 0,
+        totalPoints: current.points,
+      }).catch(() => {});
+    }
   };
 
   const handleNext = () => {
@@ -98,6 +150,19 @@ export default function PracticePage() {
           return sum + (q?.points ?? 0);
         }, 0);
       completeUnit(1, score, totalPoints);
+
+      const anonId = getAnonymousId();
+      if (anonId) {
+        const completedCount = userAnswers.filter((a) => a.isCorrect).length;
+        saveLessonProgress({
+          anonymousId: anonId,
+          unit: 1,
+          completedExercises: completedCount,
+          totalScore: score,
+          bestScore: score,
+        }).catch(() => {});
+      }
+
       router.push("/unit-1/result");
     }
   };
@@ -134,7 +199,7 @@ export default function PracticePage() {
       <div className="bg-white rounded-2xl shadow-sm border border-slate-200 p-6 sm:p-8 mb-6">
         <MultipleChoice
           question={current.question}
-          options={current.options ?? []}
+          options={shuffledOptions}
           selectedAnswer={currentAnswer}
           isSubmitted={isSubmitted}
           correctAnswer={current.answer}

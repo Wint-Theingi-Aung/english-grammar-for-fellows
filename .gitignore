@@ -43,6 +43,9 @@ test-results/
 *.sqlite
 *.sqlite3
 
+# Drizzle
+drizzle/
+
 # OS and editor files
 .DS_Store
 Thumbs.db

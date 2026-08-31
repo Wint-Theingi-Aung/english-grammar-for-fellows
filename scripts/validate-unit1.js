@@ -36,6 +36,7 @@ function validate() {
   }
 
   let totalQuestions = 0;
+  const seenQuestions = new Map(); // question text -> first qId
 
   for (const exercise of data.exercises) {
     if (!exercise.id) {
@@ -116,6 +117,35 @@ function validate() {
       if (!q.explanation || q.explanation.trim() === "") {
         console.warn("WARNING: " + qId + " - has no explanation");
         warnings++;
+      }
+
+      // Check for duplicate question text within the same exercise
+      const qText = (q.question || "").trim();
+      if (qText) {
+        if (seenQuestions.has(qText)) {
+          console.warn("WARNING: " + qId + " - duplicate question text (first seen in " + seenQuestions.get(qText) + ")");
+          warnings++;
+        } else {
+          seenQuestions.set(qText, qId);
+        }
+      }
+
+      // Check for ambiguous options: same verb in affirmative/negative/future forms
+      // e.g., ["go", "don't go", "won't go"] — all could fit without context
+      const optionTexts = q.options.map((o) => o.toLowerCase().replace(/[^a-z\s]/g, "").trim());
+      const hasNegative = optionTexts.some((o) => /\b(don't|doesn't|didn't|won't|can't|isn't|aren't|wasn't|weren't)\b/.test(o));
+      const hasAffirmative = optionTexts.some((o) => !/\b(don't|doesn't|didn't|won't|can't|isn't|aren't|wasn't|weren't)\b/.test(o));
+      if (hasNegative && hasAffirmative) {
+        // Extract the base verb from options to check if they share the same root
+        const roots = optionTexts.map((o) => {
+          return o.replace(/\b(don't|doesn't|didn't|won't|can't|not)\b/g, "").replace(/\s+/g, " ").trim();
+        });
+        const uniqueRoots = new Set(roots);
+        if (uniqueRoots.size <= 2) {
+          // Likely ambiguous: options share the same verb root in different forms
+          console.warn("WARNING: " + qId + " - possible ambiguity: options mix affirmative/negative forms of the same verb [" + q.options.join(", ") + "]");
+          warnings++;
+        }
       }
     }
   }
