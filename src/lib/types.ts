@@ -1,15 +1,34 @@
 export interface LessonDetail {
-  tense: string;
-  form: string;
-  example: string;
-  burmese: string;
+  tense?: string;
+  form?: string;
+  example?: string;
+  burmese?: string;
+  subject?: string;
+  concept?: string;
+  explanation?: string;
+  rule?: string;
+  case?: string;
+  type?: string;
+  description?: string;
+  answer_type?: string;
+  wh_word?: string;
+  usage?: string;
+  structure?: string;
+  note?: string;
+  examples?: string[];
+  question?: string;
+  positive?: string;
+  negative?: string;
+  auxiliary_positive?: string;
+  auxiliary_negative?: string;
 }
 
 export interface ConjugationEntry {
   subject: string;
-  present: string;
-  past: string;
-  future: string;
+  present?: string;
+  past?: string;
+  future?: string;
+  form?: string;
 }
 
 export interface Lesson {
@@ -18,16 +37,8 @@ export interface Lesson {
   content: string;
   details?: LessonDetail[];
   conjugation?: ConjugationEntry[];
-  forms?: {
-    affirmative: string;
-    negative: string;
-    interrogative: string;
-    negative_interrogative: string;
-  };
-  answer_types?: {
-    short_answer: string;
-    long_answer: string;
-  };
+  forms?: Record<string, string>;
+  answer_types?: Record<string, string>;
 }
 
 export interface LessonsData {

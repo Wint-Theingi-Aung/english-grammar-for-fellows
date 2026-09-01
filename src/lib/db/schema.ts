@@ -10,6 +10,22 @@ import {
   uniqueIndex,
 } from "drizzle-orm/pg-core";
 
+export const units = pgTable(
+  "units",
+  {
+    id: uuid("id").primaryKey().defaultRandom(),
+    unitNumber: integer("unit_number").notNull(),
+    title: varchar("title", { length: 255 }).notNull(),
+    lessonCount: integer("lesson_count").notNull().default(0),
+    exerciseCount: integer("exercise_count").notNull().default(0),
+    questionCount: integer("question_count").notNull().default(0),
+    createdAt: timestamp("created_at", { withTimezone: true }).notNull().defaultNow(),
+  },
+  (t) => [
+    uniqueIndex("units_unit_number_idx").on(t.unitNumber),
+  ]
+);
+
 export const users = pgTable(
   "users",
   {
@@ -64,6 +80,8 @@ export const lessonProgress = pgTable(
   ]
 );
 
+export type Unit = typeof units.$inferSelect;
+export type NewUnit = typeof units.$inferInsert;
 export type User = typeof users.$inferSelect;
 export type NewUser = typeof users.$inferInsert;
 export type ExerciseAttempt = typeof exerciseAttempts.$inferSelect;

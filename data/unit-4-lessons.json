@@ -1,0 +1,267 @@
+{
+  "unit": 4,
+  "title": "Question Tags",
+  "lessons": [
+    {
+      "id": "unit4-lesson1",
+      "title": "What Are Question Tags?",
+      "content": "A question tag is a short question added to the end of a statement. It is used to confirm information or ask for agreement. Question tags always use pronouns, and the auxiliary verb must match the tense of the main verb.",
+      "details": [
+        {
+          "concept": "Definition",
+          "explanation": "A question tag turns a statement into a question. It is separated by a comma from the main statement.",
+          "example": "You are a student, aren't you?",
+          "burmese": "မင်း ကျောင်းသားတစ်ယောက်ပါ၊ မဟုတ်ဘူးလား?"
+        },
+        {
+          "concept": "Purpose",
+          "explanation": "Question tags are used to check information or ask for confirmation from the listener.",
+          "example": "It's cold today, isn't it?",
+          "burmese": "ဒီနေ့ အအေးချမ်းတယ်၊ မချမ်းဘူးလား?"
+        },
+        {
+          "concept": "Structure",
+          "explanation": "Statement + comma + auxiliary verb + pronoun + question mark",
+          "example": "She likes coffee, doesn't she?",
+          "burmese": "သူမ ကော်ဖီ ကြိုက်တယ်၊ မကြိုက်ဘူးလား?"
+        },
+        {
+          "concept": "Pronouns in Tags",
+          "explanation": "Always use pronouns in question tags, even if the statement uses a proper noun.",
+          "example": "Jack is from Spain, isn't he?",
+          "burmese": "Jack က စပိန်က လာတယ်၊ မလာဘူးလား?"
+        }
+      ]
+    },
+    {
+      "id": "unit4-lesson2",
+      "title": "Positive Statements, Negative Tags",
+      "content": "When the statement is positive, the question tag is negative. This is the most common pattern for question tags.",
+      "details": [
+        {
+          "tense": "Simple Present (be)",
+          "rule": "Positive statement with is/are → negative tag with isn't/aren't",
+          "example": "Jack is from Spain, isn't he?",
+          "burmese": "Jack က စပိန်က လာတယ်၊ မလာဘူးလား?"
+        },
+        {
+          "tense": "Simple Present (do/does)",
+          "rule": "Positive statement with V1/V1+s → negative tag with don't/doesn't",
+          "example": "You play the guitar, don't you?",
+          "burmese": "မင်း ဂစ်တာ တီးတယ်၊ မတီးဘူးလား?"
+        },
+        {
+          "tense": "Simple Past (be)",
+          "rule": "Positive statement with was/were → negative tag with wasn't/weren't",
+          "example": "The film was fantastic, wasn't it?",
+          "burmese": "ရုပ်ရှင်က အရမ်းကောင်းတယ်၊ မကောင်းဘူးလား?"
+        },
+        {
+          "tense": "Simple Past (did)",
+          "rule": "Positive statement with V2 → negative tag with didn't",
+          "example": "You went there, didn't you?",
+          "burmese": "မင်း ဒီမှာ သွားခဲ့တယ်၊ မသွားခဲ့ဘူးလား?"
+        },
+        {
+          "tense": "Simple Future",
+          "rule": "Positive statement with will → negative tag with won't",
+          "example": "You will pass the exam, won't you?",
+          "burmese": "မင်း စာမေးပွဲ အောင်မယ်၊ အောင်မှာမဟုတ်ဘူးလား?"
+        },
+        {
+          "tense": "Present Perfect",
+          "rule": "Positive statement with have/has + V3 → negative tag with haven't/hasn't",
+          "example": "You have studied all week, haven't you?",
+          "burmese": "မင်း တစ်ပတ်လုံး စာလေ့လာခဲ့တယ်၊ မလေ့လာခဲ့ဘူးလား?"
+        },
+        {
+          "tense": "Modal Verbs",
+          "rule": "Positive statement with can/must/should/would → negative tag with can't/mustn't/shouldn't/wouldn't",
+          "example": "Mary can speak English, can't she?",
+          "burmese": "Mary က အင်္ဂလိပ် ပြောတတ်တယ်၊ မပြောတတ်ဘူးလား?"
+        }
+      ]
+    },
+    {
+      "id": "unit4-lesson3",
+      "title": "Negative Statements, Positive Tags",
+      "content": "When the statement is negative, the question tag is positive. This reverses the pattern used for positive statements.",
+      "details": [
+        {
+          "tense": "Simple Present (be)",
+          "rule": "Negative statement with isn't/aren't → positive tag with is/are",
+          "example": "He isn't crazy, is he?",
+          "burmese": "သူ မတော်တော့ဘူး၊ တော့လား?"
+        },
+        {
+          "tense": "Simple Present (do/does)",
+          "rule": "Negative statement with don't/doesn't → positive tag with do/does",
+          "example": "You don't go there, do you?",
+          "burmese": "မင်း ဒီမှာ မသွားဘူး၊ သွားလား?"
+        },
+        {
+          "tense": "Simple Past (be)",
+          "rule": "Negative statement with wasn't/weren't → positive tag with was/were",
+          "example": "He wasn't sick, was he?",
+          "burmese": "သူ မနာဘူး၊ နာလား?"
+        },
+        {
+          "tense": "Simple Past (did)",
+          "rule": "Negative statement with didn't → positive tag with did",
+          "example": "You didn't do your homework, did you?",
+          "burmese": "မင်း အိမ်စာ မလုပ်ခဲ့ဘူး၊ လုပ်ခဲ့လား?"
+        },
+        {
+          "tense": "Simple Future",
+          "rule": "Negative statement with won't → positive tag with will",
+          "example": "You won't fail the exam, will you?",
+          "burmese": "မင်း စာမေးပွဲ မရှုံးဘူး၊ ရှုံးလား?"
+        },
+        {
+          "tense": "Present Perfect",
+          "rule": "Negative statement with haven't/hasn't + V3 → positive tag with have/has",
+          "example": "You haven't been here all week, have you?",
+          "burmese": "မင်း တစ်ပတ်လုံး ဒီမှာ မရှိခဲ့ဘူး၊ ရှိခဲ့လား?"
+        },
+        {
+          "tense": "Modal Verbs",
+          "rule": "Negative statement with can't/mustn't/shouldn't/wouldn't → positive tag with can/must/should/would",
+          "example": "John can't drive a car, can he?",
+          "burmese": "John က ကား မမောင်းတတ်ဘူး၊ မောင်းတတ်လား?"
+        }
+      ]
+    },
+    {
+      "id": "unit4-lesson4",
+      "title": "Question Tags with Different Tenses",
+      "content": "The auxiliary verb in the question tag must match the tense of the main verb in the statement. Each tense has its own auxiliary verb pattern.",
+      "details": [
+        {
+          "tense": "Simple Present",
+          "auxiliary_positive": "don't/doesn't",
+          "auxiliary_negative": "do/does",
+          "example_positive": "Sue likes tennis, doesn't she?",
+          "example_negative": "She doesn't work in a hotel, does she?",
+          "burmese": "Sue က တင်းနစ် ကြိုက်တယ်၊ မကြိုက်ဘူးလား?"
+        },
+        {
+          "tense": "Simple Past",
+          "auxiliary_positive": "didn't",
+          "auxiliary_negative": "did",
+          "example_positive": "John knew about this letter, didn't he?",
+          "example_negative": "You didn't do your homework, did you?",
+          "burmese": "John က ဒီစာအကြောင်း သိတယ်၊ မသိဘူးလား?"
+        },
+        {
+          "tense": "Simple Future",
+          "auxiliary_positive": "won't",
+          "auxiliary_negative": "will",
+          "example_positive": "You will pass the exam, won't you?",
+          "example_negative": "You won't fail the exam, will you?",
+          "burmese": "မင်း စာမေးပွဲ အောင်မယ်၊ အောင်မှာမဟုတ်ဘူးလား?"
+        },
+        {
+          "tense": "Present Perfect",
+          "auxiliary_positive": "haven't/hasn't",
+          "auxiliary_negative": "have/has",
+          "example_positive": "You have studied all week, haven't you?",
+          "example_negative": "She hasn't written a letter, has she?",
+          "burmese": "မင်း တစ်ပတ်လုံး စာလေ့လာခဲ့တယ်၊ မလေ့လာခဲ့ဘူးလား?"
+        },
+        {
+          "tense": "Past Perfect",
+          "auxiliary_positive": "hadn't",
+          "auxiliary_negative": "had",
+          "example_positive": "You had arrived before he left, hadn't you?",
+          "example_negative": "You hadn't done it before, had you?",
+          "burmese": "သူ မထွက်ခင် မင်း ရောက်ပြီးပြီ၊ မရောက်ခင်ဘူးလား?"
+        },
+        {
+          "tense": "Modal Verbs (can)",
+          "auxiliary_positive": "can't",
+          "auxiliary_negative": "can",
+          "example_positive": "Mary can speak English, can't she?",
+          "example_negative": "John can't drive a car, can he?",
+          "burmese": "Mary က အင်္ဂလိပ် ပြောတတ်တယ်၊ မပြောတတ်ဘူးလား?"
+        },
+        {
+          "tense": "Modal Verbs (must)",
+          "auxiliary_positive": "mustn't",
+          "auxiliary_negative": "must",
+          "example_positive": "We must be patient, mustn't we?",
+          "example_negative": "We mustn't say anything, must we?",
+          "burmese": "ငါတို့ စိတ်ရှည်ရပါမယ်၊ မရှည်ရဘူးလား?"
+        },
+        {
+          "tense": "Modal Verbs (should/would)",
+          "auxiliary_positive": "shouldn't/wouldn't",
+          "auxiliary_negative": "should/would",
+          "example_positive": "You should go now, shouldn't you?",
+          "example_negative": "He shouldn't say things like that, should he?",
+          "burmese": "မင်း အခု သွားသင့်တယ်၊ မသွားသင့်ဘူးလား?"
+        }
+      ]
+    },
+    {
+      "id": "unit4-lesson5",
+      "title": "Special Cases and Exceptions",
+      "content": "Some statements require special question tag patterns that don't follow the standard positive→negative or negative→positive rules.",
+      "details": [
+        {
+          "case": "I am",
+          "rule": "Use 'aren't I?' instead of 'amn't I?'",
+          "example": "I am attractive, aren't I?",
+          "burmese": "ကျွန်မ ဆွဲဆောင်မှု ရှိတယ်၊ မရှိဘူးလား?"
+        },
+        {
+          "case": "I am (negative)",
+          "rule": "Use 'am I?' for negative 'I am not' statements",
+          "example": "I am not the person with the tickets, am I?",
+          "burmese": "ကျွန်မ လက်မှတ်ပိုင်ရှင် မဟုတ်ဘူး၊ ဟုတ်လား?"
+        },
+        {
+          "case": "Imperative",
+          "rule": "Use 'will you?' after imperative statements",
+          "example": "Close the window, will you?",
+          "burmese": "ပြတင်းပေါက် ပိတ်ပါ၊ ပိတ်မလား?"
+        },
+        {
+          "case": "Let's",
+          "rule": "Use 'shall we?' after 'Let's' statements",
+          "example": "Let's go to the beach, shall we?",
+          "burmese": "ကမ်းခြေသွားကြရအောင်၊ သွားကြမလား?"
+        },
+        {
+          "case": "Nobody/Nothing/No one",
+          "rule": "Use a positive tag with 'they' or 'it'",
+          "example": "Nobody lives in this house, do they?",
+          "burmese": "ဘယ်သူမှ ဒီအိမ်မှာ မနေဘူး၊ နေကြလား?"
+        },
+        {
+          "case": "Nothing (it)",
+          "rule": "Use 'did it?' with 'nothing' statements",
+          "example": "Nothing bad happened, did it?",
+          "burmese": "ဘာမဆိုးတာ မဖြစ်ခဲ့ဘူး၊ ဖြစ်ခဲ့လား?"
+        },
+        {
+          "case": "Have as main verb",
+          "rule": "Use 'do/does/did' instead of 'have/has/had'",
+          "example": "You have a Ferrari, don't you?",
+          "burmese": "မင်းမှာ Ferrari ရှိတယ်၊ မရှိဘူးလား?"
+        },
+        {
+          "case": "There sentences",
+          "rule": "Use 'are there' or 'is there' depending on the statement",
+          "example": "There aren't any spiders, are there?",
+          "burmese": "ပိတ်ကျား ဘာမှ မရှိဘူး၊ ရှိလား?"
+        },
+        {
+          "case": "This is",
+          "rule": "Use 'isn't it?' for 'This is...' statements",
+          "example": "This is Paul's pen, isn't it?",
+          "burmese": "ဒါ Paul ရဲ့ ဘောပင်ပါ၊ မဟုတ်ဘူးလား?"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,167 @@
+{
+  "unit": 5,
+  "title": "Wh Questions",
+  "lessons": [
+    {
+      "id": "unit5-lesson1",
+      "title": "What are Wh Questions?",
+      "content": "There are two types of questions in English: Wh-questions and Yes/No questions. Wh-questions are open questions that require specific information as an answer, unlike Yes/No questions which can be answered with a simple 'Yes' or 'No'.",
+      "details": [
+        {
+          "type": "Yes/No Questions",
+          "description": "Questions that can be answered with Yes or No",
+          "example": "Do you like coffee?",
+          "answer_type": "Yes, I do. / No, I don't.",
+          "burmese": "မင်း ကော်ဖီ ကြိုက်လား။ ဟုတ်/မဟုတ်"
+        },
+        {
+          "type": "Wh-Questions",
+          "description": "Open questions that require specific information",
+          "example": "What do you like?",
+          "answer_type": "I like tea.",
+          "burmese": "မင်း ဘာ ကြိုက်တာလဲ။ အသေးစိတ် အဖြေ လိုတယ်"
+        }
+      ]
+    },
+    {
+      "id": "unit5-lesson2",
+      "title": "Asking About People (Who, Whom, Whose)",
+      "content": "We use 'Who' to ask about people as the subject, 'Whom' to ask about people as the object, and 'Whose' to ask about possession.",
+      "details": [
+        {
+          "wh_word": "Who",
+          "usage": "To ask about people (subject)",
+          "structure": "Who + auxiliary + subject + main verb?",
+          "example": "Who is she?",
+          "burmese": "သူမက ဘယ်သူလဲ။",
+          "note": "When 'who' is the subject, no auxiliary is needed: Who likes soccer?"
+        },
+        {
+          "wh_word": "Whom",
+          "usage": "To ask about people (object)",
+          "structure": "Whom + auxiliary + subject + main verb?",
+          "example": "Whom did you see?",
+          "burmese": "မင်း ဘယ်သူ့ကို တွေ့တာလဲ။",
+          "note": "Whom is more formal. In everyday speech, 'who' is often used instead."
+        },
+        {
+          "wh_word": "Whose",
+          "usage": "To ask about possession",
+          "structure": "Whose + noun + verb?",
+          "example": "Whose book is this?",
+          "burmese": "ဒီစာအုပ်က ဘယ်သူ့ဟာလဲ။",
+          "note": "Whose is always followed by a noun."
+        }
+      ]
+    },
+    {
+      "id": "unit5-lesson3",
+      "title": "Asking About Things and Time (What, When, Which)",
+      "content": "We use 'What' to ask about things or information, 'When' to ask about time, and 'Which' to ask about choices from a limited set.",
+      "details": [
+        {
+          "wh_word": "What",
+          "usage": "To ask about something or information",
+          "structure": "What + auxiliary + subject + main verb?",
+          "example": "What day is it today?",
+          "burmese": "ဒီနေ့က ဘယ်နေ့လဲ။",
+          "note": "What can be used with nouns: What time, What day, What color"
+        },
+        {
+          "wh_word": "When",
+          "usage": "To ask about time",
+          "structure": "When + auxiliary + subject + main verb?",
+          "example": "When is your birthday?",
+          "burmese": "မင်း မွေးနေ့က ဘယ်အချိန်လဲ။",
+          "note": "When asks about a specific time or period"
+        },
+        {
+          "wh_word": "Which",
+          "usage": "To ask about choices from a limited set",
+          "structure": "Which + noun + auxiliary + subject + main verb?",
+          "example": "Which restaurant shall we go to?",
+          "burmese": "ငါတို့ ဘယ်စားသောက်ဆိုင် သွားရမလဲ။",
+          "note": "Which is used when there are limited options to choose from"
+        }
+      ]
+    },
+    {
+      "id": "unit5-lesson4",
+      "title": "Asking About Place and Reason (Where, Why)",
+      "content": "We use 'Where' to ask about place or location, and 'Why' to ask about the reason or purpose.",
+      "details": [
+        {
+          "wh_word": "Where",
+          "usage": "To ask about place or location",
+          "structure": "Where + auxiliary + subject + main verb?",
+          "example": "Where do you work?",
+          "burmese": "မင်း ဘယ်မှာ အလုပ်လုပ်တာလဲ။",
+          "note": "Where can be used with be verbs: Where is my pencil case?"
+        },
+        {
+          "wh_word": "Why",
+          "usage": "To ask about the reason",
+          "structure": "Why + auxiliary + subject + main verb?",
+          "example": "Why are you late?",
+          "burmese": "ဘာကြောင့် နောက်ကျတာလဲ။",
+          "note": "Why questions often begin with 'Because' in the answer"
+        }
+      ]
+    },
+    {
+      "id": "unit5-lesson5",
+      "title": "Asking About Manner and Quantity (How)",
+      "content": "We use 'How' to ask about manner, condition, or degree. 'How' can combine with adjectives and adverbs to ask about specific quantities or qualities.",
+      "details": [
+        {
+          "wh_word": "How",
+          "usage": "To ask about manner or condition",
+          "structure": "How + auxiliary + subject + main verb?",
+          "example": "How does this work?",
+          "burmese": "ဒါက ဘယ်လို အလုပ်လုပ်တာလဲ။",
+          "note": "How alone asks about manner or way"
+        },
+        {
+          "wh_word": "How many",
+          "usage": "To ask about countable quantity",
+          "structure": "How many + plural noun + auxiliary + subject + verb?",
+          "example": "How many pencils are there?",
+          "burmese": "ဘေးပင် ဘယ်နှစ်ချောင်း ရှိလဲ။",
+          "note": "How many is used with countable nouns"
+        },
+        {
+          "wh_word": "How much",
+          "usage": "To ask about uncountable quantity or price",
+          "structure": "How much + uncountable noun + auxiliary + subject + verb?",
+          "example": "How much money do you have?",
+          "burmese": "မင်းမှာ ဘယ်လောက် ငွေရှိလဲ။",
+          "note": "How much is used with uncountable nouns"
+        },
+        {
+          "wh_word": "How old",
+          "usage": "To ask about age",
+          "structure": "How old + be + subject?",
+          "example": "How old are you?",
+          "burmese": "မင်း အသက် ဘယ်နှစ်လဲ။",
+          "note": "How old specifically asks about someone's age"
+        },
+        {
+          "wh_word": "How far",
+          "usage": "To ask about distance",
+          "structure": "How far + be + subject + place?",
+          "example": "How far is the restaurant?",
+          "burmese": "စားသောက်ဆိုင်က ဘယ်လောက် ဝေးလဲ။",
+          "note": "How far asks about the distance between two places"
+        },
+        {
+          "wh_word": "How long",
+          "usage": "To ask about duration or length",
+          "structure": "How long + auxiliary + subject + verb?",
+          "example": "How long will it take?",
+          "burmese": "ဘယ်လောက် ကြာမလဲ။",
+          "note": "How long asks about time duration or physical length"
+        }
+      ]
+    }
+  ]
+}

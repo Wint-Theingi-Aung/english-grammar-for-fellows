@@ -144,7 +144,7 @@ function validateUnit(unitNum) {
 let totalErrors = 0;
 let totalWarnings = 0;
 
-for (const unit of [1, 2]) {
+for (const unit of [1, 2, 3, 4, 5]) {
   const result = validateUnit(unit);
   totalErrors += result.errors;
   totalWarnings += result.warnings;

@@ -1,0 +1,626 @@
+{
+  "unit": 5,
+  "exercises": [
+    {
+      "id": "unit5-ex1",
+      "type": "multiple_choice",
+      "instructions": "Choose the correct wh-question word to complete each question.",
+      "questions": [
+        {
+          "id": 501,
+          "question": "I live in Germany. → ________ do you live?",
+          "options": ["What", "Where", "When"],
+          "answer": "Where",
+          "explanation": "The answer 'I live in Germany' describes a place, so the correct question word is 'Where'. 'Where' ဖြင့် နေရာကိုမေးပါ။ 'Germany' ဆိုတာ နေရာဖြစ်ပါတယ်။",
+          "points": 1
+        },
+        {
+          "id": 502,
+          "question": "She is my sister. → ________ is that girl?",
+          "options": ["Who", "What", "Whose"],
+          "answer": "Who",
+          "explanation": "The answer 'She is my sister' describes a person, so the correct question word is 'Who'. 'Who' ဖြင့် လူတစ်ယောက်ကိုမေးပါ။ 'sister' ဆိုတာ လူတစ်ယောက်ဖြစ်ပါတယ်။",
+          "points": 1
+        },
+        {
+          "id": 503,
+          "question": "I go to school by bus. → ________ do you go to school?",
+          "options": ["Where", "How", "Why"],
+          "answer": "How",
+          "explanation": "The answer 'by bus' describes the manner or way of going, so the correct question word is 'How'. 'How' ဖြင့် ပုံစံ/နည်းလမ်းကိုမေးပါ။ 'by bus' ဆိုတာ သွားနည်းဖြစ်ပါတယ်။",
+          "points": 1
+        },
+        {
+          "id": 504,
+          "question": "Because it's hot. → ________ are you wearing that coat?",
+          "options": ["What", "Where", "Why"],
+          "answer": "Why",
+          "explanation": "The answer 'Because it's hot' gives a reason, so the correct question word is 'Why'. 'Why' ဖြင့် အကြောင်းရင်းကိုမေးပါ။ 'Because' ဆိုတာ အကြောင်းရင်းကိုဖြေပါတယ်။",
+          "points": 1
+        },
+        {
+          "id": 505,
+          "question": "He writes novels. → ________ does he write?",
+          "options": ["How", "What", "Which"],
+          "answer": "What",
+          "explanation": "The answer 'novels' describes a thing, so the correct question word is 'What'. 'What' ဖြင့် အရာဝတ္ထုကိုမေးပါ။ 'novels' ဆိုတာ အရာဝတ္ထုဖြစ်ပါတယ်။",
+          "points": 1
+        },
+        {
+          "id": 506,
+          "question": "The girls watched a serial. → ________ did the girls watch?",
+          "options": ["Who", "When", "What"],
+          "answer": "What",
+          "explanation": "The answer 'a serial' describes a thing, so the correct question word is 'What'. 'What' ဖြင့် အရာဝတ္ထုကိုမေးပါ။ 'serial' ဆိုတာ အရာဝတ္ထုဖြစ်ပါတယ်။",
+          "points": 1
+        },
+        {
+          "id": 507,
+          "question": "Lacy likes soccer. → ________ likes soccer?",
+          "options": ["What", "Who", "Whose"],
+          "answer": "Who",
+          "explanation": "The answer 'Lacy' is a person, so the correct question word is 'Who'. 'Who' ဖြင့် လူတစ်ယောက်ကိုမေးပါ။ 'Lacy' ဆိုတာ လူတစ်ယောက်ဖြစ်ပါတယ်။",
+          "points": 1
+        },
+        {
+          "id": 508,
+          "question": "I like the red one. → ________ one do you like?",
+          "options": ["What", "Where", "Which"],
+          "answer": "Which",
+          "explanation": "The answer 'the red one' describes a choice from options, so the correct question word is 'Which'. 'Which' ဖြင့် ရွေးချယ်စရာကိုမေးပါ။ 'the red one' ဆိုတာ ရွေးချယ်မှုဖြစ်ပါတယ်။",
+          "points": 1
+        },
+        {
+          "id": 509,
+          "question": "It is hers. → ________ book is this?",
+          "options": ["Who", "What", "Whose"],
+          "answer": "Whose",
+          "explanation": "The answer 'hers' indicates possession, so the correct question word is 'Whose'. 'Whose' ဖြင့် ပိုင်ဆိုင်မှုကိုမေးပါ။ 'hers' ဆိုတာ ပိုင်ဆိုင်မှုကိုဖော်ပြပါတယ်။",
+          "points": 1
+        },
+        {
+          "id": 510,
+          "question": "He works at the post office. → ________ does your father work?",
+          "options": ["When", "What", "Where"],
+          "answer": "Where",
+          "explanation": "The answer 'at the post office' describes a place, so the correct question word is 'Where'. 'Where' ဖြင့် နေရာကိုမေးပါ။ 'post office' ဆိုတာ နေရာဖြစ်ပါတယ်။",
+          "points": 1
+        },
+        {
+          "id": 511,
+          "question": "I want to improve my Speaking. → ________ do you take English class?",
+          "options": ["What", "How", "Why"],
+          "answer": "Why",
+          "explanation": "The answer 'I want to improve my Speaking' gives a reason, so the correct question word is 'Why'. 'Why' ဖြင့် အကြောင်းရင်းကိုမေးပါ။ 'I want to' ဆိုတာ အကြောင်းရင်းကိုဖော်ပြပါတယ်။",
+          "points": 1
+        },
+        {
+          "id": 512,
+          "question": "I wake up at 7.30 AM. → ________ do you wake up?",
+          "options": ["Where", "When", "What"],
+          "answer": "When",
+          "explanation": "The answer 'at 7.30 AM' describes a time, so the correct question word is 'When'. 'When' ဖြင့် အချိန်ကိုမေးပါ။ '7.30 AM' ဆိုတာ အချိန်ဖြစ်ပါတယ်။",
+          "points": 1
+        },
+        {
+          "id": 513,
+          "question": "She has three brothers. → ________ many brothers does she have?",
+          "options": ["How", "What", "When"],
+          "answer": "How",
+          "explanation": "The answer 'three' describes a countable quantity, so the correct question is 'How many'. 'How many' ဖြင့် ရေတွက်နိုင်တဲ့ ပမာဏကိုမေးပါ။ 'three' ဆိုတာ ရေတွက်နိုင်တဲ့ ပမာဏဖြစ်ပါတယ်။",
+          "points": 1
+        },
+        {
+          "id": 514,
+          "question": "It is on Saturday night. → ________ is the party?",
+          "options": ["What", "Where", "When"],
+          "answer": "When",
+          "explanation": "The answer 'on Saturday night' describes a time, so the correct question word is 'When'. 'When' ဖြင့် အချိန်ကိုမေးပါ။ 'Saturday night' ဆိုတာ အချိန်ဖြစ်ပါတယ်။",
+          "points": 1
+        },
+        {
+          "id": 515,
+          "question": "He is great. → ________ is your brother?",
+          "options": ["What", "How", "Why"],
+          "answer": "How",
+          "explanation": "The answer 'great' describes a condition or state, so the correct question word is 'How'. 'How' ဖြင့် အခြေအနေကိုမေးပါ။ 'great' ဆိုတာ အခြေအနေဖြစ်ပါတယ်။",
+          "points": 1
+        },
+        {
+          "id": 516,
+          "question": "My brother's name is John. → ________ is your brother's name?",
+          "options": ["Who", "What", "Whose"],
+          "answer": "What",
+          "explanation": "The answer 'John' is a name (a thing/information), so the correct question word is 'What'. 'What' ဖြင့် အမည်ကိုမေးပါ။ 'name' ဆိုတာ အချက်အလက်ဖြစ်ပါတယ်။",
+          "points": 1
+        },
+        {
+          "id": 517,
+          "question": "I am from Myanmar. → ________ are you from?",
+          "options": ["What", "Where", "When"],
+          "answer": "Where",
+          "explanation": "The answer 'Myanmar' is a place/country, so the correct question word is 'Where'. 'Where' ဖြင့် နေရာကိုမေးပါ။ 'Myanmar' ဆိုတာ နိုင်ငံဖြစ်ပါတယ်။",
+          "points": 1
+        },
+        {
+          "id": 518,
+          "question": "She is a doctor. → ________ does she do?",
+          "options": ["How", "What", "Who"],
+          "answer": "What",
+          "explanation": "The answer 'a doctor' describes a job/thing, so the correct question word is 'What'. 'What' ဖြင့် အလုပ်အကိုင်ကိုမေးပါ။ 'doctor' ဆိုတာ အလုပ်အကိုင်ဖြစ်ပါတယ်။",
+          "points": 1
+        },
+        {
+          "id": 519,
+          "question": "The movie starts at 7 PM. → ________ does the movie start?",
+          "options": ["Where", "What", "When"],
+          "answer": "When",
+          "explanation": "The answer 'at 7 PM' describes a time, so the correct question word is 'When'. 'When' ဖြင့် အချိန်ကိုမေးပါ။ '7 PM' ဆိုတာ အချိန်ဖြစ်ပါတယ်။",
+          "points": 1
+        },
+        {
+          "id": 520,
+          "question": "He went to the market. → ________ did he go?",
+          "options": ["When", "What", "Where"],
+          "answer": "Where",
+          "explanation": "The answer 'to the market' describes a place, so the correct question word is 'Where'. 'Where' ဖြင့် နေရာကိုမေးပါ။ 'market' ဆိုတာ နေရာဖြစ်ပါတယ်။",
+          "points": 1
+        },
+        {
+          "id": 521,
+          "question": "I like the blue one. → ________ color do you like?",
+          "options": ["Which", "What", "How"],
+          "answer": "Which",
+          "explanation": "The answer 'the blue one' describes a choice from color options, so the correct question is 'Which'. 'Which' ဖြင့် ရွေးချယ်စရာကိုမေးပါ။ 'blue' ဆိုတာ ရွေးချယ်မှုဖြစ်ပါတယ်။",
+          "points": 1
+        },
+        {
+          "id": 522,
+          "question": "He is 25 years old. → ________ old is he?",
+          "options": ["How", "What", "When"],
+          "answer": "How",
+          "explanation": "The answer '25 years old' describes age, so the correct question is 'How old'. 'How old' ဖြင့် အသက်ကိုမေးပါ။ '25 years old' ဆိုတာ အသက်ဖြစ်ပါတယ်။",
+          "points": 1
+        },
+        {
+          "id": 523,
+          "question": "It is 5 kilometers. → ________ far is it?",
+          "options": ["How", "What", "Where"],
+          "answer": "How",
+          "explanation": "The answer '5 kilometers' describes distance, so the correct question is 'How far'. 'How far' ဖြင့် အကွာအဝေးကိုမေးပါ။ '5 kilometers' ဆိုတာ အကွာအဝေးဖြစ်ပါတယ်။",
+          "points": 1
+        },
+        {
+          "id": 524,
+          "question": "Whom did you call? → I called ________.",
+          "options": ["Where", "my friend", "When"],
+          "answer": "my friend",
+          "explanation": "'Whom' asks about a person (object), so the answer should be a person. 'Whom' ဖြင့် လူတစ်ယောက်ကိုမေးပါ။ 'my friend' ဆိုတာ လူတစ်ယောက်ဖြစ်ပါတယ်။",
+          "points": 1
+        },
+        {
+          "id": 525,
+          "question": "I have two sisters. → ________ many sisters do you have?",
+          "options": ["How", "What", "Which"],
+          "answer": "How",
+          "explanation": "The answer 'two' describes a countable quantity, so the correct question is 'How many'. 'How many' ဖြင့် ရေတွက်နိုင်တဲ့ ပမာဏကိုမေးပါ။ 'two' ဆိုတာ ရေတွက်နိုင်တဲ့ ပမာဏဖြစ်ပါတယ်။",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "id": "unit5-ex2",
+      "type": "multiple_choice",
+      "instructions": "Choose the correct question for the given answer.",
+      "questions": [
+        {
+          "id": 526,
+          "question": "She is my sister. → ________ is that girl?",
+          "options": ["Who", "What", "Where"],
+          "answer": "Who",
+          "explanation": "The answer 'my sister' describes a person, so the correct question word is 'Who'. 'Who' ဖြင့် လူတစ်ယောက်ကိုမေးပါ။ 'sister' ဆိုတာ လူတစ်ယောက်ဖြစ်ပါတယ်။",
+          "points": 1
+        },
+        {
+          "id": 527,
+          "question": "I live in Germany. → ________ do you live?",
+          "options": ["What", "When", "Where"],
+          "answer": "Where",
+          "explanation": "The answer 'in Germany' describes a place, so the correct question word is 'Where'. 'Where' ဖြင့် နေရာကိုမေးပါ။ 'Germany' ဆိုတာ နေရာဖြစ်ပါတယ်။",
+          "points": 1
+        },
+        {
+          "id": 528,
+          "question": "Because it's cold. → ________ are you wearing a jacket?",
+          "options": ["What", "How", "Why"],
+          "answer": "Why",
+          "explanation": "The answer 'Because it's cold' gives a reason, so the correct question word is 'Why'. 'Why' ဖြင့် အကြောင်းရင်းကိုမေးပါ။ 'Because' ဆိုတာ အကြောင်းရင်းကိုဖြေပါတယ်။",
+          "points": 1
+        },
+        {
+          "id": 529,
+          "question": "He writes poems. → ________ does he write?",
+          "options": ["How", "When", "What"],
+          "answer": "What",
+          "explanation": "The answer 'poems' describes a thing, so the correct question word is 'What'. 'What' ဖြင့် အရာဝတ္ထုကိုမေးပါ။ 'poems' ဆိုတာ အရာဝတ္ထုဖြစ်ပါတယ်။",
+          "points": 1
+        },
+        {
+          "id": 530,
+          "question": "I go to school by bike. → ________ do you go to school?",
+          "options": ["Where", "When", "How"],
+          "answer": "How",
+          "explanation": "The answer 'by bike' describes the manner of going, so the correct question word is 'How'. 'How' ဖြင့် ပုံစံ/နည်းလမ်းကိုမေးပါ။ 'by bike' ဆိုတာ သွားနည်းဖြစ်ပါတယ်။",
+          "points": 1
+        },
+        {
+          "id": 531,
+          "question": "I wake up at 6 AM. → ________ do you wake up?",
+          "options": ["Where", "What", "When"],
+          "answer": "When",
+          "explanation": "The answer 'at 6 AM' describes a time, so the correct question word is 'When'. 'When' ဖြင့် အချိန်ကိုမေးပါ။ '6 AM' ဆိုတာ အချိန်ဖြစ်ပါတယ်။",
+          "points": 1
+        },
+        {
+          "id": 532,
+          "question": "It is hers. → ________ bag is this?",
+          "options": ["Who", "Whose", "What"],
+          "answer": "Whose",
+          "explanation": "The answer 'hers' indicates possession, so the correct question word is 'Whose'. 'Whose' ဖြင့် ပိုင်ဆိုင်မှုကိုမေးပါ။ 'hers' ဆိုတာ ပိုင်ဆိုင်မှုကိုဖော်ပြပါတယ်။",
+          "points": 1
+        },
+        {
+          "id": 533,
+          "question": "Tom likes soccer. → ________ likes soccer?",
+          "options": ["What", "Who", "Whose"],
+          "answer": "Who",
+          "explanation": "The answer 'Tom' is a person, so the correct question word is 'Who'. 'Who' ဖြင့် လူတစ်ယောက်ကိုမေးပါ။ 'Tom' ဆိုတာ လူတစ်ယောက်ဖြစ်ပါတယ်။",
+          "points": 1
+        },
+        {
+          "id": 534,
+          "question": "She is a nurse. → ________ does she do?",
+          "options": ["How", "What", "Who"],
+          "answer": "What",
+          "explanation": "The answer 'a nurse' describes a job, so the correct question word is 'What'. 'What' ဖြင့် အလုပ်အကိုင်ကိုမေးပါ။ 'nurse' ဆိုတာ အလုပ်အကိုင်ဖြစ်ပါတယ်။",
+          "points": 1
+        },
+        {
+          "id": 535,
+          "question": "I like the small one. → ________ one do you like?",
+          "options": ["What", "Which", "Where"],
+          "answer": "Which",
+          "explanation": "The answer 'the small one' describes a choice from options, so the correct question word is 'Which'. 'Which' ဖြင့် ရွေးချယ်စရာကိုမေးပါ။ 'small one' ဆိုတာ ရွေးချယ်မှုဖြစ်ပါတယ်။",
+          "points": 1
+        },
+        {
+          "id": 536,
+          "question": "He works at the hospital. → ________ does he work?",
+          "options": ["When", "What", "Where"],
+          "answer": "Where",
+          "explanation": "The answer 'at the hospital' describes a place, so the correct question word is 'Where'. 'Where' ဖြင့် နေရာကိုမေးပါ။ 'hospital' ဆိုတာ နေရာဖြစ်ပါတယ်။",
+          "points": 1
+        },
+        {
+          "id": 537,
+          "question": "I am 20 years old. → ________ old are you?",
+          "options": ["How", "What", "When"],
+          "answer": "How",
+          "explanation": "The answer '20 years old' describes age, so the correct question is 'How old'. 'How old' ဖြင့် အသက်ကိုမေးပါ။ '20 years old' ဆိုတာ အသက်ဖြစ်ပါတယ်။",
+          "points": 1
+        },
+        {
+          "id": 538,
+          "question": "She has three dogs. → ________ many dogs does she have?",
+          "options": ["What", "How", "Which"],
+          "answer": "How",
+          "explanation": "The answer 'three' describes a countable quantity, so the correct question is 'How many'. 'How many' ဖြင့် ရေတွက်နိုင်တဲ့ ပမာဏကိုမေးပါ။ 'three' ဆိုတာ ရေတွက်နိုင်တဲ့ ပမာဏဖြစ်ပါတယ်။",
+          "points": 1
+        },
+        {
+          "id": 539,
+          "question": "The party is on Friday. → ________ is the party?",
+          "options": ["What", "Where", "When"],
+          "answer": "When",
+          "explanation": "The answer 'on Friday' describes a time, so the correct question word is 'When'. 'When' ဖြင့် အချိန်ကိုမေးပါ။ 'Friday' ဆိုတာ အချိန်ဖြစ်ပါတယ်။",
+          "points": 1
+        },
+        {
+          "id": 540,
+          "question": "He went to Yangon. → ________ did he go?",
+          "options": ["When", "Why", "Where"],
+          "answer": "Where",
+          "explanation": "The answer 'to Yangon' describes a place, so the correct question word is 'Where'. 'Where' ဖြင့် နေရာကိုမေးပါ။ 'Yangon' ဆိုတာ နေရာဖြစ်ပါတယ်။",
+          "points": 1
+        },
+        {
+          "id": 541,
+          "question": "He is great. → ________ is your father?",
+          "options": ["What", "Why", "How"],
+          "answer": "How",
+          "explanation": "The answer 'great' describes a condition or state, so the correct question word is 'How'. 'How' ဖြင့် အခြေအနေကိုမေးပါ။ 'great' ဆိုတာ အခြေအနေဖြစ်ပါတယ်။",
+          "points": 1
+        },
+        {
+          "id": 542,
+          "question": "I have $50. → ________ much money do you have?",
+          "options": ["How", "What", "When"],
+          "answer": "How",
+          "explanation": "The answer '$50' describes an uncountable quantity (money), so the correct question is 'How much'. 'How much' ဖြင့် မရေတွက်နိုင်တဲ့ ပမာဏကိုမေးပါ။ 'money' ဆိုတာ မရေတွက်နိုင်တဲ့ ပမာဏဖြစ်ပါတယ်။",
+          "points": 1
+        },
+        {
+          "id": 543,
+          "question": "It takes 30 minutes. → ________ long will it take?",
+          "options": ["How", "What", "Where"],
+          "answer": "How",
+          "explanation": "The answer '30 minutes' describes a time duration, so the correct question is 'How long'. 'How long' ဖြင့် ကြာချိန်ကိုမေးပါ။ '30 minutes' ဆိုတာ ကြာချိန်ဖြစ်ပါတယ်။",
+          "points": 1
+        },
+        {
+          "id": 544,
+          "question": "I saw John. → ________ did you see?",
+          "options": ["Where", "Who", "What"],
+          "answer": "Who",
+          "explanation": "The answer 'John' is a person, so the correct question word is 'Who'. 'Who' ဖြင့် လူတစ်ယောက်ကိုမေးပါ။ 'John' ဆိုတာ လူတစ်ယောက်ဖြစ်ပါတယ်။",
+          "points": 1
+        },
+        {
+          "id": 545,
+          "question": "She is 30 years old. → ________ old is she?",
+          "options": ["How", "What", "When"],
+          "answer": "How",
+          "explanation": "The answer '30 years old' describes age, so the correct question is 'How old'. 'How old' ဖြင့် အသက်ကိုမေးပါ။ '30 years old' ဆိုတာ အသက်ဖြစ်ပါတယ်။",
+          "points": 1
+        },
+        {
+          "id": 546,
+          "question": "I go to school by car. → ________ do you go to school?",
+          "options": ["Where", "What", "How"],
+          "answer": "How",
+          "explanation": "The answer 'by car' describes the manner of going, so the correct question word is 'How'. 'How' ဖြင့် ပုံစံ/နည်းလမ်းကိုမေးပါ။ 'by car' ဆိုတာ သွားနည်းဖြစ်ပါတယ်။",
+          "points": 1
+        },
+        {
+          "id": 547,
+          "question": "He is from Japan. → ________ is he from?",
+          "options": ["What", "When", "Where"],
+          "answer": "Where",
+          "explanation": "The answer 'Japan' is a place/country, so the correct question word is 'Where'. 'Where' ဖြင့် နေရာကိုမေးပါ။ 'Japan' ဆိုတာ နိုင်ငံဖြစ်ပါတယ်။",
+          "points": 1
+        },
+        {
+          "id": 548,
+          "question": "I watch TV at night. → ________ do you watch TV?",
+          "options": ["Where", "How", "When"],
+          "answer": "When",
+          "explanation": "The answer 'at night' describes a time, so the correct question word is 'When'. 'When' ဖြင့် အချိန်ကိုမေးပါ။ 'night' ဆိုတာ အချိန်ဖြစ်ပါတယ်။",
+          "points": 1
+        },
+        {
+          "id": 549,
+          "question": "He is a teacher. → ________ is your father?",
+          "options": ["Who", "Where", "What"],
+          "answer": "What",
+          "explanation": "The answer 'a teacher' describes a job/thing, so the correct question word is 'What'. 'What' ဖြင့် အလုပ်အကိုင်ကိုမေးပါ။ 'teacher' ဆိုတာ အလုပ်အကိုင်ဖြစ်ပါတယ်။",
+          "points": 1
+        },
+        {
+          "id": 550,
+          "question": "I like the big one. → ________ one do you like?",
+          "options": ["What", "Where", "Which"],
+          "answer": "Which",
+          "explanation": "The answer 'the big one' describes a choice from options, so the correct question word is 'Which'. 'Which' ဖြင့် ရွေးချယ်စရာကိုမေးပါ။ 'big one' ဆိုတာ ရွေးချယ်မှုဖြစ်ပါတယ်။",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "id": "unit5-ex3",
+      "type": "multiple_choice",
+      "instructions": "Complete the wh-question by choosing the correct wh-word.",
+      "questions": [
+        {
+          "id": 551,
+          "question": "________ is your name?",
+          "options": ["Who", "What", "Where"],
+          "answer": "What",
+          "explanation": "'What' is used to ask about things or information like a name. 'What' ဖြင့် နာမည်ကဲ့သို့သော အချက်အလက်ကိုမေးပါ။",
+          "points": 2
+        },
+        {
+          "id": 552,
+          "question": "________ are you going?",
+          "options": ["What", "When", "Where"],
+          "answer": "Where",
+          "explanation": "'Where' is used to ask about a place or destination. 'Where' ဖြင့် နေရာကိုမေးပါ။",
+          "points": 2
+        },
+        {
+          "id": 553,
+          "question": "________ time is it?",
+          "options": ["What", "When", "How"],
+          "answer": "What",
+          "explanation": "'What time' is used to ask about a specific time. 'What time' ဖြင့် အချိန်ကိုမေးပါ။",
+          "points": 2
+        },
+        {
+          "id": 554,
+          "question": "________ do you live?",
+          "options": ["What", "How", "Where"],
+          "answer": "Where",
+          "explanation": "'Where' is used to ask about a place of residence. 'Where' ဖြင့် နေထိုင်ရာနေရာကိုမေးပါ။",
+          "points": 2
+        },
+        {
+          "id": 555,
+          "question": "________ did you do it?",
+          "options": ["Why", "What", "How"],
+          "answer": "Why",
+          "explanation": "'Why' is used to ask about the reason. 'Why' ဖြင့် အကြောင်းရင်းကိုမေးပါ။",
+          "points": 2
+        },
+        {
+          "id": 556,
+          "question": "________ do you go to school?",
+          "options": ["What", "Where", "How"],
+          "answer": "How",
+          "explanation": "'How' is used to ask about manner or way. 'How' ဖြင့် ပုံစံ/နည်းလမ်းကိုမေးပါ။",
+          "points": 2
+        },
+        {
+          "id": 557,
+          "question": "________ is she crying?",
+          "options": ["How", "What", "Why"],
+          "answer": "Why",
+          "explanation": "'Why' is used to ask about the reason. 'Why' ဖြင့် အကြောင်းရင်းကိုမေးပါ။",
+          "points": 2
+        },
+        {
+          "id": 558,
+          "question": "________ is your birthday?",
+          "options": ["Where", "How", "When"],
+          "answer": "When",
+          "explanation": "'When' is used to ask about time. 'When' ဖြင့် အချိန်ကိုမေးပါ။",
+          "points": 2
+        },
+        {
+          "id": 559,
+          "question": "________ are they playing?",
+          "options": ["Who", "What", "Why"],
+          "answer": "What",
+          "explanation": "'What' is used to ask about things or activities. 'What' ဖြင့် လုပ်ဆောင်ချက်ကိုမေးပါ။",
+          "points": 2
+        },
+        {
+          "id": 560,
+          "question": "________ pen is this?",
+          "options": ["Who", "Whose", "What"],
+          "answer": "Whose",
+          "explanation": "'Whose' is used to ask about possession. 'Whose' ဖြင့် ပိုင်ဆိုင်မှုကိုမေးပါ။",
+          "points": 2
+        },
+        {
+          "id": 561,
+          "question": "________ old is your sister?",
+          "options": ["How", "What", "When"],
+          "answer": "How",
+          "explanation": "'How old' is used to ask about age. 'How old' ဖြင့် အသက်ကိုမေးပါ။",
+          "points": 2
+        },
+        {
+          "id": 562,
+          "question": "________ do you like best?",
+          "options": ["Who", "How", "Which"],
+          "answer": "Which",
+          "explanation": "'Which' is used to ask about choices from a limited set. 'Which' ဖြင့် ရွေးချယ်စရာကိုမေးပါ။",
+          "points": 2
+        },
+        {
+          "id": 563,
+          "question": "________ is that man?",
+          "options": ["What", "Who", "Where"],
+          "answer": "Who",
+          "explanation": "'Who' is used to ask about people. 'Who' ဖြင့် လူတစ်ယောက်ကိုမေးပါ။",
+          "points": 2
+        },
+        {
+          "id": 564,
+          "question": "________ much does it cost?",
+          "options": ["How", "What", "When"],
+          "answer": "How",
+          "explanation": "'How much' is used to ask about price or uncountable quantity. 'How much' ဖြင့် စျေးနှုန်းကိုမေးပါ။",
+          "points": 2
+        },
+        {
+          "id": 565,
+          "question": "________ are you late?",
+          "options": ["What", "How", "Why"],
+          "answer": "Why",
+          "explanation": "'Why' is used to ask about the reason. 'Why' ဖြင့် အကြောင်းရင်းကိုမေးပါ။",
+          "points": 2
+        },
+        {
+          "id": 566,
+          "question": "________ far is the school?",
+          "options": ["How", "What", "Where"],
+          "answer": "How",
+          "explanation": "'How far' is used to ask about distance. 'How far' ဖြင့် အကွာအဝေးကိုမေးပါ။",
+          "points": 2
+        },
+        {
+          "id": 567,
+          "question": "________ are you waiting for?",
+          "options": ["Where", "Who", "What"],
+          "answer": "What",
+          "explanation": "'What' is used to ask about things. 'What' ဖြင့် အရာဝတ္ထုကိုမေးပါ။",
+          "points": 2
+        },
+        {
+          "id": 568,
+          "question": "________ long is the movie?",
+          "options": ["How", "What", "When"],
+          "answer": "How",
+          "explanation": "'How long' is used to ask about duration. 'How long' ဖြင့် ကြာချိန်ကိုမေးပါ။",
+          "points": 2
+        },
+        {
+          "id": 569,
+          "question": "________ did you buy?",
+          "options": ["Where", "How", "What"],
+          "answer": "What",
+          "explanation": "'What' is used to ask about things. 'What' ဖြင့် အရာဝတ္ထုကိုမေးပါ။",
+          "points": 2
+        },
+        {
+          "id": 570,
+          "question": "________ many students are there?",
+          "options": ["How", "What", "Which"],
+          "answer": "How",
+          "explanation": "'How many' is used to ask about countable quantity. 'How many' ဖြင့် ရေတွက်နိုင်တဲ့ ပမာဏကိုမေးပါ။",
+          "points": 2
+        },
+        {
+          "id": 571,
+          "question": "________ is the weather today?",
+          "options": ["What", "Where", "How"],
+          "answer": "How",
+          "explanation": "'How' is used to ask about condition. 'How' ဖြင့် အခြေအနေကိုမေးပါ။",
+          "points": 2
+        },
+        {
+          "id": 572,
+          "question": "________ do you work?",
+          "options": ["When", "What", "Where"],
+          "answer": "Where",
+          "explanation": "'Where' is used to ask about a place. 'Where' ဖြင့် နေရာကိုမေးပါ။",
+          "points": 2
+        },
+        {
+          "id": 573,
+          "question": "________ does the bus come?",
+          "options": ["What", "Where", "When"],
+          "answer": "When",
+          "explanation": "'When' is used to ask about time. 'When' ဖြင့် အချိန်ကိုမေးပါ။",
+          "points": 2
+        },
+        {
+          "id": 574,
+          "question": "________ kind of music do you like?",
+          "options": ["How", "Which", "What"],
+          "answer": "What",
+          "explanation": "'What kind' is used to ask about type or kind. 'What kind' ဖြင့် အမျိုးအစားကိုမေးပါ။",
+          "points": 2
+        },
+        {
+          "id": 575,
+          "question": "________ did you give it to?",
+          "options": ["Who", "What", "Where"],
+          "answer": "Who",
+          "explanation": "'Who' is used to ask about people (object). 'Who' ဖြင့် လူတစ်ယောက်ကိုမေးပါ။",
+          "points": 2
+        }
+      ]
+    }
+  ]
+}

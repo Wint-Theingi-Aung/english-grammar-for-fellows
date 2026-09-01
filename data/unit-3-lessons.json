@@ -1,0 +1,126 @@
+{
+  "unit": 3,
+  "title": "Verb to Have (has, have, had)",
+  "lessons": [
+    {
+      "id": "unit3-lesson1",
+      "title": "have/has in the Simple Present",
+      "content": "The verb 'have' is used as a main verb to show ownership or possession. In Simple Present, use 'have' with I, we, you, and they. Use 'has' with he, she, and it.",
+      "details": [
+        {
+          "subject": "I / We / You / They",
+          "form": "have",
+          "example": "I have a car.",
+          "burmese": "ကျွန်မ ကားတစ်စီး ရှိတယ်။"
+        },
+        {
+          "subject": "He / She / It",
+          "form": "has",
+          "example": "She has many pencils.",
+          "burmese": "သူမ ဘေလွင့်တံ အများကြီး ရှိတယ်။"
+        }
+      ],
+      "conjugation": [
+        { "subject": "I", "form": "have" },
+        { "subject": "We", "form": "have" },
+        { "subject": "You", "form": "have" },
+        { "subject": "He", "form": "has" },
+        { "subject": "She", "form": "has" },
+        { "subject": "It", "form": "has" },
+        { "subject": "They", "form": "have" }
+      ]
+    },
+    {
+      "id": "unit3-lesson2",
+      "title": "had in the Simple Past",
+      "content": "In Simple Past, we use 'had' for all subjects. 'Had' is the past form of 'have'. Use time markers like 'before', 'yesterday', 'last week', 'two days ago' with Simple Past.",
+      "details": [
+        {
+          "subject": "All subjects",
+          "form": "had",
+          "example": "I had a car before.",
+          "burmese": "အရင်က ကျွန်မ ကားတစ်စီး ရှိခဲ့တယ်။"
+        },
+        {
+          "subject": "All subjects (negative)",
+          "form": "didn't have",
+          "example": "I didn't have a car before.",
+          "burmese": "အရင်က ကျွန်မ ကားတစ်စီး မရှိခဲ့ဘူး။"
+        },
+        {
+          "subject": "All subjects (question)",
+          "form": "Did + subject + have",
+          "example": "Did I have a car before?",
+          "burmese": "အရင်က ကျွန်မ ကားတစ်စီး ရှိခဲ့လား။"
+        }
+      ]
+    },
+    {
+      "id": "unit3-lesson3",
+      "title": "Perfect Tenses with have",
+      "content": "The verb 'have' is used as an auxiliary verb in the perfect tenses. Present Perfect uses have/has + V3, Past Perfect uses had + V3, and Future Perfect uses will have + V3.",
+      "forms": {
+        "present_perfect": "Subject + have/has + V3",
+        "past_perfect": "Subject + had + V3",
+        "future_perfect": "Subject + will have + V3"
+      },
+      "details": [
+        {
+          "tense": "Present Perfect",
+          "form": "Subject + have/has + V3",
+          "examples": [
+            "I have walked on this path before.",
+            "He has written several movie scripts.",
+            "She has been here for twenty minutes."
+          ]
+        },
+        {
+          "tense": "Past Perfect",
+          "form": "Subject + had + V3",
+          "examples": [
+            "I had seen him before.",
+            "We had met him before he became famous.",
+            "She had established her company before 2008."
+          ]
+        },
+        {
+          "tense": "Future Perfect",
+          "form": "Subject + will have + V3",
+          "examples": [
+            "I will have left for my trip.",
+            "We will have finished our project.",
+            "You will have sent the document by Tuesday."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "unit3-lesson4",
+      "title": "Sentence Forms with have",
+      "content": "When making negative and interrogative sentences with 'have' as a main verb, we use 'do/does/did' as an auxiliary verb. 'Do not have' / 'Does not have' / 'Did not have' for negatives, and 'Do/Does/Did + subject + have' for questions.",
+      "forms": {
+        "affirmative": "Subject + have/has/had",
+        "negative": "Subject + don't/doesn't/didn't + have",
+        "interrogative": "Do/Does/Did + subject + have",
+        "negative_interrogative": "Don't/Doesn't/Didn't + subject + have"
+      }
+    },
+    {
+      "id": "unit3-lesson5",
+      "title": "Short Answers with have",
+      "content": "When replying to Yes/No questions about 'have', use short answers with the same auxiliary verb used in the question.",
+      "answer_types": {
+        "short_answer": "Yes/No + auxiliary verb (do/does/did/will/has/had)",
+        "long_answer": "Yes/No + full sentence with have"
+      },
+      "details": [
+        { "question": "Do you have a car?", "positive": "Yes, I do.", "negative": "No, I don't." },
+        { "question": "Did you have a car before?", "positive": "Yes, I did.", "negative": "No, I didn't." },
+        { "question": "Will you have a car next year?", "positive": "Yes, I will.", "negative": "No, I won't." },
+        { "question": "Has she been here for twenty minutes?", "positive": "Yes, she has.", "negative": "No, she hasn't." },
+        { "question": "Had he met her before the party?", "positive": "Yes, he had.", "negative": "No, he hadn't." },
+        { "question": "Will they have finished by tomorrow?", "positive": "Yes, they will.", "negative": "No, they won't." }
+      ]
+    }
+  ]
+}

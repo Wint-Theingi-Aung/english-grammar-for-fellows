@@ -1,0 +1,626 @@
+{
+  "unit": 3,
+  "exercises": [
+    {
+      "id": "unit3-ex1",
+      "type": "multiple_choice",
+      "instructions": "Choose the correct form of 'have' to complete each sentence.",
+      "questions": [
+        {
+          "id": 301,
+          "question": "I ________ a car.",
+          "options": ["have", "has", "had"],
+          "answer": "have",
+          "explanation": "With 'I', we use 'have'. 'I have' is the correct Simple Present form for first person singular. 'I' နဲ့ 'have' ကိုသုံးပါ။",
+          "points": 1
+        },
+        {
+          "id": 302,
+          "question": "She ________ many pencils.",
+          "options": ["have", "has", "had"],
+          "answer": "has",
+          "explanation": "With 'she', we use 'has'. 'Has' is the correct Simple Present form for third person singular. 'She' နဲ့ 'has' ကိုသုံးပါ။",
+          "points": 1
+        },
+        {
+          "id": 303,
+          "question": "We ________ lots of books.",
+          "options": ["have", "has", "had"],
+          "answer": "have",
+          "explanation": "With 'we', we use 'have'. 'We have' is the correct Simple Present form for first person plural. 'We' နဲ့ 'have' ကိုသုံးပါ။",
+          "points": 1
+        },
+        {
+          "id": 304,
+          "question": "He ________ his own diary.",
+          "options": ["have", "has", "had"],
+          "answer": "has",
+          "explanation": "With 'he', we use 'has'. 'He has' is the correct Simple Present form for third person singular. 'He' နဲ့ 'has' ကိုသုံးပါ။",
+          "points": 1
+        },
+        {
+          "id": 305,
+          "question": "They ________ many clothes.",
+          "options": ["have", "has", "had"],
+          "answer": "have",
+          "explanation": "With 'they', we use 'have'. 'They have' is the correct Simple Present form for third person plural. 'They' နဲ့ 'have' ကိုသုံးပါ။",
+          "points": 1
+        },
+        {
+          "id": 306,
+          "question": "I ________ a car before.",
+          "options": ["have", "has", "had"],
+          "answer": "had",
+          "explanation": "'Before' indicates past time, so we use 'had' (Simple Past). 'Before' ဆိုတာ အတိတ်ကာလဖြစ်တဲ့အတွက် 'had' ကိုသုံးပါ။",
+          "points": 1
+        },
+        {
+          "id": 307,
+          "question": "She ________ many friends last week.",
+          "options": ["have", "has", "had"],
+          "answer": "had",
+          "explanation": "'Last week' indicates past time, so we use 'had' (Simple Past). 'Last week' ဆိုတာ အတိတ်ကာလဖြစ်တဲ့အတွက် 'had' ကိုသုံးပါ။",
+          "points": 1
+        },
+        {
+          "id": 308,
+          "question": "We ________ a big house next year.",
+          "options": ["have", "has", "will have"],
+          "answer": "will have",
+          "explanation": "'Next year' indicates future time, so we use 'will have'. 'Next year' ဆိုတာ အနာဂတ်ကာလဖြစ်တဲ့အတွက် 'will have' ကိုသုံးပါ။",
+          "points": 1
+        },
+        {
+          "id": 309,
+          "question": "He ________ a new phone yesterday.",
+          "options": ["have", "has", "had"],
+          "answer": "had",
+          "explanation": "'Yesterday' indicates past time, so we use 'had' (Simple Past). 'Yesterday' ဆိုတာ အတိတ်ကာလဖြစ်တဲ့အတွက် 'had' ကိုသုံးပါ။",
+          "points": 1
+        },
+        {
+          "id": 310,
+          "question": "You ________ a beautiful garden now.",
+          "options": ["have", "has", "will have"],
+          "answer": "have",
+          "explanation": "With 'you', we use 'have'. 'Now' indicates present time. 'You' နဲ့ 'have' ကိုသုံးပါ။ 'Now' ဆိုတာ လက်ရှိကာလဖြစ်ပါတယ်။",
+          "points": 1
+        },
+        {
+          "id": 311,
+          "question": "It ________ a long history.",
+          "options": ["have", "has", "had"],
+          "answer": "has",
+          "explanation": "With 'it', we use 'has'. 'It has' is the correct Simple Present form for third person singular. 'It' နဲ့ 'has' ကိုသုံးပါ။",
+          "points": 1
+        },
+        {
+          "id": 312,
+          "question": "They ________ lots of money two days ago.",
+          "options": ["have", "has", "had"],
+          "answer": "had",
+          "explanation": "'Two days ago' indicates past time, so we use 'had' (Simple Past). 'Two days ago' ဆိုတာ အတိတ်ကာလဖြစ်တဲ့အတွက် 'had' ကိုသုံးပါ။",
+          "points": 1
+        },
+        {
+          "id": 313,
+          "question": "I ________ three brothers.",
+          "options": ["have", "has", "had"],
+          "answer": "have",
+          "explanation": "With 'I', we use 'have'. 'I have' is the correct Simple Present form. 'I' နဲ့ 'have' ကိုသုံးပါ။",
+          "points": 1
+        },
+        {
+          "id": 314,
+          "question": "She ________ a dog every day.",
+          "options": ["have", "has", "had"],
+          "answer": "has",
+          "explanation": "With 'she', we use 'has'. 'Every day' indicates a regular habit. 'She' နဲ့ 'has' ကိုသုံးပါ။",
+          "points": 1
+        },
+        {
+          "id": 315,
+          "question": "We ________ a new car last month.",
+          "options": ["have", "has", "had"],
+          "answer": "had",
+          "explanation": "'Last month' indicates past time, so we use 'had' (Simple Past). 'Last month' ဆိုတာ အတိတ်ကာလဖြစ်တဲ့အတွက် 'had' ကိုသုံးပါ။",
+          "points": 1
+        },
+        {
+          "id": 316,
+          "question": "He ________ a car next year.",
+          "options": ["have", "has", "will have"],
+          "answer": "will have",
+          "explanation": "'Next year' indicates future time, so we use 'will have'. 'Next year' ဆိုတာ အနာဂတ်ကာလဖြစ်တဲ့အတွက် 'will have' ကိုသုံးပါ။",
+          "points": 1
+        },
+        {
+          "id": 317,
+          "question": "You ________ a bicycle when you were young.",
+          "options": ["have", "has", "had"],
+          "answer": "had",
+          "explanation": "'When you were young' indicates past time, so we use 'had' (Simple Past). 'When you were young' ဆိုတာ အတိတ်ကာလဖြစ်တဲ့အတွက် 'had' ကိုသုံးပါ။",
+          "points": 1
+        },
+        {
+          "id": 318,
+          "question": "They ________ a meeting tomorrow.",
+          "options": ["have", "has", "will have"],
+          "answer": "will have",
+          "explanation": "'Tomorrow' indicates future time, so we use 'will have'. 'Tomorrow' ဆိုတာ အနာဂတ်ကာလဖြစ်တဲ့အတွက် 'will have' ကိုသုံးပါ။",
+          "points": 1
+        },
+        {
+          "id": 319,
+          "question": "It ________ a lot of rain yesterday.",
+          "options": ["have", "has", "had"],
+          "answer": "had",
+          "explanation": "'Yesterday' indicates past time, so we use 'had' (Simple Past). 'Yesterday' ဆိုတာ အတိတ်ကာလဖြစ်တဲ့အတွက် 'had' ကိုသုံးပါ။",
+          "points": 1
+        },
+        {
+          "id": 320,
+          "question": "I ________ two sisters.",
+          "options": ["have", "has", "had"],
+          "answer": "have",
+          "explanation": "With 'I', we use 'have'. 'I have' is the correct Simple Present form. 'I' နဲ့ 'have' ကိုသုံးပါ။",
+          "points": 1
+        },
+        {
+          "id": 321,
+          "question": "She ________ a beautiful dress.",
+          "options": ["have", "has", "had"],
+          "answer": "has",
+          "explanation": "With 'she', we use 'has'. 'She has' is the correct Simple Present form. 'She' နဲ့ 'has' ကိုသုံးပါ။",
+          "points": 1
+        },
+        {
+          "id": 322,
+          "question": "He ________ a new job last week.",
+          "options": ["have", "has", "had"],
+          "answer": "had",
+          "explanation": "'Last week' indicates past time, so we use 'had' (Simple Past). 'Last week' ဆိုတာ အတိတ်ကာလဖြစ်တဲ့အတွက် 'had' ကိုသုံးပါ။",
+          "points": 1
+        },
+        {
+          "id": 323,
+          "question": "We ________ enough time now.",
+          "options": ["have", "has", "had"],
+          "answer": "have",
+          "explanation": "With 'we', we use 'have'. 'Now' indicates present time. 'We' နဲ့ 'have' ကိုသုံးပါ။",
+          "points": 1
+        },
+        {
+          "id": 324,
+          "question": "They ________ a holiday next month.",
+          "options": ["have", "has", "will have"],
+          "answer": "will have",
+          "explanation": "'Next month' indicates future time, so we use 'will have'. 'Next month' ဆိုတာ အနာဂတ်ကာလဖြစ်တဲ့အတွက် 'will have' ကိုသုံးပါ။",
+          "points": 1
+        },
+        {
+          "id": 325,
+          "question": "You ________ a pen yesterday.",
+          "options": ["have", "has", "had"],
+          "answer": "had",
+          "explanation": "'Yesterday' indicates past time, so we use 'had' (Simple Past). 'Yesterday' ဆိုတာ အတိတ်ကာလဖြစ်တဲ့အတွက် 'had' ကိုသုံးပါ။",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "id": "unit3-ex2",
+      "type": "multiple_choice",
+      "instructions": "Choose the correct short answer.",
+      "questions": [
+        {
+          "id": 326,
+          "question": "Do you have a car? Yes, ________.",
+          "options": ["I do", "I did", "I will"],
+          "answer": "I do",
+          "explanation": "The question uses 'Do' (Simple Present), so the short answer must be 'I do'. မေးခွန်းက 'Do' (Simple Present) သုံးထားတဲ့အတွက် အဖြေက 'I do' ဖြစ်ရပါမယ်။",
+          "points": 1
+        },
+        {
+          "id": 327,
+          "question": "Do you have a car? No, ________.",
+          "options": ["I don't", "I didn't", "I won't"],
+          "answer": "I don't",
+          "explanation": "The question uses 'Do' (Simple Present), so the short negative answer must be 'I don't'. မေးခွန်းက 'Do' (Simple Present) သုံးထားတဲ့အတွက် အဖြေက 'I don't' ဖြစ်ရပါမယ်။",
+          "points": 1
+        },
+        {
+          "id": 328,
+          "question": "Did you have a car before? Yes, ________.",
+          "options": ["I did", "I do", "I will"],
+          "answer": "I did",
+          "explanation": "The question uses 'Did' (Simple Past), so the short answer must be 'I did'. မေးခွန်းက 'Did' (Simple Past) သုံးထားတဲ့အတွက် အဖြေက 'I did' ဖြစ်ရပါမယ်။",
+          "points": 1
+        },
+        {
+          "id": 329,
+          "question": "Did you have a car before? No, ________.",
+          "options": ["I didn't", "I don't", "I won't"],
+          "answer": "I didn't",
+          "explanation": "The question uses 'Did' (Simple Past), so the short negative answer must be 'I didn't'. မေးခွန်းက 'Did' (Simple Past) သုံးထားတဲ့အတွက် အဖြေက 'I didn't' ဖြစ်ရပါမယ်။",
+          "points": 1
+        },
+        {
+          "id": 330,
+          "question": "Will you have a car next year? Yes, ________.",
+          "options": ["I will", "I do", "I did"],
+          "answer": "I will",
+          "explanation": "The question uses 'Will' (Simple Future), so the short answer must be 'I will'. မေးခွန်းက 'Will' (Simple Future) သုံးထားတဲ့အတွက် အဖြေက 'I will' ဖြစ်ရပါမယ်။",
+          "points": 1
+        },
+        {
+          "id": 331,
+          "question": "Will you have a car next year? No, ________.",
+          "options": ["I won't", "I don't", "I didn't"],
+          "answer": "I won't",
+          "explanation": "The question uses 'Will' (Simple Future), so the short negative answer must be 'I won't'. မေးခွန်းက 'Will' (Simple Future) သုံးထားတဲ့အတွက် အဖြေက 'I won't' ဖြစ်ရပါမယ်။",
+          "points": 1
+        },
+        {
+          "id": 332,
+          "question": "Has she been here for twenty minutes? Yes, ________.",
+          "options": ["she has", "she have", "she had"],
+          "answer": "she has",
+          "explanation": "The question uses 'Has' (Present Perfect), so the short answer must be 'she has'. မေးခွန်းက 'Has' (Present Perfect) သုံးထားတဲ့အတွက် အဖြေက 'she has' ဖြစ်ရပါမယ်။",
+          "points": 1
+        },
+        {
+          "id": 333,
+          "question": "Has she been here for twenty minutes? No, ________.",
+          "options": ["she hasn't", "she haven't", "she hadn't"],
+          "answer": "she hasn't",
+          "explanation": "The question uses 'Has' (Present Perfect), so the short negative answer must be 'she hasn't'. မေးခွန်းက 'Has' (Present Perfect) သုံးထားတဲ့အတွက် အဖြေက 'she hasn't' ဖြစ်ရပါမယ်။",
+          "points": 1
+        },
+        {
+          "id": 334,
+          "question": "Had he met her before the party? Yes, ________.",
+          "options": ["he had", "he has", "he did"],
+          "answer": "he had",
+          "explanation": "The question uses 'Had' (Past Perfect), so the short answer must be 'he had'. မေးခွန်းက 'Had' (Past Perfect) သုံးထားတဲ့အတွက် အဖြေက 'he had' ဖြစ်ရပါမယ်။",
+          "points": 1
+        },
+        {
+          "id": 335,
+          "question": "Had he met her before the party? No, ________.",
+          "options": ["he hadn't", "he hasn't", "he didn't"],
+          "answer": "he hadn't",
+          "explanation": "The question uses 'Had' (Past Perfect), so the short negative answer must be 'he hadn't'. မေးခွန်းက 'Had' (Past Perfect) သုံးထားတဲ့အတွက် အဖြေက 'he hadn't' ဖြစ်ရပါမယ်။",
+          "points": 1
+        },
+        {
+          "id": 336,
+          "question": "Will they have finished by tomorrow? Yes, ________.",
+          "options": ["they will", "they have", "they had"],
+          "answer": "they will",
+          "explanation": "The question uses 'Will' (Future Perfect), so the short answer must be 'they will'. မေးခွန်းက 'Will' (Future Perfect) သုံးထားတဲ့အတွက် အဖြေက 'they will' ဖြစ်ရပါမယ်။",
+          "points": 1
+        },
+        {
+          "id": 337,
+          "question": "Will they have finished by tomorrow? No, ________.",
+          "options": ["they won't", "they haven't", "they hadn't"],
+          "answer": "they won't",
+          "explanation": "The question uses 'Will' (Future Perfect), so the short negative answer must be 'they won't'. မေးခွန်းက 'Will' (Future Perfect) သုံးထားတဲ့အတွက် အဖြေက 'they won't' ဖြစ်ရပါမယ်။",
+          "points": 1
+        },
+        {
+          "id": 338,
+          "question": "Do we have enough time? Yes, ________.",
+          "options": ["we do", "we did", "we will"],
+          "answer": "we do",
+          "explanation": "The question uses 'Do' (Simple Present), so the short answer must be 'we do'. မေးခွန်းက 'Do' (Simple Present) သုံးထားတဲ့အတွက် အဖြေက 'we do' ဖြစ်ရပါမယ်။",
+          "points": 1
+        },
+        {
+          "id": 339,
+          "question": "Does he have a bike? Yes, ________.",
+          "options": ["he does", "he do", "he has"],
+          "answer": "he does",
+          "explanation": "The question uses 'Does' (Simple Present, he/she/it), so the short answer must be 'he does'. မေးခွန်းက 'Does' (Simple Present, he/she/it) သုံးထားတဲ့အတွက် အဖြေက 'he does' ဖြစ်ရပါမယ်။",
+          "points": 1
+        },
+        {
+          "id": 340,
+          "question": "Does he have a bike? No, ________.",
+          "options": ["he doesn't", "he don't", "he hasn't"],
+          "answer": "he doesn't",
+          "explanation": "The question uses 'Does' (Simple Present, he/she/it), so the short negative answer must be 'he doesn't'. မေးခွန်းက 'Does' (Simple Present, he/she/it) သုံးထားတဲ့အတွက် အဖြေက 'he doesn't' ဖြစ်ရပါမယ်။",
+          "points": 1
+        },
+        {
+          "id": 341,
+          "question": "Did they have a party last night? Yes, ________.",
+          "options": ["they did", "they do", "they will"],
+          "answer": "they did",
+          "explanation": "The question uses 'Did' (Simple Past), so the short answer must be 'they did'. မေးခွန်းက 'Did' (Simple Past) သုံးထားတဲ့အတွက် အဖြေက 'they did' ဖြစ်ရပါမယ်။",
+          "points": 1
+        },
+        {
+          "id": 342,
+          "question": "Did they have a party last night? No, ________.",
+          "options": ["they didn't", "they don't", "they won't"],
+          "answer": "they didn't",
+          "explanation": "The question uses 'Did' (Simple Past), so the short negative answer must be 'they didn't'. မေးခွန်းက 'Did' (Simple Past) သုံးထားတဲ့အတွက် အဖြေက 'they didn't' ဖြစ်ရပါမယ်။",
+          "points": 1
+        },
+        {
+          "id": 343,
+          "question": "Will she have a new job next month? Yes, ________.",
+          "options": ["she will", "she does", "she did"],
+          "answer": "she will",
+          "explanation": "The question uses 'Will' (Simple Future), so the short answer must be 'she will'. မေးခွန်းက 'Will' (Simple Future) သုံးထားတဲ့အတွက် အဖြေက 'she will' ဖြစ်ရပါမယ်။",
+          "points": 1
+        },
+        {
+          "id": 344,
+          "question": "Will she have a new job next month? No, ________.",
+          "options": ["she won't", "she doesn't", "she didn't"],
+          "answer": "she won't",
+          "explanation": "The question uses 'Will' (Simple Future), so the short negative answer must be 'she won't'. မေးခွန်းက 'Will' (Simple Future) သုံးထားတဲ့အတွက် အဖြေက 'she won't' ဖြစ်ရပါမယ်။",
+          "points": 1
+        },
+        {
+          "id": 345,
+          "question": "Have they visited Florida? Yes, ________.",
+          "options": ["they have", "they had", "they did"],
+          "answer": "they have",
+          "explanation": "The question uses 'Have' (Present Perfect), so the short answer must be 'they have'. မေးခွန်းက 'Have' (Present Perfect) သုံးထားတဲ့အတွက် အဖြေက 'they have' ဖြစ်ရပါမယ်။",
+          "points": 1
+        },
+        {
+          "id": 346,
+          "question": "Have they visited Florida? No, ________.",
+          "options": ["they haven't", "they hadn't", "they didn't"],
+          "answer": "they haven't",
+          "explanation": "The question uses 'Have' (Present Perfect), so the short negative answer must be 'they haven't'. မေးခွန်းက 'Have' (Present Perfect) သုံးထားတဲ့အတွက် အဖြေက 'they haven't' ဖြစ်ရပါမယ်။",
+          "points": 1
+        },
+        {
+          "id": 347,
+          "question": "Had she established her company before 2008? Yes, ________.",
+          "options": ["she had", "she has", "she did"],
+          "answer": "she had",
+          "explanation": "The question uses 'Had' (Past Perfect), so the short answer must be 'she had'. မေးခွန်းက 'Had' (Past Perfect) သုံးထားတဲ့အတွက် အဖြေက 'she had' ဖြစ်ရပါမယ်။",
+          "points": 1
+        },
+        {
+          "id": 348,
+          "question": "Had she established her company before 2008? No, ________.",
+          "options": ["she hadn't", "she hasn't", "she didn't"],
+          "answer": "she hadn't",
+          "explanation": "The question uses 'Had' (Past Perfect), so the short negative answer must be 'she hadn't'. မေးခွန်းက 'Had' (Past Perfect) သုံးထားတဲ့အတွက် အဖြေက 'she hadn't' ဖြစ်ရပါမယ်။",
+          "points": 1
+        },
+        {
+          "id": 349,
+          "question": "Will we have finished by next week? Yes, ________.",
+          "options": ["we will", "we have", "we had"],
+          "answer": "we will",
+          "explanation": "The question uses 'Will' (Future Perfect), so the short answer must be 'we will'. မေးခွန်းက 'Will' (Future Perfect) သုံးထားတဲ့အတွက် အဖြေက 'we will' ဖြစ်ရပါမယ်။",
+          "points": 1
+        },
+        {
+          "id": 350,
+          "question": "Will we have finished by next week? No, ________.",
+          "options": ["we won't", "we haven't", "we hadn't"],
+          "answer": "we won't",
+          "explanation": "The question uses 'Will' (Future Perfect), so the short negative answer must be 'we won't'. မေးခွန်းက 'Will' (Future Perfect) သုံးထားတဲ့အတွက် အဖြေက 'we won't' ဖြစ်ရပါမယ်။",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "id": "unit3-ex3",
+      "type": "multiple_choice",
+      "instructions": "Choose the correct English translation.",
+      "questions": [
+        {
+          "id": 351,
+          "question": "ကျွန်မ ကားတစ်စီး ရှိတယ်။ (I / a car)",
+          "options": ["I have a car.", "I has a car.", "I had a car."],
+          "answer": "I have a car.",
+          "explanation": "Simple Present Affirmative: Subject + have. 'တယ်' indicates present affirmative. With 'I', we use 'have'. Simple Present အတည်ပြုပုံ - Subject + have။",
+          "points": 2
+        },
+        {
+          "id": 352,
+          "question": "အရင်က ကျွန်မ ကားတစ်စီး ရှိခဲ့တယ်။ (I / a car / before)",
+          "options": ["I had a car before.", "I have a car before.", "I will have a car before."],
+          "answer": "I had a car before.",
+          "explanation": "Simple Past Affirmative: Subject + had. 'ခဲ့တယ်' indicates past. 'Before' indicates past time. Simple Past အတည်ပြုပုံ - Subject + had။",
+          "points": 2
+        },
+        {
+          "id": 353,
+          "question": "နောက်နှစ် ကျွန်မ ကားတစ်စီး ရှိမယ်။ (I / a car / next year)",
+          "options": ["I will have a car next year.", "I have a car next year.", "I had a car next year."],
+          "answer": "I will have a car next year.",
+          "explanation": "Simple Future Affirmative: Subject + will have. 'မယ်' and 'next year' indicate future. Simple Future အတည်ပြုပုံ - Subject + will have။",
+          "points": 2
+        },
+        {
+          "id": 354,
+          "question": "သူမ ဘေလွင့်တံ အများကြီး ရှိတယ်။ (She / many pencils)",
+          "options": ["She has many pencils.", "She have many pencils.", "She had many pencils."],
+          "answer": "She has many pencils.",
+          "explanation": "Simple Present Affirmative: Subject + has. 'တယ်' indicates present affirmative. With 'she', we use 'has'. Simple Present အတည်ပြုပုံ - Subject + has။",
+          "points": 2
+        },
+        {
+          "id": 355,
+          "question": "သူ ကိုယ်ပိုင် Diary ရှိတယ်။ (He / his own diary)",
+          "options": ["He has his own diary.", "He have his own diary.", "He had his own diary."],
+          "answer": "He has his own diary.",
+          "explanation": "Simple Present Affirmative: Subject + has. 'တယ်' indicates present affirmative. With 'he', we use 'has'. Simple Present အတည်ပြုပုံ - Subject + has။",
+          "points": 2
+        },
+        {
+          "id": 356,
+          "question": "သူတို့ အဝတ်တွေ အများကြီး ရှိတယ်။ (They / many clothes)",
+          "options": ["They have many clothes.", "They has many clothes.", "They had many clothes."],
+          "answer": "They have many clothes.",
+          "explanation": "Simple Present Affirmative: Subject + have. 'တယ်' indicates present affirmative. With 'they', we use 'have'. Simple Present အတည်ပြုပုံ - Subject + have။",
+          "points": 2
+        },
+        {
+          "id": 357,
+          "question": "ငါတို့ စာအုပ်တွေ အများကြီး ရှိတယ်။ (We / lots of books)",
+          "options": ["We have lots of books.", "We has lots of books.", "We had lots of books."],
+          "answer": "We have lots of books.",
+          "explanation": "Simple Present Affirmative: Subject + have. 'တယ်' indicates present affirmative. With 'we', we use 'have'. Simple Present အတည်ပြုပုံ - Subject + have။",
+          "points": 2
+        },
+        {
+          "id": 358,
+          "question": "မနေ့က သူ ဖုန်းအသစ် ရှိခဲ့တယ်။ (He / a new phone / yesterday)",
+          "options": ["He had a new phone yesterday.", "He has a new phone yesterday.", "He will have a new phone yesterday."],
+          "answer": "He had a new phone yesterday.",
+          "explanation": "Simple Past Affirmative: Subject + had. 'ခဲ့တယ်' indicates past. 'Yesterday' indicates past time. Simple Past အတည်ပြုပုံ - Subject + had။",
+          "points": 2
+        },
+        {
+          "id": 359,
+          "question": "နောက်နှစ် သူတို့ ကားကြီးတစ်စီး ရှိမယ်။ (They / a big car / next year)",
+          "options": ["They will have a big car next year.", "They have a big car next year.", "They had a big car next year."],
+          "answer": "They will have a big car next year.",
+          "explanation": "Simple Future Affirmative: Subject + will have. 'မယ်' and 'next year' indicate future. Simple Future အတည်ပြုပုံ - Subject + will have။",
+          "points": 2
+        },
+        {
+          "id": 360,
+          "question": "မင်း ကား ရှိလား။ (you / a car)",
+          "options": ["Do you have a car?", "Does you have a car?", "Did you have a car?"],
+          "answer": "Do you have a car?",
+          "explanation": "Simple Present Interrogative: Do + subject + have? 'လား' indicates present question. With 'you', we use 'Do'. Simple Present မေးခွန်းပုံ - Do + subject + have?",
+          "points": 2
+        },
+        {
+          "id": 361,
+          "question": "သူ ကား မရှိဘူး။ (He / a car)",
+          "options": ["He doesn't have a car.", "He don't have a car.", "He hasn't a car."],
+          "answer": "He doesn't have a car.",
+          "explanation": "Simple Present Negative: Subject + doesn't have. 'ဘူး' indicates present negative. With 'he', we use 'doesn't'. Simple Present ငြင်းဆိုပုံ - Subject + doesn't have။",
+          "points": 2
+        },
+        {
+          "id": 362,
+          "question": "ငါတို့ မနေ့က ပါတီ မရှိခဲ့ဘူး။ (We / a party / yesterday)",
+          "options": ["We didn't have a party yesterday.", "We don't have a party yesterday.", "We won't have a party yesterday."],
+          "answer": "We didn't have a party yesterday.",
+          "explanation": "Simple Past Negative: Subject + didn't have. 'ခဲ့ဘူး' indicates past negative. 'Yesterday' indicates past time. Simple Past ငြင်းဆိုပုံ - Subject + didn't have။",
+          "points": 2
+        },
+        {
+          "id": 363,
+          "question": "သူမ မနက်ဖန် အလုပ်အသစ် ရှိမယ်။ (She / a new job / tomorrow)",
+          "options": ["She will have a new job tomorrow.", "She has a new job tomorrow.", "She had a new job tomorrow."],
+          "answer": "She will have a new job tomorrow.",
+          "explanation": "Simple Future Affirmative: Subject + will have. 'မယ်' and 'tomorrow' indicate future. Simple Future အတည်ပြုပုံ - Subject + will have။",
+          "points": 2
+        },
+        {
+          "id": 364,
+          "question": "သူတို့ Florida ကို သွားပြီးပြီ။ (They / visited Florida)",
+          "options": ["They have visited Florida.", "They has visited Florida.", "They had visited Florida."],
+          "answer": "They have visited Florida.",
+          "explanation": "Present Perfect: Subject + have + V3. 'ပြီ' indicates completed action. With 'they', we use 'have'. Present Perfect - Subject + have + V3။",
+          "points": 2
+        },
+        {
+          "id": 365,
+          "question": "သူမ မိနစ်နှစ်ဆယ်ကတည်းက ဒီမှာ ရှိနေတယ်။ (She / here / twenty minutes)",
+          "options": ["She has been here for twenty minutes.", "She have been here for twenty minutes.", "She had been here for twenty minutes."],
+          "answer": "She has been here for twenty minutes.",
+          "explanation": "Present Perfect: Subject + has + V3. 'ကတည်းက' indicates an action that started in the past and continues to the present. With 'she', we use 'has'. Present Perfect - Subject + has + V3။",
+          "points": 2
+        },
+        {
+          "id": 366,
+          "question": "ငါတို့ သူ့ကို နာမည်ကြီးမတိုင်ခင် တွေ့ခဲ့ပြီ။ (We / him / before he became famous)",
+          "options": ["We had met him before he became famous.", "We have met him before he became famous.", "We will have met him before he became famous."],
+          "answer": "We had met him before he became famous.",
+          "explanation": "Past Perfect: Subject + had + V3. 'ပြီ' and 'before he became famous' indicate an action completed before another past action. Past Perfect - Subject + had + V3။",
+          "points": 2
+        },
+        {
+          "id": 367,
+          "question": "သူ ကွန်ပျူတာ ပျက်ခင် စာရွက်ကို ကူးယူပြီးပြီ။ (Tom / copied / before the computer crashed)",
+          "options": ["Tom had copied his document before the computer crashed.", "Tom has copied his document before the computer crashed.", "Tom will have copied his document before the computer crashed."],
+          "answer": "Tom had copied his document before the computer crashed.",
+          "explanation": "Past Perfect: Subject + had + V3. 'ပြီးပြီ' and 'before the computer crashed' indicate an action completed before another past action. Past Perfect - Subject + had + V3။",
+          "points": 2
+        },
+        {
+          "id": 368,
+          "question": "ငါတို့ ဒီစီမံကိန်းကို ပြီးအောင်လုပ်ပြီးမယ်။ (We / finished / our project)",
+          "options": ["We will have finished our project.", "We have finished our project.", "We had finished our project."],
+          "answer": "We will have finished our project.",
+          "explanation": "Future Perfect: Subject + will have + V3. 'ပြီးမယ်' indicates a future completed action. Future Perfect - Subject + will have + V3။",
+          "points": 2
+        },
+        {
+          "id": 369,
+          "question": "မင်း အင်္ဂါနေ့မတိုင်ခင် စာတစ်စောင် ပို့ပြီးပြီမယ်။ (You / sent the document / by Tuesday)",
+          "options": ["You will have sent the document by Tuesday.", "You have sent the document by Tuesday.", "You had sent the document by Tuesday."],
+          "answer": "You will have sent the document by Tuesday.",
+          "explanation": "Future Perfect: Subject + will have + V3. 'ပြီးပြီမယ်' and 'by Tuesday' indicate a future completed action. Future Perfect - Subject + will have + V3။",
+          "points": 2
+        },
+        {
+          "id": 370,
+          "question": "သူမ မင်းရောက်ခင် အစည်းအဝေး ဝင်ပြီးမယ်။ (She / joined the meeting / before you reach)",
+          "options": ["She will have joined the meeting before you reach.", "She has joined the meeting before you reach.", "She had joined the meeting before you reach."],
+          "answer": "She will have joined the meeting before you reach.",
+          "explanation": "Future Perfect: Subject + will have + V3. 'ပြီးမယ်' and 'before you reach' indicate a future completed action. Future Perfect - Subject + will have + V3။",
+          "points": 2
+        },
+        {
+          "id": 371,
+          "question": "သူ ဒီလမ်းပေါ်မှာ အရင်က လျှောက်ဖူးတယ်။ (I / walked on this path / before)",
+          "options": ["I have walked on this path before.", "I had walked on this path before.", "I will have walked on this path before."],
+          "answer": "I have walked on this path before.",
+          "explanation": "Present Perfect: Subject + have + V3. 'ဖူးတယ်' and 'before' indicate a past experience relevant to the present. Present Perfect - Subject + have + V3။",
+          "points": 2
+        },
+        {
+          "id": 372,
+          "question": "သူ ရုပ်ရှင်ဇာတ်ညွှန်းတွေ အများကြီး ရေးပြီးပြီ။ (He / written several movie scripts)",
+          "options": ["He has written several movie scripts.", "He have written several movie scripts.", "He had written several movie scripts."],
+          "answer": "He has written several movie scripts.",
+          "explanation": "Present Perfect: Subject + has + V3. 'ပြီးပြီ' indicates a completed action. With 'he', we use 'has'. Present Perfect - Subject + has + V3။",
+          "points": 2
+        },
+        {
+          "id": 373,
+          "question": "ငါ ခရီးသွားဖို့ ထွက်ပြီးပြီမယ်။ (I / left for my trip)",
+          "options": ["I will have left for my trip.", "I have left for my trip.", "I had left for my trip."],
+          "answer": "I will have left for my trip.",
+          "explanation": "Future Perfect: Subject + will have + V3. 'ပြီးပြီမယ်' indicates a future completed action. Future Perfect - Subject + will have + V3။",
+          "points": 2
+        },
+        {
+          "id": 374,
+          "question": "သူ ပါတီမတိုင်ခင် သူမကို တွေ့ပြီးပြီလား။ (Had / he / met her / before the party)",
+          "options": ["Had he met her before the party?", "Did he meet her before the party?", "Has he met her before the party?"],
+          "answer": "Had he met her before the party?",
+          "explanation": "Past Perfect Interrogative: Had + subject + V3? 'လား' indicates a question. 'Before the party' indicates past time before another past action. Past Perfect မေးခွန်းပုံ - Had + subject + V3?",
+          "points": 2
+        },
+        {
+          "id": 375,
+          "question": "သူ အရင်က သူ့ကို မြင်ဖူးတယ်။ (I / seen him / before)",
+          "options": ["I had seen him before.", "I have seen him before.", "I will have seen him before."],
+          "answer": "I had seen him before.",
+          "explanation": "Past Perfect: Subject + had + V3. 'ဖူးတယ်' and 'before' indicate an action completed before another past action. Past Perfect - Subject + had + V3။",
+          "points": 2
+        }
+      ]
+    }
+  ]
+}

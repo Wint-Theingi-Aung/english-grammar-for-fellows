@@ -116,8 +116,29 @@ const UNITS: UnitCardProps[] = [
   {
     unit: 3,
     slug: "unit-3",
-    title: "Future Tenses (will, going to)",
-    description: "Explore different ways to talk about the future in English.",
+    title: "Verb to Have (has, have, had)",
+    description: "Learn the verb 'have' as a main verb and auxiliary in perfect tenses.",
+    status: "available",
+  },
+  {
+    unit: 4,
+    slug: "unit-4",
+    title: "Question Tags",
+    description: "Master the rules for forming question tags in all tenses.",
+    status: "available",
+  },
+  {
+    unit: 5,
+    slug: "unit-5",
+    title: "Wh Questions",
+    description: "Learn to ask and answer wh-questions with who, what, when, where, why, which, and how.",
+    status: "available",
+  },
+  {
+    unit: 6,
+    slug: "unit-6",
+    title: "Modal Verbs (can, could, may, might)",
+    description: "Explore modal verbs for ability, permission, and possibility.",
     status: "coming-soon",
   },
 ];

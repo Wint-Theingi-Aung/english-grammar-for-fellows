@@ -22,18 +22,36 @@ export default function Header() {
             Grammar Fellows
           </span>
         </Link>
-        <nav aria-label="Main navigation" className="flex items-center gap-1">
+        <nav aria-label="Main navigation" className="flex items-center gap-1 overflow-x-auto">
           <Link
             href="/unit-1"
-            className="text-sm font-medium text-ink-muted hover:text-primary-600 px-3 py-2 rounded-lg hover:bg-primary-50 transition-all duration-200 focus-visible:ring-2 focus-visible:ring-primary-500 focus-visible:ring-offset-1"
+            className="text-sm font-medium text-ink-muted hover:text-primary-600 px-2.5 py-2 rounded-lg hover:bg-primary-50 transition-all duration-200 focus-visible:ring-2 focus-visible:ring-primary-500 focus-visible:ring-offset-1 whitespace-nowrap"
           >
             Unit 1
           </Link>
           <Link
             href="/unit-2"
-            className="text-sm font-medium text-ink-muted hover:text-primary-600 px-3 py-2 rounded-lg hover:bg-primary-50 transition-all duration-200 focus-visible:ring-2 focus-visible:ring-primary-500 focus-visible:ring-offset-1"
+            className="text-sm font-medium text-ink-muted hover:text-primary-600 px-2.5 py-2 rounded-lg hover:bg-primary-50 transition-all duration-200 focus-visible:ring-2 focus-visible:ring-primary-500 focus-visible:ring-offset-1 whitespace-nowrap"
           >
             Unit 2
+          </Link>
+          <Link
+            href="/unit-3"
+            className="text-sm font-medium text-ink-muted hover:text-primary-600 px-2.5 py-2 rounded-lg hover:bg-primary-50 transition-all duration-200 focus-visible:ring-2 focus-visible:ring-primary-500 focus-visible:ring-offset-1 whitespace-nowrap"
+          >
+            Unit 3
+          </Link>
+          <Link
+            href="/unit-4"
+            className="text-sm font-medium text-ink-muted hover:text-primary-600 px-2.5 py-2 rounded-lg hover:bg-primary-50 transition-all duration-200 focus-visible:ring-2 focus-visible:ring-primary-500 focus-visible:ring-offset-1 whitespace-nowrap"
+          >
+            Unit 4
+          </Link>
+          <Link
+            href="/unit-5"
+            className="text-sm font-medium text-ink-muted hover:text-primary-600 px-2.5 py-2 rounded-lg hover:bg-primary-50 transition-all duration-200 focus-visible:ring-2 focus-visible:ring-primary-500 focus-visible:ring-offset-1 whitespace-nowrap"
+          >
+            Unit 5
           </Link>
         </nav>
       </div>

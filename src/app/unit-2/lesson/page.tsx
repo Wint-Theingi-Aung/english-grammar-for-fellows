@@ -59,10 +59,10 @@ export default function Unit2LessonPage() {
               <tbody>
                 {presentLesson.conjugation.map((c, i) => (
                   <tr key={i} className="border-b border-border last:border-b-0 hover:bg-surface-alt/50 transition-colors duration-150">
-                    <td className="px-4 py-3 font-semibold text-ink">{c.subject}</td>
-                    <td className="px-4 py-3 text-ink-light">{c.present}</td>
-                    <td className="px-4 py-3 text-ink-light">{c.past}</td>
-                    <td className="px-4 py-3 text-ink-light">{c.future}</td>
+                    <td className="px-4 py-3 font-semibold text-ink">{c.subject ?? ""}</td>
+                    <td className="px-4 py-3 text-ink-light">{c.present ?? ""}</td>
+                    <td className="px-4 py-3 text-ink-light">{c.past ?? ""}</td>
+                    <td className="px-4 py-3 text-ink-light">{c.future ?? ""}</td>
                   </tr>
                 ))}
               </tbody>
@@ -91,11 +91,11 @@ export default function Unit2LessonPage() {
               <tbody>
                 {pastLesson.details.map((d, i) => (
                   <tr key={i} className="border-b border-border last:border-b-0 hover:bg-surface-alt/50 transition-colors duration-150">
-                    <td className="px-4 py-3 font-semibold text-ink">{d.tense}</td>
-                    <td className="px-4 py-3 text-ink-light font-mono text-xs">{d.form}</td>
+                    <td className="px-4 py-3 font-semibold text-ink">{d.tense ?? ""}</td>
+                    <td className="px-4 py-3 text-ink-light font-mono text-xs">{d.form ?? ""}</td>
                     <td className="px-4 py-3">
-                      <span className="text-ink block">{d.example}</span>
-                      <span className="myanmar-text text-ink-muted text-xs block mt-0.5">{d.burmese}</span>
+                      <span className="text-ink block">{d.example ?? ""}</span>
+                      <span className="myanmar-text text-ink-muted text-xs block mt-0.5">{d.burmese ?? ""}</span>
                     </td>
                   </tr>
                 ))}
@@ -169,10 +169,10 @@ export default function Unit2LessonPage() {
               <tbody>
                 {agreementLesson.conjugation.map((c, i) => (
                   <tr key={i} className="border-b border-border last:border-b-0 hover:bg-surface-alt/50 transition-colors duration-150">
-                    <td className="px-4 py-3 font-semibold text-ink">{c.subject}</td>
-                    <td className="px-4 py-3 text-ink-light">{c.present}</td>
-                    <td className="px-4 py-3 text-ink-light">{c.past}</td>
-                    <td className="px-4 py-3 text-ink-light">{c.future}</td>
+                    <td className="px-4 py-3 font-semibold text-ink">{c.subject ?? ""}</td>
+                    <td className="px-4 py-3 text-ink-light">{c.present ?? ""}</td>
+                    <td className="px-4 py-3 text-ink-light">{c.past ?? ""}</td>
+                    <td className="px-4 py-3 text-ink-light">{c.future ?? ""}</td>
                   </tr>
                 ))}
               </tbody>
