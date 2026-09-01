@@ -5,15 +5,21 @@ interface FeedbackProps {
   explanation: string;
 }
 
-export default function Feedback({ isCorrect, selectedAnswer, correctAnswer, explanation }: FeedbackProps) {
+export default function Feedback({
+  isCorrect,
+  selectedAnswer,
+  correctAnswer,
+  explanation,
+}: FeedbackProps) {
   return (
     <div
-      className={`mt-5 p-5 rounded-xl border-2 animate-fade-in ${
+      className={`mt-5 p-5 rounded-xl border-2 animate-scale-in ${
         isCorrect
           ? "bg-success-50 border-success-500/30"
           : "bg-error-50 border-error-500/30"
       }`}
       role="alert"
+      aria-live="polite"
     >
       <div className="flex items-center gap-2.5 mb-3">
         <span
@@ -22,10 +28,15 @@ export default function Feedback({ isCorrect, selectedAnswer, correctAnswer, exp
               ? "bg-success-500 text-white"
               : "bg-error-500 text-white"
           }`}
+          aria-hidden="true"
         >
           {isCorrect ? "\u2713" : "\u2717"}
         </span>
-        <span className={`font-bold text-base ${isCorrect ? "text-success-700" : "text-error-700"}`}>
+        <span
+          className={`font-bold text-base ${
+            isCorrect ? "text-success-700" : "text-error-700"
+          }`}
+        >
           {isCorrect ? "Correct!" : "Incorrect"}
         </span>
       </div>
@@ -43,8 +54,12 @@ export default function Feedback({ isCorrect, selectedAnswer, correctAnswer, exp
         </p>
       )}
 
-      <div className="mt-3 pt-3 border-t border-current/10">
-        <p className={`text-sm leading-relaxed ${isCorrect ? "text-success-700" : "text-error-700"}`}>
+      <div className="mt-3 pt-3 border-t border-ink/10">
+        <p
+          className={`text-sm leading-relaxed myanmar-text ${
+            isCorrect ? "text-success-700" : "text-error-700"
+          }`}
+        >
           {explanation}
         </p>
       </div>

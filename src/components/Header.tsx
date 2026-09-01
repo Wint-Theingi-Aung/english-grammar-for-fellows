@@ -4,33 +4,28 @@ import Link from "next/link";
 
 export default function Header() {
   return (
-    <header className="bg-white/80 backdrop-blur-md border-b border-border sticky top-0 z-30">
-      <div className="max-w-3xl mx-auto px-4 h-14 flex items-center justify-between">
+    <header className="bg-surface/80 backdrop-blur-md border-b border-border sticky top-0 z-30">
+      <div className="max-w-5xl mx-auto px-4 sm:px-6 h-14 sm:h-16 flex items-center justify-between">
         <Link
           href="/"
-          className="flex items-center gap-2 font-bold text-lg text-primary-700 hover:text-primary-600 transition-colors duration-200"
+          className="flex items-center gap-2.5 group"
+          aria-label="Grammar Fellows - Home"
         >
-          <svg viewBox="0 0 24 24" className="w-6 h-6" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <rect x="2" y="1" width="14" height="22" rx="2" fill="url(#hdrBook)" />
-            <rect x="2" y="1" width="2.5" height="22" rx="0.8" fill="#4338ca" />
-            <rect x="4.5" y="2" width="11.5" height="20" rx="1" fill="#f8f7ff" />
-            <line x1="7" y1="6" x2="14" y2="6" stroke="#c4c7e5" strokeWidth="0.7" strokeLinecap="round" />
-            <line x1="7" y1="9" x2="14" y2="9" stroke="#c4c7e5" strokeWidth="0.7" strokeLinecap="round" />
-            <line x1="7" y1="12" x2="11" y2="12" stroke="#c4c7e5" strokeWidth="0.7" strokeLinecap="round" />
-            <text x="9.5" y="16.5" fontFamily="Georgia, serif" fontSize="8" fontWeight="bold" fill="#6366f1" textAnchor="middle">G</text>
-            <defs>
-              <linearGradient id="hdrBook" x1="2" y1="1" x2="16" y2="23">
-                <stop stopColor="#6366f1" />
-                <stop offset="1" stopColor="#8b5cf6" />
-              </linearGradient>
-            </defs>
-          </svg>
-          <span>Grammar Fellows</span>
+          <span className="inline-flex items-center justify-center w-8 h-8 sm:w-9 sm:h-9 rounded-lg bg-gradient-to-br from-primary-500 to-primary-700 shadow-sm shadow-primary-500/20 group-hover:shadow-md group-hover:shadow-primary-500/30 transition-shadow duration-200">
+            <svg viewBox="0 0 24 24" className="w-4.5 h-4.5 sm:w-5 sm:h-5" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+              <rect x="3" y="1.5" width="13" height="21" rx="1.5" fill="white" opacity="0.92" />
+              <rect x="3" y="1.5" width="2" height="21" rx="0.6" fill="white" opacity="0.5" />
+              <text x="9.5" y="15.5" fontFamily="Georgia, serif" fontSize="8.5" fontWeight="bold" fill="#218579" textAnchor="middle">G</text>
+            </svg>
+          </span>
+          <span className="font-bold text-base sm:text-lg text-ink tracking-tight">
+            Grammar Fellows
+          </span>
         </Link>
-        <nav>
+        <nav aria-label="Main navigation">
           <Link
             href="/unit-1"
-            className="text-sm font-medium text-slate-500 hover:text-primary-600 px-3 py-1.5 rounded-lg hover:bg-primary-50 transition-all duration-200"
+            className="text-sm font-medium text-ink-muted hover:text-primary-600 px-3 py-2 rounded-lg hover:bg-primary-50 transition-all duration-200 focus-visible:ring-2 focus-visible:ring-primary-500 focus-visible:ring-offset-1"
           >
             Unit 1
           </Link>

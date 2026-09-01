@@ -175,10 +175,13 @@ export default function PracticePage() {
 
   if (!current) {
     return (
-      <div className="max-w-3xl mx-auto px-4 py-10 text-center">
-        <p className="text-slate-500">No questions available.</p>
-        <Link href="/unit-1" className="text-primary-600 mt-4 inline-block font-medium">
-          ← Back to Unit
+      <div className="max-w-5xl mx-auto px-4 sm:px-6 py-10 text-center">
+        <p className="text-ink-muted">No questions available.</p>
+        <Link
+          href="/unit-1"
+          className="text-primary-600 mt-4 inline-block font-medium hover:text-primary-700 transition-colors duration-200"
+        >
+          &larr; Back to Unit
         </Link>
       </div>
     );
@@ -187,12 +190,12 @@ export default function PracticePage() {
   const canSubmit = currentAnswer !== null && currentAnswer.trim() !== "" && !isSubmitted;
 
   return (
-    <div className="max-w-3xl mx-auto px-4 py-8 sm:py-10">
+    <div className="max-w-5xl mx-auto px-4 sm:px-6 py-8 sm:py-10 lg:py-12">
       <Link
         href="/unit-1"
-        className="inline-flex items-center gap-1.5 text-sm font-medium text-primary-600 hover:text-primary-700 mb-5 transition-colors duration-200"
+        className="inline-flex items-center gap-1.5 text-sm font-medium text-primary-600 hover:text-primary-700 mb-5 transition-colors duration-200 focus-visible:ring-2 focus-visible:ring-primary-500 focus-visible:ring-offset-1 rounded-lg px-1 -ml-1"
       >
-        <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
+        <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2} aria-hidden="true">
           <path strokeLinecap="round" strokeLinejoin="round" d="M15 19l-7-7 7-7" />
         </svg>
         Back to Unit Overview
@@ -203,7 +206,7 @@ export default function PracticePage() {
         <span className="text-sm font-semibold text-primary-600">
           Question {currentIndex + 1} of {total}
         </span>
-        <span className="text-xs font-medium text-slate-400 bg-surface-alt px-2.5 py-1 rounded-full">
+        <span className="text-xs font-medium text-ink-muted bg-surface-alt px-2.5 py-1 rounded-full">
           {current.points} pt{current.points !== 1 ? "s" : ""}
         </span>
       </div>
@@ -239,9 +242,9 @@ export default function PracticePage() {
           type="button"
           onClick={handlePrev}
           disabled={currentIndex === 0}
-          className="inline-flex items-center gap-1.5 px-5 py-2.5 rounded-xl border-2 border-border text-slate-600 font-medium hover:bg-surface-alt hover:border-primary-200 transition-all duration-200 disabled:opacity-30 disabled:cursor-not-allowed disabled:hover:bg-transparent"
+          className="inline-flex items-center gap-1.5 px-5 py-2.5 rounded-xl border-2 border-border text-ink-muted font-medium hover:bg-surface-alt hover:border-primary-200 transition-all duration-200 disabled:opacity-30 disabled:cursor-not-allowed disabled:hover:bg-transparent focus-visible:ring-2 focus-visible:ring-primary-500 focus-visible:ring-offset-1 text-sm"
         >
-          <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
+          <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2} aria-hidden="true">
             <path strokeLinecap="round" strokeLinejoin="round" d="M15 19l-7-7 7-7" />
           </svg>
           Previous
@@ -253,7 +256,7 @@ export default function PracticePage() {
               type="button"
               onClick={handleSubmit}
               disabled={!canSubmit}
-              className="px-6 py-2.5 rounded-xl bg-gradient-to-r from-primary-600 to-primary-700 text-white font-semibold hover:from-primary-700 hover:to-primary-800 transition-all duration-200 shadow-md shadow-primary-600/20 disabled:opacity-40 disabled:cursor-not-allowed disabled:shadow-none"
+              className="px-6 py-2.5 rounded-xl bg-gradient-to-r from-primary-600 to-primary-700 text-white font-semibold hover:from-primary-700 hover:to-primary-800 transition-all duration-200 shadow-md shadow-primary-600/20 disabled:opacity-40 disabled:cursor-not-allowed disabled:shadow-none focus-visible:ring-2 focus-visible:ring-primary-400 focus-visible:ring-offset-2 text-sm"
             >
               Check Answer
             </button>
@@ -261,19 +264,19 @@ export default function PracticePage() {
             <button
               type="button"
               onClick={handleNext}
-              className="px-6 py-2.5 rounded-xl bg-gradient-to-r from-primary-600 to-primary-700 text-white font-semibold hover:from-primary-700 hover:to-primary-800 transition-all duration-200 shadow-md shadow-primary-600/20"
+              className="px-6 py-2.5 rounded-xl bg-gradient-to-r from-primary-600 to-primary-700 text-white font-semibold hover:from-primary-700 hover:to-primary-800 transition-all duration-200 shadow-md shadow-primary-600/20 focus-visible:ring-2 focus-visible:ring-primary-400 focus-visible:ring-offset-2 text-sm"
             >
               {currentIndex < total - 1 ? (
                 <span className="inline-flex items-center gap-1.5">
                   Next Question
-                  <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
+                  <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2} aria-hidden="true">
                     <path strokeLinecap="round" strokeLinejoin="round" d="M9 5l7 7-7 7" />
                   </svg>
                 </span>
               ) : (
                 <span className="inline-flex items-center gap-1.5">
                   See Results
-                  <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
+                  <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2} aria-hidden="true">
                     <path strokeLinecap="round" strokeLinejoin="round" d="M9 5l7 7-7 7" />
                   </svg>
                 </span>

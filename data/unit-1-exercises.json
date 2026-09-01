@@ -502,7 +502,7 @@
       "questions": [
         {
           "id": 61,
-          "question": "ကျယ် မင်းကို ယုံတယ်။ (I / you / believe in)",
+          "question": "ကျွန်မ မင်းကို ယုံတယ်။ (I / you / believe in)",
           "options": ["I believe in you.", "I didn't believe in you.", "Will I believe in you?"],
           "answer": "I believe in you.",
           "explanation": "Simple Present Affirmative: Subject + V1 + object. 'တယ်' indicates present affirmative. Simple Present အတည်ပြုပုံ - Subject + V1 + object။",
@@ -590,7 +590,7 @@
         },
         {
           "id": 72,
-          "question": "မင်း အစောရုံစောစောမထဘူးလား။ (you / get up early)",
+          "question": "မင်း အစောရုံ စောစော မထဘူးလား။ (you / get up early)",
           "options": ["Don't you get up early?", "Do you get up early?", "Didn't you get up early?"],
           "answer": "Don't you get up early?",
           "explanation": "Simple Present Negative Interrogative: Don't + subject + V1? 'ဘူးလား' indicates a negative question in present. Simple Present ငြင်းဆိုမေးခွန်း - Don't + subject + V1?",
@@ -598,7 +598,7 @@
         },
         {
           "id": 73,
-          "question": "မကြာခင် သူ ဘူတာကိုရောက်လာလှမ်းမှာမယ်။ (soon / he / arrive at the station)",
+          "question": "မကြာခင် သူ ဘူတာကို ရောက်လာမှာမယ်။ (soon / he / arrive at the station)",
           "options": ["He will arrive at the station soon.", "He arrives at the station soon.", "He didn't arrive at the station soon."],
           "answer": "He will arrive at the station soon.",
           "explanation": "Simple Future Affirmative: Subject + will + V1. 'မကြာခင်' and 'မှာမယ်' indicate future. Simple Future အတည်ပြုပုံ - Subject + will + V1။",
@@ -614,7 +614,7 @@
         },
         {
           "id": 75,
-          "question": "သူတို့ မနက်ဖန် ဘောလုံးကန်ကြလှမ်းမှာမယ်။ (They / tomorrow / play the football)",
+          "question": "သူတို့ မနက်ဖန် ဘောလုံးကန်ကြမှာမယ်။ (They / tomorrow / play the football)",
           "options": ["They will play football tomorrow.", "They play football tomorrow.", "They didn't play football tomorrow."],
           "answer": "They will play football tomorrow.",
           "explanation": "Simple Future Affirmative: Subject + will + V1. 'မနက်ဖန်' and 'မှာမယ်' indicate future. Simple Future အတည်ပြုပုံ - Subject + will + V1။",
