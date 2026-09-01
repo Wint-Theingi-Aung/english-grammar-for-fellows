@@ -148,6 +148,7 @@ export async function saveLessonProgress(data: {
 
     revalidatePath("/");
     revalidatePath("/unit-1");
+    revalidatePath("/unit-2");
 
     return { success: true };
   } catch (err) {

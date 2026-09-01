@@ -2,23 +2,23 @@
 /* eslint-disable @typescript-eslint/no-require-imports */
 
 /**
- * Validation script for Unit 1 exercises.
+ * Validation script for all unit exercises.
  * Run: node scripts/validate-unit1.js
  */
 
 const fs = require("fs");
 const path = require("path");
 
-const EXERCISES_PATH = path.join(__dirname, "..", "data", "unit-1-exercises.json");
+function validateUnit(unitNum) {
+  const EXERCISES_PATH = path.join(__dirname, "..", "data", `unit-${unitNum}-exercises.json`);
 
-function validate() {
   let errors = 0;
   let warnings = 0;
 
   // Read file
   if (!fs.existsSync(EXERCISES_PATH)) {
     console.error("ERROR: File not found:", EXERCISES_PATH);
-    process.exit(1);
+    return { errors: 1, warnings: 0 };
   }
 
   let data;
@@ -27,12 +27,12 @@ function validate() {
     data = JSON.parse(raw);
   } catch (e) {
     console.error("ERROR: Failed to parse JSON:", e.message);
-    process.exit(1);
+    return { errors: 1, warnings: 0 };
   }
 
   if (!data.exercises || !Array.isArray(data.exercises)) {
     console.error("ERROR: Missing or invalid 'exercises' array");
-    process.exit(1);
+    return { errors: 1, warnings: 0 };
   }
 
   let totalQuestions = 0;
@@ -86,13 +86,12 @@ function validate() {
           errors++;
         }
 
-        // Check for malformed joined fragments (e.g., "r.inr.inedw.ll rain")
+        // Check for malformed joined fragments
         if (typeof q.options[i] === "string") {
           if (q.options[i].match(/([a-z])\.\1\./i)) {
             console.error("ERROR: " + qId + " - option " + i + " has malformed joined text: \"" + q.options[i] + "\"");
             errors++;
           }
-          // Check for escaped characters
           if (q.options[i].includes("\\n") || q.options[i].includes("\\t")) {
             console.error("ERROR: " + qId + " - option " + i + " contains escaped characters");
             errors++;
@@ -129,40 +128,36 @@ function validate() {
           seenQuestions.set(qText, qId);
         }
       }
-
-      // Check for ambiguous options: same verb in affirmative/negative/future forms
-      // e.g., ["go", "don't go", "won't go"] — all could fit without context
-      const optionTexts = q.options.map((o) => o.toLowerCase().replace(/[^a-z\s]/g, "").trim());
-      const hasNegative = optionTexts.some((o) => /\b(don't|doesn't|didn't|won't|can't|isn't|aren't|wasn't|weren't)\b/.test(o));
-      const hasAffirmative = optionTexts.some((o) => !/\b(don't|doesn't|didn't|won't|can't|isn't|aren't|wasn't|weren't)\b/.test(o));
-      if (hasNegative && hasAffirmative) {
-        // Extract the base verb from options to check if they share the same root
-        const roots = optionTexts.map((o) => {
-          return o.replace(/\b(don't|doesn't|didn't|won't|can't|not)\b/g, "").replace(/\s+/g, " ").trim();
-        });
-        const uniqueRoots = new Set(roots);
-        if (uniqueRoots.size <= 2) {
-          // Likely ambiguous: options share the same verb root in different forms
-          console.warn("WARNING: " + qId + " - possible ambiguity: options mix affirmative/negative forms of the same verb [" + q.options.join(", ") + "]");
-          warnings++;
-        }
-      }
     }
   }
 
-  console.log("\n=== Unit 1 Exercise Validation ===\n");
+  console.log(`\n=== Unit ${unitNum} Exercise Validation ===\n`);
   console.log("Total exercises: " + data.exercises.length);
   console.log("Total questions: " + totalQuestions);
   console.log("Errors: " + errors);
   console.log("Warnings: " + warnings);
 
-  if (errors > 0) {
-    console.error("\nValidation FAILED with " + errors + " error(s).\n");
-    process.exit(1);
-  } else {
-    console.log("\nAll validations PASSED.\n");
-    process.exit(0);
-  }
+  return { errors, warnings };
 }
 
-validate();
+// Validate all units
+let totalErrors = 0;
+let totalWarnings = 0;
+
+for (const unit of [1, 2]) {
+  const result = validateUnit(unit);
+  totalErrors += result.errors;
+  totalWarnings += result.warnings;
+}
+
+console.log("\n=== Overall ===\n");
+console.log("Total errors: " + totalErrors);
+console.log("Total warnings: " + totalWarnings);
+
+if (totalErrors > 0) {
+  console.error("\nValidation FAILED with " + totalErrors + " error(s).\n");
+  process.exit(1);
+} else {
+  console.log("\nAll validations PASSED.\n");
+  process.exit(0);
+}

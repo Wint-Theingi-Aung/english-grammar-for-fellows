@@ -1,0 +1,149 @@
+{
+  "unit": 2,
+  "title": "Verb to Be (am, is, are, was, were)",
+  "lessons": [
+    {
+      "id": "unit2-lesson1",
+      "title": "am, is, are in the Simple Present",
+      "content": "The verb 'be' has three forms in the Simple Present tense: am, is, and are. Each form is used with specific subjects.",
+      "details": [
+        {
+          "subject": "I",
+          "form": "am",
+          "example": "I am a student.",
+          "burmese": "ကျွန်မ ကျောင်းသားတစ်ယောက်ပါ။"
+        },
+        {
+          "subject": "He/She/It",
+          "form": "is",
+          "example": "He is a teacher.",
+          "burmese": "သူ ဆရာတစ်ယောက်ပါ။"
+        },
+        {
+          "subject": "We/You/They",
+          "form": "are",
+          "example": "They are doctors.",
+          "burmese": "သူတို့ ဆရာဝန်တွေပါ။"
+        }
+      ]
+    },
+    {
+      "id": "unit2-lesson2",
+      "title": "was, were in the Simple Past",
+      "content": "The verb 'be' has two forms in the Simple Past tense: was and were. 'Was' is used with I, he, she, it. 'Were' is used with we, you, they.",
+      "conjugation": [
+        {
+          "subject": "I",
+          "past": "was",
+          "example": "I was at home last night.",
+          "burmese": "မနေ့ညက ကျွန်မ အိမ်မှာ ရှိခဲ့တယ်။"
+        },
+        {
+          "subject": "He",
+          "past": "was",
+          "example": "He was a student two years ago.",
+          "burmese": "နှစ်နှစ်ကျော်က သူ ကျောင်းသားတစ်ယောက်ပါ။"
+        },
+        {
+          "subject": "She",
+          "past": "was",
+          "example": "She was tired last night.",
+          "burmese": "မနေ့ညက သူမ ပင်ပန်းနေတယ်။"
+        },
+        {
+          "subject": "It",
+          "past": "was",
+          "example": "It was cold yesterday.",
+          "burmese": "မနေ့က အအေးချမ်းတယ်။"
+        },
+        {
+          "subject": "We",
+          "past": "were",
+          "example": "We were at school yesterday.",
+          "burmese": "မနေ့က ငါတို့ ကျောင်းမှာ ရှိခဲ့တယ်။"
+        },
+        {
+          "subject": "You",
+          "past": "were",
+          "example": "You were happy yesterday.",
+          "burmese": "မနေ့က မင်း ပျော်ရွှင်ခဲ့တယ်။"
+        },
+        {
+          "subject": "They",
+          "past": "were",
+          "example": "They were at the market last week.",
+          "burmese": "ပြီးခဲ့တဲ့အပတ်က သူတို့ စျေးမှာ ရှိခဲ့တယ်။"
+        }
+      ]
+    },
+    {
+      "id": "unit2-lesson3",
+      "title": "Affirmative, Negative, Interrogative Sentences",
+      "content": "We can form affirmative, negative, interrogative, and negative interrogative sentences using the verb 'be'.",
+      "forms": {
+        "affirmative": "Subject + be + complement",
+        "negative": "Subject + be + not + complement",
+        "interrogative": "Be + subject + complement?",
+        "negative_interrogative": "Be + not + subject + complement?"
+      }
+    },
+    {
+      "id": "unit2-lesson4",
+      "title": "Short Answers",
+      "content": "When we are replying Yes/No Questions with 'be', we can use short or long form for the answer.",
+      "answer_types": {
+        "short_answer": "Yes/No + subject + appropriate form of 'be'",
+        "long_answer": "Yes/No + full sentence with 'be'"
+      }
+    },
+    {
+      "id": "unit2-lesson5",
+      "title": "Subject and Verb-to-be Agreement",
+      "content": "The form of 'be' must agree with the subject in number and person. I use am, he/she/it use is, we/you/they use are.",
+      "conjugation": [
+        {
+          "subject": "I",
+          "present": "am",
+          "past": "was",
+          "future": "will be"
+        },
+        {
+          "subject": "He",
+          "present": "is",
+          "past": "was",
+          "future": "will be"
+        },
+        {
+          "subject": "She",
+          "present": "is",
+          "past": "was",
+          "future": "will be"
+        },
+        {
+          "subject": "It",
+          "present": "is",
+          "past": "was",
+          "future": "will be"
+        },
+        {
+          "subject": "We",
+          "present": "are",
+          "past": "were",
+          "future": "will be"
+        },
+        {
+          "subject": "You",
+          "present": "are",
+          "past": "were",
+          "future": "will be"
+        },
+        {
+          "subject": "They",
+          "present": "are",
+          "past": "were",
+          "future": "will be"
+        }
+      ]
+    }
+  ]
+}

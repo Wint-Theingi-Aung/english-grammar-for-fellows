@@ -1,0 +1,626 @@
+{
+  "unit": 2,
+  "exercises": [
+    {
+      "id": "unit2-ex1",
+      "type": "multiple_choice",
+      "instructions": "Choose the correct form of 'to be' to complete each sentence.",
+      "questions": [
+        {
+          "id": 201,
+          "question": "I ________ a student.",
+          "options": ["am", "is", "are"],
+          "answer": "am",
+          "explanation": "With 'I', we use 'am'. 'I am' is the correct form of 'be' for first person singular. 'I' နဲ့ 'am' ကိုသုံးပါ။",
+          "points": 1
+        },
+        {
+          "id": 202,
+          "question": "She ________ happy today.",
+          "options": ["am", "is", "are"],
+          "answer": "is",
+          "explanation": "With 'she', we use 'is'. 'She is' is the correct form of 'be' for third person singular. 'She' နဲ့ 'is' ကိုသုံးပါ။",
+          "points": 1
+        },
+        {
+          "id": 203,
+          "question": "They ________ in the park now.",
+          "options": ["am", "is", "are"],
+          "answer": "are",
+          "explanation": "With 'they', we use 'are'. 'They are' is the correct form of 'be' for third person plural. 'They' နဲ့ 'are' ကိုသုံးပါ။",
+          "points": 1
+        },
+        {
+          "id": 204,
+          "question": "We ________ at school every day.",
+          "options": ["am", "is", "are"],
+          "answer": "are",
+          "explanation": "With 'we', we use 'are'. 'We are' is the correct form of 'be' for first person plural. 'We' နဲ့ 'are' ကိုသုံးပါ။",
+          "points": 1
+        },
+        {
+          "id": 205,
+          "question": "He ________ a doctor.",
+          "options": ["am", "is", "are"],
+          "answer": "is",
+          "explanation": "With 'he', we use 'is'. 'He is' is the correct form of 'be' for third person singular. 'He' နဲ့ 'is' ကိုသုံးပါ။",
+          "points": 1
+        },
+        {
+          "id": 206,
+          "question": "You ________ my friend.",
+          "options": ["am", "is", "are"],
+          "answer": "are",
+          "explanation": "With 'you', we use 'are'. 'You are' is the correct form of 'be' for second person. 'You' နဲ့ 'are' ကိုသုံးပါ။",
+          "points": 1
+        },
+        {
+          "id": 207,
+          "question": "It ________ rainy today.",
+          "options": ["am", "is", "are"],
+          "answer": "is",
+          "explanation": "With 'it', we use 'is'. 'It is' is the correct form of 'be' for third person singular. 'It' နဲ့ 'is' ကိုသုံးပါ။",
+          "points": 1
+        },
+        {
+          "id": 208,
+          "question": "I ________ at home last night.",
+          "options": ["was", "were", "am"],
+          "answer": "was",
+          "explanation": "With 'I' in the past tense, we use 'was'. 'Last night' indicates past time. 'I' နဲ့ အတိတ်ကာလမှာ 'was' ကိုသုံးပါ။",
+          "points": 1
+        },
+        {
+          "id": 209,
+          "question": "She ________ tired yesterday.",
+          "options": ["was", "were", "is"],
+          "answer": "was",
+          "explanation": "With 'she' in the past tense, we use 'was'. 'Yesterday' indicates past time. 'She' နဲ့ အတိတ်ကာလမှာ 'was' ကိုသုံးပါ။",
+          "points": 1
+        },
+        {
+          "id": 210,
+          "question": "They ________ at the market last week.",
+          "options": ["was", "were", "are"],
+          "answer": "were",
+          "explanation": "With 'they' in the past tense, we use 'were'. 'Last week' indicates past time. 'They' နဲ့ အတိတ်ကာလမှာ 'were' ကိုသုံးပါ။",
+          "points": 1
+        },
+        {
+          "id": 211,
+          "question": "We ________ at school yesterday.",
+          "options": ["was", "were", "are"],
+          "answer": "were",
+          "explanation": "With 'we' in the past tense, we use 'were'. 'Yesterday' indicates past time. 'We' နဲ့ အတိတ်ကာလမှာ 'were' ကိုသုံးပါ။",
+          "points": 1
+        },
+        {
+          "id": 212,
+          "question": "He ________ a student two years ago.",
+          "options": ["was", "were", "is"],
+          "answer": "was",
+          "explanation": "With 'he' in the past tense, we use 'was'. 'Two years ago' indicates past time. 'He' နဲ့ အတိတ်ကာလမှာ 'was' ကိုသုံးပါ။",
+          "points": 1
+        },
+        {
+          "id": 213,
+          "question": "You ________ happy yesterday.",
+          "options": ["was", "were", "are"],
+          "answer": "were",
+          "explanation": "With 'you' in the past tense, we use 'were'. 'Yesterday' indicates past time. 'You' နဲ့ အတိတ်ကာလမှာ 'were' ကိုသုံးပါ။",
+          "points": 1
+        },
+        {
+          "id": 214,
+          "question": "It ________ cold yesterday.",
+          "options": ["was", "were", "is"],
+          "answer": "was",
+          "explanation": "With 'it' in the past tense, we use 'was'. 'Yesterday' indicates past time. 'It' နဲ့ အတိတ်ကာလမှာ 'was' ကိုသုံးပါ။",
+          "points": 1
+        },
+        {
+          "id": 215,
+          "question": "I ________ a doctor next year.",
+          "options": ["will be", "am", "was"],
+          "answer": "will be",
+          "explanation": "For future tense with 'I', we use 'will be'. 'Next year' indicates future time. 'I' နဲ့ အနာဂတ်ကာလမှာ 'will be' ကိုသုံးပါ။",
+          "points": 1
+        },
+        {
+          "id": 216,
+          "question": "She ________ happy tomorrow.",
+          "options": ["will be", "is", "was"],
+          "answer": "will be",
+          "explanation": "For future tense with 'she', we use 'will be'. 'Tomorrow' indicates future time. 'She' နဲ့ အနာဂတ်ကာလမှာ 'will be' ကိုသုံးပါ။",
+          "points": 1
+        },
+        {
+          "id": 217,
+          "question": "They ________ at school next Monday.",
+          "options": ["will be", "are", "were"],
+          "answer": "will be",
+          "explanation": "For future tense with 'they', we use 'will be'. 'Next Monday' indicates future time. 'They' နဲ့ အနာဂတ်ကာလမှာ 'will be' ကိုသုံးပါ။",
+          "points": 1
+        },
+        {
+          "id": 218,
+          "question": "We ________ at home tomorrow.",
+          "options": ["will be", "are", "were"],
+          "answer": "will be",
+          "explanation": "For future tense with 'we', we use 'will be'. 'Tomorrow' indicates future time. 'We' နဲ့ အနာဂတ်ကာလမှာ 'will be' ကိုသုံးပါ။",
+          "points": 1
+        },
+        {
+          "id": 219,
+          "question": "He ________ here soon.",
+          "options": ["will be", "is", "was"],
+          "answer": "will be",
+          "explanation": "For future tense with 'he', we use 'will be'. 'Soon' indicates future time. 'He' နဲ့ အနာဂတ်ကာလမှာ 'will be' ကိုသုံးပါ။",
+          "points": 1
+        },
+        {
+          "id": 220,
+          "question": "You ________ late next time.",
+          "options": ["will be", "are", "were"],
+          "answer": "will be",
+          "explanation": "For future tense with 'you', we use 'will be'. 'Next time' indicates future time. 'You' နဲ့ အနာဂတ်ကာလမှာ 'will be' ကိုသုံးပါ။",
+          "points": 1
+        },
+        {
+          "id": 221,
+          "question": "It ________ hot next week.",
+          "options": ["will be", "is", "was"],
+          "answer": "will be",
+          "explanation": "For future tense with 'it', we use 'will be'. 'Next week' indicates future time. 'It' နဲ့ အနာဂတ်ကာလမှာ 'will be' ကိုသုံးပါ။",
+          "points": 1
+        },
+        {
+          "id": 222,
+          "question": "I ________ not a doctor.",
+          "options": ["am", "is", "are"],
+          "answer": "am",
+          "explanation": "Negative form with 'I' is 'am not'. 'I am not' is the correct negative form. 'I' နဲ့ ငြင်းဆိုပုံ 'am not' ဖြစ်ပါတယ်။",
+          "points": 1
+        },
+        {
+          "id": 223,
+          "question": "She ________ not beautiful.",
+          "options": ["am", "is", "are"],
+          "answer": "is",
+          "explanation": "Negative form with 'she' is 'is not'. 'She is not' is the correct negative form. 'She' နဲ့ ငြင်းဆိုပုံ 'is not' ဖြစ်ပါတယ်။",
+          "points": 1
+        },
+        {
+          "id": 224,
+          "question": "They ________ not at home.",
+          "options": ["am", "is", "are"],
+          "answer": "are",
+          "explanation": "Negative form with 'they' is 'are not'. 'They are not' is the correct negative form. 'They' နဲ့ ငြင်းဆိုပုံ 'are not' ဖြစ်ပါတယ်။",
+          "points": 1
+        },
+        {
+          "id": 225,
+          "question": "________ you a student?",
+          "options": ["Are", "Is", "Am"],
+          "answer": "Are",
+          "explanation": "Interrogative form with 'you' starts with 'Are'. 'Are you a student?' is the correct question form. 'You' နဲ့ မေးခွန်းပုံ 'Are you...?' ဖြစ်ပါတယ်။",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "id": "unit2-ex2",
+      "type": "multiple_choice",
+      "instructions": "Choose the correct answer to complete the short answer.",
+      "questions": [
+        {
+          "id": 226,
+          "question": "Is he a doctor? Yes, ________.",
+          "options": ["he is", "he are", "he am"],
+          "answer": "he is",
+          "explanation": "Short answer uses the same form of 'be' as the question. The question uses 'Is he', so the answer is 'he is'. မေးခွန်းက 'Is he' ဖြစ်တဲ့အတွက် အဖြေက 'he is' ဖြစ်ရပါမယ်။",
+          "points": 1
+        },
+        {
+          "id": 227,
+          "question": "Is he a doctor? No, ________.",
+          "options": ["he isn't", "he aren't", "he amn't"],
+          "answer": "he isn't",
+          "explanation": "Negative short answer uses the negative form of 'be'. The question uses 'Is he', so the negative answer is 'he isn't'. မေးခွန်းက 'Is he' ဖြစ်တဲ့အတွက် အဖြေက 'he isn't' ဖြစ်ရပါမယ်။",
+          "points": 1
+        },
+        {
+          "id": 228,
+          "question": "Are they at home? Yes, ________.",
+          "options": ["they are", "they is", "they am"],
+          "answer": "they are",
+          "explanation": "Short answer uses the same form of 'be' as the question. The question uses 'Are they', so the answer is 'they are'. မေးခွန်းက 'Are they' ဖြစ်တဲ့အတွက် အဖြေက 'they are' ဖြစ်ရပါမယ်။",
+          "points": 1
+        },
+        {
+          "id": 229,
+          "question": "Are they at home? No, ________.",
+          "options": ["they aren't", "they isn't", "they amn't"],
+          "answer": "they aren't",
+          "explanation": "Negative short answer uses the negative form of 'be'. The question uses 'Are they', so the negative answer is 'they aren't'. မေးခွန်းက 'Are they' ဖြစ်တဲ့အတွက် အဖြေက 'they aren't' ဖြစ်ရပါမယ်။",
+          "points": 1
+        },
+        {
+          "id": 230,
+          "question": "Was she happy yesterday? Yes, ________.",
+          "options": ["she was", "she were", "she is"],
+          "answer": "she was",
+          "explanation": "Short answer uses the same form of 'be' as the question. The question uses 'Was she', so the answer is 'she was'. မေးခွန်းက 'Was she' ဖြစ်တဲ့အတွက် အဖြေက 'she was' ဖြစ်ရပါမယ်။",
+          "points": 1
+        },
+        {
+          "id": 231,
+          "question": "Was she happy yesterday? No, ________.",
+          "options": ["she wasn't", "she weren't", "she isn't"],
+          "answer": "she wasn't",
+          "explanation": "Negative short answer uses the negative form of 'be'. The question uses 'Was she', so the negative answer is 'she wasn't'. မေးခွန်းက 'Was she' ဖြစ်တဲ့အတွက် အဖြေက 'she wasn't' ဖြစ်ရပါမယ်။",
+          "points": 1
+        },
+        {
+          "id": 232,
+          "question": "Were they at school yesterday? Yes, ________.",
+          "options": ["they were", "they was", "they are"],
+          "answer": "they were",
+          "explanation": "Short answer uses the same form of 'be' as the question. The question uses 'Were they', so the answer is 'they were'. မေးခွန်းက 'Were they' ဖြစ်တဲ့အတွက် အဖြေက 'they were' ဖြစ်ရပါမယ်။",
+          "points": 1
+        },
+        {
+          "id": 233,
+          "question": "Were they at school yesterday? No, ________.",
+          "options": ["they weren't", "they wasn't", "they aren't"],
+          "answer": "they weren't",
+          "explanation": "Negative short answer uses the negative form of 'be'. The question uses 'Were they', so the negative answer is 'they weren't'. မေးခွန်းက 'Were they' ဖြစ်တဲ့အတွက် အဖြေက 'they weren't' ဖြစ်ရပါမယ်။",
+          "points": 1
+        },
+        {
+          "id": 234,
+          "question": "Will he be here soon? Yes, ________.",
+          "options": ["he will", "he is", "he was"],
+          "answer": "he will",
+          "explanation": "Short answer uses the same auxiliary verb as the question. The question uses 'Will he', so the answer is 'he will'. မေးခွန်းက 'Will he' ဖြစ်တဲ့အတွက် အဖြေက 'he will' ဖြစ်ရပါမယ်။",
+          "points": 1
+        },
+        {
+          "id": 235,
+          "question": "Will he be here soon? No, ________.",
+          "options": ["he won't", "he isn't", "he wasn't"],
+          "answer": "he won't",
+          "explanation": "Negative short answer uses the negative form of the auxiliary verb. The question uses 'Will he', so the negative answer is 'he won't'. မေးခွန်းက 'Will he' ဖြစ်တဲ့အတွက် အဖြေက 'he won't' ဖြစ်ရပါမယ်။",
+          "points": 1
+        },
+        {
+          "id": 236,
+          "question": "Will they be at school next Monday? Yes, ________.",
+          "options": ["they will", "they are", "they were"],
+          "answer": "they will",
+          "explanation": "Short answer uses the same auxiliary verb as the question. The question uses 'Will they', so the answer is 'they will'. မေးခွန်းက 'Will they' ဖြစ်တဲ့အတွက် အဖြေက 'they will' ဖြစ်ရပါမယ်။",
+          "points": 1
+        },
+        {
+          "id": 237,
+          "question": "Will they be at school next Monday? No, ________.",
+          "options": ["they won't", "they aren't", "they weren't"],
+          "answer": "they won't",
+          "explanation": "Negative short answer uses the negative form of the auxiliary verb. The question uses 'Will they', so the negative answer is 'they won't'. မေးခွန်းက 'Will they' ဖြစ်တဲ့အတွက် အဖြေက 'they won't' ဖြစ်ရပါမယ်။",
+          "points": 1
+        },
+        {
+          "id": 238,
+          "question": "Am I a student? Yes, ________.",
+          "options": ["you are", "you is", "you am"],
+          "answer": "you are",
+          "explanation": "When answering a question about 'I', we change 'I' to 'you' in the answer. The question uses 'Am I', so the answer is 'you are'. 'I' အကြောင်း မေးတဲ့အခါ အဖြေမှာ 'you' ကိုသုံးပါ။",
+          "points": 1
+        },
+        {
+          "id": 239,
+          "question": "Am I a student? No, ________.",
+          "options": ["you aren't", "you isn't", "you amn't"],
+          "answer": "you aren't",
+          "explanation": "When answering a question about 'I', we change 'I' to 'you' in the answer. The question uses 'Am I', so the negative answer is 'you aren't'. 'I' အကြောင်း မေးတဲ့အခါ အဖြေမှာ 'you' ကိုသုံးပါ။",
+          "points": 1
+        },
+        {
+          "id": 240,
+          "question": "Are you my friend? Yes, ________.",
+          "options": ["I am", "I is", "I are"],
+          "answer": "I am",
+          "explanation": "When answering a question about 'you', we change 'you' to 'I' in the answer. The question uses 'Are you', so the answer is 'I am'. 'you' အကြောင်း မေးတဲ့အခါ အဖြေမှာ 'I' ကိုသုံးပါ။",
+          "points": 1
+        },
+        {
+          "id": 241,
+          "question": "Are you my friend? No, ________.",
+          "options": ["I'm not", "I isn't", "I aren't"],
+          "answer": "I'm not",
+          "explanation": "When answering a question about 'you', we change 'you' to 'I' in the answer. The question uses 'Are you', so the negative answer is 'I'm not'. 'you' အကြောင်း မေးတဲ့အခါ အဖြေမှာ 'I' ကိုသုံးပါ။",
+          "points": 1
+        },
+        {
+          "id": 242,
+          "question": "Was he at home last night? Yes, ________.",
+          "options": ["he was", "he were", "he is"],
+          "answer": "he was",
+          "explanation": "Short answer uses the same form of 'be' as the question. The question uses 'Was he', so the answer is 'he was'. မေးခွန်းက 'Was he' ဖြစ်တဲ့အတွက် အဖြေက 'he was' ဖြစ်ရပါမယ်။",
+          "points": 1
+        },
+        {
+          "id": 243,
+          "question": "Was he at home last night? No, ________.",
+          "options": ["he wasn't", "he weren't", "he isn't"],
+          "answer": "he wasn't",
+          "explanation": "Negative short answer uses the negative form of 'be'. The question uses 'Was he', so the negative answer is 'he wasn't'. မေးခွန်းက 'Was he' ဖြစ်တဲ့အတွက် အဖြေက 'he wasn't' ဖြစ်ရပါမယ်။",
+          "points": 1
+        },
+        {
+          "id": 244,
+          "question": "Were you at school yesterday? Yes, ________.",
+          "options": ["I was", "I were", "I am"],
+          "answer": "I was",
+          "explanation": "When answering a question about 'you', we change 'you' to 'I' in the answer. The question uses 'Were you', so the answer is 'I was'. 'you' အကြောင်း မေးတဲ့အခါ အဖြေမှာ 'I' ကိုသုံးပါ။",
+          "points": 1
+        },
+        {
+          "id": 245,
+          "question": "Were you at school yesterday? No, ________.",
+          "options": ["I wasn't", "I weren't", "I isn't"],
+          "answer": "I wasn't",
+          "explanation": "When answering a question about 'you', we change 'you' to 'I' in the answer. The question uses 'Were you', so the negative answer is 'I wasn't'. 'you' အကြောင်း မေးတဲ့အခါ အဖြေမှာ 'I' ကိုသုံးပါ။",
+          "points": 1
+        },
+        {
+          "id": 246,
+          "question": "Will she be happy tomorrow? Yes, ________.",
+          "options": ["she will", "she is", "she was"],
+          "answer": "she will",
+          "explanation": "Short answer uses the same auxiliary verb as the question. The question uses 'Will she', so the answer is 'she will'. မေးခွန်းက 'Will she' ဖြစ်တဲ့အတွက် အဖြေက 'she will' ဖြစ်ရပါမယ်။",
+          "points": 1
+        },
+        {
+          "id": 247,
+          "question": "Will she be happy tomorrow? No, ________.",
+          "options": ["she won't", "she isn't", "she wasn't"],
+          "answer": "she won't",
+          "explanation": "Negative short answer uses the negative form of the auxiliary verb. The question uses 'Will she', so the negative answer is 'she won't'. မေးခွန်းက 'Will she' ဖြစ်တဲ့အတွက် အဖြေက 'she won't' ဖြစ်ရပါမယ်။",
+          "points": 1
+        },
+        {
+          "id": 248,
+          "question": "Will we be at home tomorrow? Yes, ________.",
+          "options": ["we will", "we are", "we were"],
+          "answer": "we will",
+          "explanation": "Short answer uses the same auxiliary verb as the question. The question uses 'Will we', so the answer is 'we will'. မေးခွန်းက 'Will we' ဖြစ်တဲ့အတွက် အဖြေက 'we will' ဖြစ်ရပါမယ်။",
+          "points": 1
+        },
+        {
+          "id": 249,
+          "question": "Will we be at home tomorrow? No, ________.",
+          "options": ["we won't", "we aren't", "we weren't"],
+          "answer": "we won't",
+          "explanation": "Negative short answer uses the negative form of the auxiliary verb. The question uses 'Will we', so the negative answer is 'we won't'. မေးခွန်းက 'Will we' ဖြစ်တဲ့အတွက် အဖြေက 'we won't' ဖြစ်ရပါမယ်။",
+          "points": 1
+        },
+        {
+          "id": 250,
+          "question": "Will you be late next time? Yes, ________.",
+          "options": ["I will", "I am", "I was"],
+          "answer": "I will",
+          "explanation": "When answering a question about 'you', we change 'you' to 'I' in the answer. The question uses 'Will you', so the answer is 'I will'. 'you' အကြောင်း မေးတဲ့အခါ အဖြေမှာ 'I' ကိုသုံးပါ။",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "id": "unit2-ex3",
+      "type": "multiple_choice",
+      "instructions": "Choose the correct English translation.",
+      "questions": [
+        {
+          "id": 251,
+          "question": "ကျွန်မ ဆရာဝန်တစ်ယောက်ပါ။ (I / a doctor)",
+          "options": ["I am a doctor.", "I is a doctor.", "I are a doctor."],
+          "answer": "I am a doctor.",
+          "explanation": "With 'I', we use 'am'. 'I am a doctor' is the correct translation. 'I' နဲ့ 'am' ကိုသုံးပါ။",
+          "points": 2
+        },
+        {
+          "id": 252,
+          "question": "သူ ဆရာတစ်ယောက်ပါ။ (He / a teacher)",
+          "options": ["He is a teacher.", "He am a teacher.", "He are a teacher."],
+          "answer": "He is a teacher.",
+          "explanation": "With 'he', we use 'is'. 'He is a teacher' is the correct translation. 'He' နဲ့ 'is' ကိုသုံးပါ။",
+          "points": 2
+        },
+        {
+          "id": 253,
+          "question": "သူမ လှပတယ်။ (She / beautiful)",
+          "options": ["She is beautiful.", "She am beautiful.", "She are beautiful."],
+          "answer": "She is beautiful.",
+          "explanation": "With 'she', we use 'is'. 'She is beautiful' is the correct translation. 'She' နဲ့ 'is' ကိုသုံးပါ။",
+          "points": 2
+        },
+        {
+          "id": 254,
+          "question": "ငါတို့ ပန်းခြံထဲမှာ ရှိတယ်။ (We / in the park)",
+          "options": ["We are in the park.", "We is in the park.", "We am in the park."],
+          "answer": "We are in the park.",
+          "explanation": "With 'we', we use 'are'. 'We are in the park' is the correct translation. 'We' နဲ့ 'are' ကိုသုံးပါ။",
+          "points": 2
+        },
+        {
+          "id": 255,
+          "question": "မင်း ငါ့သူငယ်ချင်းပါ။ (You / my friend)",
+          "options": ["You are my friend.", "You is my friend.", "You am my friend."],
+          "answer": "You are my friend.",
+          "explanation": "With 'you', we use 'are'. 'You are my friend' is the correct translation. 'You' နဲ့ 'are' ကိုသုံးပါ။",
+          "points": 2
+        },
+        {
+          "id": 256,
+          "question": "သူတို့ ဆရာဝန်တွေပါ။ (They / doctors)",
+          "options": ["They are doctors.", "They is doctors.", "They am doctors."],
+          "answer": "They are doctors.",
+          "explanation": "With 'they', we use 'are'. 'They are doctors' is the correct translation. 'They' နဲ့ 'are' ကိုသုံးပါ။",
+          "points": 2
+        },
+        {
+          "id": 257,
+          "question": "မနေ့ညက ကျွန်မ အိမ်မှာ ရှိခဲ့တယ်။ (I / at home / last night)",
+          "options": ["I was at home last night.", "I were at home last night.", "I am at home last night."],
+          "answer": "I was at home last night.",
+          "explanation": "With 'I' in past tense, we use 'was'. 'Last night' indicates past time. 'I' နဲ့ အတိတ်ကာလမှာ 'was' ကိုသုံးပါ။",
+          "points": 2
+        },
+        {
+          "id": 258,
+          "question": "မနေ့က သူ ကျောင်းသားတစ်ယောက်ပါ။ (He / a student / yesterday)",
+          "options": ["He was a student yesterday.", "He were a student yesterday.", "He is a student yesterday."],
+          "answer": "He was a student yesterday.",
+          "explanation": "With 'he' in past tense, we use 'was'. 'Yesterday' indicates past time. 'He' နဲ့ အတိတ်ကာလမှာ 'was' ကိုသုံးပါ။",
+          "points": 2
+        },
+        {
+          "id": 259,
+          "question": "မနေ့ညက သူမ ပင်ပန်းနေတယ်။ (She / tired / last night)",
+          "options": ["She was tired last night.", "She were tired last night.", "She is tired last night."],
+          "answer": "She was tired last night.",
+          "explanation": "With 'she' in past tense, we use 'was'. 'Last night' indicates past time. 'She' နဲ့ အတိတ်ကာလမှာ 'was' ကိုသုံးပါ။",
+          "points": 2
+        },
+        {
+          "id": 260,
+          "question": "မနေ့က ငါတို့ ကျောင်းမှာ ရှိခဲ့တယ်။ (We / at school / yesterday)",
+          "options": ["We were at school yesterday.", "We was at school yesterday.", "We are at school yesterday."],
+          "answer": "We were at school yesterday.",
+          "explanation": "With 'we' in past tense, we use 'were'. 'Yesterday' indicates past time. 'We' နဲ့ အတိတ်ကာလမှာ 'were' ကိုသုံးပါ။",
+          "points": 2
+        },
+        {
+          "id": 261,
+          "question": "မနေ့က မင်း ပျော်ရွှင်ခဲ့တယ်။ (You / happy / yesterday)",
+          "options": ["You were happy yesterday.", "You was happy yesterday.", "You are happy yesterday."],
+          "answer": "You were happy yesterday.",
+          "explanation": "With 'you' in past tense, we use 'were'. 'Yesterday' indicates past time. 'You' နဲ့ အတိတ်ကာလမှာ 'were' ကိုသုံးပါ။",
+          "points": 2
+        },
+        {
+          "id": 262,
+          "question": "ပြီးခဲ့တဲ့အပတ်က သူတို့ စျေးမှာ ရှိခဲ့တယ်။ (They / at the market / last week)",
+          "options": ["They were at the market last week.", "They was at the market last week.", "They are at the market last week."],
+          "answer": "They were at the market last week.",
+          "explanation": "With 'they' in past tense, we use 'were'. 'Last week' indicates past time. 'They' နဲ့ အတိတ်ကာလမှာ 'were' ကိုသုံးပါ။",
+          "points": 2
+        },
+        {
+          "id": 263,
+          "question": "နောက်နှစ် ကျွန်မ ဆရာဝန်ဖြစ်မယ်။ (I / a doctor / next year)",
+          "options": ["I will be a doctor next year.", "I am a doctor next year.", "I was a doctor next year."],
+          "answer": "I will be a doctor next year.",
+          "explanation": "With 'I' in future tense, we use 'will be'. 'Next year' indicates future time. 'I' နဲ့ အနာဂတ်ကာလမှာ 'will be' ကိုသုံးပါ။",
+          "points": 2
+        },
+        {
+          "id": 264,
+          "question": "မနက်ဖန် ငါတို့ အိမ်မှာ ရှိမယ်။ (We / at home / tomorrow)",
+          "options": ["We will be at home tomorrow.", "We are at home tomorrow.", "We were at home tomorrow."],
+          "answer": "We will be at home tomorrow.",
+          "explanation": "With 'we' in future tense, we use 'will be'. 'Tomorrow' indicates future time. 'We' နဲ့ အနာဂတ်ကာလမှာ 'will be' ကိုသုံးပါ။",
+          "points": 2
+        },
+        {
+          "id": 265,
+          "question": "မကြာခင် သူ ရောက်လာမယ်။ (He / here / soon)",
+          "options": ["He will be here soon.", "He is here soon.", "He was here soon."],
+          "answer": "He will be here soon.",
+          "explanation": "With 'he' in future tense, we use 'will be'. 'Soon' indicates future time. 'He' နဲ့ အနာဂတ်ကာလမှာ 'will be' ကိုသုံးပါ။",
+          "points": 2
+        },
+        {
+          "id": 266,
+          "question": "မနက်ဖန် သူမ ပျော်ရွှင်မယ်။ (She / happy / tomorrow)",
+          "options": ["She will be happy tomorrow.", "She is happy tomorrow.", "She was happy tomorrow."],
+          "answer": "She will be happy tomorrow.",
+          "explanation": "With 'she' in future tense, we use 'will be'. 'Tomorrow' indicates future time. 'She' နဲ့ အနာဂတ်ကာလမှာ 'will be' ကိုသုံးပါ။",
+          "points": 2
+        },
+        {
+          "id": 267,
+          "question": "နောက်အပတ် ပူနွေးမယ်။ (It / hot / next week)",
+          "options": ["It will be hot next week.", "It is hot next week.", "It was hot next week."],
+          "answer": "It will be hot next week.",
+          "explanation": "With 'it' in future tense, we use 'will be'. 'Next week' indicates future time. 'It' နဲ့ အနာဂတ်ကာလမှာ 'will be' ကိုသုံးပါ။",
+          "points": 2
+        },
+        {
+          "id": 268,
+          "question": "နောက်တနင်္လာနေ့ သူတို့ ကျောင်းမှာ ရှိမယ်။ (They / at school / next Monday)",
+          "options": ["They will be at school next Monday.", "They are at school next Monday.", "They were at school next Monday."],
+          "answer": "They will be at school next Monday.",
+          "explanation": "With 'they' in future tense, we use 'will be'. 'Next Monday' indicates future time. 'They' နဲ့ အနာဂတ်ကာလမှာ 'will be' ကိုသုံးပါ။",
+          "points": 2
+        },
+        {
+          "id": 269,
+          "question": "နောက်တစ်ကြိမ် မင်း နောက်ကျမယ်။ (You / late / next time)",
+          "options": ["You will be late next time.", "You are late next time.", "You were late next time."],
+          "answer": "You will be late next time.",
+          "explanation": "With 'you' in future tense, we use 'will be'. 'Next time' indicates future time. 'You' နဲ့ အနာဂတ်ကာလမှာ 'will be' ကိုသုံးပါ။",
+          "points": 2
+        },
+        {
+          "id": 270,
+          "question": "ကျွန်မ ဆရာဝန်မဟုတ်ဘူး။ (I / not / a doctor)",
+          "options": ["I am not a doctor.", "I is not a doctor.", "I are not a doctor."],
+          "answer": "I am not a doctor.",
+          "explanation": "With 'I', we use 'am not' for negative. 'I am not a doctor' is the correct translation. 'I' နဲ့ ငြင်းဆိုပုံ 'am not' ဖြစ်ပါတယ်။",
+          "points": 2
+        },
+        {
+          "id": 271,
+          "question": "သူမ လှမဟုတ်ဘူး။ (She / not / beautiful)",
+          "options": ["She is not beautiful.", "She am not beautiful.", "She are not beautiful."],
+          "answer": "She is not beautiful.",
+          "explanation": "With 'she', we use 'is not' for negative. 'She is not beautiful' is the correct translation. 'She' နဲ့ ငြင်းဆိုပုံ 'is not' ဖြစ်ပါတယ်။",
+          "points": 2
+        },
+        {
+          "id": 272,
+          "question": "သူတို့ အိမ်မှာ မရှိဘူး။ (They / not / at home)",
+          "options": ["They are not at home.", "They is not at home.", "They am not at home."],
+          "answer": "They are not at home.",
+          "explanation": "With 'they', we use 'are not' for negative. 'They are not at home' is the correct translation. 'They' နဲ့ ငြင်းဆိုပုံ 'are not' ဖြစ်ပါတယ်။",
+          "points": 2
+        },
+        {
+          "id": 273,
+          "question": "ကျွန်မ ဆရာဝန်လား။ (I / a doctor)",
+          "options": ["Am I a doctor?", "Is I a doctor?", "Are I a doctor?"],
+          "answer": "Am I a doctor?",
+          "explanation": "With 'I' in interrogative, we use 'Am I...?'. 'Am I a doctor?' is the correct translation. 'I' နဲ့ မေးခွန်းပုံ 'Am I...?' ဖြစ်ပါတယ်။",
+          "points": 2
+        },
+        {
+          "id": 274,
+          "question": "သူ ဆရာလား။ (He / a teacher)",
+          "options": ["Is he a teacher?", "Am he a teacher?", "Are he a teacher?"],
+          "answer": "Is he a teacher?",
+          "explanation": "With 'he' in interrogative, we use 'Is he...?'. 'Is he a teacher?' is the correct translation. 'He' နဲ့ မေးခွန်းပုံ 'Is he...?' ဖြစ်ပါတယ်။",
+          "points": 2
+        },
+        {
+          "id": 275,
+          "question": "သူတို့ ပန်းခြံထဲမှာ ရှိလား။ (They / in the park)",
+          "options": ["Are they in the park?", "Is they in the park?", "Am they in the park?"],
+          "answer": "Are they in the park?",
+          "explanation": "With 'they' in interrogative, we use 'Are they...?'. 'Are they in the park?' is the correct translation. 'They' နဲ့ မေးခွန်းပုံ 'Are they...?' ဖြစ်ပါတယ်။",
+          "points": 2
+        }
+      ]
+    }
+  ]
+}

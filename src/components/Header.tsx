@@ -22,12 +22,18 @@ export default function Header() {
             Grammar Fellows
           </span>
         </Link>
-        <nav aria-label="Main navigation">
+        <nav aria-label="Main navigation" className="flex items-center gap-1">
           <Link
             href="/unit-1"
             className="text-sm font-medium text-ink-muted hover:text-primary-600 px-3 py-2 rounded-lg hover:bg-primary-50 transition-all duration-200 focus-visible:ring-2 focus-visible:ring-primary-500 focus-visible:ring-offset-1"
           >
             Unit 1
+          </Link>
+          <Link
+            href="/unit-2"
+            className="text-sm font-medium text-ink-muted hover:text-primary-600 px-3 py-2 rounded-lg hover:bg-primary-50 transition-all duration-200 focus-visible:ring-2 focus-visible:ring-primary-500 focus-visible:ring-offset-1"
+          >
+            Unit 2
           </Link>
         </nav>
       </div>

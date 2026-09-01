@@ -12,19 +12,19 @@ const FORM_LABELS = [
   { name: "Neg. Interrogative", color: "form-badge-neg-interrogative" },
 ];
 
-const UNIT = 1;
+const UNIT = 2;
 
-export default function UnitOverviewPage() {
+export default function Unit2OverviewPage() {
   const lessonsData = getLessonsData(UNIT);
   const exercisesData = getExercisesData(UNIT);
   const total = getTotalQuestionCount(UNIT);
   const answered = useAnsweredCount(UNIT);
 
   const objectives = [
-    "Understand and use Simple Present Tense, Simple Past Tense, and Simple Future Tense",
-    "Form affirmative, negative, interrogative, and negative-interrogative sentences",
-    "Use correct verb forms for all subject pronouns (I, we, you, he, she, it, they)",
-    "Reply to Yes/No questions with short and long answers",
+    "Understand and use the verb 'to be' (am, is, are, was, were)",
+    "Form affirmative, negative, interrogative, and negative-interrogative sentences with 'to be'",
+    "Use the correct form of 'to be' for all subject pronouns",
+    "Reply to Yes/No questions with short and long answers using 'to be'",
   ];
 
   return (
@@ -41,7 +41,7 @@ export default function UnitOverviewPage() {
 
       <div className="mb-8">
         <h1 className="text-2xl sm:text-3xl lg:text-4xl font-bold text-ink mb-2 tracking-tight">
-          Unit 1: {lessonsData.title}
+          Unit 2: {lessonsData.title}
         </h1>
 
         {/* Form labels */}
@@ -136,7 +136,7 @@ export default function UnitOverviewPage() {
       {/* Action Buttons */}
       <div className="flex flex-col sm:flex-row gap-3">
         <Link
-          href="/unit-1/lesson"
+          href="/unit-2/lesson"
           className="inline-flex items-center justify-center gap-2 bg-surface text-primary-700 font-semibold border-2 border-primary-200 px-6 py-3.5 rounded-xl hover:bg-primary-50 hover:border-primary-300 transition-all duration-200 focus-visible:ring-2 focus-visible:ring-primary-500 focus-visible:ring-offset-2 text-sm sm:text-base"
         >
           <svg className="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2} aria-hidden="true">
@@ -145,7 +145,7 @@ export default function UnitOverviewPage() {
           Read Lessons
         </Link>
         <Link
-          href="/unit-1/practice"
+          href="/unit-2/practice"
           className="inline-flex items-center justify-center gap-2 bg-gradient-to-r from-primary-600 to-primary-700 text-white font-semibold px-6 py-3.5 rounded-xl hover:from-primary-700 hover:to-primary-800 transition-all duration-200 shadow-md shadow-primary-600/20 focus-visible:ring-2 focus-visible:ring-primary-400 focus-visible:ring-offset-2 text-sm sm:text-base"
         >
           Start Practice
