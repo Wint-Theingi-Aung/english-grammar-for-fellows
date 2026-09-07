@@ -18,6 +18,8 @@
  * 5. Never deletes existing user progress or exercise attempts
  */
 
+// Wrap in IIFE to avoid top-level variable conflicts with sibling scripts.
+(() => {
 const { neon } = require("@neondatabase/serverless");
 const { drizzle } = require("drizzle-orm/neon-http");
 const { sql } = require("drizzle-orm");
@@ -377,3 +379,4 @@ main().catch((err) => {
   console.error("\nSeed failed:", err.message || err);
   process.exit(1);
 });
+})();
