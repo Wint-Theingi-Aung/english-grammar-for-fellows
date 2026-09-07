@@ -166,9 +166,12 @@
         const eid = exerciseUuid(unitNum, ei);
         unitQCount += ex.questions.length;
         const questionsJson = JSON.stringify(ex.questions);
+        // Validate JSON round-trip before writing to SQL
+        JSON.parse(questionsJson);
+        // Use dollar-quoting so JSON passes through without SQL escaping issues
         lines.push(
           `INSERT INTO exercises (id, unit_id, slug, type, instructions, questions) ` +
-          `VALUES (${esc(eid)}, (SELECT id FROM units WHERE unit_number = ${unitNum}), ${esc(ex.id)}, ${esc(ex.type)}, ${esc(ex.instructions)}, ${esc(questionsJson)}::jsonb) ` +
+          `VALUES (${esc(eid)}, (SELECT id FROM units WHERE unit_number = ${unitNum}), ${esc(ex.id)}, ${esc(ex.type)}, ${esc(ex.instructions)}, $$${questionsJson}$$::jsonb) ` +
           `ON CONFLICT (unit_id, slug) DO UPDATE SET type = EXCLUDED.type, instructions = EXCLUDED.instructions, questions = EXCLUDED.questions;`,
         );
       }
