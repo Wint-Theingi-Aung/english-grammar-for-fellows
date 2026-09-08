@@ -33,6 +33,9 @@ export default function Header() {
           <Link href="/review-mistakes" className="text-sm font-medium text-ink-muted hover:text-primary-600 px-2.5 py-2 rounded-lg hover:bg-primary-50 transition-all duration-200 focus-visible:ring-2 focus-visible:ring-primary-500 focus-visible:ring-offset-1">
             Review Mistakes
           </Link>
+          <Link href="/about" className="text-sm font-medium text-ink-muted hover:text-primary-600 px-2.5 py-2 rounded-lg hover:bg-primary-50 transition-all duration-200 focus-visible:ring-2 focus-visible:ring-primary-500 focus-visible:ring-offset-1">
+            About
+          </Link>
         </nav>
 
         <button
@@ -61,6 +64,9 @@ export default function Header() {
           </Link>
           <Link href="/review-mistakes" className="block text-sm font-medium text-ink-muted hover:text-primary-600 px-3 py-2.5 rounded-lg hover:bg-primary-50 transition-all duration-200" onClick={() => setMenuOpen(false)}>
             Review Mistakes
+          </Link>
+          <Link href="/about" className="block text-sm font-medium text-ink-muted hover:text-primary-600 px-3 py-2.5 rounded-lg hover:bg-primary-50 transition-all duration-200" onClick={() => setMenuOpen(false)}>
+            About
           </Link>
         </div>
       )}

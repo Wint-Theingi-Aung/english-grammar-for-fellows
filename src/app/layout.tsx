@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Inter, Lora, Geist_Mono } from "next/font/google";
 import "./globals.css";
 import Header from "@/components/Header";
+import Link from "next/link";
 
 const inter = Inter({
   variable: "--font-inter",
@@ -47,7 +48,10 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
         <footer className="border-t border-border bg-surface/50 py-6 mt-auto">
           <div className="max-w-5xl mx-auto px-4 sm:px-6 text-center">
             <p className="text-xs text-ink-muted">
-              Grammar Fellows &mdash; English Grammar for Fellows
+              Grammar Fellows &mdash; English Grammar for Fellows &middot;{" "}
+              <Link href="/about" className="hover:text-primary-600 transition-colors duration-200 focus-visible:ring-2 focus-visible:ring-primary-500 focus-visible:ring-offset-1 rounded">
+                About the Book
+              </Link>
             </p>
           </div>
         </footer>
