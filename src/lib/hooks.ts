@@ -1,6 +1,6 @@
 "use client";
 
-import { useSyncExternalStore } from "react";
+import { useMemo, useRef, useSyncExternalStore } from "react";
 
 const noop = () => () => {};
 
@@ -38,8 +38,10 @@ export function useScore(unit: number = 1): { score: number; total: number } | n
   const totalSelector = makeUnitSelector<number>(unit, (d) => (d.totalPoints as number) ?? 0, 0);
   const score = useSyncExternalStore(noop, scoreSelector, () => 0);
   const total = useSyncExternalStore(noop, totalSelector, () => 0);
-  if (score === 0 && total === 0) return null;
-  return { score, total };
+  return useMemo(() => {
+    if (score === 0 && total === 0) return null;
+    return { score, total };
+  }, [score, total]);
 }
 
 export function useCompletedAnswersJson(unit: number = 1): string {
@@ -58,13 +60,21 @@ export function useProgressCompletedAt(unit: number = 1): string {
 }
 
 export function useAllProgress(): Record<string, { answered: number; completed: boolean; score: number; total: number; completedAt: string }> {
-  const selector = (): Record<string, { answered: number; completed: boolean; score: number; total: number; completedAt: string }> => {
-    if (typeof window === "undefined") return {};
+  type ProgressValue = { answered: number; completed: boolean; score: number; total: number; completedAt: string };
+  const cacheRef = useRef<{ raw: string; result: Record<string, ProgressValue> }>({ raw: "", result: {} });
+  const selector = (): Record<string, ProgressValue> => {
+    if (typeof window === "undefined") return cacheRef.current.result;
     try {
       const raw = localStorage.getItem("grammar-fellows-progress");
-      if (!raw) return {};
+      if (!raw) {
+        if (cacheRef.current.raw !== "") {
+          cacheRef.current = { raw: "", result: {} };
+        }
+        return cacheRef.current.result;
+      }
+      if (raw === cacheRef.current.raw) return cacheRef.current.result;
       const all = JSON.parse(raw);
-      const result: Record<string, { answered: number; completed: boolean; score: number; total: number; completedAt: string }> = {};
+      const result: Record<string, ProgressValue> = {};
       for (const [key, val] of Object.entries(all)) {
         const d = val as Record<string, unknown>;
         const answers = d.answers as unknown[] | undefined;
@@ -76,20 +86,29 @@ export function useAllProgress(): Record<string, { answered: number; completed: 
           completedAt: (d.completedAt as string) ?? "",
         };
       }
+      cacheRef.current = { raw, result };
       return result;
     } catch {
-      return {};
+      return cacheRef.current.result;
     }
   };
   return useSyncExternalStore(noop, selector, () => ({}));
 }
 
 export function useTodayStats(): { todayCount: number; streak: number } {
-  const selector = (): { todayCount: number; streak: number } => {
-    if (typeof window === "undefined") return { todayCount: 0, streak: 0 };
+  type TodayStats = { todayCount: number; streak: number };
+  const cacheRef = useRef<{ raw: string; result: TodayStats }>({ raw: "", result: { todayCount: 0, streak: 0 } });
+  const selector = (): TodayStats => {
+    if (typeof window === "undefined") return cacheRef.current.result;
     try {
       const raw = localStorage.getItem("grammar-fellows-progress");
-      if (!raw) return { todayCount: 0, streak: 0 };
+      if (!raw) {
+        if (cacheRef.current.raw !== "") {
+          cacheRef.current = { raw: "", result: { todayCount: 0, streak: 0 } };
+        }
+        return cacheRef.current.result;
+      }
+      if (raw === cacheRef.current.raw) return cacheRef.current.result;
       const all = JSON.parse(raw);
       let todayCount = 0;
       const completedDates: string[] = [];
@@ -117,9 +136,11 @@ export function useTodayStats(): { todayCount: number; streak: number } {
           break;
         }
       }
-      return { todayCount: Math.min(todayCount, 999), streak };
+      const result: TodayStats = { todayCount: Math.min(todayCount, 999), streak };
+      cacheRef.current = { raw, result };
+      return result;
     } catch {
-      return { todayCount: 0, streak: 0 };
+      return cacheRef.current.result;
     }
   };
   return useSyncExternalStore(noop, selector, () => ({ todayCount: 0, streak: 0 }));
