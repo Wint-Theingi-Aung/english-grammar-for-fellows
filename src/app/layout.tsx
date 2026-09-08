@@ -24,7 +24,7 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: "Grammar Fellows - English Grammar for Fellows",
   description:
-    "Learn English grammar with interactive lessons and exercises covering Simple Present, Past, and Future tenses.",
+    "Master English grammar with interactive lessons and exercises. Learn tenses, modals, question tags, and more with Burmese translations.",
 };
 
 export default function RootLayout({ children }: LayoutProps<"/">) {

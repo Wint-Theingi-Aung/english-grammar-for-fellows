@@ -56,3 +56,101 @@ export function useProgressCompletedAt(unit: number = 1): string {
   const selector = makeUnitSelector<string>(unit, (d) => (d.completedAt as string) ?? "", "");
   return useSyncExternalStore(noop, selector, () => "");
 }
+
+export function useAllProgress(): Record<string, { answered: number; completed: boolean; score: number; total: number; completedAt: string }> {
+  const selector = (): Record<string, { answered: number; completed: boolean; score: number; total: number; completedAt: string }> => {
+    if (typeof window === "undefined") return {};
+    try {
+      const raw = localStorage.getItem("grammar-fellows-progress");
+      if (!raw) return {};
+      const all = JSON.parse(raw);
+      const result: Record<string, { answered: number; completed: boolean; score: number; total: number; completedAt: string }> = {};
+      for (const [key, val] of Object.entries(all)) {
+        const d = val as Record<string, unknown>;
+        const answers = d.answers as unknown[] | undefined;
+        result[key] = {
+          answered: answers?.length ?? 0,
+          completed: !!d.completedAt,
+          score: (d.score as number) ?? 0,
+          total: (d.totalPoints as number) ?? 0,
+          completedAt: (d.completedAt as string) ?? "",
+        };
+      }
+      return result;
+    } catch {
+      return {};
+    }
+  };
+  return useSyncExternalStore(noop, selector, () => ({}));
+}
+
+export function useTodayStats(): { todayCount: number; streak: number } {
+  const selector = (): { todayCount: number; streak: number } => {
+    if (typeof window === "undefined") return { todayCount: 0, streak: 0 };
+    try {
+      const raw = localStorage.getItem("grammar-fellows-progress");
+      if (!raw) return { todayCount: 0, streak: 0 };
+      const all = JSON.parse(raw);
+      let todayCount = 0;
+      const completedDates: string[] = [];
+      for (const val of Object.values(all)) {
+        const d = val as Record<string, unknown>;
+        const answers = (d.answers ?? []) as Array<Record<string, unknown>>;
+        for (const a of answers) {
+          if (a.questionId && a.isCorrect !== undefined) {
+            todayCount++;
+          }
+        }
+        if (d.completedAt) {
+          completedDates.push(new Date(d.completedAt as string).toDateString());
+        }
+      }
+      const uniqueDates = [...new Set(completedDates)].sort((a, b) => new Date(b).getTime() - new Date(a).getTime());
+      let streak = 0;
+      const now = new Date();
+      for (let i = 0; i < uniqueDates.length; i++) {
+        const expected = new Date(now);
+        expected.setDate(expected.getDate() - i);
+        if (uniqueDates[i] === expected.toDateString()) {
+          streak++;
+        } else {
+          break;
+        }
+      }
+      return { todayCount: Math.min(todayCount, 999), streak };
+    } catch {
+      return { todayCount: 0, streak: 0 };
+    }
+  };
+  return useSyncExternalStore(noop, selector, () => ({ todayCount: 0, streak: 0 }));
+}
+
+export function useMistakesJson(): string {
+  const selector = (): string => {
+    if (typeof window === "undefined") return "[]";
+    try {
+      const raw = localStorage.getItem("grammar-fellows-progress");
+      if (!raw) return "[]";
+      const all = JSON.parse(raw);
+      const mistakes: Array<{ unit: number; questionId: number; answer: string; isCorrect: boolean }> = [];
+      for (const [unitStr, val] of Object.entries(all)) {
+        const d = val as Record<string, unknown>;
+        const answers = (d.answers ?? []) as Array<Record<string, unknown>>;
+        for (const a of answers) {
+          if (a.isCorrect === false) {
+            mistakes.push({
+              unit: parseInt(unitStr),
+              questionId: a.questionId as number,
+              answer: (a.answer as string) ?? "",
+              isCorrect: false,
+            });
+          }
+        }
+      }
+      return JSON.stringify(mistakes);
+    } catch {
+      return "[]";
+    }
+  };
+  return useSyncExternalStore(noop, selector, () => "[]");
+}
