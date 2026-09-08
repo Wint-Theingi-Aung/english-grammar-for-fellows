@@ -1,0 +1,132 @@
+{
+  "unit": 11,
+  "exercises": [
+    {
+      "id": "unit11-ex1",
+      "type": "multiple_choice",
+      "instructions": "Choose the correct alternative to complete each sentence.",
+      "questions": [
+        {
+          "id": 1101,
+          "question": "Jack ________ go home early last night.",
+          "options": ["have to", "had to", "has to"],
+          "answer": "had to",
+          "explanation": "'Last night' indicates past time, so we use 'had to'. 'Have to' is for present. 'Has to' is for third person singular present. 'Last night' ဆိုတာ အတိတ်ကာလဖြစ်တဲ့အတွက် 'had to' ကိုသုံးပါ။",
+          "points": 1
+        },
+        {
+          "id": 1102,
+          "question": "I ________ brush my teeth twice a day.",
+          "options": ["have to", "had to", "has to"],
+          "answer": "have to",
+          "explanation": "'Twice a day' indicates a present habitual action, so we use 'have to'. 'Had to' is for past. 'Has to' is for third person singular. 'Twice a day' ဆိုတာ ပုံမှန်လုပ်ရတဲ့အတွက် 'have to' ကိုသုံးပါ။",
+          "points": 1
+        },
+        {
+          "id": 1103,
+          "question": "We ________ buy another ticket yesterday.",
+          "options": ["have to", "had to", "has to"],
+          "answer": "had to",
+          "explanation": "'Yesterday' indicates past time, so we use 'had to'. 'Have to' is for present. 'Has to' is for third person singular present. 'Yesterday' ဆိုတာ အတိတ်ကာလဖြစ်တဲ့အတွက် 'had to' ကိုသုံးပါ။",
+          "points": 1
+        },
+        {
+          "id": 1104,
+          "question": "Susan and Steve ________ pay their rent every Friday.",
+          "options": ["has to", "have to", "had to"],
+          "answer": "have to",
+          "explanation": "'Every Friday' indicates a present habitual action, and 'Susan and Steve' is plural, so we use 'have to'. 'Has to' is for third person singular. 'Had to' is for past. 'Every Friday' ဆိုတာ ပုံမှန်လုပ်ရတဲ့အတွက် 'have to' ကိုသုံးပါ။",
+          "points": 1
+        },
+        {
+          "id": 1105,
+          "question": "You don't ________ drive today.",
+          "options": ["have to", "had to", "has to"],
+          "answer": "have to",
+          "explanation": "'Don't have to' means it's not required. 'Don't had to' and 'don't has to' are grammatically incorrect. 'Today' indicates present. 'Don't have to' ကို မလိုအပ်တဲ့အခါ သုံးပါ။",
+          "points": 1
+        },
+        {
+          "id": 1106,
+          "question": "The doctor told her that she ________ lose weight.",
+          "options": ["has to", "had to", "have to"],
+          "answer": "had to",
+          "explanation": "'The doctor told her' indicates reported speech in the past. In reported speech, 'has to' changes to 'had to'. 'Has to' is for present. 'Have to' is for plural. 'Reported speech မှာ 'has to' က 'had to' ပြောင်းပါ။",
+          "points": 1
+        },
+        {
+          "id": 1107,
+          "question": "He ________ see the doctor.",
+          "options": ["has to", "have to", "had to"],
+          "answer": "has to",
+          "explanation": "'He' is third person singular, so we use 'has to'. 'Have to' is for I/you/we/they. 'Had to' is for past. 'He' က third person singular ဖြစ်တဲ့အတွက် 'has to' ကိုသုံးပါ။",
+          "points": 1
+        },
+        {
+          "id": 1108,
+          "question": "She ________ learn your language.",
+          "options": ["doesn't have to", "doesn't has to", "don't have to"],
+          "answer": "doesn't have to",
+          "explanation": "'She' is third person singular, so we use 'doesn't have to'. 'Doesn't has to' is grammatically incorrect. 'Don't have to' is for I/you/we/they. 'She' က third person singular ဖြစ်တဲ့အတွက် 'doesn't have to' ကိုသုံးပါ။",
+          "points": 1
+        },
+        {
+          "id": 1109,
+          "question": "Children ________ go to school.",
+          "options": ["has to", "have to", "had to"],
+          "answer": "have to",
+          "explanation": "'Children' is plural, so we use 'have to'. 'Has to' is for third person singular. 'Had to' is for past. 'Children' က plural ဖြစ်တဲ့အတွက် 'have to' ကိုသုံးပါ။",
+          "points": 1
+        },
+        {
+          "id": 1110,
+          "question": "I ________ file reports every week.",
+          "options": ["have to", "had to", "has to"],
+          "answer": "have to",
+          "explanation": "'Every week' indicates a present habitual action, so we use 'have to'. 'Had to' is for past. 'Has to' is for third person singular. 'Every week' ဆိုတာ ပုံမှန်လုပ်ရတဲ့အတွက် 'have to' ကိုသုံးပါ။",
+          "points": 1
+        },
+        {
+          "id": 1111,
+          "question": "Does he ________ go?",
+          "options": ["has to", "have to", "had to"],
+          "answer": "have to",
+          "explanation": "After 'does', we use the base form 'have to'. 'Does has to' is grammatically incorrect. 'Had to' is for past. 'Does' ပြီးနောက်မှာ base form 'have to' ကိုသုံးပါ။",
+          "points": 1
+        },
+        {
+          "id": 1112,
+          "question": "She didn't ________ attend the presentation.",
+          "options": ["had to", "have to", "has to"],
+          "answer": "have to",
+          "explanation": "After 'didn't', we use the base form 'have to'. 'Didn't had to' is grammatically incorrect. 'Has to' is for third person singular present. 'didn't' ပြီးနောက်မှာ base form 'have to' ကိုသုံးပါ။",
+          "points": 1
+        },
+        {
+          "id": 1113,
+          "question": "I ________ go to the dentist yesterday.",
+          "options": ["had to", "have to", "has to"],
+          "answer": "had to",
+          "explanation": "'Yesterday' indicates past time, so we use 'had to'. 'Have to' is for present. 'Has to' is for third person singular present. 'Yesterday' ဆိုတာ အတိတ်ကာလဖြစ်တဲ့အတွက် 'had to' ကိုသုံးပါ။",
+          "points": 1
+        },
+        {
+          "id": 1114,
+          "question": "You don't ________ drive. I can do it.",
+          "options": ["had to", "have to", "has to"],
+          "answer": "have to",
+          "explanation": "'Don't have to' means it's not required. 'Don't had to' and 'Don't has to' are grammatically incorrect. This is a present situation. 'Don't have to' ကို မလိုအပ်တဲ့အခါ သုံးပါ။",
+          "points": 1
+        },
+        {
+          "id": 1115,
+          "question": "Did they ________ do the work over again?",
+          "options": ["had to", "have to", "has to"],
+          "answer": "have to",
+          "explanation": "After 'did', we use the base form 'have to'. 'Did had to' is grammatically incorrect. 'Has to' is for third person singular present. 'Did' ပြီးနောက်မှာ base form 'have to' ကိုသုံးပါ။",
+          "points": 1
+        }
+      ]
+    }
+  ]
+}

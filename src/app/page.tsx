@@ -155,6 +155,27 @@ const UNITS: UnitCardProps[] = [
     description: "Explore can and could for ability, permission, and polite requests.",
     status: "available",
   },
+  {
+    unit: 9,
+    slug: "unit-9",
+    title: "May / Might",
+    description: "Learn to use may and might for possibility, permission, and wishes.",
+    status: "available",
+  },
+  {
+    unit: 10,
+    slug: "unit-10",
+    title: "Must",
+    description: "Master the use of must for strong obligations and mustn't for prohibition.",
+    status: "available",
+  },
+  {
+    unit: 11,
+    slug: "unit-11",
+    title: "Have to",
+    description: "Learn to use have to for responsibilities and don't have to for what's not required.",
+    status: "available",
+  },
 ];
 
 export default function HomePage() {

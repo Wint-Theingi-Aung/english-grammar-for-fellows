@@ -1,0 +1,107 @@
+{
+  "unit": 9,
+  "title": "May / Might",
+  "lessons": [
+    {
+      "id": "unit9-lesson1",
+      "title": "May for Possibility",
+      "content": "'May' is used to express possibility. It suggests something is possible but not certain. The structure is Subject + may + V1.",
+      "details": [
+        {
+          "concept": "Possibility",
+          "explanation": "'May' is used when something is possible but not certain.",
+          "example": "He may be at home.",
+          "burmese": "သူ အိမ်မှာ ရှိနိုင်တယ်။"
+        },
+        {
+          "concept": "Possibility (Weather)",
+          "explanation": "'May' is used for possible future events like weather.",
+          "example": "It may rain tomorrow.",
+          "burmese": "မနက်ဖန် မိုးရွာနိုင်တယ်။"
+        }
+      ]
+    },
+    {
+      "id": "unit9-lesson2",
+      "title": "May for Permission",
+      "content": "'May' is used to express permission. 'May not' is used to deny permission. This is a formal way to ask for or give permission.",
+      "details": [
+        {
+          "concept": "Asking Permission",
+          "explanation": "'May' is used to politely ask for permission.",
+          "example": "May I come in, Sir? Yes, you may.",
+          "burmese": "ဆရာ၊ ဝင်လို့ ရမလား။ ရတယ်၊ ဝင်လို့ရတယ်။"
+        },
+        {
+          "concept": "Denying Permission",
+          "explanation": "'May not' is used to deny permission.",
+          "example": "May I go home now? No, you may not.",
+          "burmese": "အခု အိမ်ပြန်လို့ ရမလား။ မရဘူး၊ ပြန်လို့ မရဘူး။"
+        }
+      ]
+    },
+    {
+      "id": "unit9-lesson3",
+      "title": "May for Wishes",
+      "content": "'May' is used to express wishes or hopes. This is often used in formal or literary expressions.",
+      "details": [
+        {
+          "concept": "Blessing",
+          "explanation": "'May' is used to express blessings and good wishes.",
+          "example": "May God bless you!",
+          "burmese": "ဘုရားသခင် ကောင်းကြီးပေးပါစေ!"
+        },
+        {
+          "concept": "Peace Wish",
+          "explanation": "'May' is used to wish peace for someone.",
+          "example": "May his soul rest in peace!",
+          "burmese": "သူ့ဝိညာဉ် ငြိမ်းချမ်းစွာ ရောက်ရှိပါစေ!"
+        },
+        {
+          "concept": "Contribution Wish",
+          "explanation": "'May' is used to wish success in contributing.",
+          "example": "May you contribute the community!",
+          "burmese": "လူမှုအသိုင်းအဝိုင်းအတွက် ပါဝင်ကူညီနိုင်ပါစေ!"
+        }
+      ]
+    },
+    {
+      "id": "unit9-lesson4",
+      "title": "Might as Past Tense of May (Reported Speech)",
+      "content": "'Might' is the past tense of 'may' in indirect or reported speech. When we report what someone said, 'may' changes to 'might'.",
+      "details": [
+        {
+          "concept": "Reported Speech",
+          "explanation": "In reported speech, 'may' changes to 'might'.",
+          "example": "He said, \"I may go to school.\" → He said that he might go to school.",
+          "burmese": "သူက \"ငါကျောင်းသွားနိုင်တယ်\" လို့ပြောခဲ့တယ်။ → သူက ကျောင်းသွားနိုင်တယ်လို့ ပြောခဲ့တယ်။"
+        },
+        {
+          "concept": "Reported Speech (Writing)",
+          "explanation": "The same rule applies for writing activities.",
+          "example": "John said, \"I may write a letter.\" → John said that he might write a letter.",
+          "burmese": "ဂျွန်က \"ငါစာရေးနိုင်တယ်\" လို့ပြောခဲ့တယ်။ → ဂျွန်က စာရေးနိုင်တယ်လို့ ပြောခဲ့တယ်။"
+        }
+      ]
+    },
+    {
+      "id": "unit9-lesson5",
+      "title": "Might for Less Possibility",
+      "content": "'Might' shows less possibility than 'may'. May suggests about 50% possibility, while might suggests about 30% possibility.",
+      "details": [
+        {
+          "concept": "Higher Possibility (May)",
+          "explanation": "'May' suggests a higher chance of something happening (about 50%).",
+          "example": "It may rain. (Maybe a 50% possibility)",
+          "burmese": "မိုးရွာနိုင်တယ်။ (ဖြစ်နိုင်ခြေ ရာခိုင်နှုန်း ၅၀ ရှိတယ်)"
+        },
+        {
+          "concept": "Lower Possibility (Might)",
+          "explanation": "'Might' suggests a lower chance of something happening (about 30%).",
+          "example": "It might rain. (Maybe a 30% possibility)",
+          "burmese": "မိုးရွာနိုင်တယ်။ (ဖြစ်နိုင်ခြေ ရာခိုင်နှုန်း ၃၀ ရှိတယ်)"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,140 @@
+{
+  "unit": 9,
+  "exercises": [
+    {
+      "id": "unit9-ex1",
+      "type": "multiple_choice",
+      "instructions": "Choose the correct alternative to complete each sentence.",
+      "questions": [
+        {
+          "id": 901,
+          "question": "________ I go out?",
+          "options": ["May", "Might", "Can"],
+          "answer": "May",
+          "explanation": "'May' is used to ask for permission politely. 'Might' is more formal and less common for permission. 'Can' is informal. 'May' ကို ယဉ်ကျေးစွာ ခွင့်ပြုချက်တောင်းရာမှာ သုံးပါ။",
+          "points": 1
+        },
+        {
+          "id": 902,
+          "question": "________ you be free from dangers!",
+          "options": ["May", "Might", "Must"],
+          "answer": "May",
+          "explanation": "'May' is used to express wishes or blessings. 'Might' shows less certainty. 'Must' is for obligation — not for wishes. 'May' ကို ဆုတောင်းချက်တွေမှာ သုံးပါ။",
+          "points": 1
+        },
+        {
+          "id": 903,
+          "question": "Sue said that she ________ go to university the day before.",
+          "options": ["may", "might", "must"],
+          "answer": "might",
+          "explanation": "In reported speech, 'may' changes to 'might'. 'Sue said' indicates reported speech. 'Must' is for obligation. 'Reported speech မှာ 'may' က 'might' ပြောင်းပါ။",
+          "points": 1
+        },
+        {
+          "id": 904,
+          "question": "________ I borrow a pen, please?",
+          "options": ["May", "Might", "Must"],
+          "answer": "May",
+          "explanation": "'May' is used to politely ask for permission. 'Might' is very formal. 'Must' is for obligation — not for asking permission. 'May' ကို ယဉ်ကျေးစွာ ခွင့်ပြုချက်တောင်းရာမှာ သုံးပါ။",
+          "points": 1
+        },
+        {
+          "id": 905,
+          "question": "It ________ rain later on, but I don't think it will.",
+          "options": ["may", "might", "must"],
+          "answer": "might",
+          "explanation": "'Might' shows less possibility than 'may'. Since the speaker doesn't think it will rain, 'might' (lower possibility) is more appropriate. 'I don't think it will' ဆိုတာ ဖြစ်နိုင်ခြေနည်းတာကြောင့် 'might' ကိုသုံးပါ။",
+          "points": 1
+        },
+        {
+          "id": 906,
+          "question": "It ________ rain later on. We'd better take an umbrella.",
+          "options": ["may", "might", "must"],
+          "answer": "may",
+          "explanation": "'May' shows higher possibility than 'might'. Since they are preparing for rain, 'may' (higher possibility) is more appropriate. 'We'd better take an umbrella' ဆိုတာ ဖြစ်နိုင်ခြေများတာကြောင့် 'may' ကိုသုံးပါ။",
+          "points": 1
+        },
+        {
+          "id": 907,
+          "question": "She said she ________ take more pictures.",
+          "options": ["may", "might", "must"],
+          "answer": "might",
+          "explanation": "In reported speech, 'may' changes to 'might'. 'She said' indicates reported speech. 'Must' is for obligation. 'Reported speech မှာ 'may' က 'might' ပြောင်းပါ။",
+          "points": 1
+        },
+        {
+          "id": 908,
+          "question": "________ I use your glue just for a moment?",
+          "options": ["May", "Might", "Must"],
+          "answer": "May",
+          "explanation": "'May' is used to politely ask for permission. 'Might' is very formal. 'Must' is for obligation — not for asking permission. 'May' ကို ယဉ်ကျေးစွာ ခွင့်ပြုချက်တောင်းရာမှာ သုံးပါ။",
+          "points": 1
+        },
+        {
+          "id": 909,
+          "question": "You ________ come at eleven if you wish.",
+          "options": ["may", "might", "must"],
+          "answer": "may",
+          "explanation": "'May' is used to give permission. The speaker is allowing the person to come. 'Might' is for possibility. 'Must' is for obligation. 'May' ကို ခွင့်ပြုချက်ပေးရာမှာ သုံးပါ။",
+          "points": 1
+        },
+        {
+          "id": 910,
+          "question": "Students ________ wear jeans.",
+          "options": ["mayn't", "mightn't", "mustn't"],
+          "answer": "mayn't",
+          "explanation": "'Mayn't' is used to deny permission formally. 'Mightn't' is not standard for prohibition. 'Mustn't' is for strong prohibition. For school dress codes, 'mayn't' is the formal choice. 'mayn't' ကို ခွင့်ပြုချက်ငြင်းဆိုရာမှာ သုံးပါ။",
+          "points": 1
+        },
+        {
+          "id": 911,
+          "question": "He asked if he ________ borrow the car.",
+          "options": ["may", "might", "must"],
+          "answer": "might",
+          "explanation": "In reported speech (indirect questions), 'may' changes to 'might'. 'He asked if' indicates reported speech. 'Must' is for obligation. 'Reported speech မှာ 'may' က 'might' ပြောင်းပါ။",
+          "points": 1
+        },
+        {
+          "id": 912,
+          "question": "They wanted to know if they ________ come later.",
+          "options": ["may", "might", "must"],
+          "answer": "might",
+          "explanation": "In reported speech, 'may' changes to 'might'. 'They wanted to know if' indicates reported speech. 'Must' is for obligation. 'Reported speech မှာ 'may' က 'might' ပြောင်းပါ။",
+          "points": 1
+        },
+        {
+          "id": 913,
+          "question": "I am not sure but I think my camera ________ be broken.",
+          "options": ["may", "might", "must"],
+          "answer": "may",
+          "explanation": "'May' is used for possibility. The speaker is unsure, so 'may' (possibility) is appropriate. 'Might' shows less possibility. 'Must' is for obligation. 'May' ကို ဖြစ်နိုင်ခြေရှိတဲ့အခါ သုံးပါ။",
+          "points": 1
+        },
+        {
+          "id": 914,
+          "question": "I don't know where your gloves are. They ________ be in the kitchen.",
+          "options": ["may", "might", "must"],
+          "answer": "may",
+          "explanation": "'May' is used for possibility. The speaker doesn't know, so 'may' (possibility) is appropriate. 'Might' shows less possibility. 'Must' is for obligation. 'May' ကို ဖြစ်နိုင်ခြေရှိတဲ့အခါ သုံးပါ။",
+          "points": 1
+        },
+        {
+          "id": 915,
+          "question": "________ the odds be ever in your favour!",
+          "options": ["May", "Might", "Must"],
+          "answer": "May",
+          "explanation": "'May' is used to express wishes or hopes in formal expressions. 'Might' shows less certainty. 'Must' is for obligation — not for wishes. 'May' ကို ဆုတောင်းချက်တွေမှာ သုံးပါ။",
+          "points": 1
+        },
+        {
+          "id": 916,
+          "question": "________ the Force be with you!",
+          "options": ["May", "Might", "Must"],
+          "answer": "May",
+          "explanation": "'May' is used to express wishes or blessings. 'Might' shows less certainty. 'Must' is for obligation — not for wishes. 'May' ကို ဆုတောင်းချက်တွေမှာ သုံးပါ။",
+          "points": 1
+        }
+      ]
+    }
+  ]
+}

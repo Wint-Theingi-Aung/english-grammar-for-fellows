@@ -1,0 +1,106 @@
+{
+  "unit": 10,
+  "title": "Must",
+  "lessons": [
+    {
+      "id": "unit10-lesson1",
+      "title": "Must for Strong Obligation",
+      "content": "'Must' is used for strong personal obligations. It expresses something that is necessary or very important. The structure is Subject + must + V1.",
+      "details": [
+        {
+          "concept": "Personal Obligation",
+          "explanation": "'Must' is used for obligations that come from yourself or are very important.",
+          "example": "I must lose some weight.",
+          "burmese": "ငါ ဝိတ်ချရမယ်။"
+        },
+        {
+          "concept": "Duty Obligation",
+          "explanation": "'Must' is used for duties and responsibilities.",
+          "example": "I must write a letter to John.",
+          "burmese": "ငါ ဂျွန်ဆီ စာတစ်စောင် ရေးရမယ်။"
+        },
+        {
+          "concept": "Important Rule",
+          "explanation": "'Must' is used for important rules that must be followed.",
+          "example": "Bicyclists must remember to signal when they turn.",
+          "burmese": "စက်ဘီးစီးသူများ လှည့်တဲ့အခါ အမှတ်ပေးဖို့ မှတ်ထားရမယ်။"
+        },
+        {
+          "concept": "Exam Obligation",
+          "explanation": "'Must' is used for obligations related to exams and studies.",
+          "example": "He must study harder if he wants to pass the exam.",
+          "burmese": "သူ စာမေးပွဲ အောင်ချင်ရင် ပိုပြီး ကြိုးစားရမယ်။"
+        }
+      ]
+    },
+    {
+      "id": "unit10-lesson2",
+      "title": "Mustn't for Prohibition",
+      "content": "'Mustn't' (must not) is used to express that something is prohibited or not allowed. The structure is Subject + mustn't + V1.",
+      "details": [
+        {
+          "concept": "Transport Prohibition",
+          "explanation": "'Mustn't' is used for rules about transport safety.",
+          "example": "Passengers mustn't talk to the driver.",
+          "burmese": "ခရီးသည်များ ဒီရင်ဘောက် စကားမပြောခင်းမရပါ။"
+        },
+        {
+          "concept": "Workplace Prohibition",
+          "explanation": "'Mustn't' is used for workplace rules.",
+          "example": "Policemen mustn't drink on duty.",
+          "burmese": "ရဲတပ်ဖွဲ့ဝင်များ တာဝန်ထမ်းဆောင်နေချိန်မှာ အရက်မသောက်ရပါ။"
+        },
+        {
+          "concept": "Children Prohibition",
+          "explanation": "'Mustn't' is used for rules about children.",
+          "example": "Children mustn't eat chewing gum.",
+          "burmese": "ကလေးများ ဝါဂွမ်းမစားရပါ။"
+        },
+        {
+          "concept": "Classroom Prohibition",
+          "explanation": "'Mustn't' is used for classroom rules.",
+          "example": "They mustn't use their mobile phones during lessons.",
+          "burmese": "သူတို့ သင်ခန်းစာချိန်မှာ မိုဘိုင်းဖုန်းများ အသုံးမပြုရပါ။"
+        }
+      ]
+    },
+    {
+      "id": "unit10-lesson3",
+      "title": "Must in Questions",
+      "content": "'Must' can be used in questions to ask about obligation. The structure is Must + subject + V1?",
+      "details": [
+        {
+          "concept": "Asking About Obligation",
+          "explanation": "'Must' is used to ask if something is required.",
+          "example": "Must I go to the party?",
+          "burmese": "ကျွန်တော် ပါတီသွားရမလား။"
+        },
+        {
+          "concept": "Asking About Necessity",
+          "explanation": "'Must' is used to ask about the necessity of an action.",
+          "example": "Must he make so much noise?",
+          "burmese": "သူ ဆူညံစွာ လုပ်ရမလား။"
+        }
+      ]
+    },
+    {
+      "id": "unit10-lesson4",
+      "title": "Important Notes About Must",
+      "content": "'Must' is used only in the present and future. The past form of 'must' is 'had to'. 'Must' does not exist in the past tense.",
+      "details": [
+        {
+          "concept": "Present and Future Only",
+          "explanation": "'Must' can only be used for present and future obligations.",
+          "example": "I must finish this work before I leave.",
+          "burmese": "ငါ ထွက်ခင် ဒီအလုပ်ကို ပြီးအောင်လုပ်ရမယ်။"
+        },
+        {
+          "concept": "Past Form is Had To",
+          "explanation": "For past obligations, use 'had to' instead of 'must'.",
+          "example": "I had to finish the work yesterday. (Not: I musted finish)",
+          "burmese": "ငါ မနေ့က ဒီအလုပ်ကို ပြီးအောင်လုပ်ရတယ်။"
+        }
+      ]
+    }
+  ]
+}

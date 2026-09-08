@@ -1,0 +1,132 @@
+{
+  "unit": 10,
+  "exercises": [
+    {
+      "id": "unit10-ex1",
+      "type": "multiple_choice",
+      "instructions": "Choose the correct alternative to complete each sentence.",
+      "questions": [
+        {
+          "id": 1001,
+          "question": "You ________ smoke in hospitals.",
+          "options": ["must", "mustn't", "don't have to"],
+          "answer": "mustn't",
+          "explanation": "'Mustn't' is used for prohibition — smoking is not allowed in hospitals. 'Must' is for obligation. 'Don't have to' means it's not required. 'Mustn't' ကို ပိတ်ပင်ချက်တွေမှာ သုံးပါ။",
+          "points": 1
+        },
+        {
+          "id": 1002,
+          "question": "All employees ________ be on time for work.",
+          "options": ["must", "mustn't", "don't have to"],
+          "answer": "must",
+          "explanation": "'Must' is used for strong obligation — employees are required to be on time. 'Mustn't' is for prohibition. 'Don't have to' means it's not required. 'Must' ကို တာဝန်ဝတ်ရှိမှုတွေမှာ သုံးပါ။",
+          "points": 1
+        },
+        {
+          "id": 1003,
+          "question": "The doctor ________ get here as soon as he can.",
+          "options": ["must", "mustn't", "don't have to"],
+          "answer": "must",
+          "explanation": "'Must' is used for strong obligation — it's urgent for the doctor to arrive. 'Mustn't' is for prohibition. 'Don't have to' means it's not required. 'Must' ကို အရေးပေါ်တာဝန်တွေမှာ သုံးပါ။",
+          "points": 1
+        },
+        {
+          "id": 1004,
+          "question": "Bicyclists ________ remember to signal when they turn.",
+          "options": ["must", "mustn't", "don't have to"],
+          "answer": "must",
+          "explanation": "'Must' is used for important rules — cyclists are required to signal. 'Mustn't' is for prohibition. 'Don't have to' means it's not required. 'Must' ကို အရေးကြီးတဲ့ စည်းကမ်းတွေမှာ သုံးပါ။",
+          "points": 1
+        },
+        {
+          "id": 1005,
+          "question": "Angela, you ________ leave your clothes all over the floor like this.",
+          "options": ["must", "mustn't", "don't have to"],
+          "answer": "mustn't",
+          "explanation": "'Mustn't' is used for prohibition — Angela should not leave clothes on the floor. 'Must' is for obligation. 'Don't have to' means it's not required. 'Mustn't' ကို ပိတ်ပင်ချက်တွေမှာ သုံးပါ။",
+          "points": 1
+        },
+        {
+          "id": 1006,
+          "question": "You ________ watch so much television.",
+          "options": ["must", "mustn't", "don't have to"],
+          "answer": "mustn't",
+          "explanation": "'Mustn't' is used for prohibition — watching too much TV is not advised. 'Must' is for obligation. 'Don't have to' means it's not required. 'Mustn't' ကို ပိတ်ပင်ချက်တွေမှာ သုံးပါ။",
+          "points": 1
+        },
+        {
+          "id": 1007,
+          "question": "Policemen ________ drink on duty.",
+          "options": ["must", "mustn't", "don't have to"],
+          "answer": "mustn't",
+          "explanation": "'Mustn't' is used for prohibition — policemen are not allowed to drink on duty. 'Must' is for obligation. 'Don't have to' means it's not required. 'Mustn't' ကို ပိတ်ပင်ချက်တွေမှာ သုံးပါ။",
+          "points": 1
+        },
+        {
+          "id": 1008,
+          "question": "Children ________ eat chewing gum.",
+          "options": ["must", "mustn't", "don't have to"],
+          "answer": "mustn't",
+          "explanation": "'Mustn't' is used for prohibition — children are not allowed to eat chewing gum. 'Must' is for obligation. 'Don't have to' means it's not required. 'Mustn't' ကို ပိတ်ပင်ချက်တွေမှာ သုံးပါ။",
+          "points": 1
+        },
+        {
+          "id": 1009,
+          "question": "I ________ finish this work before I leave.",
+          "options": ["must", "mustn't", "don't have to"],
+          "answer": "must",
+          "explanation": "'Must' is used for strong personal obligation — finishing work before leaving is necessary. 'Mustn't' is for prohibition. 'Don't have to' means it's not required. 'Must' ကို တာဝန်ဝတ်ရှိမှုတွေမှာ သုံးပါ။",
+          "points": 1
+        },
+        {
+          "id": 1010,
+          "question": "You ________ patient with me.",
+          "options": ["must", "mustn't", "don't have to"],
+          "answer": "must",
+          "explanation": "'Must' is used for strong personal obligation — being patient is required. 'Mustn't' is for prohibition. 'Don't have to' means it's not required. 'Must' ကို တာဝန်ဝတ်ရှိမှုတွေမှာ သုံးပါ။",
+          "points": 1
+        },
+        {
+          "id": 1011,
+          "question": "When you drive you ________ wear a seatbelt.",
+          "options": ["must", "mustn't", "don't have to"],
+          "answer": "must",
+          "explanation": "'Must' is used for important safety rules — wearing a seatbelt is required by law. 'Mustn't' is for prohibition. 'Don't have to' means it's not required. 'Must' ကို အရေးကြီးတဲ့ လုံခြုံရေးစည်းကမ်းတွေမှာ သုံးပါ။",
+          "points": 1
+        },
+        {
+          "id": 1012,
+          "question": "He ________ study harder if he wants to pass the exam.",
+          "options": ["must", "mustn't", "don't have to"],
+          "answer": "must",
+          "explanation": "'Must' is used for strong obligation — studying harder is necessary to pass. 'Mustn't' is for prohibition. 'Don't have to' means it's not required. 'Must' ကို တာဝန်ဝတ်ရှိမှုတွေမှာ သုံးပါ။",
+          "points": 1
+        },
+        {
+          "id": 1013,
+          "question": "They ________ use their mobile phones during lessons.",
+          "options": ["mustn't", "mustn't be", "don't have to"],
+          "answer": "mustn't",
+          "explanation": "'Mustn't' is used for prohibition — mobile phones are not allowed during lessons. 'Mustn't be' would need an adjective. 'Don't have to' means it's not required. 'Mustn't' ကို ပိတ်ပင်ချက်တွေမှာ သုံးပါ။",
+          "points": 1
+        },
+        {
+          "id": 1014,
+          "question": "________ he make so much noise?",
+          "options": ["Must", "Mustn't", "Don't have to"],
+          "answer": "Must",
+          "explanation": "'Must' is used in questions to ask about obligation. The speaker is questioning whether the noise is necessary. 'Mustn't' is for prohibition. 'Don't have to' means it's not required. 'Must' ကို မေးခွန်းတွေမှာ သုံးပါ။",
+          "points": 1
+        },
+        {
+          "id": 1015,
+          "question": "I ________ drink any more coffee, otherwise I won't sleep tonight.",
+          "options": ["must", "mustn't", "don't have to"],
+          "answer": "mustn't",
+          "explanation": "'Mustn't' is used for prohibition — the speaker should not drink more coffee because it will affect sleep. 'Must' is for obligation. 'Don't have to' means it's not required. 'Mustn't' ကို ပိတ်ပင်ချက်တွေမှာ သုံးပါ။",
+          "points": 1
+        }
+      ]
+    }
+  ]
+}

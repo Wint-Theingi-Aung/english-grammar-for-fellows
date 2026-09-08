@@ -1,0 +1,105 @@
+{
+  "unit": 11,
+  "title": "Have to",
+  "lessons": [
+    {
+      "id": "unit11-lesson1",
+      "title": "Have to for Responsibilities",
+      "content": "'Have to' is used for responsibilities at work and in everyday life. It is conjugated as a regular verb and requires an auxiliary verb in questions and negatives. The structure is Subject + have to + V1.",
+      "details": [
+        {
+          "concept": "Work Responsibility",
+          "explanation": "'Have to' is used for work-related responsibilities.",
+          "example": "I have to write a letter to John.",
+          "burmese": "ကျွန်တော် ဂျွန်ဆီ စာတစ်စောင် ရေးစရာရှိတယ်။"
+        },
+        {
+          "concept": "Schedule Conflict",
+          "explanation": "'Have to' is used when something prevents you from doing something else.",
+          "example": "Mike can't come because he has to work tomorrow.",
+          "burmese": "မိုက် အလပ်လပ်စရာရှိလို့ သူ မလာနိုင်ဘူး။"
+        },
+        {
+          "concept": "Education Responsibility",
+          "explanation": "'Have to' is used for educational requirements.",
+          "example": "Children have to go to school.",
+          "burmese": "ကလေးများ ကျောင်းသွားရမယ်။"
+        },
+        {
+          "concept": "Health Responsibility",
+          "explanation": "'Have to' is used for health-related obligations.",
+          "example": "He has to see the doctor.",
+          "burmese": "သူ ဆရာဝန်ဆီ သွားရမယ်။"
+        }
+      ]
+    },
+    {
+      "id": "unit11-lesson2",
+      "title": "Don't Have to for Not Required",
+      "content": "'Don't have to' is used to express that something is not required or not necessary. The structure is Subject + don't/doesn't have to + V1.",
+      "details": [
+        {
+          "concept": "Not Required (Sunday)",
+          "explanation": "'Don't have to' means something is not necessary.",
+          "example": "I don't have to work on Sundays so I can do what I want.",
+          "burmese": "ကျွန်တော် တနင်္ဂနွေနေ့တွေ အလပ်မရဘူး။ ဒါကြောင့် ငါ ဘာလုပ်ချင်တာလုပ်နိုင်တယ်။"
+        },
+        {
+          "concept": "Not Required (Meeting)",
+          "explanation": "'Don't have to' means attendance is optional.",
+          "example": "She doesn't have to come to the meeting if she doesn't want to.",
+          "burmese": "အစည်းအဝေး မလာချင်ရင် မလာပါနဲ့။"
+        },
+        {
+          "concept": "Not Required (Driving)",
+          "explanation": "'Don't have to' means driving is not necessary.",
+          "example": "You don't have to drive today.",
+          "burmese": "မင်း ဒီနေ့ မောင်းစရာ မလိုဘူး။"
+        },
+        {
+          "concept": "Not Required (Language)",
+          "explanation": "'Don't have to' means learning a language is not necessary.",
+          "example": "She doesn't have to learn your language.",
+          "burmese": "သူမ မင်းဘာသာစကား သင်စရာ မလိုဘူး။"
+        }
+      ]
+    },
+    {
+      "id": "unit11-lesson3",
+      "title": "Have to in Past, Present, and Future",
+      "content": "'Have to' is used in all three tenses. The past form is 'had to'. Questions in the past use 'Did + subject + have to'.",
+      "details": [
+        {
+          "concept": "Present Tense",
+          "explanation": "Use 'have to' or 'has to' for present obligations.",
+          "example": "I have to file reports every week.",
+          "burmese": "ငါ အပတ်တိုင်း အစီရင်ခံစာ တင်ရမယ်။"
+        },
+        {
+          "concept": "Past Tense",
+          "explanation": "Use 'had to' for past obligations.",
+          "example": "She had to pick the children up from school yesterday.",
+          "burmese": "သူမ မနေ့က ကလေးတွေကို ကျောင်းကနေ ခေါ်လာခရတယ်။"
+        },
+        {
+          "concept": "Past Question",
+          "explanation": "Use 'Did + subject + have to' for past questions.",
+          "example": "Did he have to leave so early?",
+          "burmese": "သူ အစောစောထွက်လိုက်ရတာလား။"
+        },
+        {
+          "concept": "Past Tense (Dentist)",
+          "explanation": "'Had to' is used for past obligations like doctor visits.",
+          "example": "I had to go to the dentist yesterday.",
+          "burmese": "ငါ မနေ့က သွားဆရာဝန်ဆီ သွားရတယ်။"
+        },
+        {
+          "concept": "Past Question (Work)",
+          "explanation": "'Did + have to' is used to ask about past work obligations.",
+          "example": "Did they have to do the work over again?",
+          "burmese": "သူတို့ အလုပ်ကို ပြန်လုပ်ရတာလား။"
+        }
+      ]
+    }
+  ]
+}

@@ -71,6 +71,24 @@ export default function Header() {
           >
             Unit 8
           </Link>
+          <Link
+            href="/unit-9"
+            className="text-sm font-medium text-ink-muted hover:text-primary-600 px-2.5 py-2 rounded-lg hover:bg-primary-50 transition-all duration-200 focus-visible:ring-2 focus-visible:ring-primary-500 focus-visible:ring-offset-1 whitespace-nowrap"
+          >
+            Unit 9
+          </Link>
+          <Link
+            href="/unit-10"
+            className="text-sm font-medium text-ink-muted hover:text-primary-600 px-2.5 py-2 rounded-lg hover:bg-primary-50 transition-all duration-200 focus-visible:ring-2 focus-visible:ring-primary-500 focus-visible:ring-offset-1 whitespace-nowrap"
+          >
+            Unit 10
+          </Link>
+          <Link
+            href="/unit-11"
+            className="text-sm font-medium text-ink-muted hover:text-primary-600 px-2.5 py-2 rounded-lg hover:bg-primary-50 transition-all duration-200 focus-visible:ring-2 focus-visible:ring-primary-500 focus-visible:ring-offset-1 whitespace-nowrap"
+          >
+            Unit 11
+          </Link>
         </nav>
       </div>
     </header>
