@@ -137,9 +137,23 @@ const UNITS: UnitCardProps[] = [
   {
     unit: 6,
     slug: "unit-6",
-    title: "Modal Verbs (can, could, may, might)",
-    description: "Explore modal verbs for ability, permission, and possibility.",
-    status: "coming-soon",
+    title: "Will / Would",
+    description: "Master the use of will and would for future, conditional, and polite expressions.",
+    status: "available",
+  },
+  {
+    unit: 7,
+    slug: "unit-7",
+    title: "Should / Ought to",
+    description: "Learn to use should and ought to for advice, expectations, and obligations.",
+    status: "available",
+  },
+  {
+    unit: 8,
+    slug: "unit-8",
+    title: "Can / Could",
+    description: "Explore can and could for ability, permission, and polite requests.",
+    status: "available",
   },
 ];
 

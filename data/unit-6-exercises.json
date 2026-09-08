@@ -1,0 +1,132 @@
+{
+  "unit": 6,
+  "exercises": [
+    {
+      "id": "unit6-ex1",
+      "type": "multiple_choice",
+      "instructions": "Choose the correct alternative to complete each sentence.",
+      "questions": [
+        {
+          "id": 601,
+          "question": "________ it snow yesterday?",
+          "options": ["Will", "Would", "Shall"],
+          "answer": "Would",
+          "explanation": "'Yesterday' indicates past time, so we use 'Would' (past tense of will). 'Will' is for present/future. 'Shall' is used with I/we for suggestions — neither matches past time. 'Yesterday' ဆိုတာ အတိတ်ကာလဖြစ်တဲ့အတွက် 'Would' ကိုသုံးပါ။",
+          "points": 1
+        },
+        {
+          "id": 602,
+          "question": "________ you like a coffee?",
+          "options": ["Will", "Would", "Shall"],
+          "answer": "Would",
+          "explanation": "'Would' is used for polite requests and offers. 'Will' is less polite. 'Shall' is used with I/we for suggestions — it does not fit 'you'. 'Would' ကို ယဉ်ကျေးတဲ့မေးခွန်းတွေမှာ သုံးပါ။",
+          "points": 1
+        },
+        {
+          "id": 603,
+          "question": "I ________ go to the cinema today.",
+          "options": ["won't", "wouldn't", "shan't"],
+          "answer": "won't",
+          "explanation": "'Today' indicates present/future time, so we use 'won't' (will not). 'Wouldn't' is for past/hypothetical. 'Shan't' is formal British — 'won't' is the standard form. 'Today' ဆိုတာ ဒီနေ့ဖြစ်တဲ့အတွက် 'won't' ကိုသုံးပါ။",
+          "points": 1
+        },
+        {
+          "id": 604,
+          "question": "He ________ probably arrive soon.",
+          "options": ["will", "would", "shall"],
+          "answer": "will",
+          "explanation": "'Soon' indicates future time, so we use 'will'. 'Would' is for past/hypothetical. 'Shall' is used with I/we — not with 'he'. 'Soon' ဆိုတာ အနာဂတ်ကာလဖြစ်တဲ့အတွက် 'will' ကိုသုံးပါ။",
+          "points": 1
+        },
+        {
+          "id": 605,
+          "question": "We ________ play if we had a ball.",
+          "options": ["will", "would", "shall"],
+          "answer": "would",
+          "explanation": "'If we had a ball' is a Type 2 conditional (unreal). In Type 2, we use 'would + V1'. 'Will' is for Type 1 (real) conditionals. 'Shall' is for suggestions with I/we. 'If we had a ball' က Type 2 conditional ဖြစ်တဲ့အတွက် 'would' ကိုသုံးပါ။",
+          "points": 1
+        },
+        {
+          "id": 606,
+          "question": "Sam said he ________ come.",
+          "options": ["won't", "wouldn't", "shan't"],
+          "answer": "wouldn't",
+          "explanation": "'Sam said' indicates reported speech. In reported speech, 'will' changes to 'would', so the negative is 'wouldn't'. 'Won't' is for direct speech. 'Shan't' is formal. 'Sam said' က reported speech ဖြစ်တဲ့အတွက် 'wouldn't' ကိုသုံးပါ။",
+          "points": 1
+        },
+        {
+          "id": 607,
+          "question": "They ________ paint it as you want.",
+          "options": ["will", "would", "shall"],
+          "answer": "will",
+          "explanation": "This is a straightforward statement about a future action. 'Will' is used for future promises. 'Would' is for past/hypothetical. 'Shall' is for suggestions with I/we. 'Will' ကို အနာဂတ်ကတိပြုချက်အဖြစ်သုံးပါ။",
+          "points": 1
+        },
+        {
+          "id": 608,
+          "question": "If I were you, I ________ go there.",
+          "options": ["won't", "wouldn't", "shan't"],
+          "answer": "wouldn't",
+          "explanation": "'If I were you' is a Type 2 conditional (unreal). We use 'would + V1' in the result clause. 'Won't' is for Type 1 conditionals. 'Shan't' is formal. 'If I were you' က Type 2 conditional ဖြစ်တဲ့အတွက် 'wouldn't' ကိုသုံးပါ။",
+          "points": 1
+        },
+        {
+          "id": 609,
+          "question": "They ________ come tomorrow.",
+          "options": ["will", "would", "shall"],
+          "answer": "will",
+          "explanation": "'Tomorrow' indicates future time, so we use 'will'. 'Would' is for past/hypothetical. 'Shall' is for suggestions with I/we. 'Tomorrow' ဆိုတာ အနာဂတ်ကာလဖြစ်တဲ့အတွက် 'will' ကိုသုံးပါ။",
+          "points": 1
+        },
+        {
+          "id": 610,
+          "question": "I ________ be on time for the meeting.",
+          "options": ["will", "would", "shall"],
+          "answer": "will",
+          "explanation": "This is a statement about a future intention or promise. 'Will' is used for future commitments. 'Would' is for past/hypothetical. 'Shall' can be used with I/we but 'will' is more natural for promises. 'Will' ကို အနာဂတ်ကတိပြုချက်အဖြစ်သုံးပါ။",
+          "points": 1
+        },
+        {
+          "id": 611,
+          "question": "He said he ________ read that book.",
+          "options": ["won't", "wouldn't", "shan't"],
+          "answer": "wouldn't",
+          "explanation": "'He said' indicates reported speech. In reported speech, 'will' changes to 'would', so the negative is 'wouldn't'. 'Won't' is for direct speech. 'Shan't' is formal. 'He said' က reported speech ဖြစ်တဲ့အတွက် 'wouldn't' ကိုသုံးပါ။",
+          "points": 1
+        },
+        {
+          "id": 612,
+          "question": "________ you stop smoking this year?",
+          "options": ["Will", "Would", "Shall"],
+          "answer": "Will",
+          "explanation": "'This year' indicates a future time frame. 'Will' is used for future decisions. 'Would' is for polite requests/hypothetical. 'Shall' is used with I/we for suggestions. 'This year' ဆိုတာ အနာဂတ်ကာလဖြစ်တဲ့အတွက် 'Will' ကိုသုံးပါ။",
+          "points": 1
+        },
+        {
+          "id": 613,
+          "question": "Today ________ probably be a nice day for me.",
+          "options": ["will", "would", "shall"],
+          "answer": "will",
+          "explanation": "'Today' indicates present/future time. 'Will' is used for predictions about the future. 'Would' is for past/hypothetical. 'Shall' is for suggestions with I/we. 'Today' ဆိုတာ ဒီနေ့ဖြစ်တဲ့အတွက် 'will' ကိုသုံးပါ။",
+          "points": 1
+        },
+        {
+          "id": 614,
+          "question": "If Paula doesn't go, I ________ go either.",
+          "options": ["won't", "wouldn't", "shan't"],
+          "answer": "won't",
+          "explanation": "'If Paula doesn't go' is a Type 1 conditional (real future). We use 'will + V1' in the result clause. 'Wouldn't' is for Type 2 (unreal). 'Shan't' is formal. 'If Paula doesn't go' က Type 1 conditional ဖြစ်တဲ့အတွက် 'won't' ကိုသုံးပါ။",
+          "points": 1
+        },
+        {
+          "id": 615,
+          "question": "My mum said that she ________ be there by 8 o'clock.",
+          "options": ["will", "would", "shall"],
+          "answer": "would",
+          "explanation": "'My mum said' indicates reported speech. In reported speech, 'will' changes to 'would'. 'Will' is for direct speech. 'Shall' is for suggestions. 'My mum said' က reported speech ဖြစ်တဲ့အတွက် 'would' ကိုသုံးပါ။",
+          "points": 1
+        }
+      ]
+    }
+  ]
+}

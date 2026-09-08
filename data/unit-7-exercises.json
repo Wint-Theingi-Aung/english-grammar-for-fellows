@@ -1,0 +1,132 @@
+{
+  "unit": 7,
+  "exercises": [
+    {
+      "id": "unit7-ex1",
+      "type": "multiple_choice",
+      "instructions": "Choose the correct alternative to complete each sentence.",
+      "questions": [
+        {
+          "id": 701,
+          "question": "They ________ have more parks in the city centre.",
+          "options": ["should to", "ought to", "can to"],
+          "answer": "ought to",
+          "explanation": "'Should to' is grammatically incorrect — 'should' is never followed by 'to'. 'Can to' is also incorrect. 'Ought to' is the correct form for expressing obligation. 'Should to' က သဒ္ဒါမှားပါတယ်။ 'Ought to' က မှန်ပါတယ်။",
+          "points": 1
+        },
+        {
+          "id": 702,
+          "question": "We ________ eat lots of fruit and vegetables every day.",
+          "options": ["ought to", "ought to be", "should to"],
+          "answer": "ought to",
+          "explanation": "'Ought to' is followed by the base form (V1). 'Ought to be' requires an adjective/noun after it. 'Should to' is grammatically incorrect. 'Ought to' ပြီးနောက်မှာ V1 ကိုသုံးပါ။",
+          "points": 1
+        },
+        {
+          "id": 703,
+          "question": "You ________ do that!",
+          "options": ["shouldn't", "don't should", "can't should"],
+          "answer": "shouldn't",
+          "explanation": "'Don't should' and 'can't should' are grammatically incorrect. Modal verbs use 'shouldn't' for negatives. 'Don't should' နဲ့ 'can't should' က သဒ္ဒါမှားပါတယ်။ 'Shouldn't' က မှန်ပါတယ်။",
+          "points": 1
+        },
+        {
+          "id": 704,
+          "question": "We ________ invite Cassie and Jack to dinner.",
+          "options": ["ought", "ought to", "should to"],
+          "answer": "ought to",
+          "explanation": "'Ought' must be followed by 'to' before the verb. 'Should to' is incorrect — 'should' is never followed by 'to'. 'Ought' ပြီးနောက်မှာ 'to' ထည့်ပါ။",
+          "points": 1
+        },
+        {
+          "id": 705,
+          "question": "We ________ leave soon.",
+          "options": ["should", "should to", "ought"],
+          "answer": "should",
+          "explanation": "'Should to' is incorrect — 'should' is followed directly by the base verb. 'Ought' requires 'to' after it. 'Should leave' is correct. 'Should to' က သဒ္ဒါမှားပါတယ်။",
+          "points": 1
+        },
+        {
+          "id": 706,
+          "question": "________ we call the police?",
+          "options": ["Should", "Ought", "Could"],
+          "answer": "Should",
+          "explanation": "'Should' can be used directly in questions without 'to'. 'Ought' requires 'to' (Ought we to...?). 'Could' is for ability/permission — not for advice. 'Should' က 'to' မပါဘဲ မေးခွန်းမှာသုံးနိုင်ပါတယ်။",
+          "points": 1
+        },
+        {
+          "id": 707,
+          "question": "________ we to tell Jane the news?",
+          "options": ["Should", "Ought", "Must"],
+          "answer": "Ought",
+          "explanation": "'Ought' requires 'to' in questions (Ought we to...?). 'Should' does not use 'to'. 'Must' does not use 'to' in questions. Since 'to' is present, 'Ought' is correct. 'Ought' က မေးခွန်းမှာ 'to' ပါဖို့လိုပါတယ်။",
+          "points": 1
+        },
+        {
+          "id": 708,
+          "question": "It ________ a very good conference.",
+          "options": ["should", "should be", "ought"],
+          "answer": "should",
+          "explanation": "'Should' expresses expectation about the conference. 'Should be' would need an adjective/noun complement. 'Ought' requires 'to'. 'Should' က expectation ကိုဖော်ပြပါတယ်။",
+          "points": 1
+        },
+        {
+          "id": 709,
+          "question": "You ________ enjoy the holiday.",
+          "options": ["should", "should be", "ought"],
+          "answer": "should",
+          "explanation": "'Should' is followed by the base form (V1). 'Enjoy' is V1, so 'should enjoy' is correct. 'Should be' requires an adjective/noun. 'Ought' requires 'to'. 'Should' ပြီးနောက်မှာ V1 ကိုသုံးပါ။",
+          "points": 1
+        },
+        {
+          "id": 710,
+          "question": "You ________ tell the truth.",
+          "options": ["ought to", "should be", "ought"],
+          "answer": "ought to",
+          "explanation": "'Ought to' is followed by V1. 'Tell' is V1, so 'ought to tell' is correct. 'Should be' requires an adjective/noun. 'Ought' alone is incomplete — it needs 'to'. 'Ought to' ပြီးနောက်မှာ V1 ကိုသုံးပါ။",
+          "points": 1
+        },
+        {
+          "id": 711,
+          "question": "She ________ find a better job.",
+          "options": ["should", "should be", "ought"],
+          "answer": "should",
+          "explanation": "'Should' is followed by V1. 'Find' is V1, so 'should find' is correct. 'Should be' requires an adjective/noun. 'Ought' requires 'to'. 'Should' ပြီးနောက်မှာ V1 ကိုသုံးပါ။",
+          "points": 1
+        },
+        {
+          "id": 712,
+          "question": "You ________ switch off the light whenever you leave a room.",
+          "options": ["ought to", "ought to be", "should to"],
+          "answer": "ought to",
+          "explanation": "'Ought to' is followed by V1. 'Switch' is V1, so 'ought to switch' is correct. 'Ought to be' requires an adjective/noun. 'Should to' is grammatically incorrect. 'Ought to' ပြီးနောက်မှာ V1 ကိုသုံးပါ။",
+          "points": 1
+        },
+        {
+          "id": 713,
+          "question": "I told him that he ________ careful.",
+          "options": ["should", "should be", "ought"],
+          "answer": "should",
+          "explanation": "'Should' is used for advice in reported speech. 'He should careful' means 'he should be careful' with 'be' implied. 'Should be' is also valid but 'should' is the more natural choice. 'Should' က အကြံပြုချက်အဖြစ်သုံးပါ။",
+          "points": 1
+        },
+        {
+          "id": 714,
+          "question": "You ________ listen to classical music if you want to relax.",
+          "options": ["ought to", "ought to be", "should to"],
+          "answer": "ought to",
+          "explanation": "'Ought to' is followed by V1. 'Listen' is V1, so 'ought to listen' is correct. 'Ought to be' requires an adjective/noun. 'Should to' is incorrect. 'Ought to' ပြီးနောက်မှာ V1 ကိုသုံးပါ။",
+          "points": 1
+        },
+        {
+          "id": 715,
+          "question": "If you want to lose weight, you ________ cut out snacks and junk food.",
+          "options": ["ought to", "oughtn't to", "should to"],
+          "answer": "ought to",
+          "explanation": "This is advice about what to do to lose weight, so the affirmative 'ought to' is correct. 'Oughtn't to' would mean you should NOT cut out snacks. 'Should to' is grammatically incorrect. 'Ought to' က အကြံပြုချက်ဖြစ်တဲ့အတွက် မှန်ပါတယ်။",
+          "points": 1
+        }
+      ]
+    }
+  ]
+}

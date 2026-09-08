@@ -1,0 +1,132 @@
+{
+  "unit": 8,
+  "exercises": [
+    {
+      "id": "unit8-ex1",
+      "type": "multiple_choice",
+      "instructions": "Choose the correct alternative to complete each sentence.",
+      "questions": [
+        {
+          "id": 801,
+          "question": "He ________ speak Chinese fluently.",
+          "options": ["can", "could", "may"],
+          "answer": "can",
+          "explanation": "'Can' is used for present ability. He currently has the ability to speak Chinese. 'Could' is for past ability. 'May' is for permission/possibility — not for ability. 'Can' ကို လက်ရှိအရည်အချင်းအတွက်သုံးပါ။",
+          "points": 1
+        },
+        {
+          "id": 802,
+          "question": "I ________ run 10 miles when I was young.",
+          "options": ["can", "could", "may"],
+          "answer": "could",
+          "explanation": "'Could' is used for past ability. 'When I was young' indicates past time. 'Can' is for present ability. 'May' is for permission/possibility. 'Could' ကို အတိတ်အရည်အချင်းအတွက်သုံးပါ။",
+          "points": 1
+        },
+        {
+          "id": 803,
+          "question": "You ________ take a holiday tomorrow if you want.",
+          "options": ["can", "could", "may"],
+          "answer": "can",
+          "explanation": "'Can' is used for future possibilities and informal permissions. 'Could' is more formal/polite. 'May' is for formal permission. This is a straightforward statement, so 'can' is natural. 'Can' ကို အနာဂတ်ဖြစ်နိုင်ခြေအတွက် ပုံမှန်သုံးပါ။",
+          "points": 1
+        },
+        {
+          "id": 804,
+          "question": "________ you lock the door when you leave?",
+          "options": ["Can", "Could", "May"],
+          "answer": "Could",
+          "explanation": "'Could' is used for polite requests. It is more formal and polite than 'can'. 'May' is for formal permission. 'Could' ကို ယဉ်ကျေးတဲ့မေးခွန်းတွေမှာသုံးပါ။",
+          "points": 1
+        },
+        {
+          "id": 805,
+          "question": "I ________ drink too much.",
+          "options": ["can't", "couldn't", "may not"],
+          "answer": "can't",
+          "explanation": "'Can't' is used for present inability. 'Couldn't' is for past inability. 'May not' is for prohibition — not inability. This sentence describes a current state. 'Can't' ကို လက်ရှိမတတ်နိုင်မှုအတွက်သုံးပါ။",
+          "points": 1
+        },
+        {
+          "id": 806,
+          "question": "I ________ not take chilli when I was 12.",
+          "options": ["can", "could", "may"],
+          "answer": "could",
+          "explanation": "'Could not' is used for past inability. 'When I was 12' indicates past time. 'Cannot' is for present inability. 'May' is for permission/possibility. 'Could' ကို အတိတ်မတတ်နိုင်မှုအတွက်သုံးပါ။",
+          "points": 1
+        },
+        {
+          "id": 807,
+          "question": "________ I choose my own doctor?",
+          "options": ["Can", "Could", "May"],
+          "answer": "Could",
+          "explanation": "'Could' is used for polite permission requests. 'Can' is more informal. 'May' is also formal but 'Could' is more natural for this context. 'Could' ကို ယဉ်ကျေးတဲ့ခွင့်ပြုချက်မေးခွန်းအတွက်သုံးပါ။",
+          "points": 1
+        },
+        {
+          "id": 808,
+          "question": "She ________ swim when she was five.",
+          "options": ["can", "could", "may"],
+          "answer": "could",
+          "explanation": "'Could' is used for past ability. 'When she was five' indicates past time. 'Can' is for present ability. 'May' is for permission/possibility. 'Could' ကို အတိတ်အရည်အချင်းအတွက်သုံးပါ။",
+          "points": 1
+        },
+        {
+          "id": 809,
+          "question": "You ________ borrow my pen if you need it.",
+          "options": ["can", "could", "may"],
+          "answer": "can",
+          "explanation": "'Can' is used for informal permission. This is a casual offer. 'Could' would be more formal. 'May' is very formal. 'Can' ကို ပုံမှန်ခွင့်ပြုချက်အတွက်သုံးပါ။",
+          "points": 1
+        },
+        {
+          "id": 810,
+          "question": "I ________ not attend the meeting yesterday.",
+          "options": ["can", "could", "may"],
+          "answer": "could",
+          "explanation": "'Could not' is used for past inability. 'Yesterday' indicates past time. 'Cannot' is for present inability. 'May' is for permission/possibility. 'Could' ကို အတိတ်မတတ်နိုင်မှုအတွက်သုံးပါ။",
+          "points": 1
+        },
+        {
+          "id": 811,
+          "question": "________ you help me with this bag, please?",
+          "options": ["Can", "Could", "May"],
+          "answer": "Could",
+          "explanation": "'Could' is used for polite requests with 'please'. 'Can' is more informal. 'May' is for formal permission — not for asking for help. 'Could' ကို 'please' ပါတဲ့ ယဉ်ကျေးတဲ့မေးခွန်းတွေမှာသုံးပါ။",
+          "points": 1
+        },
+        {
+          "id": 812,
+          "question": "He ________ play the guitar very well.",
+          "options": ["can", "could", "may"],
+          "answer": "can",
+          "explanation": "'Can' is used for present ability. He currently has the ability to play guitar well. 'Could' is for past ability. 'May' is for permission/possibility. 'Can' ကို လက်ရှိအရည်အချင်းအတွက်သုံးပါ။",
+          "points": 1
+        },
+        {
+          "id": 813,
+          "question": "When I was a child, I ________ stay up late.",
+          "options": ["can", "could", "may"],
+          "answer": "could",
+          "explanation": "'Could' is used for past ability. 'When I was a child' indicates past time. 'Can' is for present ability. 'May' is for permission/possibility. 'Could' ကို အတိတ်အရည်အချင်းအတွက်သုံးပါ။",
+          "points": 1
+        },
+        {
+          "id": 814,
+          "question": "You ________ not smoke in this building.",
+          "options": ["can", "could", "may"],
+          "answer": "can",
+          "explanation": "'Can not' (cannot) is used for present prohibition. This is a current rule. 'Could not' would be for past prohibition. 'May' can also express prohibition but 'can' is more common for rules. 'Can' ကို လက်ရှိပိတ်ပင်ချက်အတွက်သုံးပါ။",
+          "points": 1
+        },
+        {
+          "id": 815,
+          "question": "________ I use your phone? I left mine at home.",
+          "options": ["Can", "Could", "May"],
+          "answer": "Can",
+          "explanation": "'Can' is used for informal permission requests. This is a casual request between people who know each other. 'Could' would be more formal. 'May' is very formal. 'Can' ကို ပုံမှန်ခွင့်ပြုချက်မေးခွန်းအတွက်သုံးပါ။",
+          "points": 1
+        }
+      ]
+    }
+  ]
+}

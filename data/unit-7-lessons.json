@@ -1,0 +1,81 @@
+{
+  "unit": 7,
+  "title": "Should / Ought to",
+  "lessons": [
+    {
+      "id": "unit7-lesson1",
+      "title": "Should for Advice and Expectations",
+      "content": "'Should' is used to give advice, express expectations, or indicate what is right or wrong. The structure is Subject + should + V1.",
+      "details": [
+        {
+          "concept": "Advice",
+          "explanation": "'Should' is used to give advice about what is good or bad for someone.",
+          "example": "You shouldn't drink alcohol.",
+          "burmese": "မင်း အရက်မသောက်သင့်ဘူး။"
+        },
+        {
+          "concept": "Expectation",
+          "explanation": "'Should' is used to say that you expect something to happen.",
+          "example": "There is a traffic jam on this road, you should go by Metro.",
+          "burmese": "ဒီလမ်းပေါ်မှာ ယာဉ်ကြောပိတ်ဆို့မှု ဖြစ်နေတယ်။ မင်း မီတရို စီးသင့်တယ်။"
+        },
+        {
+          "concept": "Question Form",
+          "explanation": "'Should' can be used to ask for advice or opinion.",
+          "example": "Should I go to the temple on Thursday?",
+          "burmese": "ကျွန်မ ကြာသပတေးနေ့ ဘုရားကျောင်း သွားသင့်လား။"
+        }
+      ]
+    },
+    {
+      "id": "unit7-lesson2",
+      "title": "Ought to for Obligation and Duty",
+      "content": "'Ought to' is similar to 'should' but expresses a slightly stronger obligation or moral duty. The structure is Subject + ought to + V1.",
+      "details": [
+        {
+          "concept": "Moral Obligation",
+          "explanation": "'Ought to' is used to express what is morally right or what someone should do.",
+          "example": "You ought to respect your elders.",
+          "burmese": "မင်း အသက်ကြီးသူတွေကို လေးစားသင့်တယ်။"
+        },
+        {
+          "concept": "Prohibition (Negative)",
+          "explanation": "'Ought not to' is used to say what someone should not do.",
+          "example": "You oughtn't to ride a motorbike without a helmet.",
+          "burmese": "မင်း ဦးထုပ်မပါဘဲ ဆိုင်ကယ်မစီးသင့်ဘူး။"
+        },
+        {
+          "concept": "Question Form",
+          "explanation": "'Ought' can be used to ask for advice or confirmation.",
+          "example": "Ought she to call the police?",
+          "burmese": "သူမ ရဲကို ခေါ်သင့်လား။"
+        }
+      ]
+    },
+    {
+      "id": "unit7-lesson3",
+      "title": "Should vs Ought to",
+      "content": "'Should' and 'ought to' are very similar in meaning, but there are some differences in formality and strength.",
+      "details": [
+        {
+          "concept": "Formality",
+          "explanation": "'Ought to' is more formal than 'should'. 'Should' is more common in everyday speech.",
+          "example": "You should study harder. (less formal) / You ought to study harder. (more formal)",
+          "burmese": "မင်း ပိုပြီး ကြိုးစားသင့်တယ်။ (ပုံမှန်) / မင်း ပိုပြီး ကြိုးစားသင့်ပါတယ်။ (တရားဝင်)"
+        },
+        {
+          "concept": "Strength of Obligation",
+          "explanation": "'Ought to' can express a slightly stronger moral obligation than 'should'.",
+          "example": "You should tell the truth. (advice) / You ought to tell the truth. (moral duty)",
+          "burmese": "မင်း အမှန်တရားကို ပြောသင့်တယ်။ (အကြံပြုချက်) / မင်း အမှန်တရားကို ပြောသင့်ပါတယ်။ (ကျင့်ဝတ်)"
+        },
+        {
+          "concept": "Negative Form Difference",
+          "explanation": "'Should' uses 'shouldn't' while 'ought to' uses 'ought not to'.",
+          "example": "You shouldn't be late. / You ought not to be late.",
+          "burmese": "မင်း နောက်ကျသင့်ဘူး။ / မင်း နောက်ကျသင့်ဘူး။"
+        }
+      ]
+    }
+  ]
+}

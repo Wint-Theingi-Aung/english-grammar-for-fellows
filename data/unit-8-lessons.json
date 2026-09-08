@@ -1,0 +1,99 @@
+{
+  "unit": 8,
+  "title": "Can / Could",
+  "lessons": [
+    {
+      "id": "unit8-lesson1",
+      "title": "Can for Present/Future Ability and Permission",
+      "content": "Can is used to talk about the ability to do something at a given time in the present or future. It is used to make statements about what is possible. Can is more informal. The structure is Subject + can + V1.",
+      "details": [
+        {
+          "concept": "Present Ability",
+          "explanation": "'Can' is used to talk about current abilities and skills.",
+          "example": "He can speak Chinese fluently.",
+          "burmese": "သူ အင်္ဂလိပ်စာကို ကောင်းကောင်းကျွမ်းကျင်စွာ ပြောနိုင်တယ်။"
+        },
+        {
+          "concept": "Future Ability",
+          "explanation": "'Can' can also refer to future possibilities.",
+          "example": "You can take a holiday tomorrow if you want.",
+          "burmese": "မင်းနားချင်ရင် မနက်ဖန်နားနိုင်တယ်။"
+        },
+        {
+          "concept": "Negative (Inability)",
+          "explanation": "'Cannot' (can't) is used to express inability or impossibility.",
+          "example": "I cannot drink too much.",
+          "burmese": "ငါအရမ်းများများ မသောက်နိုင်ဘူး။"
+        },
+        {
+          "concept": "Informal Request",
+          "explanation": "'Can' is used for informal requests and asking permission.",
+          "example": "Can you take me to the Victoria station?",
+          "burmese": "မင်း ငါ့ကို ဗစ်တိုးရီးယား ရထားဘူတာဆီ ခေါ်သွားပေးနိုင်မလား။"
+        },
+        {
+          "concept": "Asking Permission",
+          "explanation": "'Can' is used to ask for permission informally.",
+          "example": "Can I borrow your car tomorrow?",
+          "burmese": "မင်းရဲ့ကားကို မနက်ဖန် ငါ ငှားရမ်းနိုင်မလား။"
+        }
+      ]
+    },
+    {
+      "id": "unit8-lesson2",
+      "title": "Could for Past Ability and Polite Requests",
+      "content": "Could is used to talk about past time ability. Could is also used as a polite way of telling or asking to do something. Could is more formal and polite than can. The structure is Subject + could + V1.",
+      "details": [
+        {
+          "concept": "Past Ability",
+          "explanation": "'Could' is used to talk about abilities in the past.",
+          "example": "I could run 10 miles when I was young.",
+          "burmese": "ငါငယ်ငယ်က ၁၀ မိုင် ပြေးနိုင်ခဲ့တယ်။"
+        },
+        {
+          "concept": "Past Inability",
+          "explanation": "'Could not' (couldn't) is used to express inability in the past.",
+          "example": "I could not take chilli when I was 12.",
+          "burmese": "ကျွန်မ ၁၂ နှစ်တုန်းက ငရုတ်သီး မစားနိုင်ခဲ့ဘူး။"
+        },
+        {
+          "concept": "Polite Request",
+          "explanation": "'Could' is used for polite requests. It is more formal than 'can'.",
+          "example": "Could you lock the door when you leave?",
+          "burmese": "မင်းထွက်သွားရင် တံခါးခတ်ပေးနိုင်မလား။"
+        },
+        {
+          "concept": "Polite Permission",
+          "explanation": "'Could' is used to ask for permission in a more formal way.",
+          "example": "Could I choose my own doctor?",
+          "burmese": "ကျွန်တော်တို့အတွက်ဆရာဝန်ကို ကျွန်တော်တို့ဘက်က ကိုယ်တိုင် လွတ်လပ်စွာ ရွေးချယ်နိုင်မလား။"
+        }
+      ]
+    },
+    {
+      "id": "unit8-lesson3",
+      "title": "Can vs Could",
+      "content": "Can and could are both modal verbs used for ability and permission, but they differ in formality and time reference.",
+      "details": [
+        {
+          "concept": "Formality",
+          "explanation": "'Could' is more formal and polite than 'can'. Use 'could' in formal situations.",
+          "example": "Can you help me? (informal) / Could you help me? (formal/polite)",
+          "burmese": "ငါ့ကို ကူညီပေးနိုင်မလား။ (ပုံမှန်) / ငါ့ကို ကူညီပေးနိုင်မလားခင်ဗျ။ (တရားဝင်/ယဉ်ကျေး)"
+        },
+        {
+          "concept": "Time Reference",
+          "explanation": "'Can' is for present/future, while 'could' is for past or hypothetical situations.",
+          "example": "I can swim now. (present) / I could swim when I was 5. (past)",
+          "burmese": "ငါ အခု ရေကူးနိုင်တယ်။ (လက်ရှိ) / ငါ ၅ နှစ်တုန်းက ရေကူးနိုင်ခဲ့တယ်။ (အတိတ်)"
+        },
+        {
+          "concept": "Request Strength",
+          "explanation": "'Could' is softer and more polite than 'can' for requests.",
+          "example": "Can I sit here? (casual) / Could I sit here? (very polite)",
+          "burmese": "ဒီမှာ ထိုင်လို့ ရလား။ (ပုံမှန်) / ဒီမှာ ထိုင်လို့ ရမလားခင်ဗျ။ (အလွန်ယဉ်ကျေး)"
+        }
+      ]
+    }
+  ]
+}

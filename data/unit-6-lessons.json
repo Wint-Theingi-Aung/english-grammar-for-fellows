@@ -1,0 +1,125 @@
+{
+  "unit": 6,
+  "title": "Will / Would",
+  "lessons": [
+    {
+      "id": "unit6-lesson1",
+      "title": "Will for Future, Promise, Offer, and Prediction",
+      "content": "Will is used in future structures and for promises, offers, and predictions. The structure is Subject + will + V1.",
+      "details": [
+        {
+          "concept": "Future Structure",
+          "explanation": "'Will' is used to talk about things that will happen in the future.",
+          "example": "It will be Tuesday tomorrow.",
+          "burmese": "မနက်ဖန် အင်္ဂလိပ်နေ့ ဖြစ်မယ်။"
+        },
+        {
+          "concept": "Promise",
+          "explanation": "'Will' is used to make promises about the future.",
+          "example": "I will always love you.",
+          "burmese": "ငါနင်ကို အမြဲချစ်မယ်။"
+        },
+        {
+          "concept": "Offer",
+          "explanation": "'Will' is used to offer help.",
+          "example": "That phone is ringing; I will go and answer it.",
+          "burmese": "ဖုန်းလှမ်းနေတယ်။ ငါသွားကြည့်ပြီး ဖြေလိုက်မယ်။"
+        },
+        {
+          "concept": "Prediction",
+          "explanation": "'Will' is used to make predictions about the future.",
+          "example": "We will have two extra lessons this afternoon.",
+          "burmese": "ဒီနေ့လယ်ကျရင် ငါတို့ နောက်ထပ်သင်ခန်းစာ ၂ ခါ ရမယ်။"
+        },
+        {
+          "concept": "Warning",
+          "explanation": "'Will' can be used to give warnings.",
+          "example": "Don't trust her, she will always tell you lies.",
+          "burmese": "သူမကို မယုံနဲ့။ သူမက မင်းကို အမြဲလိမ်နေတယ်။"
+        }
+      ]
+    },
+    {
+      "id": "unit6-lesson2",
+      "title": "Will in Type 1 Conditional Sentences",
+      "content": "Will is used in Type 1 conditional sentences, which describe real or possible future conditions. The structure is: If + present simple, will + V1.",
+      "details": [
+        {
+          "concept": "Type 1 Conditional",
+          "explanation": "Used for real or possible situations in the future. If the condition is met, the result will happen.",
+          "example": "We will go fishing at the weekend if the weather is good.",
+          "burmese": "ရာသီဥတု ကောင်းရင် ကျွန်တော်တို့ ငါးဖမ်းကြမယ်လေ။"
+        },
+        {
+          "concept": "Type 1 Conditional (Education)",
+          "explanation": "Used for academic conditions as well.",
+          "example": "If you study well, you will pass the exam.",
+          "burmese": "မင်း စာလေ့လာရင် စာမေးပွဲ အောင်မှာပါ။"
+        }
+      ]
+    },
+    {
+      "id": "unit6-lesson3",
+      "title": "Would as Past Tense of Will",
+      "content": "Would is the past tense form of will. It is used in reported speech and past narratives. The structure is Subject + would + V1.",
+      "details": [
+        {
+          "concept": "Reported Speech",
+          "explanation": "When we report what someone said about the future in the past, we change 'will' to 'would'.",
+          "example": "Jack said he would finish the work the next day.",
+          "burmese": "ဂျက်က သူ နောက်နေ့ ပြီးအောင်လုပ်မယ်လို့ ပြောခဲ့တယ်။"
+        },
+        {
+          "concept": "Past Narrative",
+          "explanation": "Used in stories and past accounts of future intentions.",
+          "example": "Ann said she would write us soon.",
+          "burmese": "အန်က သူမ မကြာခင် ငါတို့ဆီ စာရေးမယ် ပြောခဲ့တယ်။"
+        },
+        {
+          "concept": "Past Hope/Expectation",
+          "explanation": "Used to describe what someone expected or hoped would happen.",
+          "example": "He hoped she would come back.",
+          "burmese": "သူမပြန်လာမယ်လို့ သူ မျှော်လင့်ခဲ့တယ်။"
+        }
+      ]
+    },
+    {
+      "id": "unit6-lesson4",
+      "title": "Would in Conditional Sentences",
+      "content": "Would is used in Type 2 (unreal present) and Type 3 (unreal past) conditional sentences. These describe hypothetical or unreal situations.",
+      "details": [
+        {
+          "concept": "Type 2 Conditional (Unreal Present)",
+          "explanation": "Used for hypothetical situations in the present that are unlikely or unreal. If + past simple, would + V1.",
+          "example": "I would phone Sue if I had her number.",
+          "burmese": "ငါမှာ သူ သူမဖုန်းနံပါတ်ရှိခဲ့ရင် ဆူကို ဆက်မှာမှာ ပါ။"
+        },
+        {
+          "concept": "Type 3 Conditional (Unreal Past)",
+          "explanation": "Used for hypothetical situations in the past that did not happen. If + past perfect, would have + V3.",
+          "example": "If the weather had been good, we would have gone fishing on the weekend.",
+          "burmese": "ရာသီဥတု ကောင်းခဲ့ရင် ကျွန်တော်တို့ ဒီတစ်ပတ်ငါးဖမ်းကြမှာ ပါ။"
+        }
+      ]
+    },
+    {
+      "id": "unit6-lesson5",
+      "title": "Would for Polite Requests",
+      "content": "Would is more polite than will. It is used for polite requests and offers. The structure is Would + subject + V1?",
+      "details": [
+        {
+          "concept": "Polite Request",
+          "explanation": "Used to make polite offers and requests.",
+          "example": "Would you like some juice?",
+          "burmese": "အခု ဖျော်ရည် သောက်ချင်လား။"
+        },
+        {
+          "concept": "Polite Expression",
+          "explanation": "Used to express preferences politely.",
+          "example": "I would like to eat sandwich.",
+          "burmese": "ကျွန်မ ဆန်းဒ်ဝိုက် စားချင်တယ်။"
+        }
+      ]
+    }
+  ]
+}
