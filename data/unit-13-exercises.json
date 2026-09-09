@@ -1,0 +1,132 @@
+{
+  "unit": 13,
+  "exercises": [
+    {
+      "id": "unit13-ex1",
+      "type": "multiple_choice",
+      "instructions": "Choose the correct alternative to complete each sentence.",
+      "questions": [
+        {
+          "id": 1301,
+          "question": "It ________ likely that there has been a mistake.",
+          "options": ["seems", "seems to", "seem"],
+          "answer": "seems",
+          "explanation": "'Likely' is an adjective, so we use 'seems' (seems + adjective). 'Likely' က adj ဖြစ်တဲ့အတွက် 'seems' ကိုသုံးပါ။",
+          "points": 1
+        },
+        {
+          "id": 1302,
+          "question": "You ________ be nervous.",
+          "options": ["seem to", "seem", "seems to"],
+          "answer": "seem to",
+          "explanation": "'Be' is a verb, so we use 'seem to' (seem to + verb). 'Be' က verb ဖြစ်တဲ့အတွက် 'seem to' ကိုသုံးပါ။",
+          "points": 1
+        },
+        {
+          "id": 1303,
+          "question": "He ________ like classical music.",
+          "options": ["seems to", "seems", "seem to"],
+          "answer": "seems to",
+          "explanation": "'Like' is a verb and 'He' is third person singular, so we use 'seems to' (seems to + verb). 'Like' က verb ဖြစ်ပြီး 'He' က third person singular ဖြစ်တဲ့အတွက် 'seems to' ကိုသုံးပါ။",
+          "points": 1
+        },
+        {
+          "id": 1304,
+          "question": "She doesn't ________ be upset.",
+          "options": ["seem to", "seem", "seems"],
+          "answer": "seem to",
+          "explanation": "After 'doesn't', we use the base form. 'Be' is a verb, so we use 'seem to'. 'doesn't' ပြီးနောက်မှာ base form 'seem to' ကိုသုံးပါ။",
+          "points": 1
+        },
+        {
+          "id": 1305,
+          "question": "They ________ rich.",
+          "options": ["seem", "seem to", "seems"],
+          "answer": "seem",
+          "explanation": "'Rich' is an adjective and 'They' is plural, so we use 'seem' (seem + adjective). 'Rich' က adj ဖြစ်ပြီး 'They' က plural ဖြစ်တဲ့အတွက် 'seem' ကိုသုံးပါ။",
+          "points": 1
+        },
+        {
+          "id": 1306,
+          "question": "Jane ________ tired.",
+          "options": ["seems", "seems to", "seem"],
+          "answer": "seems",
+          "explanation": "'Tired' is an adjective and 'Jane' is third person singular, so we use 'seems' (seems + adjective). 'Tired' က adj ဖြစ်ပြီး 'Jane' က third person singular ဖြစ်တဲ့အတွက် 'seems' ကိုသုံးပါ။",
+          "points": 1
+        },
+        {
+          "id": 1307,
+          "question": "Do they ________ love cat?",
+          "options": ["seem to", "seem", "seems"],
+          "answer": "seem to",
+          "explanation": "After 'Do', we use the base form. 'Love' is a verb, so we use 'seem to'. 'Do' ပြီးနောက်မှာ base form 'seem to' ကိုသုံးပါ။",
+          "points": 1
+        },
+        {
+          "id": 1308,
+          "question": "He ________ have a criminal background.",
+          "options": ["seems to", "seems", "seem to"],
+          "answer": "seems to",
+          "explanation": "'Have' is a verb and 'He' is third person singular, so we use 'seems to' (seems to + verb). 'Have' က verb ဖြစ်ပြီး 'He' က third person singular ဖြစ်တဲ့အတွက် 'seems to' ကိုသုံးပါ။",
+          "points": 1
+        },
+        {
+          "id": 1309,
+          "question": "She ________ excited about her job.",
+          "options": ["seems", "seems to", "seem to"],
+          "answer": "seems",
+          "explanation": "'Excited' is an adjective and 'She' is third person singular, so we use 'seems' (seems + adjective). 'Excited' က adj ဖြစ်ပြီး 'She' က third person singular ဖြစ်တဲ့အတွက် 'seems' ကိုသုံးပါ။",
+          "points": 1
+        },
+        {
+          "id": 1310,
+          "question": "They ________ young. How old are they?",
+          "options": ["seem", "seem to", "seems"],
+          "answer": "seem",
+          "explanation": "'Young' is an adjective and 'They' is plural, so we use 'seem' (seem + adjective). 'Young' က adj ဖြစ်ပြီး 'They' က plural ဖြစ်တဲ့အတွက် 'seem' ကိုသုံးပါ။",
+          "points": 1
+        },
+        {
+          "id": 1311,
+          "question": "The soup ________ be cold.",
+          "options": ["seems to", "seems", "seem to"],
+          "answer": "seems to",
+          "explanation": "'Be' is a verb and 'The soup' is third person singular, so we use 'seems to' (seems to + verb). 'Be' က verb ဖြစ်ပြီး 'The soup' က third person singular ဖြစ်တဲ့အတွက် 'seems to' ကိုသုံးပါ။",
+          "points": 1
+        },
+        {
+          "id": 1312,
+          "question": "He ________ be their father.",
+          "options": ["seems to", "seems", "seem"],
+          "answer": "seems to",
+          "explanation": "'Be' is a verb and 'He' is third person singular, so we use 'seems to' (seems to + verb). 'Be' က verb ဖြစ်ပြီး 'He' က third person singular ဖြစ်တဲ့အတွက် 'seems to' ကိုသုံးပါ။",
+          "points": 1
+        },
+        {
+          "id": 1313,
+          "question": "She ________ to cry a lot. Is she OK?",
+          "options": ["seems", "seems to", "seem"],
+          "answer": "seems",
+          "explanation": "The sentence already has 'to' after the blank, so we use 'seems'. The structure is 'seems to cry'. 'to' ကို ဘာသာစကားထဲမှာ ထည့်ပြီးသားဖြစ်တဲ့အတွက် 'seems' ကိုသုံးပါ။",
+          "points": 1
+        },
+        {
+          "id": 1314,
+          "question": "Mark ________ have finished the project.",
+          "options": ["seems to", "seems", "seem"],
+          "answer": "seems to",
+          "explanation": "'Have finished' is a verb phrase and 'Mark' is third person singular, so we use 'seems to' (seems to + verb). 'Have finished' က verb phrase ဖြစ်ပြီး 'Mark' က third person singular ဖြစ်တဲ့အတွက် 'seems to' ကိုသုံးပါ။",
+          "points": 1
+        },
+        {
+          "id": 1315,
+          "question": "Does she ________ angry?",
+          "options": ["seem", "seems", "seem to"],
+          "answer": "seem",
+          "explanation": "After 'Does', we use the base form 'seem'. 'Angry' is an adjective, so we use 'seem' (seem + adjective). 'Does' ပြီးနောက်မှာ base form 'seem' ကိုသုံးပါ။",
+          "points": 1
+        }
+      ]
+    }
+  ]
+}

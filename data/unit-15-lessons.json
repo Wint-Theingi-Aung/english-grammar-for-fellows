@@ -1,0 +1,72 @@
+{
+  "unit": 15,
+  "title": "Would like / Would like to / Would like (Obj) to",
+  "lessons": [
+    {
+      "id": "unit15-lesson1",
+      "title": "Would like + Noun",
+      "content": "Use 'would like + noun' to express a desire for something. 'Would like' is a polite way to say 'want'.",
+      "details": [
+        {
+          "form": "would like + noun",
+          "example": "I would like a cup of tea.",
+          "burmese": "ကျွန်တော်တို့ လက်ဖက်ရည်သောက်ချင်ပါတယ်။"
+        },
+        {
+          "form": "wouldn't like + noun",
+          "example": "I wouldn't like a cup of tea.",
+          "burmese": "ကျွန်တော်တို့ လက်ဖက်ရည် မသောက်ချင်ဘူး။"
+        },
+        {
+          "form": "Would you like + noun?",
+          "example": "Would you like a sandwich?",
+          "burmese": "မင်း ဆန်းဒျ်စ်လိုချင်လား။"
+        }
+      ]
+    },
+    {
+      "id": "unit15-lesson2",
+      "title": "Would like to + V1",
+      "content": "Use 'would like to + V1' (base form) to express a desire to do something.",
+      "details": [
+        {
+          "form": "would like to + V1",
+          "example": "I would like to drink coffee.",
+          "burmese": "ကျွန်တော်တို့ ကော်ဖီ သောက်ချင်ပါတယ်။"
+        },
+        {
+          "form": "wouldn't like to + V1",
+          "example": "They wouldn't like to stay here.",
+          "burmese": "သူတို့ ဒီမှာ မနေချင်ကြဘူး။"
+        },
+        {
+          "form": "Would you like to + V1?",
+          "example": "Would you like to see an action movie tomorrow tonight?",
+          "burmese": "မင်း မနက်ဖန်ညမှာ action movie ကြည့်ချင်လား။"
+        }
+      ]
+    },
+    {
+      "id": "unit15-lesson3",
+      "title": "Would like (Obj) to + V1",
+      "content": "Use 'would like + object + to + V1' to express a desire for someone else to do something.",
+      "details": [
+        {
+          "form": "would like + obj + to + V1",
+          "example": "I would like you to work hard.",
+          "burmese": "ကိုယ် မင်းကို အလုပ်ကြိုးစားစေချင်တယ်။"
+        },
+        {
+          "form": "wouldn't like + obj + to + V1",
+          "example": "We wouldn't like her to leave.",
+          "burmese": "ငါတို့ သူမကို မသွားစေချင်ဘူး။"
+        },
+        {
+          "form": "Would you like + obj + to + V1?",
+          "example": "Would you like me to come with you?",
+          "burmese": "မင်း ကိုယ့်ကို မင်းနဲ့အတူလိုက်စေချင်လား။"
+        }
+      ]
+    }
+  ]
+}

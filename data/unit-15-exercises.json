@@ -1,0 +1,132 @@
+{
+  "unit": 15,
+  "exercises": [
+    {
+      "id": "unit15-ex1",
+      "type": "multiple_choice",
+      "instructions": "Choose the correct alternative to complete each sentence.",
+      "questions": [
+        {
+          "id": 1501,
+          "question": "I'm thirsty. I ________ a glass of water, please.",
+          "options": ["would like", "would like to", "will like"],
+          "answer": "would like",
+          "explanation": "After 'would like' + noun, we use 'would like' without 'to'. 'Would like' + noun is used to express desire for something. 'Would like + noun' ကို အရာဝတ္ထုတစ်ခုကို လိုချင်တဲ့အခါ သုံးပါ။",
+          "points": 1
+        },
+        {
+          "id": 1502,
+          "question": "I ________ answer that question.",
+          "options": ["would like to", "would like", "will like to"],
+          "answer": "would like to",
+          "explanation": "After 'would like' + verb, we use 'would like to + V1'. 'Would like to' is used to express desire to do something. 'Would like to' + V1 ကို လုပ်ဆောင်ချင်တဲ့အခါ သုံးပါ။",
+          "points": 1
+        },
+        {
+          "id": 1503,
+          "question": "I ________ meet the president.",
+          "options": ["would like to", "would like", "will like"],
+          "answer": "would like to",
+          "explanation": "After 'would like' + verb, we use 'would like to + V1'. 'Meet' is a verb, so we need 'would like to'. 'Would like to' + V1 ကို လုပ်ဆောင်ချင်တဲ့အခါ သုံးပါ။",
+          "points": 1
+        },
+        {
+          "id": 1504,
+          "question": "Would you ________ see an action movie tomorrow tonight?",
+          "options": ["like", "like to", "would like"],
+          "answer": "like",
+          "explanation": "After 'Would you', we use the base form 'like' (not 'would like'). 'Would you like to' is correct, but in this sentence the blank is after 'Would you', so only 'like' is needed. 'Would you' ပြီးနောက်မှာ 'like' ကိုပဲသုံးပါ။",
+          "points": 1
+        },
+        {
+          "id": 1505,
+          "question": "They would like me ________ flatter.",
+          "options": ["to", "-", "would"],
+          "answer": "to",
+          "explanation": "After 'would like + object + to', we use 'to + V1'. The structure is: would like + object + to + V1. 'Would like + object + to + V1' ဖွဲ့စည်းပုံမှာ 'to' ကိုသုံးပါ။",
+          "points": 1
+        },
+        {
+          "id": 1506,
+          "question": "Would your kids ________ play at the park next weekend?",
+          "options": ["like", "like to", "would like"],
+          "answer": "like",
+          "explanation": "After 'Would', we use the base form 'like'. The structure is: Would + subject + like + to + V1. 'Would' ပြီးနောက်မှာ 'like' ကိုပဲသုံးပါ။",
+          "points": 1
+        },
+        {
+          "id": 1507,
+          "question": "He would like me not ________ arrive late.",
+          "options": ["to", "-", "would"],
+          "answer": "to",
+          "explanation": "After 'would like + object + not to', we use 'to + V1'. The structure is: would like + object + not to + V1. 'Would like + object + not to + V1' ဖွဲ့စည်းပုံမှာ 'to' ကိုသုံးပါ။",
+          "points": 1
+        },
+        {
+          "id": 1508,
+          "question": "She ________ some coffee.",
+          "options": ["would like", "would like to", "will like"],
+          "answer": "would like",
+          "explanation": "After 'would like' + noun, we use 'would like' without 'to'. 'Some coffee' is a noun phrase. 'Would like + noun' ကို အရာဝတ္ထုတစ်ခုကို လိုချင်တဲ့အခါ သုံးပါ။",
+          "points": 1
+        },
+        {
+          "id": 1509,
+          "question": "________ come with us.",
+          "options": ["would like you to", "would you like to", "would like to"],
+          "answer": "would like you to",
+          "explanation": "The structure is: subject + would like + object + to + V1. 'You' is the object, so we use 'would like you to'. 'Would like + object + to + V1' ဖွဲ့စည်းပုံမှာ object ကိုထည့်ပါ။",
+          "points": 1
+        },
+        {
+          "id": 1510,
+          "question": "________ have dessert.",
+          "options": ["would like her to", "would her like to", "would like to"],
+          "answer": "would like her to",
+          "explanation": "The structure is: subject + would like + object + to + V1. 'Her' is the object, so we use 'would like her to'. 'Would like + object + to + V1' ဖွဲ့စည်းပုံမှာ object ကိုထည့်ပါ။",
+          "points": 1
+        },
+        {
+          "id": 1511,
+          "question": "They ________ speak English well.",
+          "options": ["would like to", "would like", "will like"],
+          "answer": "would like to",
+          "explanation": "After 'would like' + verb, we use 'would like to + V1'. 'Speak' is a verb, so we need 'would like to'. 'Would like to' + V1 ကို လုပ်ဆောင်ချင်တဲ့အခါ သုံးပါ။",
+          "points": 1
+        },
+        {
+          "id": 1512,
+          "question": "I ________ go abroad.",
+          "options": ["would like to", "would like", "will like"],
+          "answer": "would like to",
+          "explanation": "After 'would like' + verb, we use 'would like to + V1'. 'Go' is a verb, so we need 'would like to'. 'Would like to' + V1 ကို လုပ်ဆောင်ချင်တဲ့အခါ သုံးပါ။",
+          "points": 1
+        },
+        {
+          "id": 1513,
+          "question": "Who ________ some candy?",
+          "options": ["would like", "would like to", "will like"],
+          "answer": "would like",
+          "explanation": "After 'would like' + noun, we use 'would like' without 'to'. 'Some candy' is a noun phrase. 'Would like + noun' ကို အရာဝတ္ထုတစ်ခုကို လိုချင်တဲ့အခါ သုံးပါ။",
+          "points": 1
+        },
+        {
+          "id": 1514,
+          "question": "John would like his baby ________ take a nap in daytime.",
+          "options": ["to", "-", "would"],
+          "answer": "to",
+          "explanation": "After 'would like + object + to', we use 'to + V1'. The structure is: would like + object + to + V1. 'Would like + object + to + V1' ဖွဲ့စည်းပုံမှာ 'to' ကိုသုံးပါ။",
+          "points": 1
+        },
+        {
+          "id": 1515,
+          "question": "I ________ play tennis today.",
+          "options": ["would like to", "would like", "will like"],
+          "answer": "would like to",
+          "explanation": "After 'would like' + verb, we use 'would like to + V1'. 'Play' is a verb, so we need 'would like to'. 'Would like to' + V1 ကို လုပ်ဆောင်ချင်တဲ့အခါ သုံးပါ။",
+          "points": 1
+        }
+      ]
+    }
+  ]
+}

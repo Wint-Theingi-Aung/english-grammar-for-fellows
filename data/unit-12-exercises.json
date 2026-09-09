@@ -1,0 +1,132 @@
+{
+  "unit": 12,
+  "exercises": [
+    {
+      "id": "unit12-ex1",
+      "type": "multiple_choice",
+      "instructions": "Choose the correct alternative to complete each sentence.",
+      "questions": [
+        {
+          "id": 1201,
+          "question": "It is here if you ________ it.",
+          "options": ["need", "need to", "needs"],
+          "answer": "need",
+          "explanation": "Before a pronoun (it), use 'need' + noun/pronoun, not 'need to'. 'Needs' is for third person singular. Pronoun မတိုင်ခင် 'need to' မသုံးပါ။",
+          "points": 1
+        },
+        {
+          "id": 1202,
+          "question": "You ________ know how toxic the product is.",
+          "options": ["need to", "need", "needs to"],
+          "answer": "need to",
+          "explanation": "Before a verb (know), use 'need to' + V1. 'Need' alone is followed by a noun, not a verb. Verb မတိုင်ခင် 'need to' ကိုသုံးပါ။",
+          "points": 1
+        },
+        {
+          "id": 1203,
+          "question": "She ________ more time to recover.",
+          "options": ["needs", "need to", "needs to"],
+          "answer": "needs",
+          "explanation": "'She' is third person singular, so 'need' becomes 'needs'. Before a noun (time), use 'needs', not 'needs to'. 'She' က third person singular ဖြစ်တဲ့အတွက် 'needs' ကိုသုံးပါ။",
+          "points": 1
+        },
+        {
+          "id": 1204,
+          "question": "I don't ________ your comments, thank you.",
+          "options": ["need", "need to", "needs"],
+          "answer": "need",
+          "explanation": "Before a noun (comments), use 'need', not 'need to'. 'Needs' is for third person singular. Noun မတိုင်ခင် 'need to' မသုံးပါ။",
+          "points": 1
+        },
+        {
+          "id": 1205,
+          "question": "Don't go – I might ________ you.",
+          "options": ["need", "need to", "needs"],
+          "answer": "need",
+          "explanation": "Before a pronoun (you), use 'need' + noun/pronoun, not 'need to'. 'Needs' is for third person singular. Pronoun မတိုင်ခင် 'need to' မသုံးပါ။",
+          "points": 1
+        },
+        {
+          "id": 1206,
+          "question": "The shirt needs ________ be washed.",
+          "options": ["to", "-", "need"],
+          "answer": "to",
+          "explanation": "After 'needs' (third person singular), use 'to' + V1 to form the infinitive. 'Needs to be washed' is correct. 'Needs' ပြီးနောက်မှာ 'to' + V1 ကိုသုံးပါ။",
+          "points": 1
+        },
+        {
+          "id": 1207,
+          "question": "You ________ know how toxic the product is.",
+          "options": ["need to", "need", "needs"],
+          "answer": "need to",
+          "explanation": "Before a verb (know), use 'need to' + V1. 'Need' alone is followed by a noun, not a verb. Verb မတိုင်ခင် 'need to' ကိုသုံးပါ။",
+          "points": 1
+        },
+        {
+          "id": 1208,
+          "question": "People ________ income not handouts.",
+          "options": ["need", "need to", "needs"],
+          "answer": "need",
+          "explanation": "Before a noun (income), use 'need' + noun, not 'need to'. 'People' is plural so 'needs' is wrong. Noun မတိုင်ခင် 'need' ကိုသုံးပါ။",
+          "points": 1
+        },
+        {
+          "id": 1209,
+          "question": "We are thirsty. We ________ a drink.",
+          "options": ["need", "need to", "needs"],
+          "answer": "need",
+          "explanation": "Before a noun (drink), use 'need' + noun, not 'need to'. 'Needs' is for third person singular. Noun မတိုင်ခင် 'need' ကိုသုံးပါ။",
+          "points": 1
+        },
+        {
+          "id": 1210,
+          "question": "I want to make a cake. I ________ flour, fat and water.",
+          "options": ["need", "need to", "needs"],
+          "answer": "need",
+          "explanation": "Before nouns (flour, fat and water), use 'need' + noun, not 'need to'. 'Needs' is for third person singular. Noun များမတိုင်ခင် 'need' ကိုသုံးပါ။",
+          "points": 1
+        },
+        {
+          "id": 1211,
+          "question": "Do you ________ use Facebook?",
+          "options": ["need to", "need", "needs"],
+          "answer": "need to",
+          "explanation": "Before a verb (use), use 'need to' + V1. 'Need' alone is followed by a noun, not a verb. Verb မတိုင်ခင် 'need to' ကိုသုံးပါ။",
+          "points": 1
+        },
+        {
+          "id": 1212,
+          "question": "They are too tight, they ________ a big house.",
+          "options": ["need", "need to", "needs"],
+          "answer": "need",
+          "explanation": "Before a noun (house), use 'need' + noun, not 'need to'. 'Needs' is for third person singular. Noun မတိုင်ခင် 'need' ကိုသုံးပါ။",
+          "points": 1
+        },
+        {
+          "id": 1213,
+          "question": "It's too hot and Susan ________ a bath.",
+          "options": ["needs", "need", "needs to"],
+          "answer": "needs",
+          "explanation": "'Susan' is third person singular, so 'need' becomes 'needs'. Before a noun (bath), use 'needs', not 'needs to'. 'Susan' က third person singular ဖြစ်တဲ့အတွက် 'needs' ကိုသုံးပါ။",
+          "points": 1
+        },
+        {
+          "id": 1214,
+          "question": "You don't ________ wash the clothes.",
+          "options": ["need to", "need", "needs"],
+          "answer": "need to",
+          "explanation": "Before a verb (wash), use 'need to' + V1. 'Need' alone is followed by a noun, not a verb. Verb မတိုင်ခင် 'need to' ကိုသုံးပါ။",
+          "points": 1
+        },
+        {
+          "id": 1215,
+          "question": "I ________ you.",
+          "options": ["need", "need to", "needs"],
+          "answer": "need",
+          "explanation": "Before a pronoun (you), use 'need' + noun/pronoun, not 'need to'. 'Needs' is for third person singular. Pronoun မတိုင်ခင် 'need to' မသုံးပါ။",
+          "points": 1
+        }
+      ]
+    }
+  ]
+}

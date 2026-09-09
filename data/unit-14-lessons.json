@@ -1,0 +1,69 @@
+{
+  "unit": 14,
+  "title": "Want / Want to / Want (Obj) to",
+  "lessons": [
+    {
+      "id": "unit14-lesson1",
+      "title": "Want + Noun",
+      "content": "'Want' is used with a noun to express desire for something. It follows the same conjugation rules as regular verbs (want/wants). The structure is Subject + Want + Noun Complement.",
+      "details": [
+        {
+          "concept": "Want + Object Pronoun",
+          "explanation": "'Want' can be followed by an object pronoun to express desire for a person.",
+          "example": "I want you.",
+          "burmese": "ငါမင်းကို အလိုရှိတယ်။"
+        },
+        {
+          "concept": "Wants + Noun Phrase",
+          "explanation": "Third person singular uses 'wants' followed by a noun phrase.",
+          "example": "She wants a bigger house.",
+          "burmese": "သူမ ပိုကြီးတဲ့ အိမ် လိုချင်တယ်။"
+        }
+      ]
+    },
+    {
+      "id": "unit14-lesson2",
+      "title": "Want to + V1",
+      "content": "'Want to + V1' is used to express desire to do something. After 'do/does/did', use the base form 'want'. The structure is Subject + Want to + Verb Infinitive.",
+      "details": [
+        {
+          "concept": "Third Person Singular",
+          "explanation": "Third person singular subjects use 'wants to' followed by the base form of the verb.",
+          "example": "He wants to speak English.",
+          "burmese": "သူ အင်္ဂလိပ်စကားပြေးချင်တယ်။"
+        },
+        {
+          "concept": "First Person Singular",
+          "explanation": "First person singular uses 'want to' followed by the base form of the verb.",
+          "example": "I want to know about your job.",
+          "burmese": "ငါမင်းအလုပ်အကြောင်း သိချင်တယ်။"
+        },
+        {
+          "concept": "Questions with Want",
+          "explanation": "In questions, 'Do/Does + subject + want to + V1' is used.",
+          "example": "Do you want to sing a song?",
+          "burmese": "မင်း သီချင်းဆိုချင်လား။"
+        }
+      ]
+    },
+    {
+      "id": "unit14-lesson3",
+      "title": "Want (Obj) to + V1",
+      "content": "'Want (object) to + V1' is used to express what you want someone else to do. The structure is Subject + Want + Object + to + V1.",
+      "details": [
+        {
+          "concept": "Want + Me to + V1",
+          "explanation": "When you want someone else to do something, use 'want + object pronoun + to + V1'.",
+          "example": "They want me to take meditation.",
+          "burmese": "သူတို့ ငါ့ကို တရားထိုင်စေချင်တယ်။"
+        },
+        {
+          "concept": "Want + Object + to + V1 (Past)",
+          "explanation": "This structure is used for desires about others in the present.",
+          "example": "My parents want me to work in Japan.",
+          "burmese": "ငါ့မိဘတွေက ငါ့ကို ဂျပန်မှာ အလုပ်လုပ်စေချင်တယ်။"
+        }
+      ]
+    }
+  ]
+}

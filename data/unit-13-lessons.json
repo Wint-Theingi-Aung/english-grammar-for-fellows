@@ -1,0 +1,50 @@
+{
+  "unit": 13,
+  "title": "Seem / Seem to",
+  "lessons": [
+    {
+      "id": "unit13-lesson1",
+      "title": "Seem + Adjective",
+      "content": "'Seem' is used with adjectives to describe how someone or something appears. The structure is Subject + seem + Adjective.",
+      "details": [
+        {
+          "concept": "Describing Appearance",
+          "explanation": "'Seem' is used with adjectives to describe how someone appears.",
+          "example": "You seem happy.",
+          "burmese": "မင်း ပျော်ပျော်ပါရတယ်။"
+        },
+        {
+          "concept": "Third Person Singular",
+          "explanation": "With third person singular subjects (he, she, it), 'seem' becomes 'seems'.",
+          "example": "He seems kind.",
+          "burmese": "သူ ကောင်းနပါရတယ်။"
+        }
+      ]
+    },
+    {
+      "id": "unit13-lesson2",
+      "title": "Seem to + V1",
+      "content": "'Seem to' is used before a verb infinitive to express how something appears to happen. The structure is Subject + seem to + V1.",
+      "details": [
+        {
+          "concept": "Expressing Appearance of Action",
+          "explanation": "'Seem to' is used before a verb to express how something appears to happen.",
+          "example": "You seem to know it.",
+          "burmese": "မင်း အဲဒီကို သိပါရတယ်။"
+        },
+        {
+          "concept": "Negative Form",
+          "explanation": "In negatives, 'doesn't seem to' is used with third person singular subjects.",
+          "example": "She doesn't seem to work there.",
+          "burmese": "သူမ အမှန် အလုပ်လုပ်ပုံ မပေါ်ဘူး။"
+        },
+        {
+          "concept": "Negative Form (Plural)",
+          "explanation": "'Don't seem to' is used with plural subjects in negatives.",
+          "example": "They don't seem to recognize me.",
+          "burmese": "သူတို့ ငါ့ကို မမှတ်မိပုံ မပေါ်ဘူး။"
+        }
+      ]
+    }
+  ]
+}

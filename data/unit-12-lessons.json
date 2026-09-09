@@ -1,0 +1,68 @@
+{
+  "unit": 12,
+  "title": "Need / Need to",
+  "lessons": [
+    {
+      "id": "unit12-lesson1",
+      "title": "Need + Noun",
+      "content": "'Need' is used as a main verb followed by a noun to express that something is required. The structure is Subject + need + Noun.",
+      "details": [
+        {
+          "concept": "Basic Need",
+          "explanation": "'Need' is used before a noun or pronoun to express a requirement.",
+          "example": "I need you.",
+          "burmese": "ငါမင်းကို လိုအပ်တယ်။"
+        },
+        {
+          "concept": "Third Person Singular",
+          "explanation": "With he/she/it, 'need' becomes 'needs'.",
+          "example": "He needs experience.",
+          "burmese": "သူ အတွေ့အကြုံ လိုတယ်။"
+        },
+        {
+          "concept": "Negative Form",
+          "explanation": "Use 'don't/doesn't need' + noun to express not needing something.",
+          "example": "You don't need her.",
+          "burmese": "မင်း သူမကို မလိုဘူး။"
+        },
+        {
+          "concept": "Question Form",
+          "explanation": "Use 'Do/Does + subject + need' + noun to ask about needing something.",
+          "example": "Do you need money?",
+          "burmese": "မင်း ငွေ လိုလား။"
+        }
+      ]
+    },
+    {
+      "id": "unit12-lesson2",
+      "title": "Need to + V1",
+      "content": "'Need to' is used before a verb infinitive to express that an action is necessary. The structure is Subject + need to + V1.",
+      "details": [
+        {
+          "concept": "Necessity to Act",
+          "explanation": "'Need to' is used before a verb to express that doing something is necessary.",
+          "example": "I need to earn money.",
+          "burmese": "ငါပိုက်ဆံရဖို့ လိုတယ်။"
+        },
+        {
+          "concept": "Negative Form",
+          "explanation": "Use 'doesn't need to' + V1 to express that something is not necessary.",
+          "example": "She doesn't need to go there.",
+          "burmese": "သူမ အဲဒီကို သွားဖို့ မလိုဘူး။"
+        },
+        {
+          "concept": "Question Form",
+          "explanation": "Use 'Do/Does + subject + need to' + V1 to ask about necessity.",
+          "example": "Do you need to get information?",
+          "burmese": "မင်း အချက်အလက်ရဖို့ လိုလား။"
+        },
+        {
+          "concept": "Negative Question",
+          "explanation": "Use 'Don't/Doesn't + subject + need to' + V1 for negative questions.",
+          "example": "Don't they need to live in Yangon?",
+          "burmese": "သူတို့ ရန်ကုန်မှာ နေဖို့ မလိုဘူး လား။"
+        }
+      ]
+    }
+  ]
+}

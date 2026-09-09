@@ -1,0 +1,68 @@
+{
+  "unit": 16,
+  "title": "Going to",
+  "lessons": [
+    {
+      "id": "unit16-lesson1",
+      "title": "Going to for Future Plans",
+      "content": "'Going to' is used to talk about plans and intentions for the future. The structure is Subject + am/is/are + going to + V1.",
+      "details": [
+        {
+          "concept": "Personal Future Plan",
+          "explanation": "'Going to' is used when we have already decided to do something in the future.",
+          "example": "I am going to play football with my friends.",
+          "burmese": "ငါ သူငယ်ချင်းတွေနဲ့ ဘောလုံး ကစားတော့မယ်။"
+        },
+        {
+          "concept": "Someone Else's Plan",
+          "explanation": "'Going to' is used to talk about another person's future plans.",
+          "example": "The baby is going to sleep.",
+          "burmese": "ကလေး အိပ်တော့မယ်။"
+        },
+        {
+          "concept": "Scheduled Future Action",
+          "explanation": "'Going to' is used for actions that are already scheduled or arranged.",
+          "example": "She is going to visit her grandmother next week.",
+          "burmese": "သူမ နောက်အပတ်မှာ အဘိုးအဘွားဆီ သွားလည်မယ်။"
+        },
+        {
+          "concept": "Group Plan",
+          "explanation": "'Going to' is used when a group has a plan together.",
+          "example": "We are going to have a meeting tomorrow.",
+          "burmese": "ငါတို့ မနက်ဖြန် အစည်းအဝေး လုပ်မယ်။"
+        }
+      ]
+    },
+    {
+      "id": "unit16-lesson2",
+      "title": "Going to for Predictions",
+      "content": "'Going to' is used to make predictions based on what we can see now — present evidence. The structure is Subject + am/is/are + going to + V1.",
+      "details": [
+        {
+          "concept": "Prediction Based on Feeling",
+          "explanation": "'Going to' is used when we predict something based on how we feel now.",
+          "example": "I think I am going to be sick.",
+          "burmese": "ငါ အန်မယ်ဖြစ်တော့မယ်လို့ ထင်တယ်။"
+        },
+        {
+          "concept": "Prediction in Question Form",
+          "explanation": "'Going to' can be used in questions to ask about future predictions.",
+          "example": "Are you going to take a bath?",
+          "burmese": "မင်း ရေချိုးတော့မလား လဲ။"
+        },
+        {
+          "concept": "Prediction Based on Visual Evidence",
+          "explanation": "'Going to' is used when we can see something that tells us what will happen.",
+          "example": "Look at those dark clouds. It is going to rain.",
+          "burmese": "မိုးညိုတိမ်တွေ ကြည့်ပါ။ မိုးရွာတော့မယ်။"
+        },
+        {
+          "concept": "Prediction Based on Body Language",
+          "explanation": "'Going to' is used when we can see someone's expression or behavior.",
+          "example": "She is going to cry. Look at her face.",
+          "burmese": "သူမ ငိုတော့မယ်။ မျက်နှာကြည့်ပါ။"
+        }
+      ]
+    }
+  ]
+}

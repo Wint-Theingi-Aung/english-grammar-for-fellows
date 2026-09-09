@@ -18,6 +18,11 @@ const UNIT_TITLES: Record<number, string> = {
   9: "May / Might",
   10: "Must",
   11: "Have to",
+  12: "Need / Need to",
+  13: "Seem / Seem to",
+  14: "Want / Want to / Want (Obj) to",
+  15: "Would like / Would like to / Would like (Obj) to",
+  16: "Going to",
 };
 
 const UNIT_DESCRIPTIONS: Record<number, string> = {
@@ -32,6 +37,11 @@ const UNIT_DESCRIPTIONS: Record<number, string> = {
   9: "Learn to use may and might for possibility, permission, and wishes.",
   10: "Master the use of must for strong obligations and mustn't for prohibition.",
   11: "Learn to use have to for responsibilities and don't have to for what's not required.",
+  12: "Learn when to use 'need' and 'need to' to express necessity.",
+  13: "Use 'seem' and 'seem to' to describe appearances and how things look.",
+  14: "Express desires with 'want', 'want to', and 'want (obj) to'.",
+  15: "Make polite requests and wishes with 'would like' and its variations.",
+  16: "Use 'going to' for future plans and predictions based on evidence.",
 };
 
 function StatCard({ icon, label, value, color }: { icon: React.ReactNode; label: string; value: string | number; color: string }) {
@@ -244,7 +254,7 @@ export default function HomePage() {
     let totalCompleted = 0;
     let totalCorrect = 0;
     let totalPoints = 0;
-    for (let u = 1; u <= 11; u++) {
+    for (let u = 1; u <= 16; u++) {
       const p = allProgress[String(u)];
       if (p) {
         totalAnswered += p.answered;
@@ -258,14 +268,14 @@ export default function HomePage() {
   }, [allProgress]);
 
   const continueUnit = (() => {
-    for (let u = 1; u <= 11; u++) {
+    for (let u = 1; u <= 16; u++) {
       if (!isUnitAvailable(u)) continue;
       const p = allProgress[String(u)];
       if (!p || (!p.completed && p.answered > 0)) {
         return { unit: u, ...p };
       }
     }
-    for (let u = 1; u <= 11; u++) {
+    for (let u = 1; u <= 16; u++) {
       if (!isUnitAvailable(u)) continue;
       const p = allProgress[String(u)];
       if (!p || !p.completed) {
@@ -290,7 +300,7 @@ export default function HomePage() {
   })();
 
   const pathNodes = useMemo(() => {
-    return Array.from({ length: 11 }, (_, i) => {
+    return Array.from({ length: 16 }, (_, i) => {
       const u = i + 1;
       const p = allProgress[String(u)];
       const total = getTotalQuestionCount(u);
@@ -353,7 +363,7 @@ export default function HomePage() {
           <StatCard
             icon={<svg className="w-5 h-5 text-info-500" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}><path strokeLinecap="round" strokeLinejoin="round" d="M19 11H5m14 0a2 2 0 012 2v6a2 2 0 01-2 2H5a2 2 0 01-2-2v-6a2 2 0 012-2m14 0V9a2 2 0 00-2-2M5 11V9a2 2 0 012-2m0 0V5a2 2 0 012-2h6a2 2 0 012 2v2M7 7h10" /></svg>}
             label="Completed"
-            value={`${stats.totalCompleted}/11`}
+            value={`${stats.totalCompleted}/16`}
             color="stat-glow-navy"
           />
         </section>
@@ -394,7 +404,7 @@ export default function HomePage() {
             All Units
           </h2>
           <div className="grid gap-4 sm:grid-cols-2">
-            {Array.from({ length: 11 }, (_, i) => i + 1).map((u) => {
+            {Array.from({ length: 16 }, (_, i) => i + 1).map((u) => {
               const p = allProgress[String(u)];
               const total = getTotalQuestionCount(u);
               return (

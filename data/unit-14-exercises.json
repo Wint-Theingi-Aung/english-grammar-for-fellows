@@ -1,0 +1,132 @@
+{
+  "unit": 14,
+  "exercises": [
+    {
+      "id": "unit14-ex1",
+      "type": "multiple_choice",
+      "instructions": "Choose the correct alternative to complete each sentence.",
+      "questions": [
+        {
+          "id": 1401,
+          "question": "I ________ a new car.",
+          "options": ["want", "want to", "wants"],
+          "answer": "want",
+          "explanation": "'Want' is followed by a noun ('a new car'), so we use 'want'. 'Want to' is for verbs. 'Wants' is for third person singular. 'Want' ပြီးနောက် noun လာရင် 'want' ကိုသုံးပါ။",
+          "points": 1
+        },
+        {
+          "id": 1402,
+          "question": "She ________ read a book.",
+          "options": ["wants to", "wants", "want to"],
+          "answer": "wants to",
+          "explanation": "'She' is third person singular, and the verb 'read' follows, so we use 'wants to'. 'Wants' without 'to' is incorrect before a verb. 'Want to' is for I/you/we/they. 'She' က third person singular ဖြစ်ပြီး verb လာတဲ့အတွက် 'wants to' ကိုသုံးပါ။",
+          "points": 1
+        },
+        {
+          "id": 1403,
+          "question": "Do you ________ a banana?",
+          "options": ["want", "want to", "wants"],
+          "answer": "want",
+          "explanation": "After 'do', we use the base form 'want'. 'Want to' is for verbs. 'Wants' is for third person singular. 'Banana' is a noun. 'Do' ပြီးနောက်မှာ base form 'want' ကိုသုံးပါ။",
+          "points": 1
+        },
+        {
+          "id": 1404,
+          "question": "I don't ________ write a letter.",
+          "options": ["want to", "want", "wants to"],
+          "answer": "want to",
+          "explanation": "'Don't want to' is the correct negative form for 'want to + V1'. The verb 'write' follows, so we need 'want to'. 'Want' alone is incorrect before a verb. 'Don't want to' ကို verb မတိုင်ခင် သုံးပါ။",
+          "points": 1
+        },
+        {
+          "id": 1405,
+          "question": "He doesn't ________ be a journalist.",
+          "options": ["want", "want to", "wants to"],
+          "answer": "want",
+          "explanation": "After 'doesn't', we use the base form 'want'. The 'to' belongs to the infinitive 'to be'. 'Doesn't want to' would be redundant. 'Doesn't' ပြီးနောက်မှာ base form 'want' ကိုသုံးပါ။",
+          "points": 1
+        },
+        {
+          "id": 1406,
+          "question": "My parents ________ be a successful man.",
+          "options": ["want me to", "want to", "wants to"],
+          "answer": "want me to",
+          "explanation": "'My parents' is plural, and the sentence requires an object ('me') before 'to be'. 'Want me to' expresses wanting someone else to do something. 'Want to' lacks the object. 'My parents' က plural ဖြစ်ပြီး object ('me') ပါဝင်တဲ့အတွက် 'want me to' ကိုသုံးပါ။",
+          "points": 1
+        },
+        {
+          "id": 1407,
+          "question": "I don't ________ go to the swimming pool.",
+          "options": ["want", "want to", "wants"],
+          "answer": "want",
+          "explanation": "After 'don't', we use the base form 'want'. The 'to' belongs to the infinitive 'to go'. 'Don't want to' would be redundant. 'Wants' is for third person singular. 'Don't' ပြီးနောက်မှာ base form 'want' ကိုသုံးပါ။",
+          "points": 1
+        },
+        {
+          "id": 1408,
+          "question": "They ________ be an educated person.",
+          "options": ["want you to", "want to", "wants to"],
+          "answer": "want you to",
+          "explanation": "'They' is plural, and the sentence requires an object ('you') before 'to be'. 'Want you to' expresses wanting someone else to do something. 'Want to' lacks the object. 'They' က plural ဖြစ်ပြီး object ('you') ပါဝင်တဲ့အတွက် 'want you to' ကိုသုံးပါ။",
+          "points": 1
+        },
+        {
+          "id": 1409,
+          "question": "Don't you ________ her?",
+          "options": ["want", "want to", "wants"],
+          "answer": "want",
+          "explanation": "'Want' is followed by an object pronoun ('her'), so we use 'want'. 'Want to' is for verbs. 'Wants' is for third person singular. 'Want' ပြီးနောက် object pronoun လာရင် 'want' ကိုသုံးပါ။",
+          "points": 1
+        },
+        {
+          "id": 1410,
+          "question": "We don't ________ play hooky.",
+          "options": ["want him to", "want", "want to"],
+          "answer": "want him to",
+          "explanation": "'We don't want him to' expresses not wanting someone else to do something. The object 'him' is required before 'to play'. 'Want' alone lacks the object. 'We don't want him to' ကို တစ်စုံတစ်ယောက် မလုပ်စေချင်တဲ့အခါ သုံးပါ။",
+          "points": 1
+        },
+        {
+          "id": 1411,
+          "question": "I don't ________ be an engineer.",
+          "options": ["want", "want to", "wants"],
+          "answer": "want",
+          "explanation": "After 'don't', we use the base form 'want'. The 'to' belongs to the infinitive 'to be'. 'Don't want to' would be redundant. 'Wants' is for third person singular. 'Don't' ပြီးနောက်မှာ base form 'want' ကိုသုံးပါ။",
+          "points": 1
+        },
+        {
+          "id": 1412,
+          "question": "You ________ me to play football.",
+          "options": ["want", "want to", "wants"],
+          "answer": "want",
+          "explanation": "The sentence requires an object ('me') before 'to play'. 'Want' is followed by the object pronoun 'me', then 'to + V1'. 'Want to' lacks the object. 'Wants' is for third person singular. 'Want' ပြီးနောက် object pronoun ('me') ပါဝင်တဲ့အတွက် 'want' ကိုသုံးပါ။",
+          "points": 1
+        },
+        {
+          "id": 1413,
+          "question": "Does Alex ________ you?",
+          "options": ["want", "wants", "want to"],
+          "answer": "want",
+          "explanation": "After 'does', we use the base form 'want'. 'Wants' is incorrect after 'does'. 'Want to' is for verbs, but 'you' is a pronoun (object). 'Does' ပြီးနောက်မှာ base form 'want' ကိုသုံးပါ။",
+          "points": 1
+        },
+        {
+          "id": 1414,
+          "question": "John didn't ________ to do homework yesterday.",
+          "options": ["want", "wanted", "wants"],
+          "answer": "want",
+          "explanation": "After 'didn't', we use the base form 'want'. 'Wanted' is incorrect after 'didn't'. 'Wants' is for third person singular present. 'Didn't' ပြီးနောက်မှာ base form 'want' ကိုသုံးပါ။",
+          "points": 1
+        },
+        {
+          "id": 1415,
+          "question": "He ________ four tickets.",
+          "options": ["wants", "want", "want to"],
+          "answer": "wants",
+          "explanation": "'He' is third person singular, and the verb is followed by a noun ('four tickets'), so we use 'wants'. 'Want' is for I/you/we/they. 'Want to' is for verbs. 'He' က third person singular ဖြစ်ပြီး noun လာတဲ့အတွက် 'wants' ကိုသုံးပါ။",
+          "points": 1
+        }
+      ]
+    }
+  ]
+}

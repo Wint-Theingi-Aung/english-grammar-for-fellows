@@ -1,0 +1,132 @@
+{
+  "unit": 16,
+  "exercises": [
+    {
+      "id": "unit16-ex1",
+      "type": "multiple_choice",
+      "instructions": "Choose the correct alternative to complete each sentence.",
+      "questions": [
+        {
+          "id": 1601,
+          "question": "I ________ visit my parents tomorrow.",
+          "options": ["am going to", "will going to", "am going"],
+          "answer": "am going to",
+          "explanation": "'Going to' is used for future plans. The structure is 'am/is/are + going to + V1'. 'Will going to' is grammatically incorrect. 'Am going' needs 'to' before the verb. 'Going to' ကို အနာဂတ်အစီအစဉ်တွေမှာ သုံးပါ။",
+          "points": 1
+        },
+        {
+          "id": 1602,
+          "question": "Look! The baby ________ cry.",
+          "options": ["is going to", "are going to", "goes to"],
+          "answer": "is going to",
+          "explanation": "'Going to' is used for predictions based on present evidence. We can see the baby is about to cry. 'Goes to' is for habitual actions. 'Going to' ကို လက်ရှိအခြေအနေအပေါ် အခြေခံတဲ့ ခန့်မှန်းချက်တွေမှာ သုံးပါ။",
+          "points": 1
+        },
+        {
+          "id": 1603,
+          "question": "She ________ cook dinner tonight.",
+          "options": ["is going to", "are going to", "goes to"],
+          "answer": "is going to",
+          "explanation": "'Going to' is used for future plans. 'She' takes 'is'. The structure is 'is + going to + V1'. 'Are going to' is for plural subjects. 'Goes to' is for habitual actions. 'Going to' ကို အနာဂတ်အစီအစဉ်တွေမှာ သုံးပါ။",
+          "points": 1
+        },
+        {
+          "id": 1604,
+          "question": "They ________ not come to the party.",
+          "options": ["are going to", "is going to", "were going"],
+          "answer": "are going to",
+          "explanation": "'Going to' is used for future plans. 'They' takes 'are'. The negative form is 'are not going to + V1'. 'Is going to' is for singular subjects. 'Were going' is past tense. 'Going to' ကို အနာဂတ်အစီအစဉ်တွေမှာ သုံးပါ။",
+          "points": 1
+        },
+        {
+          "id": 1605,
+          "question": "What ________ you do this weekend?",
+          "options": ["are you going to", "do you going to", "are you going"],
+          "answer": "are you going to",
+          "explanation": "'Going to' is used in questions about future plans. The question form is 'What + am/is/are + subject + going to + V1?'. 'Do you going to' is grammatically incorrect. 'Are you going' needs 'to' before the verb. 'Going to' ကို အနာဂတ်အစီအစဉ်တွေမှာ သုံးပါ။",
+          "points": 1
+        },
+        {
+          "id": 1606,
+          "question": "I think it ________ rain later.",
+          "options": ["is going to", "are going to", "will going to"],
+          "answer": "is going to",
+          "explanation": "'Going to' is used for predictions based on present evidence. 'It' takes 'is'. The structure is 'is + going to + V1'. 'Are going to' is for plural subjects. 'Will going to' is grammatically incorrect. 'Going to' ကို လက်ရှိအခြေအနေအပေါ် အခြေခံတဲ့ ခန့်မှန်းချက်တွေမှာ သုံးပါ။",
+          "points": 1
+        },
+        {
+          "id": 1607,
+          "question": "We ________ move to a new house next month.",
+          "options": ["are going to", "is going to", "goes to"],
+          "answer": "are going to",
+          "explanation": "'Going to' is used for future plans. 'We' takes 'are'. The structure is 'are + going to + V1'. 'Is going to' is for singular subjects. 'Goes to' is for habitual actions. 'Going to' ကို အနာဂတ်အစီအစဉ်တွေမှာ သုံးပါ။",
+          "points": 1
+        },
+        {
+          "id": 1608,
+          "question": "He ________ buy a new car.",
+          "options": ["is going to", "are going to", "goes to"],
+          "answer": "is going to",
+          "explanation": "'Going to' is used for future plans. 'He' takes 'is'. The structure is 'is + going to + V1'. 'Are going to' is for plural subjects. 'Goes to' is for habitual actions. 'Going to' ကို အနာဂတ်အစီအစဉ်တွေမှာ သုံးပါ။",
+          "points": 1
+        },
+        {
+          "id": 1609,
+          "question": "________ you going to help me?",
+          "options": ["Are", "Do", "Is"],
+          "answer": "Are",
+          "explanation": "'Going to' questions use am/is/are. 'You' takes 'Are'. The question form is 'Are + subject + going to + V1?'. 'Do' is used with other verb forms. 'Is' is for singular third person. 'Going to' ကို မေးခွန်းတွေမှာ သုံးပါ။",
+          "points": 1
+        },
+        {
+          "id": 1610,
+          "question": "I ________ study hard for the exam.",
+          "options": ["am going to", "is going to", "goes to"],
+          "answer": "am going to",
+          "explanation": "'Going to' is used for future plans. 'I' takes 'am'. The structure is 'am + going to + V1'. 'Is going to' is for singular third person. 'Goes to' is for habitual actions. 'Going to' ကို အနာဂတ်အစီအစဉ်တွေမှာ သုံးပါ။",
+          "points": 1
+        },
+        {
+          "id": 1611,
+          "question": "She ________ not going to attend the meeting.",
+          "options": ["is", "are", "am"],
+          "answer": "is",
+          "explanation": "The negative form is 'is not going to + V1'. 'She' takes 'is'. 'Are' is for plural subjects or 'you'. 'Am' is only for 'I'. 'Going to' ကို အနာဂတ်အစီအစဉ်တွေမှာ သုံးပါ။",
+          "points": 1
+        },
+        {
+          "id": 1612,
+          "question": "The weather is bad. We ________ stay home.",
+          "options": ["are going to", "is going to", "goes to"],
+          "answer": "are going to",
+          "explanation": "'Going to' is used for predictions based on present evidence. 'We' takes 'are'. The structure is 'are + going to + V1'. 'Is going to' is for singular subjects. 'Goes to' is for habitual actions. 'Going to' ကို လက်ရှိအခြေအနေအပေါ် အခြေခံတဲ့ ခန့်မှန်းချက်တွေမှာ သုံးပါ။",
+          "points": 1
+        },
+        {
+          "id": 1613,
+          "question": "Look at those dark clouds. It ________ storm.",
+          "options": ["is going to", "are going to", "goes to"],
+          "answer": "is going to",
+          "explanation": "'Going to' is used for predictions based on present evidence — we can see dark clouds. 'It' takes 'is'. 'Are going to' is for plural subjects. 'Goes to' is for habitual actions. 'Going to' ကို လက်ရှိအခြေအနေအပေါ် အခြေခံတဲ့ ခန့်မှန်းချက်တွေမှာ သုံးပါ။",
+          "points": 1
+        },
+        {
+          "id": 1614,
+          "question": "My parents ________ visit us next weekend.",
+          "options": ["are going to", "is going to", "goes to"],
+          "answer": "are going to",
+          "explanation": "'Going to' is used for future plans. 'My parents' is plural, so it takes 'are'. The structure is 'are + going to + V1'. 'Is going to' is for singular subjects. 'Goes to' is for habitual actions. 'Going to' ကို အနာဂတ်အစီအစဉ်တွေမှာ သုံးပါ။",
+          "points": 1
+        },
+        {
+          "id": 1615,
+          "question": "What ________ she eat for lunch?",
+          "options": ["is she going to", "does she going to", "is she going"],
+          "answer": "is she going to",
+          "explanation": "'Going to' is used in questions about future plans. The question form is 'What + is + subject + going to + V1?'. 'Does she going to' is grammatically incorrect. 'Is she going' needs 'to' before the verb. 'Going to' ကို အနာဂတ်အစီအစဉ်တွေမှာ သုံးပါ။",
+          "points": 1
+        }
+      ]
+    }
+  ]
+}
