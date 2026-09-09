@@ -12,36 +12,25 @@ const TABS = [
 type TabId = (typeof TABS)[number]["id"];
 
 const references = [
-  { title: "English Grammar in Use", author: "Raymond Murphy", publisher: "Cambridge University Press", url: "https://www.cambridge.org/core/books/english-grammar-in-use/E21557060E76B1F6AF9516116A2B081E" },
-  { title: "Practical English Usage", author: "Michael Swan", publisher: "Oxford University Press", url: "https://global.oup.com/academic/product/practical-english-usage-9780194202435?cc=us&lang=en&" },
-  { title: "English Grammar: A Generative Perspective", author: "Andrew Radford, Martin Atkinson, David Britain, Harald Clahsen, and Stuart Barry", publisher: "Oxford University Press", url: "https://global.oup.com/academic/product/english-grammar-a-generative-perspective-9780198700326?cc=us&lang=en&" },
-  { title: "Grammar, Workbook with Answer Key", author: "Betty Schrampfer Azar, Stacey A. Hagen", publisher: "Pearson Education ESL", url: "https://www.pearsonhighered.com/assets/preface/0/1/3/1/0131849751.pdf" },
-  { title: "Longman Grammar of Spoken and Written English", author: "Douglas Biber, Stig Johansson, Geoffrey Leech, Susan Conrad, Edward Finegan", publisher: "Pearson Education", url: "https://www.pearson.com/en-us/subject-catalog/p/longman-grammar-of-spoken-and-written-english/P200000003258" },
-  { title: "A Student's Introduction to English Grammar", author: "Rodney Huddleston, Geoffrey K. Pullum", publisher: "Cambridge University Press", url: "https://www.cambridge.org/core/books/students-introduction-to-english-grammar/46A8E0C8E5B9B2E7E0B1E9E8F8A8C0C0" },
-  { title: "The Cambridge Grammar of the English Language", author: "Rodney Huddleston, Geoffrey K. Pullum", publisher: "Cambridge University Press", url: "https://www.cambridge.org/core/books/cambridge-grammar-of-the-english-language/2BB2383240D5C22F346A7E1F8C5F8D0C" },
-  { title: "Oxford Modern English Grammar", author: "Aarts, Bas", publisher: "Oxford University Press", url: "https://global.oup.com/academic/product/oxford-modern-english-grammar-9780198701880?cc=us&lang=en&" },
-  { title: "English Grammar A2", author: "Catherine Cheator, Hadley Suares, Florence Peters", publisher: "Editions Didier", url: "https://www.englishgrammar.org/files/A2.pdf" },
-  { title: "The Good Grammar Book", author: "Michael Swan, Cynthia Johnstone", publisher: "Cambridge University Press", url: "https://www.cambridge.org/core/books/good-grammar-book/9F7E6C1C2E7B7E2E4E1B0B0A0A0A0A0A" },
-  { title: "Grammar and Vocabulary for Cambridge Advanced and Proficiency", author: "Richard Side, Guy Wellman", publisher: "Longman", url: "https://www.pearson.com/en-us/subject-catalog/p/grammar-and-vocabulary-for-cambridge-advanced-and-proficiency/P200000000546" },
-  { title: "Test Your English Vocabulary in Use", author: "Redston, Raymond, Chris Oxenden", publisher: "Cambridge University Press", url: "https://www.cambridge.org/core/books/test-your-english-vocabulary-in-use/5C5E0E7F7F7E7E7E7E7E7E7E7E7E7E7E" },
-  { title: "Review of English Grammar", author: "Jean Praninskas", publisher: "Prentice Hall, Inc.", url: "https://www.pearson.com/en-us/subject-catalog/p/review-of-english-grammar/P200000000239" },
-  { title: "English Grammar Today", author: "Ronald Carter, Michael McCarthy", publisher: "Cambridge University Press", url: "https://www.cambridge.org/core/books/english-grammar-today/E7E7E7E7E7E7E7E7E7E7E7E7E7E7E7E7" },
-  { title: "Oxford Practice Grammar", author: "John Eastwood", publisher: "Oxford University Press", url: "https://global.oup.com/academic/product/oxford-practice-grammar-basic-9780194579773?cc=us&lang=en&" },
-  { title: "Grammarway4, with Answer Key", author: "Jennifer Seidl, Virgiana Evans", publisher: "Express Publishing", url: "https://www.expresspublishing.co.uk/books/level-4/grammarway-4" },
-  { title: "A Comprehensive Grammar of the English Language", author: "Randolph Quirk, Sidney Greenbaum, Geoffrey Leech, Jan Svartvik", publisher: "Longman", url: "https://www.pearson.com/en-us/subject-catalog/p/a-comprehensive-grammar-of-the-english-language/P200000000536" },
-  { title: "English Grammar in Use, Fourth Edition, with Answers and Interactive eBook", author: "Raymond Murphy", publisher: "Cambridge University Press", url: "https://www.cambridge.org/core/books/english-grammar-in-use-with-answers/1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E" },
-  { title: "Practical English Usage, Fourth Edition", author: "Michael Swan", publisher: "Oxford University Press", url: "https://global.oup.com/academic/product/practical-english-usage-9780194202435?cc=us&lang=en&" },
-  { title: "English Grammar, A2", author: "Catherine Cheator, Hadley Suares, Florence Peters", publisher: "Editions Didier", url: "https://www.englishgrammar.org/files/A2.pdf" },
-  { title: "English Grammar, B1", author: "Catherine Cheator, Hadley Suares, Florence Peters", publisher: "Editions Didier", url: "https://www.englishgrammar.org/files/B1.pdf" },
-  { title: "English Grammar, B2", author: "Catherine Cheator, Hadley Suares, Florence Peters", publisher: "Editions Didier", url: "https://www.englishgrammar.org/files/B2.pdf" },
-  { title: "English Grammar, C1", author: "Catherine Cheator, Hadley Suares, Florence Peters", publisher: "Editions Didier", url: "https://www.englishgrammar.org/files/C1.pdf" },
-  { title: "English Grammar, C2", author: "Catherine Cheator, Hadley Suares, Florence Peters", publisher: "Editions Didier", url: "https://www.englishgrammar.org/files/C2.pdf" },
-  { title: "Cambridge English Grammar in Use, A1", author: "Raymond Murphy", publisher: "Cambridge University Press", url: "https://www.cambridge.org/core/books/english-grammar-in-use/7E7E7E7E7E7E7E7E7E7E7E7E7E7E7E7E" },
-  { title: "Cambridge English Grammar in Use, A2", author: "Raymond Murphy", publisher: "Cambridge University Press", url: "https://www.cambridge.org/core/books/english-grammar-in-use/8E8E8E8E8E8E8E8E8E8E8E8E8E8E8E8E" },
-  { title: "Cambridge English Grammar in Use, B1", author: "Raymond Murphy", publisher: "Cambridge University Press", url: "https://www.cambridge.org/core/books/english-grammar-in-use/9E9E9E9E9E9E9E9E9E9E9E9E9E9E9E9E" },
-  { title: "Cambridge English Grammar in Use, B2", author: "Raymond Murphy", publisher: "Cambridge University Press", url: "https://www.cambridge.org/core/books/english-grammar-in-use/A0A0A0A0A0A0A0A0A0A0A0A0A0A0A0A0" },
-  { title: "Cambridge English Grammar in Use, C1", author: "Raymond Murphy", publisher: "Cambridge University Press", url: "https://www.cambridge.org/core/books/english-grammar-in-use/B1B1B1B1B1B1B1B1B1B1B1B1B1B1B1B1" },
-  { title: "Cambridge English Grammar in Use, C2", author: "Raymond Murphy", publisher: "Cambridge University Press", url: "https://www.cambridge.org/core/books/english-grammar-in-use/C2C2C2C2C2C2C2C2C2C2C2C2C2C2C2C2" },
+  { label: "Retrieved from Diploma in English Course" },
+  { url: "https://www.perfect-english-grammar.com" },
+  { url: "https://www.usingenglish.com" },
+  { url: "https://learningenglish.voanews.com" },
+  { url: "https://www.talkenglish.com" },
+  { url: "https://www.crownacademyenglish.com" },
+  { url: "https://www.oxfordlearnersdictionaries.com" },
+  { url: "https://www.oxfordonlineenglish.com" },
+  { url: "https://www.kidslearningstation4u.com" },
+  { url: "https://www.learnesl.net" },
+  { url: "https://www.englishclub.com" },
+  { url: "https://www.wallstreetenglish.com" },
+  { url: "https://www.englishclub.com" },
+  { url: "https://www.ego4u.com" },
+  { url: "https://www.englisch-hilfen.de" },
+  { url: "https://www.learngrammar.net" },
+  { url: "https://www.englishgrammar.org" },
+  { url: "https://www.grammarbank.com" },
+  { url: "https://www.englishpractice.com" },
 ];
 
 export default function AboutPage() {
@@ -102,47 +91,22 @@ export default function AboutPage() {
             hidden={activeTab !== "thanks"}
           >
             <div className="bg-surface rounded-2xl border border-border p-6 sm:p-8 shadow-sm">
-              <h2 className="text-xl sm:text-2xl font-bold text-ink mb-6 font-serif">Acknowledgements</h2>
+              <h2 className="text-xl sm:text-2xl font-bold text-ink mb-6 font-serif">Thanks</h2>
               <div className="prose prose-ink max-w-none text-ink-light text-sm sm:text-base leading-relaxed space-y-4">
                 <p>
-                  I owe immense gratitude to my parents, <strong>U Myint Thein</strong> and <strong>Daw Myint Myint Win</strong>,
-                  whose boundless love and support have been my foundation throughout this journey. My father&apos;s discovery of{" "}
-                  <em>English Grammar in Use</em> by Raymond Murphy at a meager bookshop during his university years shaped the
-                  course of my life.
+                  Firstly, I would like to thank all of my English teachers who taught me
+                  throughout my life. I always appreciate them and pay respect to them.
                 </p>
                 <p>
-                  To my beloved mother, whose unwavering belief in education, even in the face of poverty, I am forever grateful.
+                  Secondly, I would like to thank Assistant Lecturer Daw Swe Mar Aung and Khit
+                  Yadana and Thu Rein Htun, my friends. They support me a lot. I could not
+                  complete this book unless they give me their hands.
                 </p>
                 <p>
-                  I also extend my heartfelt appreciation to my siblings, my nephews and nieces, and my wonderful in-laws for
-                  their constant encouragement and support throughout my life. Your love has been a driving force behind my efforts.
+                  Last but not least, I would like to thank Saya Ko Ko Ye. It is because of Saya who
+                  asked for contributing to community. I pay homage to you and really thank to
+                  you.
                 </p>
-                <p>
-                  My sincere appreciation goes to my English teacher, <strong>U Kyaw Swa Aung</strong>, whose exemplary teaching
-                  ignited my passion for the English language.
-                </p>
-                <p>
-                  To my friends and colleagues, I thank you for your camaraderie and shared experiences.
-                </p>
-                <p>
-                  This work is also dedicated to the many enthusiastic learners who have participated in the development of{" "}
-                  <em>English Grammar for Fellows</em> at the <strong>Myanmar Institute of Theology</strong>. Your insightful
-                  feedback and suggestions have been invaluable in shaping this manuscript.
-                </p>
-                <p>
-                  My deepest gratitude is reserved for my dear wife, <strong>Eve Sin Htwe</strong>, and my precious daughters,{" "}
-                  <strong>Hsue Ya</strong> and <strong>Hsue Linn</strong>. Eve, your patience, sacrifice, and unwavering support
-                  have been the cornerstone of this work. To my daughters, may this book inspire you to pursue knowledge with the
-                  same passion and dedication that has guided me.
-                </p>
-                <p>
-                  Above all, I thank Almighty God for His grace and guidance throughout my life and this work.
-                </p>
-                <div className="mt-8 text-right text-ink-muted text-sm italic">
-                  <p>MS</p>
-                  <p>January 1, 2026</p>
-                  <p>Yangon, Myanmar</p>
-                </div>
               </div>
             </div>
           </div>
@@ -158,12 +122,40 @@ export default function AboutPage() {
               <h2 className="text-xl sm:text-2xl font-bold text-ink mb-6 font-serif">To the Fellows</h2>
               <div className="prose prose-ink max-w-none text-ink-light text-sm sm:text-base leading-relaxed space-y-4">
                 <p>
-                  With heartfelt appreciation, I am deeply grateful to you for using <em>English Grammar For Fellows</em>. It is
-                  a blessing that you have chosen this book to assist you in mastering English grammar.
+                  English Grammar for Fellows is written for my fellows (fellows who have already
+                  studied English Basic) who need some help for grammar. Nevertheless I am not a
+                  perfect one yet, I would like to share my knowledge which I know.
                 </p>
                 <p>
-                  I sincerely hope that the knowledge and skills you acquire through this book will be a blessing in your journey
-                  to learn English and communicate more effectively in this globalized world.
+                  In this book, it includes many points such as
+                </p>
+                <ul className="list-disc pl-6 space-y-1">
+                  <li>difference between I do and I am doing</li>
+                  <li>difference between want to and want (obj) to</li>
+                  <li>difference between would like to and would like (obj) to</li>
+                  <li>difference between used to do and used to doing</li>
+                  <li>usage of prepositions of time and place</li>
+                  <li>adverbs of frequency and so on</li>
+                </ul>
+                <p>
+                  What&apos;s more, it consists of many vocabularies such as
+                </p>
+                <ul className="list-disc pl-6 space-y-1">
+                  <li>physical activities</li>
+                  <li>sports</li>
+                  <li>transport</li>
+                  <li>feelings</li>
+                  <li>personality</li>
+                  <li>social problems</li>
+                  <li>shops, etc.</li>
+                </ul>
+                <p>
+                  Every unit contains a lot of exercises and intends to practise. There is the key for each
+                  exercise and you will check the answers.
+                </p>
+                <p>
+                  In conclusion, although there are still needs in this book, I try my best as much as I
+                  can. If it is useful for you, I will walk on air.
                 </p>
               </div>
             </div>
@@ -178,27 +170,25 @@ export default function AboutPage() {
           >
             <div className="bg-surface rounded-2xl border border-border p-6 sm:p-8 shadow-sm">
               <h2 className="text-xl sm:text-2xl font-bold text-ink mb-6 font-serif">References</h2>
-              <ol className="space-y-4 text-sm sm:text-base text-ink-light">
+              <ol className="space-y-3 text-sm sm:text-base text-ink-light">
                 {references.map((ref, index) => (
                   <li key={index} className="flex gap-3">
                     <span className="flex-shrink-0 w-7 h-7 rounded-full bg-primary-50 text-primary-600 text-xs font-bold flex items-center justify-center mt-0.5">
                       {index + 1}
                     </span>
                     <div className="min-w-0">
-                      <p className="font-medium text-ink leading-snug">
-                        {ref.title}
-                      </p>
-                      <p className="text-ink-muted text-xs sm:text-sm mt-0.5">
-                        {ref.author} &middot; {ref.publisher}
-                      </p>
-                      <a
-                        href={ref.url}
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        className="text-primary-600 hover:text-primary-700 text-xs sm:text-sm break-all focus-visible:ring-2 focus-visible:ring-primary-500 focus-visible:ring-offset-1 rounded"
-                      >
-                        {ref.url}
-                      </a>
+                      {ref.url ? (
+                        <a
+                          href={ref.url}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className="text-primary-600 hover:text-primary-700 break-all focus-visible:ring-2 focus-visible:ring-primary-500 focus-visible:ring-offset-1 rounded"
+                        >
+                          {ref.url}
+                        </a>
+                      ) : (
+                        <p className="text-ink">{ref.label}</p>
+                      )}
                     </div>
                   </li>
                 ))}

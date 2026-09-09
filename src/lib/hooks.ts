@@ -4,6 +4,9 @@ import { useMemo, useRef, useSyncExternalStore } from "react";
 
 const noop = () => () => {};
 
+const EMPTY_PROGRESS = Object.freeze({});
+const EMPTY_TODAY_STATS = Object.freeze({ todayCount: 0, streak: 0 });
+
 function makeUnitSelector<T>(unit: number, extractor: (data: Record<string, unknown>) => T, fallback: T): () => T {
   return () => {
     if (typeof window === "undefined") return fallback;
@@ -92,7 +95,7 @@ export function useAllProgress(): Record<string, { answered: number; completed: 
       return cacheRef.current.result;
     }
   };
-  return useSyncExternalStore(noop, selector, () => ({}));
+  return useSyncExternalStore(noop, selector, () => EMPTY_PROGRESS);
 }
 
 export function useTodayStats(): { todayCount: number; streak: number } {
@@ -143,7 +146,7 @@ export function useTodayStats(): { todayCount: number; streak: number } {
       return cacheRef.current.result;
     }
   };
-  return useSyncExternalStore(noop, selector, () => ({ todayCount: 0, streak: 0 }));
+  return useSyncExternalStore(noop, selector, () => EMPTY_TODAY_STATS);
 }
 
 export function useMistakesJson(): string {
