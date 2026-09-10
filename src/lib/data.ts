@@ -46,6 +46,12 @@ import unit23Lessons from "../../data/unit-23-lessons.json";
 import unit23Exercises from "../../data/unit-23-exercises.json";
 import unit24Lessons from "../../data/unit-24-lessons.json";
 import unit24Exercises from "../../data/unit-24-exercises.json";
+import unit25Lessons from "../../data/unit-25-lessons.json";
+import unit25Exercises from "../../data/unit-25-exercises.json";
+import unit26Lessons from "../../data/unit-26-lessons.json";
+import unit26Exercises from "../../data/unit-26-exercises.json";
+import unit27Lessons from "../../data/unit-27-lessons.json";
+import unit27Exercises from "../../data/unit-27-exercises.json";
 import type { LessonsData, ExercisesData, Exercise, ExerciseQuestion } from "./types";
 
 const UNIT_DATA: Record<number, { lessons: LessonsData; exercises: ExercisesData }> = {
@@ -73,6 +79,9 @@ const UNIT_DATA: Record<number, { lessons: LessonsData; exercises: ExercisesData
   22: { lessons: unit22Lessons as LessonsData, exercises: unit22Exercises as ExercisesData },
   23: { lessons: unit23Lessons as LessonsData, exercises: unit23Exercises as ExercisesData },
   24: { lessons: unit24Lessons as LessonsData, exercises: unit24Exercises as ExercisesData },
+  25: { lessons: unit25Lessons as LessonsData, exercises: unit25Exercises as ExercisesData },
+  26: { lessons: unit26Lessons as LessonsData, exercises: unit26Exercises as ExercisesData },
+  27: { lessons: unit27Lessons as LessonsData, exercises: unit27Exercises as ExercisesData },
 };
 
 export function getLessonsData(unit: number = 1): LessonsData {

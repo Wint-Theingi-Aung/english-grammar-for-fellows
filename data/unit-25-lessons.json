@@ -1,0 +1,31 @@
+{
+  "unit": 25,
+  "title": "Double Comparatives (…တစ်လေ …တစ်လေ)",
+  "lessons": [
+    {
+      "id": "unit25-lesson1",
+      "title": "Double Comparatives: Cause and Effect",
+      "content": "Double comparatives are used to express cause and effect. The structure is 'The + comparative + subject + verb, the + comparative + subject + verb'. As one thing changes, another thing changes in response.",
+      "details": [
+        {
+          "concept": "the + comparative, the + comparative",
+          "explanation": "Use 'the + comparative adjective/adverb' on both sides of the comma to show how two changes are linked.",
+          "example": "The more meat he eats, the fatter he is.",
+          "burmese": "သူ အသားအများစားသလောက် ဝလောက်တယ်။"
+        },
+        {
+          "concept": "the + comparative, the + comparative",
+          "explanation": "Both clauses use 'the + comparative' to show how one change causes another.",
+          "example": "The higher the sun is, the lower the shadow is.",
+          "burmese": "နေမင်းလောက်မြင့်လေ အရိပ်က အောက်ကျလောက်တယ်။"
+        },
+        {
+          "concept": "the + comparative, the + comparative",
+          "explanation": "As the first condition increases or decreases, the result follows.",
+          "example": "The harder he worked, the richer he became.",
+          "burmese": "သူ အလုပ်ကြိုးစားသလောက် ချမ်းသာလောက်တယ်။"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,92 @@
+{
+  "unit": 26,
+  "exercises": [
+    {
+      "id": "unit26-ex1",
+      "type": "multiple_choice",
+      "instructions": "Combine the following sentences using 'either \u2026 or'.",
+      "questions": [
+        {
+          "id": 2601,
+          "question": "She can have tea. Or she can have coffee. Combine using 'either \u2026 or'.",
+          "options": ["She can have either tea or coffee", "Either she can tea or coffee", "She either have tea or coffee"],
+          "answer": "She can have either tea or coffee",
+          "explanation": "Place 'either' before the first alternative and 'or' before the second. 'Can have' stays at the beginning. 'Either \u2026 or' ကို noun နှစ်ခုကြားမှာ ထားပါ။",
+          "points": 1
+        },
+        {
+          "id": 2602,
+          "question": "He keeps the keys himself. Or he leaves them with his wife. Combine using 'either \u2026 or'.",
+          "options": ["He either keeps the keys himself or leaves them with his wife", "Either he keeps the keys or himself leaves them", "He keeps either the keys himself or his wife"],
+          "answer": "He either keeps the keys himself or leaves them with his wife",
+          "explanation": "When both clauses share the same subject, place 'either' before the first verb. 'Either \u2026 or' ကို verb phrase နှစ်ခုကြားမှာ ထားပါ။",
+          "points": 1
+        },
+        {
+          "id": 2603,
+          "question": "He may attend the function. Or his wife may attend the function. Combine using 'either \u2026 or'.",
+          "options": ["Either he or his wife may attend the function", "He may either attend his wife or the function", "Either he attends or his wife the function"],
+          "answer": "Either he or his wife may attend the function",
+          "explanation": "Use 'Either + subject + or + subject' before the verb. The two subjects are joined by 'either \u2026 or'. 'Either \u2026 or' ကို subject နှစ်ခုကြားမှာ ထားပါ။",
+          "points": 1
+        },
+        {
+          "id": 2604,
+          "question": "Give me freedom. Or give me death. Combine using 'either \u2026 or'.",
+          "options": ["Give me either freedom or death", "Either give me freedom or death", "Give either me freedom or me death"],
+          "answer": "Give me either freedom or death",
+          "explanation": "Place 'either' before the first alternative and 'or' before the second within the object. 'Either \u2026 or' ကို object နှစ်ခုကြားမှာ ထားပါ။",
+          "points": 1
+        },
+        {
+          "id": 2605,
+          "question": "He must have done this. Or his brother must have done this. Combine using 'either \u2026 or'.",
+          "options": ["Either he or his brother must have done this", "He must either have done this or his brother", "Either he or his brother done this must have"],
+          "answer": "Either he or his brother must have done this",
+          "explanation": "Use 'Either + subject + or + subject' before the modal verb. 'Either \u2026 or' ကို subject နှစ်ခုကြားမှာ ထားပါ။",
+          "points": 1
+        },
+        {
+          "id": 2606,
+          "question": "She will weep. Or she will die. Combine using 'either \u2026 or'.",
+          "options": ["She will either weep or die", "Either she weeps or dies will", "She either will weep or will die"],
+          "answer": "She will either weep or die",
+          "explanation": "When both clauses share the same subject, place 'either' between the modal verb and the first verb. 'Either \u2026 or' ကို verb နှစ်ခုကြားမှာ ထားပါ။",
+          "points": 1
+        },
+        {
+          "id": 2607,
+          "question": "He is a fool. He is a mad man to accept this task. Combine using 'either \u2026 or'.",
+          "options": ["He is either a fool or a mad man to accept this task", "Either he is a fool or mad man a task", "He is a either fool or a mad man"],
+          "answer": "He is either a fool or a mad man to accept this task",
+          "explanation": "Place 'either' after the verb 'is' and before the first noun phrase, with 'or' before the second. 'Either \u2026 or' ကို noun phrase နှစ်ခုကြားမှာ ထားပါ။",
+          "points": 1
+        },
+        {
+          "id": 2608,
+          "question": "Nick can play golf. Nick can play football. Combine using 'either \u2026 or'.",
+          "options": ["Nick can play either golf or football", "Either Nick can play golf or football", "Nick either can play golf or football"],
+          "answer": "Nick can play either golf or football",
+          "explanation": "Place 'either' before the first object and 'or' before the second. The subject and auxiliary stay at the beginning. 'Either \u2026 or' ကို object နှစ်ခုကြားမှာ ထားပါ။",
+          "points": 1
+        },
+        {
+          "id": 2609,
+          "question": "You can write with a pen. You can write with a pencil. Combine using 'either \u2026 or'.",
+          "options": ["You can write with either a pen or a pencil", "Either you can write with a pen or pencil", "You can either write with a pen or a pencil"],
+          "answer": "You can write with either a pen or a pencil",
+          "explanation": "Place 'either' before the first prepositional phrase alternative and 'or' before the second. 'Either \u2026 or' ကို prepositional phrase နှစ်ခုကြားမှာ ထားပါ။",
+          "points": 1
+        },
+        {
+          "id": 2610,
+          "question": "My mom likes mangoes. Or she likes bananas. Combine using 'either \u2026 or'.",
+          "options": ["My mom likes either mangoes or bananas", "Either my mom likes mangoes or bananas", "My mom either likes mangoes or she likes bananas"],
+          "answer": "My mom likes either mangoes or bananas",
+          "explanation": "Place 'either' before the first object and 'or' before the second. The subject and verb stay at the beginning. 'Either \u2026 or' ကို object နှစ်ခုကြားမှာ ထားပါ။",
+          "points": 1
+        }
+      ]
+    }
+  ]
+}

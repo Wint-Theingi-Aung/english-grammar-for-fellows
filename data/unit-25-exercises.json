@@ -1,0 +1,92 @@
+{
+  "unit": 25,
+  "exercises": [
+    {
+      "id": "unit25-ex1",
+      "type": "multiple_choice",
+      "instructions": "Transform the following sentences into double comparatives using 'the + comparative, the + comparative'.",
+      "questions": [
+        {
+          "id": 2501,
+          "question": "When we think of the exam, we get more and more excited. Transform to a double comparative.",
+          "options": ["The more we think of the exam, the more excited we get", "The excited we get, the more we think of the exam", "We think more of the exam and we get excited"],
+          "answer": "The more we think of the exam, the more excited we get",
+          "explanation": "Use 'the + comparative' on both sides: 'The more we think..., the more excited we get.' The cause comes first, then the effect. Double comparative မှာ cause ကို ပထမ clause မှာ ထားပါ။",
+          "points": 1
+        },
+        {
+          "id": 2502,
+          "question": "As this road gets busier, it becomes more and more dangerous. Transform to a double comparative.",
+          "options": ["The busier this road gets, the more dangerous it becomes", "The dangerous it becomes, the busier this road gets", "This road gets busy and it becomes dangerous"],
+          "answer": "The busier this road gets, the more dangerous it becomes",
+          "explanation": "Use 'The busier...the more dangerous'. The cause (busier road) leads to the effect (more dangerous). 'The dangerous' is wrong because it uses positive form instead of comparative. Double comparative မှာ adjective ရဲ့ comparative form ကို သုံးပါ။",
+          "points": 1
+        },
+        {
+          "id": 2503,
+          "question": "When you get near to the Equator, the temperature becomes high. Transform to a double comparative.",
+          "options": ["The nearer you get to the Equator, the higher the temperature becomes", "The higher the temperature, the nearer you get to the Equator", "You get near to the Equator and the temperature is high"],
+          "answer": "The nearer you get to the Equator, the higher the temperature becomes",
+          "explanation": "Use 'The nearer...the higher'. Getting nearer (cause) leads to higher temperature (effect). Double comparative မှာ cause ကို ပထမ ထားပါ။",
+          "points": 1
+        },
+        {
+          "id": 2504,
+          "question": "If she stays in England a long time, her English will be very good. Transform to a double comparative.",
+          "options": ["The longer she stays in England, the better her English will be", "The better her English will be, the longer she stays in England", "She stays longer in England and her English is good"],
+          "answer": "The longer she stays in England, the better her English will be",
+          "explanation": "Use 'The longer...the better'. Staying longer (cause) leads to better English (effect). Double comparative မှာ comparative adjective နှစ်ခုလုံး သုံးပါ။",
+          "points": 1
+        },
+        {
+          "id": 2505,
+          "question": "When I write fast, my writing becomes illegible. Transform to a double comparative.",
+          "options": ["The faster I write, the more illegible my writing becomes", "The illegible my writing becomes, the faster I write", "I write fast and my writing is illegible"],
+          "answer": "The faster I write, the more illegible my writing becomes",
+          "explanation": "Use 'The faster...the more illegible'. Writing faster (cause) leads to more illegible writing (effect). 'More illegible' is the comparative form of 'illegible'. Double comparative မှာ multi-syllable adjective တွေမှာ 'more' သုံးပါ။",
+          "points": 1
+        },
+        {
+          "id": 2506,
+          "question": "He got old. He became quiet. Transform to a double comparative.",
+          "options": ["The older he got, the quieter he became", "The quieter he became, the older he got", "He got old and became quiet"],
+          "answer": "The older he got, the quieter he became",
+          "explanation": "Use 'The older...the quieter'. Getting older (cause) leads to becoming quieter (effect). Both use comparative forms. Double comparative မှာ short adjective တွေမှာ '-er' suffix ကို သုံးပါ။",
+          "points": 1
+        },
+        {
+          "id": 2507,
+          "question": "I waited long. I got angry. Transform to a double comparative.",
+          "options": ["The longer I waited, the angrier I got", "The angrier I got, the longer I waited", "I waited long and I got angry"],
+          "answer": "The longer I waited, the angrier I got",
+          "explanation": "Use 'The longer...the angrier'. Waiting longer (cause) leads to getting angrier (effect). 'Angry' becomes 'angrier' in comparative form. Double comparative မှာ comparative form ကို မှန်မှန်ကန်ကန် သုံးပါ။",
+          "points": 1
+        },
+        {
+          "id": 2508,
+          "question": "I forget much. I know little. Transform to a double comparative.",
+          "options": ["The more I forget, the less I know", "The less I know, the more I forget", "I forget much and I know little"],
+          "answer": "The more I forget, the less I know",
+          "explanation": "Use 'The more...the less'. Forgetting more (cause) leads to knowing less (effect). 'Much' becomes 'more' and 'little' becomes 'less'. Double comparative မှာ 'much' → 'more', 'little' → 'less' ဖြစ်ပါတယ်။",
+          "points": 1
+        },
+        {
+          "id": 2509,
+          "question": "As he got older, he became worse tempered. Transform to a double comparative.",
+          "options": ["The older he got, the worse tempered he became", "The worse tempered he became, the older he got", "He got older and he became worse tempered"],
+          "answer": "The older he got, the worse tempered he became",
+          "explanation": "Use 'The older...the worse tempered'. Getting older (cause) leads to worse temper (effect). 'Worse' is the comparative of 'bad'. Double comparative မှာ 'bad' → 'worse' ဖြစ်ပါတယ်။",
+          "points": 1
+        },
+        {
+          "id": 2510,
+          "question": "You make much money. You spend much. Transform to a double comparative.",
+          "options": ["The more money you make, the more you spend", "The more you spend, the more money you make", "You make much money and you spend much"],
+          "answer": "The more money you make, the more you spend",
+          "explanation": "Use 'The more...the more'. Making more money (cause) leads to spending more (effect). Both sides use 'more' as the comparative. Double comparative မှာ cause ကို ပထမ clause မှာ ထားပါ။",
+          "points": 1
+        }
+      ]
+    }
+  ]
+}

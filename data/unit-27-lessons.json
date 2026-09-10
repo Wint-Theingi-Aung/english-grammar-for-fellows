@@ -1,0 +1,44 @@
+{
+  "unit": 27,
+  "title": "Neither \u2026 nor",
+  "lessons": [
+    {
+      "id": "unit27-lesson1",
+      "title": "Neither \u2026 nor: Connecting Negative Alternatives",
+      "content": "Neither \u2026 nor is used to connect the same kind of word or phrase in a sentence. Neither makes a negative statement about two people or things. It means 'not one and not the other'.",
+      "details": [
+        {
+          "concept": "Neither + noun/verb/phrase + nor + noun/verb/phrase",
+          "explanation": "Use 'neither \u2026 nor' to join two negative alternatives. Both parts must be the same grammatical type.",
+          "example": "I like neither banana nor apple.",
+          "burmese": "\u1005\u1031\u102c\u103a \u1005\u102d\u1019\u1084\u1038\u1019\u103c\u102f\u1036\u1015\u103a \u1000\u103b\u1006\u103b\u1025\u1019\u103a \u1019\u103b\u1021\u102d \u102b\u1030\u1038\u1030\u102d \u1019\u103b\u1021\u102d \u102b\u1030\u1038\u1030\u102d \u1019\u103b\u1000\u103b\u102f\u1036\u1015\u104c\u1026\u1038\u1037"
+        },
+        {
+          "concept": "Neither + verb + nor + verb",
+          "explanation": "When both clauses share the same subject, place 'neither' before the first verb and 'nor' before the second.",
+          "example": "He neither drinks nor smokes.",
+          "burmese": "\u1000\u103b\u1015\u103a \u1005\u1031\u102c\u103a \u1021\u102d \u101c\u1030\u1015\u103a \u1005\u1031\u102c\u103a \u1021\u102d \u101c\u1030\u1015\u103a\u1019\u103b\u1000\u103b\u102f\u1036\u1015\u104c\u1026\u1038\u1037"
+        }
+      ]
+    },
+    {
+      "id": "unit27-lesson2",
+      "title": "Subject-Verb Agreement with Neither \u2026 nor",
+      "content": "If one subject is singular and the other is plural, the verb form agrees with the subject that is nearest to the verb. This rule is the same as with 'either \u2026 or'.",
+      "details": [
+        {
+          "concept": "Verb agrees with nearest subject",
+          "explanation": "When the two subjects joined by 'neither \u2026 nor' differ in number, the verb takes the form of the nearer subject.",
+          "example": "Neither my parents nor my brother likes pineapple.",
+          "burmese": "\u1005\u1031\u102c\u103a\u1039\u103b\u1015\u103a \u1019\u103b\u1010\u1031\u102b\u1037 \u1021\u102d \u1010\u102d\u1019\u1084\u1038\u1019\u103c\u102f\u1036\u1015\u103a \u1005\u1031\u102c\u103a\u1005\u102d\u1021\u1014\u103a \u1021\u102d \u101c\u1030\u1015\u103a\u1000\u103b\u1019\u1084\u1038\u1019\u103c\u102f\u1036\u1015\u104c\u1026\u1038\u1037"
+        },
+        {
+          "concept": "Neither I nor my friends + plural verb",
+          "explanation": "When the nearest subject is plural, use the plural verb form.",
+          "example": "Neither I nor my friends go to the party.",
+          "burmese": "\u1005\u1031\u102c\u103a \u1021\u102d \u1005\u1031\u102c\u103a \u1005\u102d\u1021\u1014\u103a\u1039\u103b\u1015\u103a \u1021\u102d \u101c\u1030\u1015\u103a \u1019\u103b\u1000\u103b\u102f\u1036\u1015\u104c\u1026\u1038\u1037"
+        }
+      ]
+    }
+  ]
+}

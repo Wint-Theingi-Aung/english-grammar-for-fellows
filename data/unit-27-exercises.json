@@ -1,0 +1,92 @@
+{
+  "unit": 27,
+  "exercises": [
+    {
+      "id": "unit27-ex1",
+      "type": "multiple_choice",
+      "instructions": "Combine the following negative sentences using 'neither \u2026 nor'.",
+      "questions": [
+        {
+          "id": 2701,
+          "question": "I don't like Stephen. I don't like Peter. Combine using 'neither \u2026 nor'.",
+          "options": ["I like neither Stephen nor Peter", "I neither like Stephen or Peter", "Neither I like Stephen nor Peter"],
+          "answer": "I like neither Stephen nor Peter",
+          "explanation": "Place 'neither' before the first noun and 'nor' before the second. The subject and verb stay at the beginning. 'Neither \u2026 nor' ကို object နှစ်ခုကြားမှာ ထားပါ။",
+          "points": 1
+        },
+        {
+          "id": 2702,
+          "question": "He wasn't wearing a shirt. He wasn't wearing a coat. Combine using 'neither \u2026 nor'.",
+          "options": ["He was wearing neither a shirt nor a coat", "He neither was wearing a shirt nor a coat", "Neither he was wearing a shirt or a coat"],
+          "answer": "He was wearing neither a shirt nor a coat",
+          "explanation": "Place 'neither' before the first noun phrase and 'nor' before the second. The subject and verb stay at the beginning. 'Neither \u2026 nor' ကို noun phrase နှစ်ခုကြားမှာ ထားပါ။",
+          "points": 1
+        },
+        {
+          "id": 2703,
+          "question": "He will not come here. He will not send a representative. Combine using 'neither \u2026 nor'.",
+          "options": ["He will come here neither send a representative", "He will neither come here nor send a representative", "Neither he will come here nor send a representative"],
+          "answer": "He will neither come here nor send a representative",
+          "explanation": "Place 'neither' after the modal verb and before the first verb phrase, with 'nor' before the second. 'Neither \u2026 nor' ကို verb phrase နှစ်ခုကြားမှာ ထားပါ။",
+          "points": 1
+        },
+        {
+          "id": 2704,
+          "question": "Don't be a borrower. Don't be a lender. Combine using 'neither \u2026 nor'.",
+          "options": ["Be neither a borrower nor a lender", "Neither be a borrower or be a lender", "Be neither a borrower or a lender"],
+          "answer": "Be neither a borrower nor a lender",
+          "explanation": "Use 'neither' after the verb 'be' and 'nor' before the second noun phrase. 'Neither \u2026 nor' ကို noun phrase နှစ်ခုကြားမှာ ထားပါ။",
+          "points": 1
+        },
+        {
+          "id": 2705,
+          "question": "She can't read English. She can't write English. Combine using 'neither \u2026 nor'.",
+          "options": ["She can read neither English nor English", "She can neither read nor write English", "Neither she can read nor write English"],
+          "answer": "She can neither read nor write English",
+          "explanation": "Place 'neither' after the modal verb and before the first verb, with 'nor' before the second verb. The object comes after both. 'Neither \u2026 nor' ကို verb နှစ်ခုကြားမှာ ထားပါ။",
+          "points": 1
+        },
+        {
+          "id": 2706,
+          "question": "Shyam is not mad. He is not foolish. Combine using 'neither \u2026 nor'.",
+          "options": ["Shyam is neither mad nor foolish", "Shyam neither is mad or foolish", "Neither Shyam is mad nor foolish"],
+          "answer": "Shyam is neither mad nor foolish",
+          "explanation": "Place 'neither' after the verb 'is' and 'nor' before the second adjective. 'Neither \u2026 nor' ကို adjective နှစ်ခုကြားမှာ ထားပါ။",
+          "points": 1
+        },
+        {
+          "id": 2707,
+          "question": "Sheela does not spend money. Her parents do not spend money. Combine using 'neither \u2026 nor'.",
+          "options": ["Neither Sheela nor her parents spend money", "Neither Sheela or her parents spends money", "Sheela neither spends money nor her parents"],
+          "answer": "Neither Sheela nor her parents spend money",
+          "explanation": "When subjects differ in number, the verb agrees with the nearest subject. 'Parents' is plural so use 'spend'. 'Neither \u2026 nor' ကို subject နှစ်ခုကြားမှာ ထားပါ။",
+          "points": 1
+        },
+        {
+          "id": 2708,
+          "question": "He is not honest. He is not punctual. Combine using 'neither \u2026 nor'.",
+          "options": ["He is neither honest nor punctual", "He neither is honest nor punctual", "Neither he is honest nor punctual"],
+          "answer": "He is neither honest nor punctual",
+          "explanation": "Place 'neither' after the verb 'is' and 'nor' before the second adjective. 'Neither \u2026 nor' ကို adjective နှစ်ခုကြားမှာ ထားပါ။",
+          "points": 1
+        },
+        {
+          "id": 2709,
+          "question": "I don't know Hindi. I don't know Tamil. Combine using 'neither \u2026 nor'.",
+          "options": ["I know neither Hindi nor Tamil", "I neither know Hindi or Tamil", "Neither I know Hindi nor Tamil"],
+          "answer": "I know neither Hindi nor Tamil",
+          "explanation": "Place 'neither' before the first object and 'nor' before the second. The subject and verb stay at the beginning. 'Neither \u2026 nor' ကို object နှစ်ခုကြားမှာ ထားပါ။",
+          "points": 1
+        },
+        {
+          "id": 2710,
+          "question": "The minister did not attend the party. His followers did not attend the party. Combine using 'neither \u2026 nor'.",
+          "options": ["Neither the minister nor his followers attended the party", "Neither the minister or his followers attended the party", "The minister neither attended nor his followers the party"],
+          "answer": "Neither the minister nor his followers attended the party",
+          "explanation": "Use 'Neither + subject + nor + subject' before the verb. The two subjects are joined by 'neither \u2026 nor'. 'Neither \u2026 nor' ကို subject နှစ်ခုကြားမှာ ထားပါ။",
+          "points": 1
+        }
+      ]
+    }
+  ]
+}

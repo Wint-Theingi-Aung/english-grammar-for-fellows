@@ -1,0 +1,44 @@
+{
+  "unit": 26,
+  "title": "Either \u2026 or",
+  "lessons": [
+    {
+      "id": "unit26-lesson1",
+      "title": "Either \u2026 or: Connecting Alternatives",
+      "content": "Either \u2026 or is a correlative conjunction used to connect things of the same type \u2014 phrases, clauses, or words. It presents two alternatives where only one is true or happens.",
+      "details": [
+        {
+          "concept": "Either + noun/clause + or + noun/clause",
+          "explanation": "Use 'either \u2026 or' to join two alternatives. The two parts joined must be of the same grammatical type.",
+          "example": "Either he or she cooks dinner.",
+          "burmese": "\u1000\u103b\u1015\u103a \u1010\u102d\u1019\u1084\u1038\u1019\u103c\u102f\u1036\u1015\u103a \u1000\u103b\u1021\u102d \u101c\u1030\u1015\u103a\u1005\u1031\u102c\u103a\u1015\u104c\u1026\u1005\u1031\u102c\u103a\u1038\u1019\u103c\u102f\u1036\u1015\u104c\u1026\u1038\u1037"
+        },
+        {
+          "concept": "Either + noun/clause + or + noun/clause",
+          "explanation": "When 'either \u2026 or' connects two verbs sharing the same subject, place 'either' before the first verb.",
+          "example": "He either washes the dishes or irons the clothes.",
+          "burmese": "\u1000\u103b\u1015\u103a \u1015\u102f\u1036\u102b\u102c\u1038 \u1005\u1031\u102c\u103a \u1010\u102d\u1019\u1084\u1038\u1019\u103c\u102f\u1036\u1015\u103a \u1021\u102d \u101c\u1030\u1015\u103a\u1010\u1031\u102c\u103a\u1005\u1031\u102c\u103a\u1038\u1019\u103c\u102f\u1036\u1015\u104c\u1026\u1038\u1037"
+        }
+      ]
+    },
+    {
+      "id": "unit26-lesson2",
+      "title": "Subject-Verb Agreement with Either \u2026 or",
+      "content": "If one subject is singular and the other is plural, the verb form agrees with the subject that is nearest to the verb. This is an important rule to remember when using 'either \u2026 or' with compound subjects.",
+      "details": [
+        {
+          "concept": "Verb agrees with nearest subject",
+          "explanation": "When the two subjects joined by 'either \u2026 or' differ in number, the verb takes the form of the nearer subject.",
+          "example": "Either my parents or my brother works hard to support the family.",
+          "burmese": "\u1005\u1031\u102c\u103a\u1039\u103b\u1015\u103a \u1019\u103b\u1010\u1031\u102b\u1037 \u1005\u1031\u102c\u103a \u1010\u102d\u1019\u1084\u1038\u1019\u103c\u102f\u1036\u1015\u103a \u1005\u1031\u102c\u103a\u1005\u102d\u1021\u1014\u103a \u1021\u102d \u101c\u1030\u1015\u103a\u1039\u103b\u102c\u1038\u1038\u1019\u103c\u102f\u1036\u1015\u1031\u102c\u103a\u1038\u104a"
+        },
+        {
+          "concept": "Verb agrees with nearest subject",
+          "explanation": "The verb matches the number (singular or plural) of the subject closest to it.",
+          "example": "Either the cat or the dogs are outside.",
+          "burmese": "\u1021\u102d\u1019\u1084\u1038\u1019\u103c\u102f\u1036\u1015\u103a \u1010\u102d\u1019\u1084\u1038\u1019\u103c\u102f\u1036\u1015\u103a \u1000\u103b\u1021\u102d \u101c\u1030\u1015\u103a\u1037"
+        }
+      ]
+    }
+  ]
+}
