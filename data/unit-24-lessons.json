@@ -1,0 +1,44 @@
+{
+  "unit": 24,
+  "title": "So … that ↔ Such … that",
+  "lessons": [
+    {
+      "id": "unit24-lesson1",
+      "title": "So … that → Such … that",
+      "content": "Sentences using 'so … that' can be transformed into 'such … that' sentences. 'So + adjective/adverb + that + result' becomes 'such + a/an + adjective + noun + that + result'. The key is to identify the noun that the adjective describes.",
+      "details": [
+        {
+          "concept": "so + adj → such + a/an + adj + noun",
+          "explanation": "Move the adjective after 'a/an' and add the noun it describes.",
+          "example": "This book is so good that I can't put it down. → This is such a good book that I can't put it down.",
+          "burmese": "ဒီစာအုပ်က အရမ်းကောင်းလို့ ငါလက်က မချနိုင်ဘူး။"
+        },
+        {
+          "concept": "so + adj → such + a/an + adj + noun",
+          "explanation": "Identify the noun from context and place it after the adjective.",
+          "example": "The wind is so strong that we cannot go outside. → It is such a strong wind that we cannot go outside.",
+          "burmese": "လေပင်က အရမ်းလျှော့လို့ ငါတို့ အပြင်မသွားနိုင်ကြဘူး။"
+        }
+      ]
+    },
+    {
+      "id": "unit24-lesson2",
+      "title": "Such … that → So … that",
+      "content": "Sentences using 'such … that' can be transformed into 'so … that' sentences. 'Such + a/an + adjective + noun + that + result' becomes 'so + adjective/adverb + that + result'. Move the noun before the structure and use it as the subject.",
+      "details": [
+        {
+          "concept": "such + a/an + adj + noun → so + adj",
+          "explanation": "Move the noun to the subject position and use 'so + adjective' without the noun.",
+          "example": "It is such a strong wind that we cannot go outside. → The wind is so strong that we cannot go outside.",
+          "burmese": "ဒါက အလိုက်လျှော့ပင်ဖစ်လို့ ငါတို့ အပြင်မသွားနိုင်ကြဘူး။"
+        },
+        {
+          "concept": "such + a/an + adj + noun → so + adj",
+          "explanation": "For plural nouns, remove the article 'a/an'.",
+          "example": "The T-shirts were so cheap that we bought quite a lot. → They were such cheap T-shirts that we bought quite a lot.",
+          "burmese": "အင်းကျီတွေက အရမ်းစျေးပေါလို့ ငါတို့ အများကြီး ဝယ်လိုက်တယ်။"
+        }
+      ]
+    }
+  ]
+}

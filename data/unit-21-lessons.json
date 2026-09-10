@@ -1,0 +1,44 @@
+{
+  "unit": 21,
+  "title": "So … that",
+  "lessons": [
+    {
+      "id": "unit21-lesson1",
+      "title": "So + adjective/adverb + that + result",
+      "content": "'So … that' is used to show cause and effect. The structure is 'so + adjective or adverb + that + result clause'. It connects a quality (cause) with its consequence (result).",
+      "details": [
+        {
+          "concept": "so + adjective + that + result",
+          "explanation": "Use 'so' before an adjective to show the degree of something causes a result.",
+          "example": "The water is so salty that I cannot drink it.",
+          "burmese": "ရေက အရမ်းငန်လို့ ငါမသောက်နိုင်ဘူး။"
+        },
+        {
+          "concept": "so + adverb + that + result",
+          "explanation": "Use 'so' before an adverb to show how an action causes a result.",
+          "example": "We arrived so late that we could not have dinner.",
+          "burmese": "ငါတို့ ရောက်တာ တော်တော်နက်ကာခဲ့လို့ ညစာမစားနိုင်တာဘူး။"
+        }
+      ]
+    },
+    {
+      "id": "unit21-lesson2",
+      "title": "Combining sentences with So … that",
+      "content": "Two simple sentences can be combined into one using 'so … that'. The first sentence provides the cause (quality) and the second provides the result. Pattern: Subject + is/verb + so + adjective/adverb + that + result clause.",
+      "details": [
+        {
+          "concept": "Cause → Effect",
+          "explanation": "'The box is very heavy' (cause) + 'I cannot lift it' (effect) become one sentence with 'so … that'.",
+          "example": "The box is so heavy that I cannot lift it.",
+          "burmese": "กล่องက အရမ်းလေးလို့ ငါမ မမော့နိုင်ဘူး။"
+        },
+        {
+          "concept": "Adjective form",
+          "explanation": "Remove 'very' and replace with 'so … that' to combine.",
+          "example": "She is very shy. She cannot perform on stage. → She is so shy that she cannot perform on stage.",
+          "burmese": "သူမက အရမ်းရှက်တတ်လို့ ဇာတ်ပွဲမှာ မတင်နိုင်ဘူး။"
+        }
+      ]
+    }
+  ]
+}

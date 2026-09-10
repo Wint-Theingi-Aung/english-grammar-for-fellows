@@ -1,0 +1,44 @@
+{
+  "unit": 23,
+  "title": "Such … that",
+  "lessons": [
+    {
+      "id": "unit23-lesson1",
+      "title": "Such + a/an + adjective + noun + that",
+      "content": "'Such … that' is used to give reason or show cause and effect. The structure is 'such + a/an + adjective + noun + that + result'. It emphasizes the quality of a noun.",
+      "details": [
+        {
+          "concept": "such + a + adjective + noun + that",
+          "explanation": "Use 'such' before 'a/an + adjective + noun' to emphasize the quality.",
+          "example": "Shames is such a nice dog that he never barks.",
+          "burmese": "ရှမ်းစက ဘယ်တော့မှ မကြွက်တတ်တဲ့ အလိုက်ချစ်စရာကောင်းတဲ့ ခွေးတစ်ကောင်ဖစ်တယ်။"
+        },
+        {
+          "concept": "such + an + adjective + noun + that",
+          "explanation": "Use 'such an' before words starting with a vowel sound.",
+          "example": "She is such a charming woman that everybody stares at her.",
+          "burmese": "သူမက အလိုက်သိပ်ကိုဆွဲဆောင်မှုရှိလို့ လူတိုင်းက သူမကို ငေးကြည့်ကြတယ်။"
+        }
+      ]
+    },
+    {
+      "id": "unit23-lesson2",
+      "title": "Combining sentences with Such … that",
+      "content": "Two sentences can be combined using 'such … that'. The first sentence provides the description (cause) and the second provides the result. Pattern: Subject + is/was + such + a/an + adjective + noun + that + result clause.",
+      "details": [
+        {
+          "concept": "Combining with 'such a'",
+          "explanation": "Remove 'very' and use 'such a + adjective + noun + that' to combine.",
+          "example": "It was a very interesting story. I read it in one sitting. → It was such an interesting story that I read it in one sitting.",
+          "burmese": "ဒါက သိပ်စိတ်ဝင်စားဖို့ကောင်းတဲ့ ပုံပြင်တစ်ပုဒ်ဖစ်ခဲ့လို့ ငါ ထိုင်ဖတ်ပြီးတစ်ခါတည်း ဖတ်လိုက်တယ်။"
+        },
+        {
+          "concept": "Combining with 'such an'",
+          "explanation": "Use 'such an' when the adjective starts with a vowel sound.",
+          "example": "She has got an excellent English accent. Everybody thinks she is British. → She has such an excellent English accent that everybody thinks she is British.",
+          "burmese": "သူမက အင်္ဂလိပ် အသံထွက် အလွန်ကောင်းလို့ လူတိုင်းက သူမကို ဗြိတိန်သားလို့ ထင်ကြတယ်။"
+        }
+      ]
+    }
+  ]
+}

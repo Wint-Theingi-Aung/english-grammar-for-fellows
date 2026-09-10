@@ -1,0 +1,124 @@
+{
+  "unit": 21,
+  "exercises": [
+    {
+      "id": "unit21-ex1",
+      "type": "multiple_choice",
+      "instructions": "Combine the following sentences using 'so … that'.",
+      "questions": [
+        {
+          "id": 2101,
+          "question": "The box is very heavy. I cannot lift it. Combine using 'so … that'.",
+          "options": ["so heavy that I cannot lift it", "very heavy that I cannot lift it", "so heavy which I cannot lift it"],
+          "answer": "so heavy that I cannot lift it",
+          "explanation": "Use 'so + adjective + that + result'. 'Very heavy that' is incorrect. 'So … which' is the wrong conjunction.",
+          "points": 1
+        },
+        {
+          "id": 2102,
+          "question": "My brother worked hard. He passed the test. Combine using 'so … that'.",
+          "options": ["so hard that he passed the test", "very hard that he passed the test", "so hard which he passed the test"],
+          "answer": "so hard that he passed the test",
+          "explanation": "Use 'so + adverb + that + result'. 'Hard' is an adverb here. 'Very … that' is incorrect. 'So … which' is wrong.",
+          "points": 1
+        },
+        {
+          "id": 2103,
+          "question": "He is very ill. The doctors don't expect him to survive. Combine using 'so … that'.",
+          "options": ["so ill that the doctors don't expect him to survive", "very ill that the doctors don't expect him to survive", "so ill which the doctors don't expect him to survive"],
+          "answer": "so ill that the doctors don't expect him to survive",
+          "explanation": "Use 'so + adjective + that + result'. 'Very … that' is incorrect. 'So … which' is wrong.",
+          "points": 1
+        },
+        {
+          "id": 2104,
+          "question": "My grandfather is very weak. He cannot walk. Combine using 'so … that'.",
+          "options": ["so weak that he cannot walk", "very weak that he cannot walk", "so weak which he cannot walk"],
+          "answer": "so weak that he cannot walk",
+          "explanation": "Use 'so + adjective + that + result'. 'Very … that' is incorrect. 'So … which' is wrong.",
+          "points": 1
+        },
+        {
+          "id": 2105,
+          "question": "She is very short. She cannot touch the ceiling. Combine using 'so … that'.",
+          "options": ["so short that she cannot touch the ceiling", "very short that she cannot touch the ceiling", "so short which she cannot touch the ceiling"],
+          "answer": "so short that she cannot touch the ceiling",
+          "explanation": "Use 'so + adjective + that + result'. 'Very … that' is incorrect. 'So … which' is wrong.",
+          "points": 1
+        },
+        {
+          "id": 2106,
+          "question": "William played cleverly. John could not beat him. Combine using 'so … that'.",
+          "options": ["so cleverly that John could not beat him", "very cleverly that John could not beat him", "so cleverly which John could not beat him"],
+          "answer": "so cleverly that John could not beat him",
+          "explanation": "Use 'so + adverb + that + result'. 'Cleverly' is an adverb. 'Very … that' is incorrect. 'So … which' is wrong.",
+          "points": 1
+        },
+        {
+          "id": 2107,
+          "question": "The necklace was very expensive. I could not buy it. Combine using 'so … that'.",
+          "options": ["so expensive that I could not buy it", "very expensive that I could not buy it", "so expensive which I could not buy it"],
+          "answer": "so expensive that I could not buy it",
+          "explanation": "Use 'so + adjective + that + result'. 'Very … that' is incorrect. 'So … which' is wrong.",
+          "points": 1
+        },
+        {
+          "id": 2108,
+          "question": "The famine was very severe. Several people perished. Combine using 'so … that'.",
+          "options": ["so severe that several people perished", "very severe that several people perished", "so severe which several people perished"],
+          "answer": "so severe that several people perished",
+          "explanation": "Use 'so + adjective + that + result'. 'Very … that' is incorrect. 'So … which' is wrong.",
+          "points": 1
+        },
+        {
+          "id": 2109,
+          "question": "He is very poor. He will not ask for help. Combine using 'so … that'.",
+          "options": ["so poor that he will not ask for help", "very poor that he will not ask for help", "so poor which he will not ask for help"],
+          "answer": "so poor that he will not ask for help",
+          "explanation": "Use 'so + adjective + that + result'. 'Very … that' is incorrect. 'So … which' is wrong.",
+          "points": 1
+        },
+        {
+          "id": 2110,
+          "question": "He is very old. He cannot walk without support. Combine using 'so … that'.",
+          "options": ["so old that he cannot walk without support", "very old that he cannot walk without support", "so old which he cannot walk without support"],
+          "answer": "so old that he cannot walk without support",
+          "explanation": "Use 'so + adjective + that + result'. 'Very … that' is incorrect. 'So … which' is wrong.",
+          "points": 1
+        },
+        {
+          "id": 2111,
+          "question": "She was very distressed. She could not answer my questions. Combine using 'so … that'.",
+          "options": ["so distressed that she could not answer my questions", "very distressed that she could not answer my questions", "so distressed which she could not answer my questions"],
+          "answer": "so distressed that she could not answer my questions",
+          "explanation": "Use 'so + adjective + that + result'. 'Very … that' is incorrect. 'So … which' is wrong.",
+          "points": 1
+        },
+        {
+          "id": 2112,
+          "question": "You are very young. You cannot get married. Combine using 'so … that'.",
+          "options": ["so young that you cannot get married", "very young that you cannot get married", "so young which you cannot get married"],
+          "answer": "so young that you cannot get married",
+          "explanation": "Use 'so + adjective + that + result'. 'Very … that' is incorrect. 'So … which' is wrong.",
+          "points": 1
+        },
+        {
+          "id": 2113,
+          "question": "She is very shy. She cannot perform on stage. Combine using 'so … that'.",
+          "options": ["so shy that she cannot perform on stage", "very shy that she cannot perform on stage", "so shy which she cannot perform on stage"],
+          "answer": "so shy that she cannot perform on stage",
+          "explanation": "Use 'so + adjective + that + result'. 'Very … that' is incorrect. 'So … which' is wrong.",
+          "points": 1
+        },
+        {
+          "id": 2114,
+          "question": "His ideas are very complicated. I cannot comprehend them. Combine using 'so … that'.",
+          "options": ["so complicated that I cannot comprehend them", "very complicated that I cannot comprehend them", "so complicated which I cannot comprehend them"],
+          "answer": "so complicated that I cannot comprehend them",
+          "explanation": "Use 'so + adjective + that + result'. 'Very … that' is incorrect. 'So … which' is wrong.",
+          "points": 1
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,132 @@
+{
+  "unit": 23,
+  "exercises": [
+    {
+      "id": "unit23-ex1",
+      "type": "multiple_choice",
+      "instructions": "Combine the following sentences using 'such … that'.",
+      "questions": [
+        {
+          "id": 2301,
+          "question": "The boy asked a very foolish question. Everybody laughed at him. Combine using 'such … that'.",
+          "options": ["such a foolish question that everybody laughed at him", "so foolish question that everybody laughed at him", "such foolish question that everybody laughed at him"],
+          "answer": "such a foolish question that everybody laughed at him",
+          "explanation": "Use 'such + a + adjective + noun + that'. 'So' is used with adjective/adverb alone, not with noun. 'Such foolish question' is missing the article 'a'.",
+          "points": 1
+        },
+        {
+          "id": 2302,
+          "question": "It was a hot day. Nobody could do any work. Combine using 'such … that'.",
+          "options": ["such a hot day that nobody could do any work", "so hot day that nobody could do any work", "such hot day that nobody could do any work"],
+          "answer": "such a hot day that nobody could do any work",
+          "explanation": "Use 'such + a + adjective + noun + that'. 'So' is for adjective/adverb alone. 'Such hot day' is missing 'a'.",
+          "points": 1
+        },
+        {
+          "id": 2303,
+          "question": "It was a very interesting story. I read it in one sitting. Combine using 'such … that'.",
+          "options": ["such an interesting story that I read it in one sitting", "so an interesting story that I read it in one sitting", "such a interesting story that I read it in one sitting"],
+          "answer": "such an interesting story that I read it in one sitting",
+          "explanation": "Use 'such + an + adjective + noun + that'. 'Interesting' starts with a vowel sound, so use 'an'. 'So an' is wrong. 'Such a interesting' uses wrong article.",
+          "points": 1
+        },
+        {
+          "id": 2304,
+          "question": "Skiing was a good experience. I decided to do it again. Combine using 'such … that'.",
+          "options": ["such a good experience that I decided to do it again", "so good experience that I decided to do it again", "such good experience that I decided to do it again"],
+          "answer": "such a good experience that I decided to do it again",
+          "explanation": "Use 'such + a + adjective + noun + that'. 'So' is for adjective/adverb alone. 'Such good experience' is missing 'a'.",
+          "points": 1
+        },
+        {
+          "id": 2305,
+          "question": "She has got an excellent English accent. Everybody thinks she is British. Combine using 'such … that'.",
+          "options": ["such an excellent English accent that everybody thinks she is British", "so an excellent English accent that everybody thinks she is British", "such a excellent English accent that everybody thinks she is British"],
+          "answer": "such an excellent English accent that everybody thinks she is British",
+          "explanation": "Use 'such + an + adjective + noun + that'. 'Excellent' starts with a vowel sound. 'So an' is wrong. 'Such a excellent' uses wrong article.",
+          "points": 1
+        },
+        {
+          "id": 2306,
+          "question": "Russia is a big country. It has eleven time zones. Combine using 'such … that'.",
+          "options": ["such a big country that it has eleven time zones", "so big country that it has eleven time zones", "such big country that it has eleven time zones"],
+          "answer": "such a big country that it has eleven time zones",
+          "explanation": "Use 'such + a + adjective + noun + that'. 'So' is for adjective/adverb alone. 'Such big country' is missing 'a'.",
+          "points": 1
+        },
+        {
+          "id": 2307,
+          "question": "That was a terrible accident. I haven't forgotten it yet. Combine using 'such … that'.",
+          "options": ["such a terrible accident that I haven't forgotten it yet", "so terrible accident that I haven't forgotten it yet", "such terrible accident that I haven't forgotten it yet"],
+          "answer": "such a terrible accident that I haven't forgotten it yet",
+          "explanation": "Use 'such + a + adjective + noun + that'. 'So' is for adjective/adverb alone. 'Such terrible accident' is missing 'a'.",
+          "points": 1
+        },
+        {
+          "id": 2308,
+          "question": "It was a beautiful monument. I saw it many times. Combine using 'such … that'.",
+          "options": ["such a beautiful monument that I saw it many times", "so beautiful monument that I saw it many times", "such beautiful monument that I saw it many times"],
+          "answer": "such a beautiful monument that I saw it many times",
+          "explanation": "Use 'such + a + adjective + noun + that'. 'So' is for adjective/adverb alone. 'Such beautiful monument' is missing 'a'.",
+          "points": 1
+        },
+        {
+          "id": 2309,
+          "question": "It was a nice programme. We watched it all the night. Combine using 'such … that'.",
+          "options": ["such a nice programme that we watched it all the night", "so nice programme that we watched it all the night", "such nice programme that we watched it all the night"],
+          "answer": "such a nice programme that we watched it all the night",
+          "explanation": "Use 'such + a + adjective + noun + that'. 'So' is for adjective/adverb alone. 'Such nice programme' is missing 'a'.",
+          "points": 1
+        },
+        {
+          "id": 2310,
+          "question": "3 idiots is a great Indian film. People watch it repeatedly. Combine using 'such … that'.",
+          "options": ["such a great Indian film that people watch it repeatedly", "so great Indian film that people watch it repeatedly", "such great Indian film that people watch it repeatedly"],
+          "answer": "such a great Indian film that people watch it repeatedly",
+          "explanation": "Use 'such + a + adjective + noun + that'. 'So' is for adjective/adverb alone. 'Such great Indian film' is missing 'a'.",
+          "points": 1
+        },
+        {
+          "id": 2311,
+          "question": "Jessica is a brilliant woman. Everyone admires her. Combine using 'such … that'.",
+          "options": ["such a brilliant woman that everyone admires her", "so brilliant woman that everyone admires her", "such brilliant woman that everyone admires her"],
+          "answer": "such a brilliant woman that everyone admires her",
+          "explanation": "Use 'such + a + adjective + noun + that'. 'So' is for adjective/adverb alone. 'Such brilliant woman' is missing 'a'.",
+          "points": 1
+        },
+        {
+          "id": 2312,
+          "question": "He made an unforgivable mistake. It caused him his marriage. Combine using 'such … that'.",
+          "options": ["such an unforgivable mistake that it caused him his marriage", "so an unforgivable mistake that it caused him his marriage", "such a unforgivable mistake that it caused him his marriage"],
+          "answer": "such an unforgivable mistake that it caused him his marriage",
+          "explanation": "Use 'such + an + adjective + noun + that'. 'Unforgivable' starts with a vowel sound. 'So an' is wrong. 'Such a unforgivable' uses wrong article.",
+          "points": 1
+        },
+        {
+          "id": 2313,
+          "question": "He is a clever boy. He can learn multiple languages at the same time. Combine using 'such … that'.",
+          "options": ["such a clever boy that he can learn multiple languages at the same time", "so clever boy that he can learn multiple languages at the same time", "such clever boy that he can learn multiple languages at the same time"],
+          "answer": "such a clever boy that he can learn multiple languages at the same time",
+          "explanation": "Use 'such + a + adjective + noun + that'. 'So' is for adjective/adverb alone. 'Such clever boy' is missing 'a'.",
+          "points": 1
+        },
+        {
+          "id": 2314,
+          "question": "I have a great memory with her. I will never forget her. Combine using 'such … that'.",
+          "options": ["such a great memory with her that I will never forget her", "so great memory with her that I will never forget her", "such great memory with her that I will never forget her"],
+          "answer": "such a great memory with her that I will never forget her",
+          "explanation": "Use 'such + a + adjective + noun + that'. 'So' is for adjective/adverb alone. 'Such great memory' is missing 'a'.",
+          "points": 1
+        },
+        {
+          "id": 2315,
+          "question": "It was an amazing movie. I saw it four times. Combine using 'such … that'.",
+          "options": ["such an amazing movie that I saw it four times", "so an amazing movie that I saw it four times", "such a amazing movie that I saw it four times"],
+          "answer": "such an amazing movie that I saw it four times",
+          "explanation": "Use 'such + an + adjective + noun + that'. 'Amazing' starts with a vowel sound. 'So an' is wrong. 'Such a amazing' uses wrong article.",
+          "points": 1
+        }
+      ]
+    }
+  ]
+}

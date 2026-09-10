@@ -118,7 +118,7 @@ export default function ResultPage({ unit, unitSlug }: ResultPageProps) {
           ? { label: "Keep practicing", emoji: "fire", color: "text-warning-600", bg: "bg-warning-50", border: "border-warning-500/20" }
           : { label: "Try again", emoji: "refresh", color: "text-error-600", bg: "bg-error-50", border: "border-error-500/20" };
 
-  const nextUnit = unit < 20 ? unit + 1 : null;
+  const nextUnit = unit < 24 ? unit + 1 : null;
 
   return (
     <div className="max-w-5xl mx-auto px-4 sm:px-6 py-8 sm:py-10 lg:py-12">

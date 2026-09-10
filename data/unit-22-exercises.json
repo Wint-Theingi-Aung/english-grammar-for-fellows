@@ -1,0 +1,132 @@
+{
+  "unit": 22,
+  "exercises": [
+    {
+      "id": "unit22-ex1",
+      "type": "multiple_choice",
+      "instructions": "Transform the following sentences between 'too … to' and 'so … that'.",
+      "questions": [
+        {
+          "id": 2201,
+          "question": "The theory was too complicated for me to understand. Transform to 'so … that'.",
+          "options": ["so complicated that I could not understand it", "so complicated that I can understand it", "too complicated that I could not understand it"],
+          "answer": "so complicated that I could not understand it",
+          "explanation": "Transform 'too … for … to' → 'so … that … could not'. 'Can' is wrong tense. 'Too … that' mixes structures. 'So … that' ကို 'too … to' ပြောင်းဖို့ သုံးပါ။",
+          "points": 1
+        },
+        {
+          "id": 2202,
+          "question": "She is too impatient to be a teacher. Transform to 'so … that'.",
+          "options": ["so impatient that she cannot be a teacher", "so impatient that she can be a teacher", "too impatient that she cannot be a teacher"],
+          "answer": "so impatient that she cannot be a teacher",
+          "explanation": "Transform 'too … to' → 'so … that … cannot'. 'Can' changes meaning. 'Too … that' is wrong. 'So … that' ကို 'too … to' ပြောင်းဖို့ သုံးပါ။",
+          "points": 1
+        },
+        {
+          "id": 2203,
+          "question": "The tea is too hot for me to drink. Transform to 'so … that'.",
+          "options": ["so hot that I cannot drink it", "so hot that I can drink it", "too hot that I cannot drink it"],
+          "answer": "so hot that I cannot drink it",
+          "explanation": "Transform 'too … for … to' → 'so … that … cannot'. 'Can' is wrong. 'Too … that' is wrong structure. 'So … that' ကို 'too … to' ပြောင်းဖို့ သုံးပါ။",
+          "points": 1
+        },
+        {
+          "id": 2204,
+          "question": "He is too haughty to apologise. Transform to 'so … that'.",
+          "options": ["so haughty that he cannot apologise", "so haughty that he can apologise", "too haughty that he cannot apologise"],
+          "answer": "so haughty that he cannot apologise",
+          "explanation": "Transform 'too … to' → 'so … that … cannot'. 'Can' changes meaning. 'Too … that' is wrong. 'So … that' ကို 'too … to' ပြောင်းဖို့ သုံးပါ။",
+          "points": 1
+        },
+        {
+          "id": 2205,
+          "question": "The box was too heavy for him to lift. Transform to 'so … that'.",
+          "options": ["so heavy that he could not lift it", "so heavy that he can lift it", "too heavy that he could not lift it"],
+          "answer": "so heavy that he could not lift it",
+          "explanation": "Transform 'too … for … to' → 'so … that … could not'. 'Can' is wrong tense. 'Too … that' is wrong. 'So … that' ကို 'too … to' ပြောင်းဖို့ သုံးပါ။",
+          "points": 1
+        },
+        {
+          "id": 2206,
+          "question": "She is too selfish to help others. Transform to 'so … that'.",
+          "options": ["so selfish that she cannot help others", "so selfish that she can help others", "too selfish that she cannot help others"],
+          "answer": "so selfish that she cannot help others",
+          "explanation": "Transform 'too … to' → 'so … that … cannot'. 'Can' changes meaning. 'Too … that' is wrong. 'So … that' ကို 'too … to' ပြောင်းဖို့ သုံးပါ။",
+          "points": 1
+        },
+        {
+          "id": 2207,
+          "question": "This exercise is so difficult that I cannot do it. Transform to 'too … to'.",
+          "options": ["too difficult for me to do", "too difficult to do it", "so difficult for me to do it"],
+          "answer": "too difficult for me to do",
+          "explanation": "Transform 'so … that … cannot' → 'too … for … to'. 'Too difficult to do it' is missing 'for me'. 'So … for' mixes structures. 'Too … to' ကို 'so … that' ပြောင်းဖို့ သုံးပါ။",
+          "points": 1
+        },
+        {
+          "id": 2208,
+          "question": "There are so many birds that I cannot count them. Transform to 'too … to'.",
+          "options": ["too many birds for me to count", "too many birds to count them", "so many birds for me to count them"],
+          "answer": "too many birds for me to count",
+          "explanation": "Transform 'so … that … cannot' → 'too … for … to'. 'Too many birds to count them' is redundant. 'So … for' mixes structures. 'Too … to' ကို 'so … that' ပြောင်းဖို့ သုံးပါ။",
+          "points": 1
+        },
+        {
+          "id": 2209,
+          "question": "Those flowers are so pretty that we should not pluck them. Transform to 'too … to'.",
+          "options": ["too pretty for us to pluck", "too pretty to pluck them", "so pretty for us to pluck them"],
+          "answer": "too pretty for us to pluck",
+          "explanation": "Transform 'so … that … should not' → 'too … for … to'. 'Too pretty to pluck them' is redundant. 'So … for' mixes structures. 'Too … to' ကို 'so … that' ပြောင်းဖို့ သုံးပါ။",
+          "points": 1
+        },
+        {
+          "id": 2210,
+          "question": "The print is so small that I cannot read it. Transform to 'too … to'.",
+          "options": ["too small for me to read", "too small to read it", "so small for me to read it"],
+          "answer": "too small for me to read",
+          "explanation": "Transform 'so … that … cannot' → 'too … for … to'. 'Too small to read it' is redundant. 'So … for' mixes structures. 'Too … to' ကို 'so … that' ပြောင်းဖို့ သုံးပါ။",
+          "points": 1
+        },
+        {
+          "id": 2211,
+          "question": "He ran too fast for me to catch up. Transform to 'so … that'.",
+          "options": ["so fast that I could not catch up", "so fast that I can catch up", "too fast that I could not catch up"],
+          "answer": "so fast that I could not catch up",
+          "explanation": "Transform 'too … for … to' → 'so … that … could not'. 'Can' is wrong tense. 'Too … that' is wrong. 'So … that' ကို 'too … to' ပြောင်းဖို့ သုံးပါ။",
+          "points": 1
+        },
+        {
+          "id": 2212,
+          "question": "The news is too good to be true. Transform to 'so … that'.",
+          "options": ["so good that it cannot be true", "so good that it can be true", "too good that it cannot be true"],
+          "answer": "so good that it cannot be true",
+          "explanation": "Transform 'too … to' → 'so … that … cannot'. 'Can' changes meaning. 'Too … that' is wrong. 'So … that' ကို 'too … to' ပြောင်းဖို့ သုံးပါ။",
+          "points": 1
+        },
+        {
+          "id": 2213,
+          "question": "The bank is too far for me to walk to it. Transform to 'so … that'.",
+          "options": ["so far that I cannot walk to it", "so far that I can walk to it", "too far that I cannot walk to it"],
+          "answer": "so far that I cannot walk to it",
+          "explanation": "Transform 'too … for … to' → 'so … that … cannot'. 'Can' is wrong. 'Too … that' is wrong. 'So … that' ကို 'too … to' ပြောင်းဖို့ သုံးပါ။",
+          "points": 1
+        },
+        {
+          "id": 2214,
+          "question": "The current of the river was so strong that we could not swim in it. Transform to 'too … to'.",
+          "options": ["too strong for us to swim in", "too strong to swim in it", "so strong for us to swim in it"],
+          "answer": "too strong for us to swim in",
+          "explanation": "Transform 'so … that … could not' → 'too … for … to'. 'Too strong to swim in it' is redundant. 'So … for' mixes structures. 'Too … to' ကို 'so … that' ပြောင်းဖို့ သုံးပါ။",
+          "points": 1
+        },
+        {
+          "id": 2215,
+          "question": "The eagles are flying so high that we cannot see them. Transform to 'too … to'.",
+          "options": ["too high for us to see", "too high to see them", "so high for us to see them"],
+          "answer": "too high for us to see",
+          "explanation": "Transform 'so … that … cannot' → 'too … for … to'. 'Too high to see them' is redundant. 'So … for' mixes structures. 'Too … to' ကို 'so … that' ပြောင်းဖို့ သုံးပါ။",
+          "points": 1
+        }
+      ]
+    }
+  ]
+}

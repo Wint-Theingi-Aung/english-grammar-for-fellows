@@ -1,0 +1,100 @@
+{
+  "unit": 24,
+  "exercises": [
+    {
+      "id": "unit24-ex1",
+      "type": "multiple_choice",
+      "instructions": "Transform the following sentences between 'so … that' and 'such … that'.",
+      "questions": [
+        {
+          "id": 2401,
+          "question": "You are so intelligent. Transform to 'such … that'.",
+          "options": ["such an intelligent person", "such a intelligent person", "so an intelligent person"],
+          "answer": "such an intelligent person",
+          "explanation": "Use 'such + an + adjective + noun'. 'Intelligent' starts with a vowel sound so use 'an'. 'Such a intelligent' uses wrong article. 'So an' mixes structures. 'Such … that' မှာ vowel sound စတဲ့ adjective တွေမှာ 'an' သုံးပါ။",
+          "points": 1
+        },
+        {
+          "id": 2402,
+          "question": "The man is so greedy that he never seems to stop eating. Transform to 'such … that'.",
+          "options": ["such a greedy man that he never seems to stop eating", "so a greedy man that he never seems to stop eating", "such greedy man that he never seems to stop eating"],
+          "answer": "such a greedy man that he never seems to stop eating",
+          "explanation": "Use 'such + a + adjective + noun + that'. 'So a' is wrong structure. 'Such greedy man' is missing 'a'. 'Such … that' မှာ 'a/an' ပါအောင် သုံးပါ။",
+          "points": 1
+        },
+        {
+          "id": 2403,
+          "question": "The crate was so heavy that I had to ask for help. Transform to 'such … that'.",
+          "options": ["such a heavy crate that I had to ask for help", "so a heavy crate that I had to ask for help", "such heavy crate that I had to ask for help"],
+          "answer": "such a heavy crate that I had to ask for help",
+          "explanation": "Use 'such + a + adjective + noun + that'. 'So a' is wrong. 'Such heavy crate' is missing 'a'. 'Such … that' မှာ 'a/an' ပါအောင် သုံးပါ။",
+          "points": 1
+        },
+        {
+          "id": 2404,
+          "question": "The meal was so spicy that it gave me a stomach ache. Transform to 'such … that'.",
+          "options": ["such a spicy meal that it gave me a stomach ache", "so a spicy meal that it gave me a stomach ache", "such spicy meal that it gave me a stomach ache"],
+          "answer": "such a spicy meal that it gave me a stomach ache",
+          "explanation": "Use 'such + a + adjective + noun + that'. 'So a' is wrong. 'Such spicy meal' is missing 'a'. 'Such … that' မှာ 'a/an' ပါအောင် သုံးပါ။",
+          "points": 1
+        },
+        {
+          "id": 2405,
+          "question": "My mother is so wise that people often ask her for advice. Transform to 'such … that'.",
+          "options": ["such a wise mother that people often ask her for advice", "so a wise mother that people often ask her for advice", "such wise mother that people often ask her for advice"],
+          "answer": "such a wise mother that people often ask her for advice",
+          "explanation": "Use 'such + a + adjective + noun + that'. 'So a' is wrong. 'Such wise mother' is missing 'a'. 'Such … that' မှာ 'a/an' ပါအောင် သုံးပါ။",
+          "points": 1
+        },
+        {
+          "id": 2406,
+          "question": "The climb was so difficult that we stopped to rest several times. Transform to 'such … that'.",
+          "options": ["such a difficult climb that we stopped to rest several times", "so a difficult climb that we stopped to rest several times", "such difficult climb that we stopped to rest several times"],
+          "answer": "such a difficult climb that we stopped to rest several times",
+          "explanation": "Use 'such + a + adjective + noun + that'. 'So a' is wrong. 'Such difficult climb' is missing 'a'. 'Such … that' မှာ 'a/an' ပါအောင် သုံးပါ။",
+          "points": 1
+        },
+        {
+          "id": 2407,
+          "question": "The T-shirts were so cheap that we bought quite a lot. Transform to 'such … that'.",
+          "options": ["such cheap T-shirts that we bought quite a lot", "so cheap T-shirts that we bought quite a lot", "such a cheap T-shirts that we bought quite a lot"],
+          "answer": "such cheap T-shirts that we bought quite a lot",
+          "explanation": "Use 'such + adjective + plural noun + that'. No article needed for plural nouns. 'So cheap T-shirts' mixes structures. 'Such a cheap T-shirts' has wrong article with plural. 'Such … that' ကို plural noun တွေမှာ article မပါပဲ သုံးပါ။",
+          "points": 1
+        },
+        {
+          "id": 2408,
+          "question": "The paintings were so beautiful that I went to the museum twice. Transform to 'such … that'.",
+          "options": ["such beautiful paintings that I went to the museum twice", "so beautiful paintings that I went to the museum twice", "such a beautiful paintings that I went to the museum twice"],
+          "answer": "such beautiful paintings that I went to the museum twice",
+          "explanation": "Use 'such + adjective + plural noun + that'. No article needed for plural nouns. 'So beautiful paintings' mixes structures. 'Such a beautiful paintings' has wrong article. 'Such … that' ကို plural noun တွေမှာ article မပါပဲ သုံးပါ။",
+          "points": 1
+        },
+        {
+          "id": 2409,
+          "question": "The story is so fantastic that I cannot believe it. Transform to 'such … that'.",
+          "options": ["such a fantastic story that I cannot believe it", "so a fantastic story that I cannot believe it", "such fantastic story that I cannot believe it"],
+          "answer": "such a fantastic story that I cannot believe it",
+          "explanation": "Use 'such + a + adjective + noun + that'. 'So a' is wrong. 'Such fantastic story' is missing 'a'. 'Such … that' မှာ 'a/an' ပါအောင် သုံးပါ။",
+          "points": 1
+        },
+        {
+          "id": 2410,
+          "question": "You have such a big and comfortable house! Transform to 'so … that'.",
+          "options": ["Your house is so big and comfortable", "Your house is such big and comfortable", "Your house is so a big and comfortable"],
+          "answer": "Your house is so big and comfortable",
+          "explanation": "Use 'so + adjective' without the noun. Move the noun to subject position. 'Such big' is wrong without noun. 'So a big' has wrong article. 'So … that' မှာ adjective ရဲ့ ရှေ့မှာ 'so' သုံးပါ။",
+          "points": 1
+        },
+        {
+          "id": 2411,
+          "question": "It is such an easy game that even a child can play it. Transform to 'so … that'.",
+          "options": ["The game is so easy that even a child can play it", "The game is such easy that even a child can play it", "The game is so an easy that even a child can play it"],
+          "answer": "The game is so easy that even a child can play it",
+          "explanation": "Use 'so + adjective + that' without the noun. Move the noun to subject position. 'Such easy' is wrong without noun. 'So an easy' has wrong article. 'So … that' မှာ adjective ရဲ့ ရှေ့မှာ 'so' သုံးပါ။",
+          "points": 1
+        }
+      ]
+    }
+  ]
+}

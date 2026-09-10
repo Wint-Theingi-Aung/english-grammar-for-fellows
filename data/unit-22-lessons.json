@@ -1,0 +1,44 @@
+{
+  "unit": 22,
+  "title": "Too … to ↔ So … that",
+  "lessons": [
+    {
+      "id": "unit22-lesson1",
+      "title": "Too … to → So … that",
+      "content": "Sentences using 'too … to' can be transformed into 'so … that' sentences. 'Too + adjective + to + V1' becomes 'so + adjective + that + cannot/could not + V1'. For different subjects, 'too + adj + for person + to + V1' becomes 'so + adj + that + person + cannot/could not + V1'.",
+      "details": [
+        {
+          "concept": "Same subject conversion",
+          "explanation": "Replace 'too' with 'so' and add 'that … cannot/could not' before the verb.",
+          "example": "He is too proud to beg. → He is so proud that he cannot beg.",
+          "burmese": "သူက အရမ်းမာနကြီးလို့ မတောင်းနိုင်ဘူး။"
+        },
+        {
+          "concept": "Different subject conversion",
+          "explanation": "Move the 'for person' part after 'that' as the subject of the result clause.",
+          "example": "The bag was too heavy for me to lift. → The bag was so heavy that I could not lift it.",
+          "burmese": "အိတ်က ငါအတွက် မမော့နိုင်လောက်အောင် လေးတယ်။"
+        }
+      ]
+    },
+    {
+      "id": "unit22-lesson2",
+      "title": "So … that → Too … to",
+      "content": "Sentences using 'so … that' can be transformed into 'too … to' sentences. 'So + adjective + that + cannot/could not + V1' becomes 'too + adjective + to + V1'. When the result clause has a different subject, use 'too + adj + for person + to + V1'.",
+      "details": [
+        {
+          "concept": "Same subject conversion",
+          "explanation": "Remove 'that cannot/could not' and replace 'so' with 'too'.",
+          "example": "This exercise is so difficult that I cannot do it. → This exercise is too difficult for me to do.",
+          "burmese": "ဒီအားကစားက ငါလုပ်လို့မရနိုင်လောက်အောင် ခက်တယ်။"
+        },
+        {
+          "concept": "Different subject conversion",
+          "explanation": "The subject of the 'that' clause becomes 'for + person' in the 'too … to' form.",
+          "example": "There are so many birds that I cannot count them. → There are too many birds for me to count.",
+          "burmese": "ငါရေတွက်လို့မရနိုင်လောက်အောင် ငှက်တွေ အများကြီးရှိတယ်။"
+        }
+      ]
+    }
+  ]
+}
