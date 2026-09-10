@@ -1,0 +1,44 @@
+{
+  "unit": 20,
+  "title": "Too … to",
+  "lessons": [
+    {
+      "id": "unit20-lesson1",
+      "title": "Too + adjective + to + V1 (same subject)",
+      "content": "'Too ... to' is used to show undesirable excess. The structure is 'too + adjective + to + V1'. It has a kind of negative meaning — the adjective describes something that prevents the action.",
+      "details": [
+        {
+          "concept": "too + adj + to + V1",
+          "explanation": "When the same person is both the subject of the adjective and the verb, we use 'too + adjective + to + V1'.",
+          "example": "The girl was too arrogant to listen to my advice.",
+          "burmese": "မိန်းကလေးက ငါ့အကြံ နားမထောင်ဖို့ မန်းကလေး လွန်တယ်။"
+        },
+        {
+          "concept": "too + adj + to + V1",
+          "explanation": "'She was very tired' and 'She could not continue working' can be combined into one sentence.",
+          "example": "She was too tired to continue working.",
+          "burmese": "သူမ အလုပ်ဆက်လုပ်ဖို့ အရမ်းပင်ပန်းနေပြီ။"
+        }
+      ]
+    },
+    {
+      "id": "unit20-lesson2",
+      "title": "Too + adjective + for someone + to + V1 (different subject)",
+      "content": "When the clauses have different subjects, we use a structure with 'for'. The pattern is 'too + adjective + for someone + to + V1'.",
+      "details": [
+        {
+          "concept": "too + adj + for + person + to + V1",
+          "explanation": "When the person who experiences the adjective is different from the person performing the action, add 'for + person' after the adjective.",
+          "example": "These cars are too expensive for us to buy.",
+          "burmese": "ကားတွေက ငါတို့ဝယ်ဖို့ တော်တော်ဈေးကြီးသတယ်။"
+        },
+        {
+          "concept": "too + adj + for + person + to + V1",
+          "explanation": "The structure shows who is affected by the excess.",
+          "example": "Your story is too ridiculous for me to believe.",
+          "burmese": "မင်းပြောပုံက ငါယုံဖို့ ရယ်စရာကောင်းလွန်တယ်။"
+        }
+      ]
+    }
+  ]
+}

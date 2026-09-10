@@ -1,0 +1,212 @@
+{
+  "unit": 17,
+  "exercises": [
+    {
+      "id": "unit17-ex1",
+      "type": "multiple_choice",
+      "instructions": "Choose the correct alternative to complete each sentence.",
+      "questions": [
+        {
+          "id": 1701,
+          "question": "There ________ a bird in the sky.",
+          "options": ["is", "are", "were"],
+          "answer": "is",
+          "explanation": "'There is' is used with singular nouns. 'A bird' is singular. 'There are' is for plural nouns. 'There were' is past tense. 'There is' ကို အရာဝတ္ထုတစ်ခုတည်းနဲ့ သုံးပါ။",
+          "points": 1
+        },
+        {
+          "id": 1702,
+          "question": "There ________ two birds in the sky.",
+          "options": ["is", "are", "was"],
+          "answer": "are",
+          "explanation": "'There are' is used with plural nouns. 'Two birds' is plural. 'There is' is for singular nouns. 'There was' is past tense. 'There are' ကို အရာဝတ္ထု အများကြီးနဲ့ သုံးပါ။",
+          "points": 1
+        },
+        {
+          "id": 1703,
+          "question": "There ________ many questions to answer.",
+          "options": ["is", "are", "was"],
+          "answer": "are",
+          "explanation": "'There are' is used with plural nouns. 'Many questions' is plural. 'There is' is for singular nouns. 'There was' is past tense. 'There are' ကို အရာဝတ္ထု အများကြီးနဲ့ သုံးပါ။",
+          "points": 1
+        },
+        {
+          "id": 1704,
+          "question": "There ________ any money in the bank.",
+          "options": ["isn't", "aren't", "wasn't"],
+          "answer": "isn't",
+          "explanation": "'There isn't' is used with uncountable nouns. 'Money' is uncountable. 'There aren't' is for plural nouns. 'There wasn't' is past tense. 'There isn't' ကို တစ်ခါသုံး ဝေါဟာရတွေနဲ့ သုံးပါ။",
+          "points": 1
+        },
+        {
+          "id": 1705,
+          "question": "There ________ sixteen candles on my birthday cake.",
+          "options": ["is", "are", "isn't"],
+          "answer": "are",
+          "explanation": "'There are' is used with plural nouns. 'Sixteen candles' is plural. 'There is' is for singular nouns. 'There isn't' is negative singular. 'There are' ကို အရာဝတ္ထု အများကြီးနဲ့ သုံးပါ။",
+          "points": 1
+        },
+        {
+          "id": 1706,
+          "question": "There ________ a broken pencil in the pencil sharpener.",
+          "options": ["is", "are", "were"],
+          "answer": "is",
+          "explanation": "'There is' is used with singular nouns. 'A broken pencil' is singular. 'There are' is for plural nouns. 'There were' is past tense. 'There is' ကို အရာဝတ္ထုတစ်ခုတည်းနဲ့ သုံးပါ။",
+          "points": 1
+        },
+        {
+          "id": 1707,
+          "question": "There ________ no place like home.",
+          "options": ["is", "are", "were"],
+          "answer": "is",
+          "explanation": "'There is' is used with singular nouns. 'No place' is singular. 'There are' is for plural nouns. 'There were' is past tense. 'There is' ကို အရာဝတ္ထုတစ်ခုတည်းနဲ့ သုံးပါ။",
+          "points": 1
+        },
+        {
+          "id": 1708,
+          "question": "________ there any dogs in the park?",
+          "options": ["Are", "Is", "Were"],
+          "answer": "Are",
+          "explanation": "'Are there' is used with plural nouns. 'Dogs' is plural. 'Is there' is for singular nouns. 'Were there' is past tense. 'Are there' ကို အရာဝတ္ထု အများကြီးနဲ့ မေးခွန်းတွေမှာ သုံးပါ။",
+          "points": 1
+        },
+        {
+          "id": 1709,
+          "question": "________ there any orange juice in the freezer?",
+          "options": ["Is", "Are", "Were"],
+          "answer": "Is",
+          "explanation": "'Is there' is used with uncountable nouns. 'Orange juice' is uncountable. 'Are there' is for plural nouns. 'Were there' is past tense. 'Is there' ကို တစ်ခါသုံး ဝေါဟာရတွေနဲ့ မေးခွန်းတွေမှာ သုံးပါ။",
+          "points": 1
+        },
+        {
+          "id": 1710,
+          "question": "________ there any hamsters in Asia?",
+          "options": ["Are", "Is", "Was"],
+          "answer": "Are",
+          "explanation": "'Are there' is used with plural nouns. 'Hamsters' is plural. 'Is there' is for singular nouns. 'Was there' is past tense. 'Are there' ကို အရာဝတ္ထု အများကြီးနဲ့ မေးခွန်းတွေမှာ သုံးပါ။",
+          "points": 1
+        },
+        {
+          "id": 1711,
+          "question": "How many dogs ________ there in the park?",
+          "options": ["are", "is", "were"],
+          "answer": "are",
+          "explanation": "'How many' is followed by a plural noun and 'are there'. 'Dogs' is plural. 'Is' is for singular nouns. 'Were' is past tense. 'How many' ကို အရာဝတ္ထု အများကြီးနဲ့ သုံးပါ။",
+          "points": 1
+        },
+        {
+          "id": 1712,
+          "question": "How many Star Wars films ________ there?",
+          "options": ["are", "is", "was"],
+          "answer": "are",
+          "explanation": "'How many' is followed by a plural noun and 'are there'. 'Films' is plural. 'Is' is for singular nouns. 'Was' is past tense. 'How many' ကို အရာဝတ္ထု အများကြီးနဲ့ သုံးပါ။",
+          "points": 1
+        },
+        {
+          "id": 1713,
+          "question": "________ a security guard in the shop?",
+          "options": ["Is there", "Are there", "Was there"],
+          "answer": "Is there",
+          "explanation": "'Is there' is used with singular nouns. 'A security guard' is singular. 'Are there' is for plural nouns. 'Was there' is past tense. 'Is there' ကို အရာဝတ္ထုတစ်ခုတည်းနဲ့ မေးခွန်းတွေမှာ သုံးပါ။",
+          "points": 1
+        },
+        {
+          "id": 1714,
+          "question": "There ________ any people at the restaurant.",
+          "options": ["aren't", "isn't", "weren't"],
+          "answer": "aren't",
+          "explanation": "'There aren't' is used with plural nouns. 'People' is plural. 'There isn't' is for singular/uncountable nouns. 'There weren't' is past tense. 'There aren't' ကို အရာဝတ္ထု အများကြီးနဲ့ သုံးပါ။",
+          "points": 1
+        },
+        {
+          "id": 1715,
+          "question": "There ________ any water in the swimming pool.",
+          "options": ["isn't", "aren't", "wasn't"],
+          "answer": "isn't",
+          "explanation": "'There isn't' is used with uncountable nouns. 'Water' is uncountable. 'There aren't' is for plural nouns. 'There wasn't' is past tense. 'There isn't' ကို တစ်ခါသုံး ဝေါဟာရတွေနဲ့ သုံးပါ။",
+          "points": 1
+        },
+        {
+          "id": 1716,
+          "question": "There ________ one table in the classroom.",
+          "options": ["is", "are", "were"],
+          "answer": "is",
+          "explanation": "'There is' is used with singular nouns. 'One table' is singular. 'There are' is for plural nouns. 'There were' is past tense. 'There is' ကို အရာဝတ္ထုတစ်ခုတည်းနဲ့ သုံးပါ။",
+          "points": 1
+        },
+        {
+          "id": 1717,
+          "question": "There ________ a spider in the bath.",
+          "options": ["is", "are", "were"],
+          "answer": "is",
+          "explanation": "'There is' is used with singular nouns. 'A spider' is singular. 'There are' is for plural nouns. 'There were' is past tense. 'There is' ကို အရာဝတ္ထုတစ်ခုတည်းနဲ့ သုံးပါ။",
+          "points": 1
+        },
+        {
+          "id": 1718,
+          "question": "There ________ some sugar on the table.",
+          "options": ["is", "are", "were"],
+          "answer": "is",
+          "explanation": "'There is' is used with uncountable nouns. 'Some sugar' is uncountable. 'There are' is for plural nouns. 'There were' is past tense. 'There is' ကို တစ်ခါသုံး ဝေါဟာရတွေနဲ့ သုံးပါ။",
+          "points": 1
+        },
+        {
+          "id": 1719,
+          "question": "There ________ only five weeks until my birthday.",
+          "options": ["are", "is", "were"],
+          "answer": "are",
+          "explanation": "'There are' is used with plural nouns. 'Five weeks' is plural. 'There is' is for singular nouns. 'There were' is past tense. 'There are' ကို အရာဝတ္ထု အများကြီးနဲ့ သုံးပါ။",
+          "points": 1
+        },
+        {
+          "id": 1720,
+          "question": "There ________ eight children in the school.",
+          "options": ["aren't", "isn't", "weren't"],
+          "answer": "aren't",
+          "explanation": "'There aren't' is used with plural nouns. 'Eight children' is plural. 'There isn't' is for singular/uncountable nouns. 'There weren't' is past tense. 'There aren't' ကို အရာဝတ္ထု အများကြီးနဲ့ သုံးပါ။",
+          "points": 1
+        },
+        {
+          "id": 1721,
+          "question": "How many countries ________ there in South America?",
+          "options": ["are", "is", "was"],
+          "answer": "are",
+          "explanation": "'How many' is followed by a plural noun and 'are there'. 'Countries' is plural. 'Is' is for singular nouns. 'Was' is past tense. 'How many' ကို အရာဝတ္ထု အများကြီးနဲ့ သုံးပါ။",
+          "points": 1
+        },
+        {
+          "id": 1722,
+          "question": "There ________ any sugar in my coffee.",
+          "options": ["isn't", "aren't", "wasn't"],
+          "answer": "isn't",
+          "explanation": "'There isn't' is used with uncountable nouns. 'Sugar' is uncountable. 'There aren't' is for plural nouns. 'There wasn't' is past tense. 'There isn't' ကို တစ်ခါသုံး ဝေါဟာရတွေနဲ့ သုံးပါ။",
+          "points": 1
+        },
+        {
+          "id": 1723,
+          "question": "There ________ still a problem.",
+          "options": ["is", "are", "were"],
+          "answer": "is",
+          "explanation": "'There is' is used with singular nouns. 'A problem' is singular. 'There are' is for plural nouns. 'There were' is past tense. 'There is' ကို အရာဝတ္ထုတစ်ခုတည်းနဲ့ သုံးပါ။",
+          "points": 1
+        },
+        {
+          "id": 1724,
+          "question": "________ there any taxis waiting?",
+          "options": ["Are", "Is", "Were"],
+          "answer": "Are",
+          "explanation": "'Are there' is used with plural nouns. 'Taxis' is plural. 'Is there' is for singular nouns. 'Were there' is past tense. 'Are there' ကို အရာဝတ္ထု အများကြီးနဲ့ မေးခွန်းတွေမှာ သုံးပါ။",
+          "points": 1
+        },
+        {
+          "id": 1725,
+          "question": "There ________ any trees in my street.",
+          "options": ["aren't", "isn't", "weren't"],
+          "answer": "aren't",
+          "explanation": "'There aren't' is used with plural nouns. 'Trees' is plural. 'There isn't' is for singular/uncountable nouns. 'There weren't' is past tense. 'There aren't' ကို အရာဝတ္ထု အများကြီးနဲ့ သုံးပါ။",
+          "points": 1
+        }
+      ]
+    }
+  ]
+}

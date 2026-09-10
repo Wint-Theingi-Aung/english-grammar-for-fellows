@@ -1,0 +1,56 @@
+{
+  "unit": 19,
+  "title": "Although / In spite of",
+  "lessons": [
+    {
+      "id": "unit19-lesson1",
+      "title": "Although + subject + verb",
+      "content": "'Although' is used to show contrast between two clauses. It is followed by a subject and verb. 'Although' can come at the beginning or middle of a sentence.",
+      "details": [
+        {
+          "concept": "Although + clause (beginning)",
+          "explanation": "'Although' at the start of a sentence connects two contrasting ideas.",
+          "example": "Although she ran very fast, she lost the race.",
+          "burmese": "သူမ အမြန်ပြေးပေမယ့် ပြိုင်ပွဲမှာ ရှုံးသွားတယ်။"
+        },
+        {
+          "concept": "Although + clause",
+          "explanation": "'Although' connects contrasting clauses even when both are complete sentences.",
+          "example": "Although it rained all day, we enjoyed the party very much.",
+          "burmese": "မိုးတစ်နေ့လုံး ရွာခဲ့ပေမယ့် ငါတို့ ပါတီကို ပျော်ရွှင်စွာ ဖြတ်သန်းခဲ့တယ်။"
+        },
+        {
+          "concept": "Although + clause (end)",
+          "explanation": "'Although' can also appear at the end of a sentence.",
+          "example": "They are generous although they are poor.",
+          "burmese": "သူတို့ ဆင်းရဲပေမယ့် ပေးကမ်းစွန့်ကြဲတတ်ကြတယ်။"
+        }
+      ]
+    },
+    {
+      "id": "unit19-lesson2",
+      "title": "In spite of + noun / Ving",
+      "content": "'In spite of' is used to show contrast and is followed by a noun or a gerund (Ving). It has the same meaning as 'although' but requires a different structure.",
+      "details": [
+        {
+          "concept": "In spite of + noun",
+          "explanation": "'In spite of' is followed by a noun phrase to show contrast.",
+          "example": "In spite of their quarrel, they remain the best of friends.",
+          "burmese": "ရန်ဖြစ်ထားပေမယ့်ပဲ အကောင်းဆုံး သငယ်ချင်းဖြစ်နေကြတန်ပါ။"
+        },
+        {
+          "concept": "In spite of + noun",
+          "explanation": "'In spite of' can show contrast with a simple noun.",
+          "example": "We went out in spite of the rain.",
+          "burmese": "မိုးရွာပေမယ့်ပဲ ငါတို့ အပြင်ထွက်ခဲ့တယ်။"
+        },
+        {
+          "concept": "In spite of + Ving",
+          "explanation": "'In spite of' is followed by a gerund (-ing form) when the contrast involves an action.",
+          "example": "In spite of completing his master's degree, he could not find a quality job.",
+          "burmese": "မောစတာဘွဲ့ရပေမယ့်ပဲ သူ အလုပ်ကောင်းကောင်း မရခဲ့ဘူး။"
+        }
+      ]
+    }
+  ]
+}

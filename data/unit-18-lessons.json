@@ -1,0 +1,68 @@
+{
+  "unit": 18,
+  "title": "There was / There were",
+  "lessons": [
+    {
+      "id": "unit18-lesson1",
+      "title": "There was / There were (Past)",
+      "content": "'There was' and 'there were' are used to talk about things that existed in the past. Use 'there was' with singular nouns and uncountable nouns. Use 'there were' with plural nouns.",
+      "details": [
+        {
+          "concept": "There was + singular noun",
+          "explanation": "Use 'there was' to talk about one thing in the past.",
+          "example": "There was a cinema.",
+          "burmese": "ရုပ်ရှင်ရုံတစ်ခု ရှိခဲ့တယ်။"
+        },
+        {
+          "concept": "There was + uncountable noun",
+          "explanation": "Use 'there was' with uncountable nouns in the past.",
+          "example": "There was some milk.",
+          "burmese": "နွားနို့ အနည်းငယ် ရှိခဲ့တယ်။"
+        },
+        {
+          "concept": "There were + plural noun",
+          "explanation": "Use 'there were' to talk about more than one thing in the past.",
+          "example": "There were some books.",
+          "burmese": "စာအုပ်အချို့ ရှိခဲ့တယ်။"
+        },
+        {
+          "concept": "Negative forms",
+          "explanation": "Use 'there wasn't' with singular/uncountable nouns and 'there weren't' with plural nouns in the past.",
+          "example": "There wasn't a cinema. / There weren't any books.",
+          "burmese": "ရုပ်ရှင်ရုံတစ်ခု မရှိခဲ့ဘူး။ / စာအုပ်တွေ မရှိခဲ့ဘူး။"
+        }
+      ]
+    },
+    {
+      "id": "unit18-lesson2",
+      "title": "Questions with There was / There were",
+      "content": "To form past tense questions, put 'was' or 'were' before 'there'. Use 'Was there' with singular nouns and 'Were there' with plural nouns. To ask about quantities in the past, use 'How many + plural noun + were there?' and 'How much + uncountable noun + was there?'",
+      "details": [
+        {
+          "concept": "Was there + singular noun?",
+          "explanation": "Ask about one thing in the past with 'Was there'.",
+          "example": "Was there a book on the desk?",
+          "burmese": "စာပွင့်ပေါ်မှာ စာအုပ်တစ်အုပ် ရှိခဲ့တာလား။"
+        },
+        {
+          "concept": "Were there + plural noun?",
+          "explanation": "Ask about many things in the past with 'Were there'.",
+          "example": "Were there any biscuits in the tin?",
+          "burmese": "ဘူးထဲမှာ ဘီစကစ် မရှိခဲ့ဘူးလား။"
+        },
+        {
+          "concept": "How many + plural + were there?",
+          "explanation": "Ask about quantity in the past with 'How many'.",
+          "example": "How many dogs were there in the park?",
+          "burmese": "ပန်းခြံထဲမှာ ခွေး ဘယ်နှစ်ကောင် ရှိခဲ့လဲ။"
+        },
+        {
+          "concept": "How much + uncountable + was there?",
+          "explanation": "Ask about uncountable quantities in the past with 'How much'.",
+          "example": "How much money was there in your bank account?",
+          "burmese": "မင်းဘဏ်အကောင့်ထဲမှာ ငွေ ဘယ်လောက် ရှိခဲ့လဲ။"
+        }
+      ]
+    }
+  ]
+}

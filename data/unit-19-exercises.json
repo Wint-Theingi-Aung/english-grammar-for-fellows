@@ -1,0 +1,132 @@
+{
+  "unit": 19,
+  "exercises": [
+    {
+      "id": "unit19-ex1",
+      "type": "multiple_choice",
+      "instructions": "Choose the correct alternative to complete each sentence.",
+      "questions": [
+        {
+          "id": 1901,
+          "question": "________ she is beautiful, everybody hates her.",
+          "options": ["Although", "In spite of", "Because"],
+          "answer": "Although",
+          "explanation": "'Although' is followed by a clause with subject + verb. 'In spite of' needs a noun or Ving. 'Because' changes the meaning to cause. 'Although' ကို clause ရဲ့ ရှေ့မှာ သုံးပါ။",
+          "points": 1
+        },
+        {
+          "id": 1902,
+          "question": "The children slept deeply ________ the noise.",
+          "options": ["in spite of", "although", "because of"],
+          "answer": "in spite of",
+          "explanation": "'In spite of' is followed by a noun. 'The noise' is a noun. 'Although' needs subject + verb. 'Because of' changes the meaning. 'In spite of' ကို noun ရဲ့ ရှေ့မှာ သုံးပါ။",
+          "points": 1
+        },
+        {
+          "id": 1903,
+          "question": "________ earning a low salary, Sara helped her parents.",
+          "options": ["In spite of", "Although", "Because"],
+          "answer": "In spite of",
+          "explanation": "'In spite of' is followed by Ving (gerund). 'Earning' is a gerund. 'Although' needs subject + verb. 'Because' changes the meaning. 'In spite of' ကို Ving ရဲ့ ရှေ့မှာ သုံးပါ။",
+          "points": 1
+        },
+        {
+          "id": 1904,
+          "question": "Jane rarely sees Alan ________ they are neighbors.",
+          "options": ["although", "in spite of", "because"],
+          "answer": "although",
+          "explanation": "'Although' is followed by a clause with subject + verb. 'They are neighbors' is a clause. 'In spite of' needs a noun or Ving. 'Although' ကို clause ရဲ့ ရှေ့မှာ သုံးပါ။",
+          "points": 1
+        },
+        {
+          "id": 1905,
+          "question": "Kate did not do well in the exam ________ working very hard.",
+          "options": ["in spite of", "although", "because of"],
+          "answer": "in spite of",
+          "explanation": "'In spite of' is followed by Ving. 'Working' is a gerund. 'Although' needs subject + verb. 'Because of' changes the meaning. 'In spite of' ကို Ving ရဲ့ ရှေ့မှာ သုံးပါ။",
+          "points": 1
+        },
+        {
+          "id": 1906,
+          "question": "________ I was very hungry, I couldn't eat.",
+          "options": ["Although", "In spite of", "Because"],
+          "answer": "Although",
+          "explanation": "'Although' is followed by a clause with subject + verb. 'I was very hungry' is a clause. 'In spite of' needs a noun or Ving. 'Because' changes the meaning. 'Although' ကို clause ရဲ့ ရှေ့မှာ သုံးပါ။",
+          "points": 1
+        },
+        {
+          "id": 1907,
+          "question": "________ the difficulty, they managed to solve the maths problem.",
+          "options": ["In spite of", "Although", "Because of"],
+          "answer": "In spite of",
+          "explanation": "'In spite of' is followed by a noun. 'The difficulty' is a noun. 'Although' needs subject + verb. 'Because of' changes the meaning. 'In spite of' ကို noun ရဲ့ ရှေ့မှာ သုံးပါ။",
+          "points": 1
+        },
+        {
+          "id": 1908,
+          "question": "Liz never talked to him ________ she loved him.",
+          "options": ["although", "in spite of", "because"],
+          "answer": "although",
+          "explanation": "'Although' is followed by a clause with subject + verb. 'She loved him' is a clause. 'In spite of' needs a noun or Ving. 'Because' changes the meaning. 'Although' ကို clause ရဲ့ ရှေ့မှာ သုံးပါ။",
+          "points": 1
+        },
+        {
+          "id": 1909,
+          "question": "________ it was cold, Marie didn't put on her coat.",
+          "options": ["Although", "In spite of", "Because"],
+          "answer": "Although",
+          "explanation": "'Although' is followed by a clause with subject + verb. 'It was cold' is a clause. 'In spite of' needs a noun or Ving. 'Because' changes the meaning. 'Although' ကို clause ရဲ့ ရှေ့မှာ သုံးပါ။",
+          "points": 1
+        },
+        {
+          "id": 1910,
+          "question": "Clare did the work ________ being ill.",
+          "options": ["in spite of", "although", "because of"],
+          "answer": "in spite of",
+          "explanation": "'In spite of' is followed by Ving. 'Being' is a gerund. 'Although' needs subject + verb. 'Because of' changes the meaning. 'In spite of' ကို Ving ရဲ့ ရှေ့မှာ သုံးပါ။",
+          "points": 1
+        },
+        {
+          "id": 1911,
+          "question": "________ the weather was bad, we had a good time.",
+          "options": ["Although", "In spite of", "Because"],
+          "answer": "Although",
+          "explanation": "'Although' is followed by a clause with subject + verb. 'The weather was bad' is a clause. 'In spite of' needs a noun or Ving. 'Because' changes the meaning. 'Although' ကို clause ရဲ့ ရှေ့မှာ သုံးပါ။",
+          "points": 1
+        },
+        {
+          "id": 1912,
+          "question": "________ we had planned everything carefully, a lot of things went wrong.",
+          "options": ["Although", "In spite of", "Because"],
+          "answer": "Although",
+          "explanation": "'Although' is followed by a clause with subject + verb. 'We had planned everything carefully' is a clause. 'In spite of' needs a noun or Ving. 'Because' changes the meaning. 'Although' ကို clause ရဲ့ ရှေ့မှာ သုံးပါ။",
+          "points": 1
+        },
+        {
+          "id": 1913,
+          "question": "I went to work the next day ________ I was still feeling ill.",
+          "options": ["although", "in spite of", "because"],
+          "answer": "although",
+          "explanation": "'Although' is followed by a clause with subject + verb. 'I was still feeling ill' is a clause. 'In spite of' needs a noun or Ving. 'Because' changes the meaning. 'Although' ကို clause ရဲ့ ရှေ့မှာ သုံးပါ။",
+          "points": 1
+        },
+        {
+          "id": 1914,
+          "question": "She accepted the job ________ the low salary.",
+          "options": ["in spite of", "although", "because of"],
+          "answer": "in spite of",
+          "explanation": "'In spite of' is followed by a noun. 'The low salary' is a noun. 'Although' needs subject + verb. 'Because of' changes the meaning. 'In spite of' ကို noun ရဲ့ ရှေ့မှာ သုံးပါ။",
+          "points": 1
+        },
+        {
+          "id": 1915,
+          "question": "I managed to sleep ________ the hotel was noisy.",
+          "options": ["although", "in spite of", "because"],
+          "answer": "although",
+          "explanation": "'Although' is followed by a clause with subject + verb. 'The hotel was noisy' is a clause. 'In spite of' needs a noun or Ving. 'Because' changes the meaning. 'Although' ကို clause ရဲ့ ရှေ့မှာ သုံးပါ။",
+          "points": 1
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" fill="none">
+  <!-- Rounded square background -->
+  <rect width="48" height="48" rx="10" fill="#1a2744"/>
+  <!-- Book spine accent -->
+  <rect x="0" y="0" width="5" height="48" rx="2.5" fill="#2a9d8f"/>
+  <!-- Book page lines -->
+  <rect x="10" y="10" width="26" height="2.5" rx="1" fill="white" opacity="0.85"/>
+  <rect x="10" y="17" width="26" height="2" rx="1" fill="white" opacity="0.4"/>
+  <!-- EG monogram -->
+  <text x="23" y="37" font-family="Georgia, serif" font-size="18" font-weight="bold" fill="white" text-anchor="middle">EG</text>
+</svg>

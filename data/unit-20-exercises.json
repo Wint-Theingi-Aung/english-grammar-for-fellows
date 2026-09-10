@@ -1,0 +1,108 @@
+{
+  "unit": 20,
+  "exercises": [
+    {
+      "id": "unit20-ex1",
+      "type": "multiple_choice",
+      "instructions": "Combine the following sentences using 'too … to'.",
+      "questions": [
+        {
+          "id": 2001,
+          "question": "He was very nervous. He could not perform well on the stage. Combine using 'too ... to'.",
+          "options": ["too nervous to perform well on the stage", "too nervous performing well on the stage", "too nervous for perform well on the stage"],
+          "answer": "too nervous to perform well on the stage",
+          "explanation": "Use 'too + adjective + to + V1' when the subject is the same. 'Too nervous to perform well on the stage' is correct. 'Performing' uses wrong form. 'For perform' is grammatically incorrect. 'Too ... to' ကို အတူတူပဲ ခေါင်းစဉ်နှစ်ခု ပေါင်းဖို့ သုံးပါ။",
+          "points": 1
+        },
+        {
+          "id": 2002,
+          "question": "I was very busy. I could not talk to her. Combine using 'too ... to'.",
+          "options": ["too busy to talk to her", "too busy talking to her", "too busy for talk to her"],
+          "answer": "too busy to talk to her",
+          "explanation": "Use 'too + adjective + to + V1' when the subject is the same. 'Too busy to talk to her' is correct. 'Talking' uses wrong form. 'For talk' is grammatically incorrect. 'Too ... to' ကို အတူတူပဲ ခေါင်းစဉ်နှစ်ခု ပေါင်းဖို့ သုံးပါ။",
+          "points": 1
+        },
+        {
+          "id": 2003,
+          "question": "The puzzle was very difficult. I could not solve it. Combine using 'too ... to'.",
+          "options": ["too difficult to solve", "too difficult solving it", "too difficult for solve"],
+          "answer": "too difficult to solve",
+          "explanation": "Use 'too + adjective + to + V1' when the subject is the same. 'Too difficult to solve' is correct. 'Solving' uses wrong form. 'For solve' is grammatically incorrect. 'Too ... to' ကို အတူတူပဲ ခေါင်းစဉ်နှစ်ခု ပေါင်းဖို့ သုံးပါ။",
+          "points": 1
+        },
+        {
+          "id": 2004,
+          "question": "He is very strong. You cannot beat him. Combine using 'too ... to'.",
+          "options": ["too strong for you to beat", "too strong to beat you", "too strong for beat you"],
+          "answer": "too strong for you to beat",
+          "explanation": "Use 'too + adjective + for + person + to + V1' when the subjects differ. 'He' is strong and 'you' cannot beat him. 'Too strong to beat you' reverses the meaning. 'For beat' is grammatically incorrect. 'Too ... to' ကို ခေါင်းစဉ်ကွာခြားတဲ့အခါ 'for + person' ထည့်ပါ။",
+          "points": 1
+        },
+        {
+          "id": 2005,
+          "question": "The place was very noisy. I couldn't hear anything properly. Combine using 'too ... to'.",
+          "options": ["too noisy to hear anything properly", "too noisy hearing anything properly", "too noisy for hear anything properly"],
+          "answer": "too noisy to hear anything properly",
+          "explanation": "Use 'too + adjective + to + V1' when the subject is the same. 'Too noisy to hear anything properly' is correct. 'Hearing' uses wrong form. 'For hear' is grammatically incorrect. 'Too ... to' ကို အတူတူပဲ ခေါင်းစဉ်နှစ်ခု ပေါင်းဖို့ သုံးပါ။",
+          "points": 1
+        },
+        {
+          "id": 2006,
+          "question": "He earns very little. He cannot keep his family in comfort. Combine using 'too ... to'.",
+          "options": ["too little to keep his family in comfort", "too little keeping his family in comfort", "too little for keep his family in comfort"],
+          "answer": "too little to keep his family in comfort",
+          "explanation": "Use 'too + adjective + to + V1' when the subject is the same. 'Too little to keep his family in comfort' is correct. 'Keeping' uses wrong form. 'For keep' is grammatically incorrect. 'Too ... to' ကို အတူတူပဲ ခေါင်းစဉ်နှစ်ခု ပေါင်းဖို့ သုံးပါ။",
+          "points": 1
+        },
+        {
+          "id": 2007,
+          "question": "I know him very well. I don't like him. Combine using 'too ... to'.",
+          "options": ["too well to like him", "too well liking him", "too well for like him"],
+          "answer": "too well to like him",
+          "explanation": "Use 'too + adjective + to + V1' when the subject is the same. 'Too well to like him' is correct. 'Liking' uses wrong form. 'For like' is grammatically incorrect. 'Too ... to' ကို အတူတူပဲ ခေါင်းစဉ်နှစ်ခု ပေါင်းဖို့ သုံးပါ။",
+          "points": 1
+        },
+        {
+          "id": 2008,
+          "question": "She was very anxious about her husband. She could not think about anything else. Combine using 'too ... to'.",
+          "options": ["too anxious to think about anything else", "too anxious thinking about anything else", "too anxious for think about anything else"],
+          "answer": "too anxious to think about anything else",
+          "explanation": "Use 'too + adjective + to + V1' when the subject is the same. 'Too anxious to think about anything else' is correct. 'Thinking' uses wrong form. 'For think' is grammatically incorrect. 'Too ... to' ကို အတူတူပဲ ခေါင်းစဉ်နှစ်ခု ပေါင်းဖို့ သုံးပါ။",
+          "points": 1
+        },
+        {
+          "id": 2009,
+          "question": "She is very clumsy. She cannot handle glassware carefully. Combine using 'too ... to'.",
+          "options": ["too clumsy to handle glassware carefully", "too clumsy handling glassware carefully", "too clumsy for handle glassware carefully"],
+          "answer": "too clumsy to handle glassware carefully",
+          "explanation": "Use 'too + adjective + to + V1' when the subject is the same. 'Too clumsy to handle glassware carefully' is correct. 'Handling' uses wrong form. 'For handle' is grammatically incorrect. 'Too ... to' ကို အတူတူပဲ ခေါင်းစဉ်နှစ်ခု ပေါင်းဖို့ သုံးပါ။",
+          "points": 1
+        },
+        {
+          "id": 2010,
+          "question": "He is poor. He cannot buy books. Combine using 'too ... to'.",
+          "options": ["too poor to buy books", "too poor buying books", "too poor for buy books"],
+          "answer": "too poor to buy books",
+          "explanation": "Use 'too + adjective + to + V1' when the subject is the same. 'Too poor to buy books' is correct. 'Buying' uses wrong form. 'For buy' is grammatically incorrect. 'Too ... to' ကို အတူတူပဲ ခေါင်းစဉ်နှစ်ခု ပေါင်းဖို့ သုံးပါ။",
+          "points": 1
+        },
+        {
+          "id": 2011,
+          "question": "The minister is busy. He cannot see you now. Combine using 'too ... to'.",
+          "options": ["too busy to see you now", "too busy seeing you now", "too busy for see you now"],
+          "answer": "too busy to see you now",
+          "explanation": "Use 'too + adjective + to + V1' when the subject is the same. 'Too busy to see you now' is correct. 'Seeing' uses wrong form. 'For see' is grammatically incorrect. 'Too ... to' ကို အတူတူပဲ ခေါင်းစဉ်နှစ်ခု ပေါင်းဖို့ သုံးပါ။",
+          "points": 1
+        },
+        {
+          "id": 2012,
+          "question": "Your grades are very low. You cannot get admission in a prestigious college. Combine using 'too ... to'.",
+          "options": ["too low to get admission in a prestigious college", "too low getting admission in a prestigious college", "too low for get admission in a prestigious college"],
+          "answer": "too low to get admission in a prestigious college",
+          "explanation": "Use 'too + adjective + to + V1' when the subject is the same. 'Too low to get admission in a prestigious college' is correct. 'Getting' uses wrong form. 'For get' is grammatically incorrect. 'Too ... to' ကို အတူတူပဲ ခေါင်းစဉ်နှစ်ခု ပေါင်းဖို့ သုံးပါ။",
+          "points": 1
+        }
+      ]
+    }
+  ]
+}

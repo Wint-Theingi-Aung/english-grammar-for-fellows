@@ -26,6 +26,14 @@ export const metadata: Metadata = {
   title: "Grammar Fellows - English Grammar for Fellows",
   description:
     "Master English grammar with interactive lessons and exercises. Learn tenses, modals, question tags, and more with Burmese translations.",
+  icons: {
+    icon: [
+      { url: "/favicon.svg", type: "image/svg+xml" },
+      { url: "/favicon.ico", sizes: "any" },
+    ],
+    shortcut: "/favicon.svg",
+    apple: "/favicon.svg",
+  },
 };
 
 export default function RootLayout({ children }: LayoutProps<"/">) {

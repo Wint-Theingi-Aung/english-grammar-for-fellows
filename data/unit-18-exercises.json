@@ -1,0 +1,132 @@
+{
+  "unit": 18,
+  "exercises": [
+    {
+      "id": "unit18-ex1",
+      "type": "multiple_choice",
+      "instructions": "Choose the correct alternative to complete each sentence.",
+      "questions": [
+        {
+          "id": 1801,
+          "question": "There ________ three strangers outside the office.",
+          "options": ["was", "were", "is"],
+          "answer": "were",
+          "explanation": "'Were' is used with plural nouns. 'Three strangers' is plural. 'There was' is for singular nouns. 'There is' is present tense. 'There were' ကို အရာဝတ္ထု အများကြီးနဲ့ အတိတ်ကာလမှာ သုံးပါ။",
+          "points": 1
+        },
+        {
+          "id": 1802,
+          "question": "________ there a stranger outside the house?",
+          "options": ["Was", "Were", "Is"],
+          "answer": "Was",
+          "explanation": "'Was there' is used with singular nouns. 'A stranger' is singular. 'Were there' is for plural nouns. 'Is there' is present tense. 'Was there' ကို အရာဝတ္ထုတစ်ခုတည်းနဲ့ အတိတ်ကာလ မေးခွန်းတွေမှာ သုံးပါ။",
+          "points": 1
+        },
+        {
+          "id": 1803,
+          "question": "There ________ money in the safe.",
+          "options": ["was", "were", "has"],
+          "answer": "was",
+          "explanation": "'There was' is used with uncountable nouns. 'Money' is uncountable. 'There were' is for plural nouns. 'There has' is grammatically incorrect here. 'There was' ကို တစ်ခါသုံး ဝေါဟာရတွေနဲ့ အတိတ်ကာလမှာ သုံးပါ။",
+          "points": 1
+        },
+        {
+          "id": 1804,
+          "question": "There ________ any information in the file.",
+          "options": ["wasn't", "weren't", "isn't"],
+          "answer": "wasn't",
+          "explanation": "'There wasn't' is used with uncountable nouns. 'Information' is uncountable. 'There weren't' is for plural nouns. 'There isn't' is present tense. 'There wasn't' ကို တစ်ခါသုံး ဝေါဟာရတွေနဲ့ အတိတ်ကာလမှာ သုံးပါ။",
+          "points": 1
+        },
+        {
+          "id": 1805,
+          "question": "There ________ a Christmas tree in the living room.",
+          "options": ["wasn't", "weren't", "isn't"],
+          "answer": "wasn't",
+          "explanation": "'There wasn't' is used with singular nouns. 'A Christmas tree' is singular. 'There weren't' is for plural nouns. 'There isn't' is present tense. 'There wasn't' ကို အရာဝတ္ထုတစ်ခုတည်းနဲ့ အတိတ်ကာလမှာ သုံးပါ။",
+          "points": 1
+        },
+        {
+          "id": 1806,
+          "question": "There ________ two police officers waiting for you outside.",
+          "options": ["was", "were", "is"],
+          "answer": "were",
+          "explanation": "'There were' is used with plural nouns. 'Two police officers' is plural. 'There was' is for singular nouns. 'There is' is present tense. 'There were' ကို အရာဝတ္ထု အများကြီးနဲ့ အတိတ်ကာလမှာ သုံးပါ။",
+          "points": 1
+        },
+        {
+          "id": 1807,
+          "question": "________ there other factory workers in the construction site?",
+          "options": ["Was", "Were", "Are"],
+          "answer": "Were",
+          "explanation": "'Were there' is used with plural nouns. 'Other factory workers' is plural. 'Was there' is for singular nouns. 'Are there' is present tense. 'Were there' ကို အရာဝတ္ထု အများကြီးနဲ့ အတိတ်ကာလ မေးခွန်းတွေမှာ သုံးပါ။",
+          "points": 1
+        },
+        {
+          "id": 1808,
+          "question": "________ there any water left?",
+          "options": ["Was", "Were", "Is"],
+          "answer": "Was",
+          "explanation": "'Was there' is used with uncountable nouns. 'Water' is uncountable. 'Were there' is for plural nouns. 'Is there' is present tense. 'Was there' ကို တစ်ခါသုံး ဝေါဟာရတွေနဲ့ အတိတ်ကာလ မေးခွန်းတွေမှာ သုံးပါ။",
+          "points": 1
+        },
+        {
+          "id": 1809,
+          "question": "How many drinks ________ there in the restaurant?",
+          "options": ["were", "was", "are"],
+          "answer": "were",
+          "explanation": "'How many' is followed by a plural noun and 'were there'. 'Drinks' is plural. 'Was' is for singular nouns. 'Are' is present tense. 'How many' ကို အရာဝတ္ထု အများကြီးနဲ့ အတိတ်ကာလမှာ သုံးပါ။",
+          "points": 1
+        },
+        {
+          "id": 1810,
+          "question": "How much pollution ________ there in China?",
+          "options": ["was", "were", "is"],
+          "answer": "was",
+          "explanation": "'How much' is followed by an uncountable noun and 'was there'. 'Pollution' is uncountable. 'Were' is for plural nouns. 'Is' is present tense. 'How much' ကို တစ်ခါသုံး ဝေါဟာရတွေနဲ့ အတိတ်ကာလမှာ သုံးပါ။",
+          "points": 1
+        },
+        {
+          "id": 1811,
+          "question": "There ________ any fans in the store.",
+          "options": ["weren't", "wasn't", "isn't"],
+          "answer": "weren't",
+          "explanation": "'There weren't' is used with plural nouns. 'Fans' is plural. 'There wasn't' is for singular/uncountable nouns. 'There isn't' is present tense. 'There weren't' ကို အရာဝတ္ထု အများကြီးနဲ့ အတိတ်ကာလမှာ သုံးပါ။",
+          "points": 1
+        },
+        {
+          "id": 1812,
+          "question": "There ________ a black chair in the store.",
+          "options": ["wasn't", "weren't", "isn't"],
+          "answer": "wasn't",
+          "explanation": "'There wasn't' is used with singular nouns. 'A black chair' is singular. 'There weren't' is for plural nouns. 'There isn't' is present tense. 'There wasn't' ကို အရာဝတ္ထုတစ်ခုတည်းနဲ့ အတိတ်ကာလမှာ သုံးပါ။",
+          "points": 1
+        },
+        {
+          "id": 1813,
+          "question": "There ________ many options available to us.",
+          "options": ["weren't", "wasn't", "isn't"],
+          "answer": "weren't",
+          "explanation": "'There weren't' is used with plural nouns. 'Many options' is plural. 'There wasn't' is for singular/uncountable nouns. 'There isn't' is present tense. 'There weren't' ကို အရာဝတ္ထု အများကြီးနဲ့ အတိတ်ကာလမှာ သုံးပါ။",
+          "points": 1
+        },
+        {
+          "id": 1814,
+          "question": "How many patients ________ there in the Emergency room?",
+          "options": ["were", "was", "are"],
+          "answer": "were",
+          "explanation": "'How many' is followed by a plural noun and 'were there'. 'Patients' is plural. 'Was' is for singular nouns. 'Are' is present tense. 'How many' ကို အရာဝတ္ထု အများကြီးနဲ့ အတိတ်ကာလမှာ သုံးပါ။",
+          "points": 1
+        },
+        {
+          "id": 1815,
+          "question": "How much traffic ________ there on the way to work?",
+          "options": ["was", "were", "is"],
+          "answer": "was",
+          "explanation": "'How much' is followed by an uncountable noun and 'was there'. 'Traffic' is uncountable. 'Were' is for plural nouns. 'Is' is present tense. 'How much' ကို တစ်ခါသုံး ဝေါဟာရတွေနဲ့ အတိတ်ကာလမှာ သုံးပါ။",
+          "points": 1
+        }
+      ]
+    }
+  ]
+}

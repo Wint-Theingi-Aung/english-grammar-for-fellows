@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 48" fill="none">
+  <!-- Book mark icon -->
+  <rect x="2" y="4" width="32" height="40" rx="4" fill="#1a2744"/>
+  <rect x="2" y="4" width="4" height="40" rx="1" fill="#2a9d8f"/>
+  <rect x="8" y="8" width="22" height="2" rx="1" fill="white" opacity="0.9"/>
+  <rect x="8" y="14" width="22" height="2" rx="1" fill="white" opacity="0.5"/>
+  <text x="19" y="33" font-family="Georgia, serif" font-size="14" font-weight="bold" fill="white" text-anchor="middle">EG</text>
+  <!-- Teal accent stripe -->
+  <rect x="34" y="4" width="2" height="40" rx="1" fill="#2a9d8f" opacity="0.6"/>
+  <!-- Text -->
+  <text x="44" y="21" font-family="Inter, system-ui, sans-serif" font-size="13" font-weight="700" fill="#1a1f36" letter-spacing="-0.02em">Grammar</text>
+  <text x="44" y="38" font-family="Inter, system-ui, sans-serif" font-size="13" font-weight="700" fill="#1a1f36" letter-spacing="-0.02em">Fellows</text>
+</svg>

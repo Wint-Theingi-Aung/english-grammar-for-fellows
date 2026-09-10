@@ -1,0 +1,68 @@
+{
+  "unit": 17,
+  "title": "There is / There are",
+  "lessons": [
+    {
+      "id": "unit17-lesson1",
+      "title": "There is / There are (Present)",
+      "content": "'There is' and 'there are' are used to talk about the existence of things in the present. Use 'there is' (or 'there's') with singular nouns and uncountable nouns. Use 'there are' with plural nouns.",
+      "details": [
+        {
+          "concept": "There is + singular noun",
+          "explanation": "Use 'there is' when talking about one thing.",
+          "example": "There is a book on the desk.",
+          "burmese": "စာအုပ်တစ်အုပ် ပွင့်ပေါ်မှာ ရှိတယ်။"
+        },
+        {
+          "concept": "There is + uncountable noun",
+          "explanation": "Use 'there is' with uncountable nouns like milk, water, bread.",
+          "example": "There is some milk in the fridge.",
+          "burmese": "ရေခဲသတ္တုထဲမှာ နွားနို့ အနည်းငယ်ရှိတယ်။"
+        },
+        {
+          "concept": "There are + plural noun",
+          "explanation": "Use 'there are' when talking about more than one thing.",
+          "example": "There are books on the desk.",
+          "burmese": "စာအုပ်တွေ ပွင့်ပေါ်မှာ ရှိတယ်။"
+        },
+        {
+          "concept": "Negative forms",
+          "explanation": "Use 'there isn't' with singular/uncountable nouns and 'there aren't' with plural nouns. Use 'there isn't any' or 'there aren't any' when indicating zero quantity.",
+          "example": "There isn't a book on the desk. / There aren't any people at the party.",
+          "burmese": "စာအုပ်တစ်အုပ် ပွင့်ပေါ်မှာ မရှိဘူး။ / ပါတီမှာ လူတွေ မရှိကြဘူး။"
+        }
+      ]
+    },
+    {
+      "id": "unit17-lesson2",
+      "title": "Questions with There is / There are",
+      "content": "To form questions, put 'is' or 'are' before 'there'. Use 'Is there' with singular nouns and 'Are there' with plural nouns. To ask about quantities, use 'How many + plural noun + are there?'",
+      "details": [
+        {
+          "concept": "Is there + singular noun?",
+          "explanation": "Ask about one thing with 'Is there'.",
+          "example": "Is there a dog in the supermarket?",
+          "burmese": "စူပါမားကက်ထဲမှာ ခွေးတစ်ကောင် ရှိလား။"
+        },
+        {
+          "concept": "Are there + plural noun?",
+          "explanation": "Ask about many things with 'Are there'.",
+          "example": "Are there cats on the sofa?",
+          "burmese": "ဆိုဖာပေါ်မှာ ကြောင်တွေ ရှိလား။"
+        },
+        {
+          "concept": "Are there any + noun?",
+          "explanation": "Use 'any' in questions with plural or uncountable nouns.",
+          "example": "Are there any hamsters in Asia?",
+          "burmese": "အာရှတိုက်မှာ ဟမ်စတာ တွေ ရှိလား။"
+        },
+        {
+          "concept": "How many + plural + are there?",
+          "explanation": "Ask about quantity with 'How many'.",
+          "example": "How many students are there in your class?",
+          "burmese": "မင်းတို့ အတန်းထဲမှာ ကျောင်းသား ဘယ်နှစ်ယောက် ရှိလဲ။"
+        }
+      ]
+    }
+  ]
+}
