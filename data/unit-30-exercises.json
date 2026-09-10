@@ -1,0 +1,132 @@
+{
+  "unit": 30,
+  "exercises": [
+    {
+      "id": "unit30-ex1",
+      "type": "multiple_choice",
+      "instructions": "Rewrite the following sentences using 'as soon as'.",
+      "questions": [
+        {
+          "id": 3001,
+          "question": "He finished his work. He went out immediately. Rewrite using 'as soon as'.",
+          "options": ["As soon as he finished his work, he went out", "He went out as soon as finished his work he", "As soon as he went out, he finished his work"],
+          "answer": "As soon as he finished his work, he went out",
+          "explanation": "Place 'As soon as' before the first action (finished his work), then the second action after the comma. 'As soon as' ကို ပထမ action ရှေ့မှာ ထားပါ။",
+          "points": 1
+        },
+        {
+          "id": 3002,
+          "question": "The bus arrived. The passengers rushed to board it at once. Rewrite using 'as soon as'.",
+          "options": ["As soon as the bus arrived, the passengers rushed to board it", "The passengers rushed as soon as the bus arrived to board it", "As soon as the passengers rushed, the bus arrived to board it"],
+          "answer": "As soon as the bus arrived, the passengers rushed to board it",
+          "explanation": "Place 'As soon as' before the first action (the bus arrived), then the main clause after the comma. 'As soon as' ကို ပထမ clause ရှေ့မှာ ထားပါ။",
+          "points": 1
+        },
+        {
+          "id": 3003,
+          "question": "The mother saw her son. She embraced him immediately. Rewrite using 'as soon as'.",
+          "options": ["As soon as the mother saw her son, she embraced him", "As soon as she embraced him, the mother saw her son", "The mother as soon as saw her son she embraced him"],
+          "answer": "As soon as the mother saw her son, she embraced him",
+          "explanation": "Place 'As soon as' before the first action (the mother saw her son), then the second action after the comma. 'As soon as' ကို ပထမ action ရှေ့မှာ ထားပါ။",
+          "points": 1
+        },
+        {
+          "id": 3004,
+          "question": "My plants revived as I gave them some water. Rewrite using 'as soon as'.",
+          "options": ["My plants revived as soon as I watered them", "My plants as soon as revived I watered them", "As soon as my plants revived, I watered them"],
+          "answer": "My plants revived as soon as I watered them",
+          "explanation": "Replace 'as' with 'as soon as' and keep the same sentence order. The main clause comes first. 'As soon as' ကို 'as' နေရာမှာ ထားပါ။",
+          "points": 1
+        },
+        {
+          "id": 3005,
+          "question": "The bell rang. Presently the students ran out of the class. Rewrite using 'as soon as'.",
+          "options": ["As soon as the bell rang, the students ran out of the class", "The students ran out as soon as the bell rang of the class", "As soon as the students ran out, the bell rang of the class"],
+          "answer": "As soon as the bell rang, the students ran out of the class",
+          "explanation": "Place 'As soon as' before the first action (the bell rang), then the main clause after the comma. 'As soon as' ကို ပထမ action ရှေ့မှာ ထားပါ။",
+          "points": 1
+        },
+        {
+          "id": 3006,
+          "question": "I went to bed. I fell asleep within no time. Rewrite using 'as soon as'.",
+          "options": ["As soon as I went to bed, I fell asleep", "I fell asleep as soon as I went to bed", "As soon as I fell asleep, I went to bed"],
+          "answer": "As soon as I went to bed, I fell asleep",
+          "explanation": "Place 'As soon as' before the first action (went to bed), then the second action after the comma. 'As soon as' ကို ပထမ action ရှေ့မှာ ထားပါ။",
+          "points": 1
+        },
+        {
+          "id": 3007,
+          "question": "Fire engines turned out when the fire broke out. Rewrite using 'as soon as'.",
+          "options": ["Fire engines turned out as soon as the fire broke out", "As soon as fire engines turned out, the fire broke out", "The fire broke out as soon as fire engines turned out"],
+          "answer": "Fire engines turned out as soon as the fire broke out",
+          "explanation": "Replace 'when' with 'as soon as' and keep the same sentence order. The main clause comes first. 'As soon as' ကို 'when' နေရာမှာ ထားပါ။",
+          "points": 1
+        },
+        {
+          "id": 3008,
+          "question": "She said it. She realized her mistake at once. Rewrite using 'as soon as'.",
+          "options": ["As soon as she said it, she realized her mistake", "She realized her mistake as soon as she said it", "As soon as she realized her mistake, she said it"],
+          "answer": "As soon as she said it, she realized her mistake",
+          "explanation": "Place 'As soon as' before the first action (she said it), then the second action after the comma. 'As soon as' ကို ပထမ action ရှေ့မှာ ထားပါ။",
+          "points": 1
+        },
+        {
+          "id": 3009,
+          "question": "We heard the news. At once we rushed to the hospital. Rewrite using 'as soon as'.",
+          "options": ["As soon as we heard the news, we rushed to the hospital", "We rushed as soon as to the hospital we heard the news", "As soon as we rushed to the hospital, we heard the news"],
+          "answer": "As soon as we heard the news, we rushed to the hospital",
+          "explanation": "Place 'As soon as' before the first action (we heard the news), then the second action after the comma. 'As soon as' ကို ပထမ action ရှေ့မှာ ထားပါ။",
+          "points": 1
+        },
+        {
+          "id": 3010,
+          "question": "I saw a snake. I ran away at once. Rewrite using 'as soon as'.",
+          "options": ["I ran away as soon as I saw a snake", "As soon as I saw a snake, I ran away", "I ran away as soon as saw a snake I"],
+          "answer": "I ran away as soon as I saw a snake",
+          "explanation": "The main clause can come first, followed by 'as soon as' and the time clause. 'As soon as' ကို time clause ရှေ့မှာ ထားပါ။",
+          "points": 1
+        },
+        {
+          "id": 3011,
+          "question": "My friend saw me. He stopped the car at once. Rewrite using 'as soon as'.",
+          "options": ["As soon as my friend saw me, he stopped the car", "He stopped the car as soon as my friend saw me", "As soon as he stopped the car, my friend saw me"],
+          "answer": "As soon as my friend saw me, he stopped the car",
+          "explanation": "Place 'As soon as' before the first action (my friend saw me), then the second action after the comma. 'As soon as' ကို ပထမ action ရှေ့မှာ ထားပါ။",
+          "points": 1
+        },
+        {
+          "id": 3012,
+          "question": "The operation will go ahead when a suitable donor can be found. Rewrite using 'as soon as'.",
+          "options": ["The operation will go ahead as soon as a suitable donor can be found", "As soon as the operation will go ahead, a suitable donor can be found", "A suitable donor can be found as soon as the operation will go ahead"],
+          "answer": "The operation will go ahead as soon as a suitable donor can be found",
+          "explanation": "Replace 'when' with 'as soon as' and keep the same sentence order. 'As soon as' ကို 'when' နေရာမှာ ထားပါ။",
+          "points": 1
+        },
+        {
+          "id": 3013,
+          "question": "When the cake is done, remove it from the oven. Rewrite using 'as soon as'.",
+          "options": ["As soon as the cake is done, remove it from the oven", "Remove it from the oven as soon as the cake is done", "As soon as remove it from the oven, the cake is done"],
+          "answer": "As soon as the cake is done, remove it from the oven",
+          "explanation": "Replace 'When' with 'As soon as' and keep the same sentence order. 'As soon as' ကို 'When' နေရာမှာ ထားပါ။",
+          "points": 1
+        },
+        {
+          "id": 3014,
+          "question": "The tree began to decay as it was cut down. Rewrite using 'as soon as'.",
+          "options": ["The tree began to decay as soon as it was cut down", "As soon as the tree began to decay, it was cut down", "The tree was cut down as soon as it began to decay"],
+          "answer": "The tree began to decay as soon as it was cut down",
+          "explanation": "Replace 'as' with 'as soon as' and keep the same sentence order. 'As soon as' ကို 'as' နေရာမှာ ထားပါ။",
+          "points": 1
+        },
+        {
+          "id": 3015,
+          "question": "The baby can cry when he is born. Rewrite using 'as soon as'.",
+          "options": ["The baby can cry as soon as he is born", "As soon as the baby can cry, he is born", "The baby is born as soon as he can cry"],
+          "answer": "The baby can cry as soon as he is born",
+          "explanation": "Replace 'when' with 'as soon as' and keep the same sentence order. 'As soon as' ကို 'when' နေရာမှာ ထားပါ။",
+          "points": 1
+        }
+      ]
+    }
+  ]
+}

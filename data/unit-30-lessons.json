@@ -1,0 +1,25 @@
+{
+  "unit": 30,
+  "title": "As soon as",
+  "lessons": [
+    {
+      "id": "unit30-lesson1",
+      "title": "As soon as: Joining Two Sentences",
+      "content": "By using 'as soon as' we can join two separated sentences. Write 'as soon as' before the sentence which shows the first action, and connect the second sentence with a comma.",
+      "details": [
+        {
+          "concept": "As soon as + first action, second action",
+          "explanation": "Place 'as soon as' before the clause describing the first action. The main clause follows after a comma.",
+          "example": "As soon as he received the telegram, he started.",
+          "burmese": "As soon as he received the telegram, he started."
+        },
+        {
+          "concept": "Replacing when / at once / immediately",
+          "explanation": "If a sentence contains 'when', 'at once', 'immediately', or 'no sooner', remove it and put 'as soon as' in its place.",
+          "example": "As soon as the food arrived, he dug in hungrily.",
+          "burmese": "As soon as the food arrived, he dug in hungrily."
+        }
+      ]
+    }
+  ]
+}

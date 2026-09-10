@@ -1,0 +1,44 @@
+{
+  "unit": 29,
+  "title": "Not only \u2026 but also",
+  "lessons": [
+    {
+      "id": "unit29-lesson1",
+      "title": "Not only \u2026 but also: Connecting and Emphasizing",
+      "content": "'Not only \u2026 but also' is used to connect and emphasize two phrases or two words at the same position. Parallelism should be the goal \u2014 the words joined should be the same grammatical type (nouns with nouns, verbs with verbs, adjectives with adjectives).",
+      "details": [
+        {
+          "concept": "Subject + verb + not only + noun/adj/adv + but also + noun/adj/adv",
+          "explanation": "Place 'not only' before the first item and 'but also' before the second item.",
+          "example": "He can speak not only English but also German.",
+          "burmese": "He can speak not only English but also German."
+        },
+        {
+          "concept": "Subject + not only + verb + but also + verb",
+          "explanation": "When joining two verbs, place 'not only' before the first verb and 'but also' before the second.",
+          "example": "She not only dances extraordinarily but also sings perfectly.",
+          "burmese": "She not only dances extraordinarily but also sings perfectly."
+        }
+      ]
+    },
+    {
+      "id": "unit29-lesson2",
+      "title": "Subject-Verb Agreement with Not only \u2026 but also",
+      "content": "If one subject is singular and the other is plural, the verb form agrees with the subject that is nearest the verb. This rule is the same as with 'either \u2026 or' and 'neither \u2026 nor'.",
+      "details": [
+        {
+          "concept": "Verb agrees with nearest subject",
+          "explanation": "When subjects differ in number, the verb takes the form of the nearer subject.",
+          "example": "Not only the bears but also the lion escapes from the zoo.",
+          "burmese": "Not only the bears but also the lion escapes from the zoo."
+        },
+        {
+          "concept": "Reversing subjects changes the verb",
+          "explanation": "When the order of subjects is reversed, the verb form may change to agree with the new nearest subject.",
+          "example": "Not only the lion but also the bears escape from the zoo.",
+          "burmese": "Not only the lion but also the bears escape from the zoo."
+        }
+      ]
+    }
+  ]
+}

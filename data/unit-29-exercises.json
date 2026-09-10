@@ -1,0 +1,92 @@
+{
+  "unit": 29,
+  "exercises": [
+    {
+      "id": "unit29-ex1",
+      "type": "multiple_choice",
+      "instructions": "Combine the following sentences using 'not only \u2026 but also'.",
+      "questions": [
+        {
+          "id": 2901,
+          "question": "There are problems with the children. There are problems with their parents. Combine using 'not only \u2026 but also'.",
+          "options": ["There are problems not only with the children but also with their parents", "There are problems not only with the children or also with their parents", "There not only are problems with the children but also with their parents"],
+          "answer": "There are problems not only with the children but also with their parents",
+          "explanation": "Place 'not only' before the first prepositional phrase and 'but also' before the second. Keep the subject and verb at the beginning. 'Not only \u2026 but also' ကို phrase နှစ်ခုကြားမှာ ထားပါ။",
+          "points": 1
+        },
+        {
+          "id": 2902,
+          "question": "I sent him many letters. I tried to telephone him. Combine using 'not only \u2026 but also'.",
+          "options": ["I not only sent him many letters but also tried to telephone him", "I not only sent him many letters or also tried to telephone him", "I sent not only him many letters but also tried to telephone him"],
+          "answer": "I not only sent him many letters but also tried to telephone him",
+          "explanation": "Place 'not only' before the first verb phrase and 'but also' before the second verb phrase. 'Not only \u2026 but also' ကို verb phrase နှစ်ခုကြားမှာ ထားပါ။",
+          "points": 1
+        },
+        {
+          "id": 2903,
+          "question": "We visit our grandfather's house in summer. We visit our grandfather's house in winter. Combine using 'not only \u2026 but also'.",
+          "options": ["We visit our grandfather's house not only in summer but also in winter", "We visit our grandfather's house not only in summer or also in winter", "We not only visit our grandfather's house in summer but also in winter"],
+          "answer": "We visit our grandfather's house not only in summer but also in winter",
+          "explanation": "Place 'not only' before the first time phrase and 'but also' before the second. 'Not only \u2026 but also' ကို time phrase နှစ်ခုကြားမှာ ထားပါ။",
+          "points": 1
+        },
+        {
+          "id": 2904,
+          "question": "She can dance. She can sing. Combine using 'not only \u2026 but also'.",
+          "options": ["She can not only dance but also sing", "She can not only dance or also sing", "She not only can dance but also to sing"],
+          "answer": "She can not only dance but also sing",
+          "explanation": "Place 'not only' after the modal verb and before the first verb, with 'but also' before the second verb. 'Not only \u2026 but also' ကို verb နှစ်ခုကြားမှာ ထားပါ။",
+          "points": 1
+        },
+        {
+          "id": 2905,
+          "question": "They need food. They need medicine. Combine using 'not only \u2026 but also'.",
+          "options": ["They need not only food but also medicine", "They need not only food or also medicine", "They not need only food but also medicine"],
+          "answer": "They need not only food but also medicine",
+          "explanation": "Place 'not only' before the first noun and 'but also' before the second noun. 'Not only \u2026 but also' ကို noun နှစ်ခုကြားမှာ ထားပါ။",
+          "points": 1
+        },
+        {
+          "id": 2906,
+          "question": "She was upset. She was angry. Combine using 'not only \u2026 but also'.",
+          "options": ["She was not only upset but also angry", "She was not only upset or also angry", "She not only was upset but also angry"],
+          "answer": "She was not only upset but also angry",
+          "explanation": "Place 'not only' after the verb 'was' and before the first adjective, with 'but also' before the second adjective. 'Not only \u2026 but also' ကို adjective နှစ်ခုကြားမှာ ထားပါ။",
+          "points": 1
+        },
+        {
+          "id": 2907,
+          "question": "John smokes. He drinks. Combine using 'not only \u2026 but also'.",
+          "options": ["John not only smokes but also drinks", "John not only smokes or also drinks", "John smokes not only but also drinks"],
+          "answer": "John not only smokes but also drinks",
+          "explanation": "Place 'not only' before the first verb and 'but also' before the second verb. 'Not only \u2026 but also' ကို verb နှစ်ခုကြားမှာ ထားပါ။",
+          "points": 1
+        },
+        {
+          "id": 2908,
+          "question": "Ann has been invited to the party. Mary has been invited to the party. Combine using 'not only \u2026 but also'.",
+          "options": ["Not only Ann but also Mary has been invited to the party", "Not only Ann but also Mary have been invited to the party", "Ann not only has been invited but also Mary to the party"],
+          "answer": "Not only Ann but also Mary has been invited to the party",
+          "explanation": "When the nearest subject is singular ('Mary'), the verb takes the singular form 'has'. 'Not only \u2026 but also' ကို subject နှစ်ခုကြားမှာ ထားပါ။",
+          "points": 1
+        },
+        {
+          "id": 2909,
+          "question": "Maria is clever. She is beautiful. Combine using 'not only \u2026 but also'.",
+          "options": ["Maria is not only clever but also beautiful", "Maria is not only clever or also beautiful", "Maria not only is clever but also beautiful"],
+          "answer": "Maria is not only clever but also beautiful",
+          "explanation": "Place 'not only' after the verb 'is' and before the first adjective, with 'but also' before the second adjective. 'Not only \u2026 but also' ကို adjective နှစ်ခုကြားမှာ ထားပါ။",
+          "points": 1
+        },
+        {
+          "id": 2910,
+          "question": "The cow gives us milk. The goat gives us milk. Combine using 'not only \u2026 but also'.",
+          "options": ["Not only the cow but also the goat gives us milk", "Not only the cow but also the goat give us milk", "The cow not only gives us milk but also the goat"],
+          "answer": "Not only the cow but also the goat gives us milk",
+          "explanation": "When the nearest subject is singular ('the goat'), the verb takes the singular form 'gives'. 'Not only \u2026 but also' ကို subject နှစ်ခုကြားမှာ ထားပါ။",
+          "points": 1
+        }
+      ]
+    }
+  ]
+}

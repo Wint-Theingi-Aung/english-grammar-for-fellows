@@ -1,0 +1,92 @@
+{
+  "unit": 28,
+  "exercises": [
+    {
+      "id": "unit28-ex1",
+      "type": "multiple_choice",
+      "instructions": "Combine the following sentences using 'both \u2026 and'.",
+      "questions": [
+        {
+          "id": 2801,
+          "question": "Fred likes helping his friends. Linda likes helping his friends. Combine using 'both \u2026 and'.",
+          "options": ["Both Fred and Linda like helping their friends", "Fred both likes and Linda helping their friends", "Both likes Fred and Linda helping their friends"],
+          "answer": "Both Fred and Linda like helping their friends",
+          "explanation": "Place 'Both' before the first subject and 'and' before the second. The verb 'like' stays plural. 'Both \u2026 and' ကို subject နှစ်ခုကြားမှာ ထားပါ။",
+          "points": 1
+        },
+        {
+          "id": 2802,
+          "question": "The boy is intelligent. The boy is hardworking. Combine using 'both \u2026 and'.",
+          "options": ["The boy is both intelligent and hardworking", "The boy is both intelligent or hardworking", "Both the boy intelligent and hardworking is"],
+          "answer": "The boy is both intelligent and hardworking",
+          "explanation": "Place 'both' after the verb and 'and' between the two adjectives. 'Both \u2026 and' ကို adjective နှစ်ခုကြားမှာ ထားပါ။",
+          "points": 1
+        },
+        {
+          "id": 2803,
+          "question": "He spoke French fluently. He spoke French correctly. Combine using 'both \u2026 and'.",
+          "options": ["He spoke both French fluently and correctly", "He spoke both French fluently or correctly", "Both he spoke French fluently and correctly"],
+          "answer": "He spoke both French fluently and correctly",
+          "explanation": "Place 'both' after the verb phrase and 'and' between the two adverbs. 'Both \u2026 and' ကို adverb နှစ်ခုကြားမှာ ထားပါ။",
+          "points": 1
+        },
+        {
+          "id": 2804,
+          "question": "Mg Mg bought a new bike. Zaw Zaw bought a new bike. Combine using 'both \u2026 and'.",
+          "options": ["Both Mg Mg and Zaw Zaw bought a new bike", "Both Mg Mg and Zaw Zaw buys a new bike", "Mg Mg both bought and Zaw Zaw a new bike"],
+          "answer": "Both Mg Mg and Zaw Zaw bought a new bike",
+          "explanation": "Place 'Both' before the first subject and 'and' before the second. The past tense verb 'bought' stays the same. 'Both \u2026 and' ကို subject နှစ်ခုကြားမှာ ထားပါ။",
+          "points": 1
+        },
+        {
+          "id": 2805,
+          "question": "James owns a shop. She owns a restaurant. Combine using 'both \u2026 and'.",
+          "options": ["James owns both a shop and a restaurant", "James owns both a shop or a restaurant", "Both James owns a shop and a restaurant"],
+          "answer": "James owns both a shop and a restaurant",
+          "explanation": "Place 'both' after the verb and 'and' between the two objects. 'Both \u2026 and' ကို object နှစ်ခုကြားမှာ ထားပါ။",
+          "points": 1
+        },
+        {
+          "id": 2806,
+          "question": "Jim likes ice hockey. Zak likes ice hockey. Combine using 'both \u2026 and'.",
+          "options": ["Both Jim and Zak like ice hockey", "Both Jim and Zak likes ice hockey", "Jim both likes and Zak ice hockey"],
+          "answer": "Both Jim and Zak like ice hockey",
+          "explanation": "Place 'Both' before the first subject and 'and' before the second. The plural verb 'like' agrees with the compound subject. 'Both \u2026 and' ကို subject နှစ်ခုကြားမှာ ထားပါ။",
+          "points": 1
+        },
+        {
+          "id": 2807,
+          "question": "Ted can't play golf. John can't play golf. Combine using 'both \u2026 and'.",
+          "options": ["Both Ted and John can't play golf", "Both Ted and John doesn't play golf", "Ted both can't play and John golf"],
+          "answer": "Both Ted and John can't play golf",
+          "explanation": "Place 'Both' before the first subject and 'and' before the second. The negative modal 'can't' stays the same. 'Both \u2026 and' ကို subject နှစ်ခုကြားမှာ ထားပါ။",
+          "points": 1
+        },
+        {
+          "id": 2808,
+          "question": "Martha has got skates. Fiona has got skates. Combine using 'both \u2026 and'.",
+          "options": ["Both Martha and Fiona have got skates", "Both Martha and Fiona has got skates", "Martha both has got and Fiona skates"],
+          "answer": "Both Martha and Fiona have got skates",
+          "explanation": "Place 'Both' before the first subject and 'and' before the second. Use 'have' (plural) because the compound subject is plural. 'Both \u2026 and' ကို subject နှစ်ခုကြားမှာ ထားပါ။",
+          "points": 1
+        },
+        {
+          "id": 2809,
+          "question": "Daniel doesn't drink tea. Kim doesn't drink tea. Combine using 'both \u2026 and'.",
+          "options": ["Both Daniel and Kim don't drink tea", "Both Daniel and Kim doesn't drink tea", "Daniel both doesn't drink and Kim tea"],
+          "answer": "Both Daniel and Kim don't drink tea",
+          "explanation": "Place 'Both' before the first subject and 'and' before the second. Use 'don't' (plural) because the compound subject is plural. 'Both \u2026 and' ကို subject နှစ်ခုကြားမှာ ထားပါ။",
+          "points": 1
+        },
+        {
+          "id": 2810,
+          "question": "Tom was late. Ann was late. Combine using 'both \u2026 and'.",
+          "options": ["Both Tom and Ann were late", "Both Tom and Ann was late", "Tom both was late and Ann"],
+          "answer": "Both Tom and Ann were late",
+          "explanation": "Place 'Both' before the first subject and 'and' before the second. Use 'were' (plural) because the compound subject is plural. 'Both \u2026 and' ကို subject နှစ်ခုကြားမှာ ထားပါ။",
+          "points": 1
+        }
+      ]
+    }
+  ]
+}

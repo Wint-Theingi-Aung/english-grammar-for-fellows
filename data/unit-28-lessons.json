@@ -1,0 +1,50 @@
+{
+  "unit": 28,
+  "title": "Both \u2026 and",
+  "lessons": [
+    {
+      "id": "unit28-lesson1",
+      "title": "Both \u2026 and: Connecting Two Items",
+      "content": "'Both \u2026 and' is used to refer to two things or people together. It connects two nouns, adjectives, or phrases of the same grammatical type. The structure is 'Both + noun/adjective + and + noun/adjective'.",
+      "details": [
+        {
+          "concept": "Both + noun + and + noun",
+          "explanation": "Use 'both \u2026 and' to join two nouns that share the same action or quality.",
+          "example": "Both Alice and Susan have to comply with the rules.",
+          "burmese": "Both Alice and Susan have to comply with the rules."
+        },
+        {
+          "concept": "Both + adjective + and + adjective",
+          "explanation": "Use 'both \u2026 and' to join two adjectives describing the same subject.",
+          "example": "Sue is both kind and helpful to others.",
+          "burmese": "Sue is both kind and helpful to others."
+        },
+        {
+          "concept": "Both + subject + and + subject + verb",
+          "explanation": "When 'both \u2026 and' connects two subjects, the verb is always plural.",
+          "example": "Both the students and the teacher are in the class.",
+          "burmese": "Both the students and the teacher are in the class."
+        }
+      ]
+    },
+    {
+      "id": "unit28-lesson2",
+      "title": "Subject-Verb Agreement with Both \u2026 and",
+      "content": "When 'both \u2026 and' joins two subjects, the verb is always plural, even if one subject is singular. This is because 'both' implies two things together, which is always treated as plural.",
+      "details": [
+        {
+          "concept": "Plural verb with both … and",
+          "explanation": "Even if one subject is singular, use a plural verb when joining with 'both \u2026 and'.",
+          "example": "Both Tom and Ann were late.",
+          "burmese": "Both Tom and Ann were late."
+        },
+        {
+          "concept": "Both … and with negative sentences",
+          "explanation": "In negative sentences, 'both \u2026 and' uses the plural negative form.",
+          "example": "Both Daniel and Kim don't drink tea.",
+          "burmese": "Both Daniel and Kim don't drink tea."
+        }
+      ]
+    }
+  ]
+}
