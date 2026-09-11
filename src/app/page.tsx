@@ -41,6 +41,9 @@ const UNIT_TITLES: Record<number, string> = {
   32: "If … not ↔ Unless",
   33: "Nouns: Countable and Uncountable",
   34: "A / an, the, no article",
+  35: "Relative Pronouns",
+  36: "Adverbs of Frequency",
+  37: "Prepositions of Time",
 };
 
 const UNIT_DESCRIPTIONS: Record<number, string> = {
@@ -78,6 +81,9 @@ const UNIT_DESCRIPTIONS: Record<number, string> = {
   32: "Convert between 'If … not' and 'Unless' and learn when not to use will/would.",
   33: "Learn the difference between countable and uncountable nouns.",
   34: "Master when to use a/an, the, or no article before nouns.",
+  35: "Use who, which, that, whose, where, and when to join sentences and give more information.",
+  36: "Learn to use always, usually, often, sometimes, hardly ever, and never to describe frequency.",
+  37: "Master when to use in, on, and at with times, days, months, and years.",
 };
 
 function StatCard({ icon, label, value, color }: { icon: React.ReactNode; label: string; value: string | number; color: string }) {
@@ -290,7 +296,7 @@ export default function HomePage() {
     let totalCompleted = 0;
     let totalCorrect = 0;
     let totalPoints = 0;
-    for (let u = 1; u <= 34; u++) {
+    for (let u = 1; u <= 37; u++) {
       const p = allProgress[String(u)];
       if (p) {
         totalAnswered += p.answered;
@@ -304,14 +310,14 @@ export default function HomePage() {
   }, [allProgress]);
 
   const continueUnit = (() => {
-    for (let u = 1; u <= 34; u++) {
+    for (let u = 1; u <= 37; u++) {
       if (!isUnitAvailable(u)) continue;
       const p = allProgress[String(u)];
       if (!p || (!p.completed && p.answered > 0)) {
         return { unit: u, ...p };
       }
     }
-    for (let u = 1; u <= 34; u++) {
+    for (let u = 1; u <= 37; u++) {
       if (!isUnitAvailable(u)) continue;
       const p = allProgress[String(u)];
       if (!p || !p.completed) {
@@ -336,7 +342,7 @@ export default function HomePage() {
   })();
 
   const pathNodes = useMemo(() => {
-    return Array.from({ length: 34 }, (_, i) => {
+    return Array.from({ length: 37 }, (_, i) => {
       const u = i + 1;
       const p = allProgress[String(u)];
       const total = getTotalQuestionCount(u);
@@ -399,7 +405,7 @@ export default function HomePage() {
           <StatCard
             icon={<svg className="w-5 h-5 text-info-500" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}><path strokeLinecap="round" strokeLinejoin="round" d="M19 11H5m14 0a2 2 0 012 2v6a2 2 0 01-2 2H5a2 2 0 01-2-2v-6a2 2 0 012-2m14 0V9a2 2 0 00-2-2M5 11V9a2 2 0 012-2m0 0V5a2 2 0 012-2h6a2 2 0 012 2v2M7 7h10" /></svg>}
             label="Completed"
-            value={`${stats.totalCompleted}/34`}
+            value={`${stats.totalCompleted}/37`}
             color="stat-glow-navy"
           />
         </section>
@@ -440,7 +446,7 @@ export default function HomePage() {
             All Units
           </h2>
           <div className="grid gap-4 sm:grid-cols-2">
-            {Array.from({ length: 34 }, (_, i) => i + 1).map((u) => {
+            {Array.from({ length: 37 }, (_, i) => i + 1).map((u) => {
               const p = allProgress[String(u)];
               const total = getTotalQuestionCount(u);
               return (

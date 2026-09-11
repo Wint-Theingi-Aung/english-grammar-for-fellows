@@ -1,0 +1,31 @@
+{
+  "unit": 37,
+  "title": "Prepositions of Time",
+  "lessons": [
+    {
+      "id": "unit37-lesson1",
+      "title": "Prepositions of Time: in, on, at",
+      "content": "Use 'in' with parts of the day, months, and years. Use 'on' with days and dates. Use 'at' with times, night, and the weekend.",
+      "details": [
+        {
+          "concept": "In with parts of the day, months, years",
+          "explanation": "Use 'in' with parts of the day (morning, afternoon, evening), months (September, December), and years (1990, 2021).",
+          "example": "I study Spanish in the evening. They start school in June. My father died in 1987.",
+          "burmese": "'in' ကို နေ့ပိုင်း (morning, afternoon, evening)၊ လတွေ (September, December)၊ နှစ်တွေ (1990, 2021) နဲ့ သုံးပါ။"
+        },
+        {
+          "concept": "On with days and dates",
+          "explanation": "Use 'on' with days (Monday, Sunday) and specific dates (20th December, 14th July).",
+          "example": "Can you come on Monday? Schools start on 7th September.",
+          "burmese": "'on' ကို နေ့တွေ (Monday, Sunday) နဲ့ ရက်စွဲတွေ (20th December, 14th July) နဲ့ သုံးပါ။"
+        },
+        {
+          "concept": "At with times, night, the weekend",
+          "explanation": "Use 'at' with specific times (six o'clock, half past eight), night, and the weekend.",
+          "example": "We start school at half past eight. We do homework at night. She wants to go to school at the weekend.",
+          "burmese": "'at' ကို အချိန်တွေ (six o'clock, half past eight)၊ night နဲ့ the weekend နဲ့ သုံးပါ။"
+        }
+      ]
+    }
+  ]
+}

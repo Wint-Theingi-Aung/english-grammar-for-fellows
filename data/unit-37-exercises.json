@@ -1,0 +1,180 @@
+{
+  "unit": 37,
+  "exercises": [
+    {
+      "id": "unit37-ex1",
+      "type": "multiple_choice",
+      "instructions": "Choose the correct preposition of time (in, on, at) for each sentence.",
+      "questions": [
+        {
+          "id": 3701,
+          "question": "We start school ___ half past eight.",
+          "options": ["at", "in", "on"],
+          "answer": "at",
+          "explanation": "'at' is used with specific times like 'half past eight'. 'at' ကို အချိန်တိတိမှတ်တိတွေနဲ့ သုံးပါ။",
+          "points": 1
+        },
+        {
+          "id": 3702,
+          "question": "I don't go to school ___ Saturday.",
+          "options": ["on", "in", "at"],
+          "answer": "on",
+          "explanation": "'on' is used with days like 'Saturday'. 'on' ကို နေ့တွေနဲ့ သုံးပါ။",
+          "points": 1
+        },
+        {
+          "id": 3703,
+          "question": "Classes finish ___ the afternoon.",
+          "options": ["in", "on", "at"],
+          "answer": "in",
+          "explanation": "'in' is used with parts of the day like 'the afternoon'. 'in' ကို နေ့ပိုင်းတွေနဲ့ သုံးပါ။",
+          "points": 1
+        },
+        {
+          "id": 3704,
+          "question": "They start school ___ June.",
+          "options": ["in", "on", "at"],
+          "answer": "in",
+          "explanation": "'in' is used with months like 'June'. 'in' ကို လတွေနဲ့ သုံးပါ။",
+          "points": 1
+        },
+        {
+          "id": 3705,
+          "question": "Schools start ___ 7th September.",
+          "options": ["on", "in", "at"],
+          "answer": "on",
+          "explanation": "'on' is used with specific dates like '7th September'. 'on' ကို ရက်စွဲတွေနဲ့ သုံးပါ။",
+          "points": 1
+        },
+        {
+          "id": 3706,
+          "question": "We do homework ___ night.",
+          "options": ["at", "in", "on"],
+          "answer": "at",
+          "explanation": "'at' is used with 'night'. 'at' ကို 'night' နဲ့ သုံးပါ။",
+          "points": 1
+        },
+        {
+          "id": 3707,
+          "question": "She wants to go to school ___ the weekend.",
+          "options": ["at", "in", "on"],
+          "answer": "at",
+          "explanation": "'at' is used with 'the weekend'. 'at' ကို 'the weekend' နဲ့ သုံးပါ။",
+          "points": 1
+        },
+        {
+          "id": 3708,
+          "question": "My birthday is ___ January.",
+          "options": ["in", "on", "at"],
+          "answer": "in",
+          "explanation": "'in' is used with months like 'January'. 'in' ကို လတွေနဲ့ သုံးပါ။",
+          "points": 1
+        },
+        {
+          "id": 3709,
+          "question": "I study Spanish ___ the evening.",
+          "options": ["in", "on", "at"],
+          "answer": "in",
+          "explanation": "'in' is used with parts of the day like 'the evening'. 'in' ကို နေ့ပိုင်းတွေနဲ့ သုံးပါ။",
+          "points": 1
+        },
+        {
+          "id": 3710,
+          "question": "The programme starts ___ 7.30 pm.",
+          "options": ["at", "in", "on"],
+          "answer": "at",
+          "explanation": "'at' is used with specific times like '7.30 pm'. 'at' ကို အချိန်တိတိမှတ်တိတွေနဲ့ သုံးပါ။",
+          "points": 1
+        },
+        {
+          "id": 3711,
+          "question": "Can you come ___ Monday?",
+          "options": ["on", "in", "at"],
+          "answer": "on",
+          "explanation": "'on' is used with days like 'Monday'. 'on' ကို နေ့တွေနဲ့ သုံးပါ။",
+          "points": 1
+        },
+        {
+          "id": 3712,
+          "question": "It rains a lot ___ winter.",
+          "options": ["in", "on", "at"],
+          "answer": "in",
+          "explanation": "'in' is used with seasons like 'winter'. 'in' ကို ရာသီတွေနဲ့ သုံးပါ။",
+          "points": 1
+        },
+        {
+          "id": 3713,
+          "question": "I usually get up ___ half past eight.",
+          "options": ["at", "in", "on"],
+          "answer": "at",
+          "explanation": "'at' is used with specific times like 'half past eight'. 'at' ကို အချိန်တိတိမှတ်တိတွေနဲ့ သုံးပါ။",
+          "points": 1
+        },
+        {
+          "id": 3714,
+          "question": "My father died ___ 1987.",
+          "options": ["in", "on", "at"],
+          "answer": "in",
+          "explanation": "'in' is used with years like '1987'. 'in' ကို နှစ်တွေနဲ့ သုံးပါ။",
+          "points": 1
+        },
+        {
+          "id": 3715,
+          "question": "Come and see us ___ Christmas Day.",
+          "options": ["on", "in", "at"],
+          "answer": "on",
+          "explanation": "'on' is used with specific days/dates like 'Christmas Day'. 'on' ကို ရက်စွဲတွေနဲ့ သုံးပါ။",
+          "points": 1
+        },
+        {
+          "id": 3716,
+          "question": "They were born ___ January.",
+          "options": ["in", "on", "at"],
+          "answer": "in",
+          "explanation": "'in' is used with months like 'January'. 'in' ကို လတွေနဲ့ သုံးပါ။",
+          "points": 1
+        },
+        {
+          "id": 3717,
+          "question": "They got married ___ autumn.",
+          "options": ["in", "on", "at"],
+          "answer": "in",
+          "explanation": "'in' is used with seasons like 'autumn'. 'in' ကို ရာသီတွေနဲ့ သုံးပါ။",
+          "points": 1
+        },
+        {
+          "id": 3718,
+          "question": "He was happy ___ his birthday.",
+          "options": ["on", "in", "at"],
+          "answer": "on",
+          "explanation": "'on' is used with specific days like 'his birthday'. 'on' ကို နေ့တွေနဲ့ သုံးပါ။",
+          "points": 1
+        },
+        {
+          "id": 3719,
+          "question": "It snowed ___ Sunday morning.",
+          "options": ["on", "in", "at"],
+          "answer": "on",
+          "explanation": "'on' is used with specific day + time combinations like 'Sunday morning'. 'on' ကို နေ့ + အချိန် ပေါင်းစပ်တဲ့အခါ သုံးပါ။",
+          "points": 1
+        },
+        {
+          "id": 3720,
+          "question": "___ the second day of my holiday we visited Disney World.",
+          "options": ["On", "In", "At"],
+          "answer": "On",
+          "explanation": "'On' is used with specific dates/days like 'the second day of my holiday'. 'On' ကို ရက်စွဲတွေနဲ့ သုံးပါ။",
+          "points": 1
+        },
+        {
+          "id": 3721,
+          "question": "My friend went to Italy ___ July.",
+          "options": ["in", "on", "at"],
+          "answer": "in",
+          "explanation": "'in' is used with months like 'July'. 'in' ကို လတွေနဲ့ သုံးပါ။",
+          "points": 1
+        }
+      ]
+    }
+  ]
+}

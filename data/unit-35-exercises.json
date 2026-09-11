@@ -1,0 +1,460 @@
+{
+  "unit": 35,
+  "exercises": [
+    {
+      "id": "unit35-ex1",
+      "type": "multiple_choice",
+      "instructions": "Join the two sentences to make one sentence. Use who, which, that, whose, where or when.",
+      "questions": [
+        {
+          "id": 3501,
+          "question": "Claudia is a linguist. She teaches German.\nJoin using a relative pronoun:",
+          "options": ["Claudia is a linguist who teaches German.", "Claudia is a linguist which teaches German.", "Claudia is a linguist where teaches German."],
+          "answer": "Claudia is a linguist who teaches German.",
+          "explanation": "'who' is used because Claudia is a person. 'who' ကို person အတွက် သုံးပါ။",
+          "points": 1
+        },
+        {
+          "id": 3502,
+          "question": "David Silva is a football player. He speaks Spanish.\nJoin using a relative pronoun:",
+          "options": ["David Silva is a football player who speaks Spanish.", "David Silva is a football player which speaks Spanish.", "David Silva is a football player whose speaks Spanish."],
+          "answer": "David Silva is a football player who speaks Spanish.",
+          "explanation": "'who' is used because David Silva is a person. 'who' ကို person အတွက် သုံးပါ။",
+          "points": 1
+        },
+        {
+          "id": 3503,
+          "question": "The park is a beautiful place. You can go there at the weekend.\nJoin using a relative pronoun:",
+          "options": ["The park is a beautiful place where you can go at the weekend.", "The park is a beautiful place which you can go at the weekend.", "The park is a beautiful place when you can go at the weekend."],
+          "answer": "The park is a beautiful place where you can go at the weekend.",
+          "explanation": "'where' is used because 'the park' is a place. 'where' ကို နေရာအတွက် သုံးပါ။",
+          "points": 1
+        },
+        {
+          "id": 3504,
+          "question": "Last year was a special year. A lot of important things happened that year.\nJoin using a relative pronoun:",
+          "options": ["Last year was a special year when a lot of important things happened.", "Last year was a special year which a lot of important things happened.", "Last year was a special year where a lot of important things happened."],
+          "answer": "Last year was a special year when a lot of important things happened.",
+          "explanation": "'when' is used because 'last year' is a time. 'when' ကို အချိန်အတွက် သုံးပါ။",
+          "points": 1
+        },
+        {
+          "id": 3505,
+          "question": "That is the teacher. Her classes are brilliant.\nJoin using a relative pronoun:",
+          "options": ["That is the teacher whose classes are brilliant.", "That is the teacher who classes are brilliant.", "That is the teacher which classes are brilliant."],
+          "answer": "That is the teacher whose classes are brilliant.",
+          "explanation": "'whose' is used to show possession (her classes = whose classes). 'whose' ကို ပိုင်ဆိုင်မှုပြဖို့ သုံးပါ။",
+          "points": 1
+        },
+        {
+          "id": 3506,
+          "question": "This is a great book. They want to translate it into English.\nJoin using a relative pronoun:",
+          "options": ["This is a great book which they want to translate into English.", "This is a great book who they want to translate into English.", "This is a great book where they want to translate into English."],
+          "answer": "This is a great book which they want to translate into English.",
+          "explanation": "'which' is used because 'a great book' is a thing. 'which' ကို ပစ္စည်းအတွက် သုံးပါ။",
+          "points": 1
+        },
+        {
+          "id": 3507,
+          "question": "Piraha is an unusual language. Only around 400 people speak it.\nJoin using a relative pronoun:",
+          "options": ["Piraha is an unusual language which only around 400 people speak.", "Piraha is an unusual language who only around 400 people speak.", "Piraha is an unusual language whose only around 400 people speak."],
+          "answer": "Piraha is an unusual language which only around 400 people speak.",
+          "explanation": "'which' is used because 'an unusual language' is a thing. 'which' ကို ပစ္စည်းအတွက် သုံးပါ။",
+          "points": 1
+        },
+        {
+          "id": 3508,
+          "question": "George R.R. Martin is an American author. He writes fantasy novels.\nJoin using a relative pronoun:",
+          "options": ["George R.R. Martin is an American author who writes fantasy novels.", "George R.R. Martin is an American author which writes fantasy novels.", "George R.R. Martin is an American author that writes fantasy novels."],
+          "answer": "George R.R. Martin is an American author who writes fantasy novels.",
+          "explanation": "'who' is used because George R.R. Martin is a person. 'who' ကို person အတွက် သုံးပါ။",
+          "points": 1
+        },
+        {
+          "id": 3509,
+          "question": "We go to the cinema on Wednesdays. There is a special price on Wednesdays.\nJoin using a relative pronoun:",
+          "options": ["We go to the cinema on Wednesdays when there is a special price.", "We go to the cinema on Wednesdays which there is a special price.", "We go to the cinema on Wednesdays where there is a special price."],
+          "answer": "We go to the cinema on Wednesdays when there is a special price.",
+          "explanation": "'when' is used because 'Wednesdays' is a time. 'when' ကို အချိန်အတွက် သုံးပါ။",
+          "points": 1
+        },
+        {
+          "id": 3510,
+          "question": "This is the bus. It goes to the city centre.\nJoin using a relative pronoun:",
+          "options": ["This is the bus which goes to the city centre.", "This is the bus who goes to the city centre.", "This is the bus where goes to the city centre."],
+          "answer": "This is the bus which goes to the city centre.",
+          "explanation": "'which' is used because 'the bus' is a thing. 'which' ကို ပစ္စည်းအတွက် သုံးပါ။",
+          "points": 1
+        },
+        {
+          "id": 3511,
+          "question": "He is the writer. His books are very popular at the moment.\nJoin using a relative pronoun:",
+          "options": ["He is the writer whose books are very popular at the moment.", "He is the writer who books are very popular at the moment.", "He is the writer which books are very popular at the moment."],
+          "answer": "He is the writer whose books are very popular at the moment.",
+          "explanation": "'whose' is used to show possession (his books = whose books). 'whose' ကို ပိုင်ဆိုင်မှုပြဖို့ သုံးပါ။",
+          "points": 1
+        },
+        {
+          "id": 3512,
+          "question": "I remember the time. I first met you.\nJoin using a relative pronoun:",
+          "options": ["I remember the time when I first met you.", "I remember the time which I first met you.", "I remember the time where I first met you."],
+          "answer": "I remember the time when I first met you.",
+          "explanation": "'when' is used because 'the time' is a time. 'when' ကို အချိန်အတွက် သုံးပါ။",
+          "points": 1
+        },
+        {
+          "id": 3513,
+          "question": "This is the room. I work.\nJoin using a relative pronoun:",
+          "options": ["This is the room where I work.", "This is the room which I work.", "This is the room when I work."],
+          "answer": "This is the room where I work.",
+          "explanation": "'where' is used because 'the room' is a place. 'where' ကို နေရာအတွက် သုံးပါ။",
+          "points": 1
+        },
+        {
+          "id": 3514,
+          "question": "I go to a meeting. There are people from many countries.\nJoin using a relative pronoun:",
+          "options": ["I go to a meeting where there are people from many countries.", "I go to a meeting which there are people from many countries.", "I go to a meeting when there are people from many countries."],
+          "answer": "I go to a meeting where there are people from many countries.",
+          "explanation": "'where' is used because 'a meeting' is a place/event. 'where' ကို နေရာအတွက် သုံးပါ။",
+          "points": 1
+        },
+        {
+          "id": 3515,
+          "question": "She is the girl. Her cousin is at our school.\nJoin using a relative pronoun:",
+          "options": ["She is the girl whose cousin is at our school.", "She is the girl who cousin is at our school.", "She is the girl which cousin is at our school."],
+          "answer": "She is the girl whose cousin is at our school.",
+          "explanation": "'whose' is used to show possession (her cousin = whose cousin). 'whose' ကို ပိုင်ဆိုင်မှုပြဖို့ သုံးပါ။",
+          "points": 1
+        },
+        {
+          "id": 3516,
+          "question": "I use three languages. I learnt them at school.\nJoin using a relative pronoun:",
+          "options": ["I use three languages which I learnt at school.", "I use three languages who I learnt at school.", "I use three languages whose I learnt at school."],
+          "answer": "I use three languages which I learnt at school.",
+          "explanation": "'which' is used because 'three languages' are things. 'which' ကို ပစ္စည်းအတွက် သုံးပါ။",
+          "points": 1
+        },
+        {
+          "id": 3517,
+          "question": "Russia is a country. It is very cold in winter.\nJoin using a relative pronoun:",
+          "options": ["Russia is a country which is very cold in winter.", "Russia is a country who is very cold in winter.", "Russia is a country where is very cold in winter."],
+          "answer": "Russia is a country which is very cold in winter.",
+          "explanation": "'which' is used because 'a country' is a thing. 'which' ကို ပစ္စည်းအတွက် သုံးပါ။",
+          "points": 1
+        },
+        {
+          "id": 3518,
+          "question": "August is a month. Lots of people go on holiday.\nJoin using a relative pronoun:",
+          "options": ["August is a month when lots of people go on holiday.", "August is a month which lots of people go on holiday.", "August is a month where lots of people go on holiday."],
+          "answer": "August is a month when lots of people go on holiday.",
+          "explanation": "'when' is used because 'a month' is a time. 'when' ကို အချိန်အတွက် သုံးပါ။",
+          "points": 1
+        },
+        {
+          "id": 3519,
+          "question": "That is the man. His wife is famous.\nJoin using a relative pronoun:",
+          "options": ["That is the man whose wife is famous.", "That is the man who wife is famous.", "That is the man which wife is famous."],
+          "answer": "That is the man whose wife is famous.",
+          "explanation": "'whose' is used to show possession (his wife = whose wife). 'whose' ကို ပိုင်ဆိုင်မှုပြဖို့ သုံးပါ။",
+          "points": 1
+        },
+        {
+          "id": 3520,
+          "question": "The weekend is a time. People can usually relax.\nJoin using a relative pronoun:",
+          "options": ["The weekend is a time when people can usually relax.", "The weekend is a time which people can usually relax.", "The weekend is a time where people can usually relax."],
+          "answer": "The weekend is a time when people can usually relax.",
+          "explanation": "'when' is used because 'a time' is a time. 'when' ကို အချိန်အတွက် သုံးပါ။",
+          "points": 1
+        },
+        {
+          "id": 3521,
+          "question": "New York is a city. They make a lot of films.\nJoin using a relative pronoun:",
+          "options": ["New York is a city where they make a lot of films.", "New York is a city which they make a lot of films.", "New York is a city when they make a lot of films."],
+          "answer": "New York is a city where they make a lot of films.",
+          "explanation": "'where' is used because 'a city' is a place. 'where' ကို နေရာအတွက် သုံးပါ။",
+          "points": 1
+        },
+        {
+          "id": 3522,
+          "question": "Great Expectations is a good book. I enjoyed reading it.\nJoin using a relative pronoun:",
+          "options": ["Great Expectations is a good book which I enjoyed reading.", "Great Expectations is a good book who I enjoyed reading.", "Great Expectations is a good book whose I enjoyed reading."],
+          "answer": "Great Expectations is a good book which I enjoyed reading.",
+          "explanation": "'which' is used because 'a good book' is a thing. 'which' ကို ပစ္စည်းအတွက် သုံးပါ။",
+          "points": 1
+        },
+        {
+          "id": 3523,
+          "question": "April is a busy month. We have a lot of tests in April.\nJoin using a relative pronoun:",
+          "options": ["April is a busy month when we have a lot of tests.", "April is a busy month which we have a lot of tests.", "April is a busy month where we have a lot of tests."],
+          "answer": "April is a busy month when we have a lot of tests.",
+          "explanation": "'when' is used because 'a busy month' is a time. 'when' ကို အချိန်အတွက် သုံးပါ။",
+          "points": 1
+        },
+        {
+          "id": 3524,
+          "question": "Mr. Jones is the teacher. He taught me maths last year.\nJoin using a relative pronoun:",
+          "options": ["Mr. Jones is the teacher who taught me maths last year.", "Mr. Jones is the teacher which taught me maths last year.", "Mr. Jones is the teacher where taught me maths last year."],
+          "answer": "Mr. Jones is the teacher who taught me maths last year.",
+          "explanation": "'who' is used because Mr. Jones is a person. 'who' ကို person အတွက် သုံးပါ။",
+          "points": 1
+        },
+        {
+          "id": 3525,
+          "question": "\"Green\" is a restaurant. You can get vegetarian food there.\nJoin using a relative pronoun:",
+          "options": ["\"Green\" is a restaurant where you can get vegetarian food.", "\"Green\" is a restaurant which you can get vegetarian food.", "\"Green\" is a restaurant when you can get vegetarian food."],
+          "answer": "\"Green\" is a restaurant where you can get vegetarian food.",
+          "explanation": "'where' is used because 'a restaurant' is a place. 'where' ကို နေရာအတွက် သုံးပါ။",
+          "points": 1
+        },
+        {
+          "id": 3526,
+          "question": "We chose the hotel. It seemed to be the nicest.\nJoin using a relative pronoun:",
+          "options": ["We chose the hotel which seemed to be the nicest.", "We chose the hotel who seemed to be the nicest.", "We chose the hotel whose seemed to be the nicest."],
+          "answer": "We chose the hotel which seemed to be the nicest.",
+          "explanation": "'which' is used because 'the hotel' is a thing. 'which' ကို ပစ္စည်းအတွက် သုံးပါ။",
+          "points": 1
+        },
+        {
+          "id": 3527,
+          "question": "She spoke to the man. He was standing next to her.\nJoin using a relative pronoun:",
+          "options": ["She spoke to the man who was standing next to her.", "She spoke to the man which was standing next to her.", "She spoke to the man where was standing next to her."],
+          "answer": "She spoke to the man who was standing next to her.",
+          "explanation": "'who' is used because 'the man' is a person. 'who' ကို person အတွက် သုံးပါ။",
+          "points": 1
+        },
+        {
+          "id": 3528,
+          "question": "He likes the other people. They work in his office.\nJoin using a relative pronoun:",
+          "options": ["He likes the other people who work in his office.", "He likes the other people which work in his office.", "He likes the other people whose work in his office."],
+          "answer": "He likes the other people who work in his office.",
+          "explanation": "'who' is used because 'the other people' are persons. 'who' ကို person တွေအတွက် သုံးပါ။",
+          "points": 1
+        },
+        {
+          "id": 3529,
+          "question": "I paid the bills. They came yesterday.\nJoin using a relative pronoun:",
+          "options": ["I paid the bills which came yesterday.", "I paid the bills who came yesterday.", "I paid the bills whose came yesterday."],
+          "answer": "I paid the bills which came yesterday.",
+          "explanation": "'which' is used because 'the bills' are things. 'which' ကို ပစ္စည်းအတွက် သုံးပါ။",
+          "points": 1
+        },
+        {
+          "id": 3530,
+          "question": "I read the letters. They came in the morning post.\nJoin using a relative pronoun:",
+          "options": ["I read the letters which came in the morning post.", "I read the letters who came in the morning post.", "I read the letters whose came in the morning post."],
+          "answer": "I read the letters which came in the morning post.",
+          "explanation": "'which' is used because 'the letters' are things. 'which' ကို ပစ္စည်းအတွက် သုံးပါ။",
+          "points": 1
+        },
+        {
+          "id": 3531,
+          "question": "The bus goes to the airport. It leaves every 20 minutes.\nJoin using a relative pronoun:",
+          "options": ["The bus which goes to the airport leaves every 20 minutes.", "The bus who goes to the airport leaves every 20 minutes.", "The bus whose goes to the airport leaves every 20 minutes."],
+          "answer": "The bus which goes to the airport leaves every 20 minutes.",
+          "explanation": "'which' is used because 'the bus' is a thing. 'which' ကို ပစ္စည်းအတွက် သုံးပါ။",
+          "points": 1
+        },
+        {
+          "id": 3532,
+          "question": "The picture was hanging near the door. It was horrible.\nJoin using a relative pronoun:",
+          "options": ["The picture which was hanging near the door was horrible.", "The picture who was hanging near the door was horrible.", "The picture where was hanging near the door was horrible."],
+          "answer": "The picture which was hanging near the door was horrible.",
+          "explanation": "'which' is used because 'the picture' is a thing. 'which' ကို ပစ္စည်းအတွက် သုံးပါ။",
+          "points": 1
+        },
+        {
+          "id": 3533,
+          "question": "The instructor taught me how to drive. He was very patient.\nJoin using a relative pronoun:",
+          "options": ["The instructor who taught me how to drive was very patient.", "The instructor which taught me how to drive was very patient.", "The instructor where taught me how to drive was very patient."],
+          "answer": "The instructor who taught me how to drive was very patient.",
+          "explanation": "'who' is used because 'the instructor' is a person. 'who' ကို person အတွက် သုံးပါ။",
+          "points": 1
+        },
+        {
+          "id": 3534,
+          "question": "The girl was sitting next to me. She started talking to me.\nJoin using a relative pronoun:",
+          "options": ["The girl who was sitting next to me started talking to me.", "The girl which was sitting next to me started talking to me.", "The girl where was sitting next to me started talking to me."],
+          "answer": "The girl who was sitting next to me started talking to me.",
+          "explanation": "'who' is used because 'the girl' is a person. 'who' ကို person အတွက် သုံးပါ။",
+          "points": 1
+        },
+        {
+          "id": 3535,
+          "question": "I went to see a doctor. She had helped my mother.\nJoin using a relative pronoun:",
+          "options": ["I went to see a doctor who had helped my mother.", "I went to see a doctor which had helped my mother.", "I went to see a doctor where had helped my mother."],
+          "answer": "I went to see a doctor who had helped my mother.",
+          "explanation": "'who' is used because 'a doctor' is a person. 'who' ကို person အတွက် သုံးပါ။",
+          "points": 1
+        },
+        {
+          "id": 3536,
+          "question": "A dog bit me. It belonged to Mrs. Jones.\nJoin using a relative pronoun:",
+          "options": ["The dog which bit me belonged to Mrs. Jones.", "The dog who bit me belonged to Mrs. Jones.", "The dog whose bit me belonged to Mrs. Jones."],
+          "answer": "The dog which bit me belonged to Mrs. Jones.",
+          "explanation": "'which' is used because 'a dog' is a thing/animal. 'which' ကို ပစ္စည်းအတွက် သုံးပါ။",
+          "points": 1
+        },
+        {
+          "id": 3537,
+          "question": "A woman wrote to me. She wanted my advice.\nJoin using a relative pronoun:",
+          "options": ["The woman who wrote to me wanted my advice.", "The woman which wrote to me wanted my advice.", "The woman where wrote to me wanted my advice."],
+          "answer": "The woman who wrote to me wanted my advice.",
+          "explanation": "'who' is used because 'a woman' is a person. 'who' ကို person အတွက် သုံးပါ။",
+          "points": 1
+        },
+        {
+          "id": 3538,
+          "question": "A bus crashed. It was 23 years old.\nJoin using a relative pronoun:",
+          "options": ["The bus which crashed was 23 years old.", "The bus who crashed was 23 years old.", "The bus whose crashed was 23 years old."],
+          "answer": "The bus which crashed was 23 years old.",
+          "explanation": "'which' is used because 'a bus' is a thing. 'which' ကို ပစ္စည်းအတွက် သုံးပါ။",
+          "points": 1
+        },
+        {
+          "id": 3539,
+          "question": "Ann talked to a man. He had won a lot of money.\nJoin using a relative pronoun:",
+          "options": ["Ann talked to a man who had won a lot of money.", "Ann talked to a man which had won a lot of money.", "Ann talked to a man where had won a lot of money."],
+          "answer": "Ann talked to a man who had won a lot of money.",
+          "explanation": "'who' is used because 'a man' is a person. 'who' ကို person အတွက် သုံးပါ။",
+          "points": 1
+        },
+        {
+          "id": 3540,
+          "question": "Mary was staying with her friend. He has a big house in Scotland.\nJoin using a relative pronoun:",
+          "options": ["Mary was staying with her friend who has a big house in Scotland.", "Mary was staying with her friend which has a big house in Scotland.", "Mary was staying with her friend whose has a big house in Scotland."],
+          "answer": "Mary was staying with her friend who has a big house in Scotland.",
+          "explanation": "'who' is used because 'her friend' is a person. 'who' ကို person အတွက် သုံးပါ။",
+          "points": 1
+        },
+        {
+          "id": 3541,
+          "question": "Mont Blanc is between France and Italy. It is the highest mountain in the Alps.\nJoin using a relative pronoun:",
+          "options": ["Mont Blanc, which is between France and Italy, is the highest mountain in the Alps.", "Mont Blanc, who is between France and Italy, is the highest mountain in the Alps.", "Mont Blanc, whose is between France and Italy, is the highest mountain in the Alps."],
+          "answer": "Mont Blanc, which is between France and Italy, is the highest mountain in the Alps.",
+          "explanation": "'which' is used because 'Mont Blanc' is a thing (mountain). 'which' ကို ပစ္စည်းအတွက် သုံးပါ။",
+          "points": 1
+        },
+        {
+          "id": 3542,
+          "question": "Alfred Hitchcock was born in Britain. He worked for many years in Hollywood.\nJoin using a relative pronoun:",
+          "options": ["Alfred Hitchcock, who was born in Britain, worked for many years in Hollywood.", "Alfred Hitchcock, which was born in Britain, worked for many years in Hollywood.", "Alfred Hitchcock, whose was born in Britain, worked for many years in Hollywood."],
+          "answer": "Alfred Hitchcock, who was born in Britain, worked for many years in Hollywood.",
+          "explanation": "'who' is used because Alfred Hitchcock is a person. 'who' ကို person အတွက် သုံးပါ။",
+          "points": 1
+        },
+        {
+          "id": 3543,
+          "question": "John F Kennedy died in 1963. He was a very famous American President.\nJoin using a relative pronoun:",
+          "options": ["John F Kennedy, who died in 1963, was a very famous American President.", "John F Kennedy, which died in 1963, was a very famous American President.", "John F Kennedy, whose died in 1963, was a very famous American President."],
+          "answer": "John F Kennedy, who died in 1963, was a very famous American President.",
+          "explanation": "'who' is used because John F Kennedy is a person. 'who' ကို person အတွက် သုံးပါ။",
+          "points": 1
+        },
+        {
+          "id": 3544,
+          "question": "Charlie Chaplin was from a poor family. He became a very rich man.\nJoin using a relative pronoun:",
+          "options": ["Charlie Chaplin, who was from a poor family, became a very rich man.", "Charlie Chaplin, which was from a poor family, became a very rich man.", "Charlie Chaplin, whose was from a poor family, became a very rich man."],
+          "answer": "Charlie Chaplin, who was from a poor family, became a very rich man.",
+          "explanation": "'who' is used because Charlie Chaplin is a person. 'who' ကို person အတွက် သုံးပါ။",
+          "points": 1
+        },
+        {
+          "id": 3545,
+          "question": "Last night we met a man. He is a millionaire.\nJoin using a relative pronoun:",
+          "options": ["Last night we met a man who is a millionaire.", "Last night we met a man which is a millionaire.", "Last night we met a man where is a millionaire."],
+          "answer": "Last night we met a man who is a millionaire.",
+          "explanation": "'who' is used because 'a man' is a person. 'who' ကို person အတွက် သုံးပါ။",
+          "points": 1
+        },
+        {
+          "id": 3546,
+          "question": "Madonna is a popular pop singer and actress. She was born in the USA.\nJoin using a relative pronoun:",
+          "options": ["Madonna, who is a popular pop singer and actress, was born in the USA.", "Madonna, which is a popular pop singer and actress, was born in the USA.", "Madonna, whose is a popular pop singer and actress, was born in the USA."],
+          "answer": "Madonna, who is a popular pop singer and actress, was born in the USA.",
+          "explanation": "'who' is used because Madonna is a person. 'who' ကို person အတွက် သုံးပါ။",
+          "points": 1
+        },
+        {
+          "id": 3547,
+          "question": "My grandparents live in Cordoba. They are school teachers.\nJoin using a relative pronoun:",
+          "options": ["My grandparents, who live in Cordoba, are school teachers.", "My grandparents, which live in Cordoba, are school teachers.", "My grandparents, whose live in Cordoba, are school teachers."],
+          "answer": "My grandparents, who live in Cordoba, are school teachers.",
+          "explanation": "'who' is used because 'my grandparents' are persons. 'who' ကို person တွေအတွက် သုံးပါ။",
+          "points": 1
+        },
+        {
+          "id": 3548,
+          "question": "The police arrested the man. He murdered his wife.\nJoin using a relative pronoun:",
+          "options": ["The police arrested the man who murdered his wife.", "The police arrested the man which murdered his wife.", "The police arrested the man whose murdered his wife."],
+          "answer": "The police arrested the man who murdered his wife.",
+          "explanation": "'who' is used because 'the man' is a person. 'who' ကို person အတွက် သုံးပါ။",
+          "points": 1
+        },
+        {
+          "id": 3549,
+          "question": "I can't remember the name of the street. I lost my passport there.\nJoin using a relative pronoun:",
+          "options": ["I can't remember the name of the street where I lost my passport.", "I can't remember the name of the street which I lost my passport.", "I can't remember the name of the street when I lost my passport."],
+          "answer": "I can't remember the name of the street where I lost my passport.",
+          "explanation": "'where' is used because 'the street' is a place. 'where' ကို နေရာအတွက် သုံးပါ။",
+          "points": 1
+        },
+        {
+          "id": 3550,
+          "question": "Where are the shoes? I bought them yesterday.\nJoin using a relative pronoun:",
+          "options": ["Where are the shoes which I bought yesterday?", "Where are the shoes who I bought yesterday?", "Where are the shoes whose I bought yesterday?"],
+          "answer": "Where are the shoes which I bought yesterday?",
+          "explanation": "'which' is used because 'the shoes' are things. 'which' ကို ပစ္စည်းအတွက် သုံးပါ။",
+          "points": 1
+        },
+        {
+          "id": 3551,
+          "question": "The book is very interesting. I borrowed it from the library.\nJoin using a relative pronoun:",
+          "options": ["The book which I borrowed from the library is very interesting.", "The book who I borrowed from the library is very interesting.", "The book whose I borrowed from the library is very interesting."],
+          "answer": "The book which I borrowed from the library is very interesting.",
+          "explanation": "'which' is used because 'the book' is a thing. 'which' ကို ပစ္စည်းအတွက် သုံးပါ။",
+          "points": 1
+        },
+        {
+          "id": 3552,
+          "question": "This is my boyfriend. His father works at Macy's.\nJoin using a relative pronoun:",
+          "options": ["This is my boyfriend whose father works at Macy's.", "This is my boyfriend who father works at Macy's.", "This is my boyfriend which father works at Macy's."],
+          "answer": "This is my boyfriend whose father works at Macy's.",
+          "explanation": "'whose' is used to show possession (his father = whose father). 'whose' ကို ပိုင်ဆိုင်မှုပြဖို့ သုံးပါ။",
+          "points": 1
+        },
+        {
+          "id": 3553,
+          "question": "I will show you the church. I got married there.\nJoin using a relative pronoun:",
+          "options": ["I will show you the church where I got married.", "I will show you the church which I got married.", "I will show you the church when I got married."],
+          "answer": "I will show you the church where I got married.",
+          "explanation": "'where' is used because 'the church' is a place. 'where' ကို နေရာအတွက် သုံးပါ။",
+          "points": 1
+        },
+        {
+          "id": 3554,
+          "question": "This is the house. I had my first party here.\nJoin using a relative pronoun:",
+          "options": ["This is the house where I had my first party.", "This is the house which I had my first party.", "This is the house when I had my first party."],
+          "answer": "This is the house where I had my first party.",
+          "explanation": "'where' is used because 'the house' is a place. 'where' ကို နေရာအတွက် သုံးပါ။",
+          "points": 1
+        },
+        {
+          "id": 3555,
+          "question": "Decorating is a difficult job. I hate it.\nJoin using a relative pronoun:",
+          "options": ["Decorating is a difficult job which I hate.", "Decorating is a difficult job who I hate.", "Decorating is a difficult job whose I hate."],
+          "answer": "Decorating is a difficult job which I hate.",
+          "explanation": "'which' is used because 'a difficult job' is a thing. 'which' ကို ပစ္စည်းအတွက် သုံးပါ။",
+          "points": 1
+        },
+        {
+          "id": 3556,
+          "question": "Christmas is a day. People are happy.\nJoin using a relative pronoun:",
+          "options": ["Christmas is a day when people are happy.", "Christmas is a day which people are happy.", "Christmas is a day where people are happy."],
+          "answer": "Christmas is a day when people are happy.",
+          "explanation": "'when' is used because 'a day' is a time. 'when' ကို အချိန်အတွက် သုံးပါ။",
+          "points": 1
+        }
+      ]
+    }
+  ]
+}

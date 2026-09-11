@@ -1,0 +1,49 @@
+{
+  "unit": 35,
+  "title": "Relative Pronouns",
+  "lessons": [
+    {
+      "id": "unit35-lesson1",
+      "title": "Relative Pronouns: who, which, that, whose, where, when",
+      "content": "Relative pronouns give information about the person, thing, place, or time in the first half of the sentence. Use 'who' and 'that' for people, 'which' and 'that' for things, 'whose' for possessions, 'where' for places, and 'when' for times.",
+      "details": [
+        {
+          "concept": "Who and that for people",
+          "explanation": "Use 'who' or 'that' when the antecedent is a person.",
+          "example": "We met a girl who had lost her way. I saw a soldier who had lost an arm.",
+          "burmese": "'who' နဲ့ 'that' ကို လူတွေအတွက် သုံးပါ။"
+        },
+        {
+          "concept": "Which and that for things",
+          "explanation": "Use 'which' or 'that' when the antecedent is a thing.",
+          "example": "She lives in New York which she likes. I bought a new car that is very fast.",
+          "burmese": "'which' နဲ့ 'that' ကို ပစ္စည်းတွေအတွက် သုံးပါ။"
+        },
+        {
+          "concept": "Whose for possessions",
+          "explanation": "Use 'whose' to show possession or ownership.",
+          "example": "The dog whose owner lives next door is over there. This is the man whose dog bit me.",
+          "burmese": "'whose' ကို ပိုင်ဆိုင်မှုပြဖို့ သုံးပါ။"
+        },
+        {
+          "concept": "Where for places",
+          "explanation": "Use 'where' when the antecedent is a place.",
+          "example": "I know a great restaurant where we can get good food.",
+          "burmese": "'where' ကို နေရာတွေအတွက် သုံးပါ။"
+        },
+        {
+          "concept": "When for times",
+          "explanation": "Use 'when' when the antecedent is a time.",
+          "example": "My parents remember that time when there was no internet.",
+          "burmese": "'when' ကို အချိန်တွေအတွက် သုံးပါ။"
+        },
+        {
+          "concept": "Omitting relative pronouns",
+          "explanation": "We can omit who, which, or that when a noun or pronoun comes immediately after (not when it is the subject).",
+          "example": "That's the film (that) I saw. = That's the film that I saw. BUT: That's the film that was popular. (cannot omit)",
+          "burmese": "who, which, or that ကို pronoun or noun ပြီးချင်း ပါလာရင် ဖြုတ်လို့ရပါတယ်။"
+        }
+      ]
+    }
+  ]
+}

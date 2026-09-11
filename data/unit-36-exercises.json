@@ -1,0 +1,140 @@
+{
+  "unit": 36,
+  "exercises": [
+    {
+      "id": "unit36-ex1",
+      "type": "multiple_choice",
+      "instructions": "Put the words in order to make sentences. Choose the correct sentence.",
+      "questions": [
+        {
+          "id": 3601,
+          "question": "the / never / to / cinema / go / I\nPut the words in order:",
+          "options": ["I never go to the cinema.", "Never I go to the cinema.", "I go never to the cinema."],
+          "answer": "I never go to the cinema.",
+          "explanation": "'never' goes before the main verb 'go'. 'never' ကို main verb 'go' ရှေ့မှာ ထားပါ။",
+          "points": 1
+        },
+        {
+          "id": 3602,
+          "question": "usually / a / don't / break / have / We\nPut the words in order:",
+          "options": ["We usually don't have a break.", "We don't usually have a break.", "Usually we don't have a break."],
+          "answer": "We don't usually have a break.",
+          "explanation": "'usually' goes between 'don't' and the main verb 'have'. 'usually' ကို 'don't' နဲ့ 'have' ကြားမှာ ထားပါ။",
+          "points": 1
+        },
+        {
+          "id": 3603,
+          "question": "is / always / sunny / It / here\nPut the words in order:",
+          "options": ["It is always sunny here.", "It always is sunny here.", "Always it is sunny here."],
+          "answer": "It is always sunny here.",
+          "explanation": "'always' goes after the verb to be 'is'. 'always' ကို verb to be 'is' ပြီးနောက်မှာ ထားပါ။",
+          "points": 1
+        },
+        {
+          "id": 3604,
+          "question": "goes / hardly / the / ever / to / Tommy / park\nPut the words in order:",
+          "options": ["Tommy hardly ever goes to the park.", "Tommy goes hardly ever to the park.", "Hardly ever Tommy goes to the park."],
+          "answer": "Tommy hardly ever goes to the park.",
+          "explanation": "'hardly ever' goes before the main verb 'goes'. 'hardly ever' ကို main verb 'goes' ရှေ့မှာ ထားပါ။",
+          "points": 1
+        },
+        {
+          "id": 3605,
+          "question": "is / often / late / John\nPut the words in order:",
+          "options": ["John is often late.", "John often is late.", "Often John is late."],
+          "answer": "John is often late.",
+          "explanation": "'often' goes after the verb to be 'is'. 'often' ကို verb to be 'is' ပြီးနောက်မှာ ထားပါ။",
+          "points": 1
+        },
+        {
+          "id": 3606,
+          "question": "are / friends / My / late / often\nPut the words in order:",
+          "options": ["My friends are often late.", "My friends often are late.", "Often my friends are late."],
+          "answer": "My friends are often late.",
+          "explanation": "'often' goes after the verb to be 'are'. 'often' ကို verb to be 'are' ပြီးနောက်မှာ ထားပါ။",
+          "points": 1
+        },
+        {
+          "id": 3607,
+          "question": "is / My / happy / sister / always\nPut the words in order:",
+          "options": ["My sister is always happy.", "My sister always is happy.", "Always my sister is happy."],
+          "answer": "My sister is always happy.",
+          "explanation": "'always' goes after the verb to be 'is'. 'always' ကို verb to be 'is' ပြီးနောက်မှာ ထားပါ။",
+          "points": 1
+        },
+        {
+          "id": 3608,
+          "question": "They / sport / ever / hardly / do\nPut the words in order:",
+          "options": ["They hardly ever do sport.", "They do hardly ever sport.", "Hardly ever they do sport."],
+          "answer": "They hardly ever do sport.",
+          "explanation": "'hardly ever' goes before the main verb 'do'. 'hardly ever' ကို main verb 'do' ရှေ့မှာ ထားပါ။",
+          "points": 1
+        },
+        {
+          "id": 3609,
+          "question": "school / to / walk / sometimes / We\nPut the words in order:",
+          "options": ["We sometimes walk to school.", "We walk sometimes to school.", "Sometimes we walk to school."],
+          "answer": "We sometimes walk to school.",
+          "explanation": "'sometimes' goes before the main verb 'walk'. 'sometimes' ကို main verb 'walk' ရှေ့မှာ ထားပါ။",
+          "points": 1
+        },
+        {
+          "id": 3610,
+          "question": "Internet / I / usually / the / surf\nPut the words in order:",
+          "options": ["I usually surf the Internet.", "I surf usually the Internet.", "Usually I surf the Internet."],
+          "answer": "I usually surf the Internet.",
+          "explanation": "'usually' goes before the main verb 'surf'. 'usually' ကို main verb 'surf' ရှေ့မှာ ထားပါ။",
+          "points": 1
+        },
+        {
+          "id": 3611,
+          "question": "brother / My / me / with / my homework / ever / helps / hardly\nPut the words in order:",
+          "options": ["My brother hardly ever helps me with my homework.", "My brother helps hardly ever me with my homework.", "Hardly ever my brother helps me with my homework."],
+          "answer": "My brother hardly ever helps me with my homework.",
+          "explanation": "'hardly ever' goes before the main verb 'helps'. 'hardly ever' ကို main verb 'helps' ရှေ့မှာ ထားပါ။",
+          "points": 1
+        },
+        {
+          "id": 3612,
+          "question": "am / sometimes / I / in the maths / bored / lessons\nPut the words in order:",
+          "options": ["I am sometimes bored in the maths lessons.", "I sometimes am bored in the maths lessons.", "Sometimes I am bored in the maths lessons."],
+          "answer": "I am sometimes bored in the maths lessons.",
+          "explanation": "'sometimes' goes after the verb to be 'am'. 'sometimes' ကို verb to be 'am' ပြီးနောက်မှာ ထားပါ။",
+          "points": 1
+        },
+        {
+          "id": 3613,
+          "question": "clean / my / bedroom / the weekend / at / I / often\nPut the words in order:",
+          "options": ["I often clean my bedroom at the weekend.", "I clean often my bedroom at the weekend.", "Often I clean my bedroom at the weekend."],
+          "answer": "I often clean my bedroom at the weekend.",
+          "explanation": "'often' goes before the main verb 'clean'. 'often' ကို main verb 'clean' ရှေ့မှာ ထားပါ။",
+          "points": 1
+        },
+        {
+          "id": 3614,
+          "question": "never / You and Tony / computer / with / games / me / play\nPut the words in order:",
+          "options": ["You and Tony never play computer games with me.", "You and Tony play never computer games with me.", "Never You and Tony play computer games with me."],
+          "answer": "You and Tony never play computer games with me.",
+          "explanation": "'never' goes before the main verb 'play'. 'never' ကို main verb 'play' ရှေ့မှာ ထားပါ။",
+          "points": 1
+        },
+        {
+          "id": 3615,
+          "question": "are / at the sports centre / You / usually / on Sunday\nPut the words in order:",
+          "options": ["You are usually at the sports centre on Sunday.", "You usually are at the sports centre on Sunday.", "Usually you are at the sports centre on Sunday."],
+          "answer": "You are usually at the sports centre on Sunday.",
+          "explanation": "'usually' goes after the verb to be 'are'. 'usually' ကို verb to be 'are' ပြီးနောက်မှာ ထားပါ။",
+          "points": 1
+        },
+        {
+          "id": 3616,
+          "question": "arrives / The school bus / at half past eight / always\nPut the words in order:",
+          "options": ["The school bus always arrives at half past eight.", "The school bus arrives always at half past eight.", "Always the school bus arrives at half past eight."],
+          "answer": "The school bus always arrives at half past eight.",
+          "explanation": "'always' goes before the main verb 'arrives'. 'always' ကို main verb 'arrives' ရှေ့မှာ ထားပါ။",
+          "points": 1
+        }
+      ]
+    }
+  ]
+}

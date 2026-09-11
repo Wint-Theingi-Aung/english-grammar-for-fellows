@@ -1,0 +1,31 @@
+{
+  "unit": 36,
+  "title": "Adverbs of Frequency",
+  "lessons": [
+    {
+      "id": "unit36-lesson1",
+      "title": "Adverbs of Frequency: always, usually, often, sometimes, hardly ever, never",
+      "content": "We use adverbs of frequency to say if something happens often or not. The usual position is before the main verb. Adverbs of frequency go after the verb to be.",
+      "details": [
+        {
+          "concept": "Adverbs of frequency list",
+          "explanation": "The adverbs of frequency from most to least: always (100%), usually, often, sometimes, hardly ever, never (0%).",
+          "example": "I always do my homework. I usually go to the theatre. I never dance.",
+          "burmese": "Adverbs of frequency တွေက ဘယ်လောက် မကြာခဏ ဖြစ်တယ်ဆိုတာ ပြောပါတယ်။ always (100%) ကနေ never (0%) ထိ ရှိပါတယ်။"
+        },
+        {
+          "concept": "Position: before main verb",
+          "explanation": "Place adverbs of frequency before the main verb in a sentence.",
+          "example": "I always do my homework. I usually go to the theatre. I hardly ever go out with my friends.",
+          "burmese": "Adverbs of frequency ကို main verb ရှေ့မှာ ထားပါ။"
+        },
+        {
+          "concept": "Position: after verb to be",
+          "explanation": "Place adverbs of frequency after the verb to be (am, is, are, was, were).",
+          "example": "I am often relaxed. I am sometimes late for class.",
+          "burmese": "Adverbs of frequency ကို verb to be (am, is, are, was, were) ပြီးနောက်မှာ ထားပါ။"
+        }
+      ]
+    }
+  ]
+}
