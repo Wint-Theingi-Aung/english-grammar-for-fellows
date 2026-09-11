@@ -1,0 +1,84 @@
+{
+  "unit": 34,
+  "exercises": [
+    {
+      "id": "unit34-ex1",
+      "type": "multiple_choice",
+      "instructions": "Choose the correct article (a/an, the, or no article -) for each blank.",
+      "questions": [
+        {
+          "id": 3401,
+          "question": "It is ___ beautiful day and ___ sun is shining.",
+          "options": ["a … the", "the … a", "a … a"],
+          "answer": "a … the",
+          "explanation": "Use 'a' before 'beautiful' (consonant sound, first mention). Use 'the' before 'sun' (unique thing). 'beautiful day' အတွက် 'a' သုံးပါ၊ 'sun' က unique thing ဖြစ်တဲ့အတွက် 'the' သုံးပါ။",
+          "points": 1
+        },
+        {
+          "id": 3402,
+          "question": "___ young girl walks into a restaurant. ___ girl sits down and orders a pizza.",
+          "options": ["A … The", "The … A", "A … A"],
+          "answer": "A … The",
+          "explanation": "Use 'A' for the first mention of 'young girl'. Use 'The' for the second mention (already known). 'Young girl' ပထမဆုံး ပြောတဲ့အခါ 'A' သုံးပါ၊ နောက်တစ်ခါ ပြောတဲ့အခါ 'The' သုံးပါ။",
+          "points": 1
+        },
+        {
+          "id": 3403,
+          "question": "My cousin loves ___ books. He is ___ writer.",
+          "options": ["- … a", "the … a", "a … the"],
+          "answer": "- … a",
+          "explanation": "Use no article with 'books' (general, plural). Use 'a' before 'writer' (profession). 'books' က general statement ဖြစ်တဲ့အတွက် article မသုံးပါ၊ 'writer' က profession ဖြစ်တဲ့အတွက် 'a' သုံးပါ။",
+          "points": 1
+        },
+        {
+          "id": 3404,
+          "question": "Pete's uncle is ___ doctor. He says ___ exercise is good for you.",
+          "options": ["a … -", "the … the", "a … the"],
+          "answer": "a … -",
+          "explanation": "Use 'a' before 'doctor' (profession). Use no article with 'exercise' (general, uncountable). 'doctor' က profession ဖြစ်တဲ့အတွက် 'a' သုံးပါ၊ 'exercise' က general statement ဖြစ်တဲ့အတွက် article မသုံးပါ။",
+          "points": 1
+        },
+        {
+          "id": 3405,
+          "question": "She has got a brother and ___ sister.",
+          "options": ["a", "the", "-"],
+          "answer": "a",
+          "explanation": "Use 'a' before 'sister' (singular, countable, first mention, parallel with 'a brother'). 'sister' က singular countable noun ဖြစ်ပြီး first mention ဖြစ်တဲ့အတွက် 'a' သုံးပါ။",
+          "points": 1
+        },
+        {
+          "id": 3406,
+          "question": "Do you listen to ___ music at dinnertime?",
+          "options": ["-", "the", "a"],
+          "answer": "-",
+          "explanation": "Use no article with 'music' (general, uncountable). 'music' က general statement ဖြစ်တဲ့အတွက် article မသုံးပါ။",
+          "points": 1
+        },
+        {
+          "id": 3407,
+          "question": "Do you think ___ food you eat makes a difference to your school marks?",
+          "options": ["the", "a", "-"],
+          "answer": "the",
+          "explanation": "Use 'the' because 'food you eat' is specific (the food that you eat, not any food). 'food you eat' က specific thing ဖြစ်တဲ့အတွက် 'the' သုံးပါ။",
+          "points": 1
+        },
+        {
+          "id": 3408,
+          "question": "I think ___ communication is essential.",
+          "options": ["-", "the", "a"],
+          "answer": "-",
+          "explanation": "Use no article with 'communication' (general, uncountable). 'communication' က general statement ဖြစ်တဲ့အတွက် article မသုံးပါ။",
+          "points": 1
+        },
+        {
+          "id": 3409,
+          "question": "Family dinners are ___ important moment of us.",
+          "options": ["an", "the", "-"],
+          "answer": "an",
+          "explanation": "Use 'an' before 'important' (vowel sound, first mention). 'important' ရဲ့ sound က vowel sound ဖြစ်တဲ့အတွက် 'an' သုံးပါ။",
+          "points": 1
+        }
+      ]
+    }
+  ]
+}

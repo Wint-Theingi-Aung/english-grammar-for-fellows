@@ -1,0 +1,25 @@
+{
+  "unit": 33,
+  "title": "Nouns: Countable and Uncountable",
+  "lessons": [
+    {
+      "id": "unit33-lesson1",
+      "title": "Countable and Uncountable Nouns",
+      "content": "Countable nouns can be counted (an apple, two apples). Uncountable nouns cannot be counted (air, rice, water). Identifying whether a noun is countable or uncountable is important for choosing the right articles and quantifiers.",
+      "details": [
+        {
+          "concept": "Countable nouns",
+          "explanation": "Countable nouns have both singular and plural forms and can be counted with numbers.",
+          "example": "an apple, two apples, three apples / a child, two children",
+          "burmese": "Countable nouns တွေက ရေတွက်နိုင်ပြီး singular နဲ့ plural ပုံစံ နှစ်မျိုးလုံး ရှိပါတယ်။"
+        },
+        {
+          "concept": "Uncountable nouns",
+          "explanation": "Uncountable nouns cannot be counted and do not have a plural form.",
+          "example": "air, rice, water, milk, butter, information, furniture",
+          "burmese": "Uncountable nouns တွေက ရေတွက်မရနိုင်ဘဲ plural ပုံစံ မရှိပါ။"
+        }
+      ]
+    }
+  ]
+}

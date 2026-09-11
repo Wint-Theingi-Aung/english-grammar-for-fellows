@@ -1,0 +1,31 @@
+{
+  "unit": 32,
+  "title": "If … not ↔ Unless",
+  "lessons": [
+    {
+      "id": "unit32-lesson1",
+      "title": "If … not and Unless: Same Meaning",
+      "content": "'If … not' and 'Unless' have the same meaning: 'except if'. You can convert between the two forms. Place 'unless' before the positive clause to replace 'if … not'.",
+      "details": [
+        {
+          "concept": "If + not + clause ↔ Unless + clause",
+          "explanation": "'Unless' replaces 'If … not'. The negative becomes positive after 'unless'.",
+          "example": "If it doesn't rain tonight, the match will start at 9. → Unless it rains tonight, the match will start at 9.",
+          "burmese": "Unless သည် If … not နေရာမှာ အစားထိုး သုံးနိုင်ပါတယ်။"
+        },
+        {
+          "concept": "Unless → If … not",
+          "explanation": "Convert 'unless' back to 'if … not' by adding 'not' to the verb.",
+          "example": "You will fail unless you study hard. → You will fail if you don't study hard.",
+          "burmese": "Unless ကို If … not ပြန်ပြောင်းတဲ့အခါ verb မှာ 'not' ထပ်ထည့်ပါ။"
+        },
+        {
+          "concept": "No will/would after Unless",
+          "explanation": "Do not use 'will' or 'would' directly after 'unless', just like after 'if'.",
+          "example": "Unless you violate the rules, you will be in trouble.",
+          "burmese": "Unless နောက်မှာ will/would မသုံးပါနဲ့၊ if နောက်မှာလည်း မသုံးပါနဲ့။"
+        }
+      ]
+    }
+  ]
+}

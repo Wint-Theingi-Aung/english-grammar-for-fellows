@@ -1,0 +1,132 @@
+{
+  "unit": 31,
+  "exercises": [
+    {
+      "id": "unit31-ex1",
+      "type": "multiple_choice",
+      "instructions": "Combine the following sentences using 'No sooner … than'. Choose the correct form.",
+      "questions": [
+        {
+          "id": 3101,
+          "question": "She read the telegram. She fainted at once. Combine using 'No sooner … than'.",
+          "options": ["No sooner did she read the telegram than she fainted", "No sooner she did read the telegram than she fainted", "No sooner did she read the telegram then she fainted"],
+          "answer": "No sooner did she read the telegram than she fainted",
+          "explanation": "Use 'did + V1' because both actions are in the simple past. The auxiliary 'did' comes before the subject. Use 'than' not 'then'. 'No sooner' နောက်မှာ auxiliary verb ကို subject ရှေ့မှာ ထားပါ။",
+          "points": 1
+        },
+        {
+          "id": 3102,
+          "question": "The thieves saw the police. They ran away at once. Combine using 'No sooner … than'.",
+          "options": ["No sooner did the thieves see the police than they ran away", "No sooner did the thieves see the police then they ran away", "No sooner the thieves did see the police than they ran away"],
+          "answer": "No sooner did the thieves see the police than they ran away",
+          "explanation": "Both actions are simple past, so use 'did + V1'. The auxiliary comes before the subject. 'than' is the correct connector. Simple past နှစ်ခုလုံးအတွက် 'did + V1' သုံးပါ။",
+          "points": 1
+        },
+        {
+          "id": 3103,
+          "question": "The teacher had entered the class. The students kept quiet at once. Combine using 'No sooner … than'.",
+          "options": ["No sooner had the teacher entered the class than the students kept quiet", "No sooner did the teacher enter the class than the students kept quiet", "No sooner had the teacher entered the class then the students kept quiet"],
+          "answer": "No sooner had the teacher entered the class than the students kept quiet",
+          "explanation": "The first action uses past perfect ('had entered'), so use 'had + V3'. The second action is simple past. Use 'than' not 'then'. Past perfect ပထမ action မှာ ရှိတဲ့အတွက် 'had + V3' သုံးပါ။",
+          "points": 1
+        },
+        {
+          "id": 3104,
+          "question": "The child started crying. His mother lifted him up at once. Combine using 'No sooner … than'.",
+          "options": ["No sooner did the child start crying than his mother lifted him up", "No sooner had the child started crying than his mother lifted him up", "No sooner did the child start crying then his mother lifted him up"],
+          "answer": "No sooner did the child start crying than his mother lifted him up",
+          "explanation": "Both actions are simple past, so use 'did + V1'. 'start' is the base form after 'did'. Simple past နှစ်ခုလုံးအတွက် 'did + V1' သုံးပါ။",
+          "points": 1
+        },
+        {
+          "id": 3105,
+          "question": "The watchman had seen the Chairman. He started saluting. Combine using 'No sooner … than'.",
+          "options": ["No sooner had the watchman seen the Chairman than he started saluting", "No sooner did the watchman see the Chairman than he started saluting", "No sooner had the watchman seen the Chairman then he started saluting"],
+          "answer": "No sooner had the watchman seen the Chairman than he started saluting",
+          "explanation": "The first action uses past perfect ('had seen'), so use 'had + V3'. Use 'than' not 'then'. Past perfect ပထမ action မှာ ရှိတဲ့အတွက် 'had + V3' သုံးပါ။",
+          "points": 1
+        },
+        {
+          "id": 3106,
+          "question": "I went to bed. Soon I fell asleep. Combine using 'No sooner … than'.",
+          "options": ["No sooner did I go to bed than I fell asleep", "No sooner I went to bed than I fell asleep", "No sooner did I go to bed then I fell asleep"],
+          "answer": "No sooner did I go to bed than I fell asleep",
+          "explanation": "Both actions are simple past, so use 'did + V1'. 'go' is the base form after 'did'. Auxiliary verb ကို subject ရှေ့မှာ ထားပါ။",
+          "points": 1
+        },
+        {
+          "id": 3107,
+          "question": "I took a dose of the medicine. Soon I started feeling better. Combine using 'No sooner … than'.",
+          "options": ["No sooner did I take a dose of the medicine than I started feeling better", "No sooner I took a dose of the medicine than I started feeling better", "No sooner did I took a dose of the medicine than I started feeling better"],
+          "answer": "No sooner did I take a dose of the medicine than I started feeling better",
+          "explanation": "Use 'did + V1'. After 'did', use the base form 'take' not 'took'. 'did' နောက်မှာ V1 (base form) သုံးပါ၊ past form မသုံးပါနဲ့။",
+          "points": 1
+        },
+        {
+          "id": 3108,
+          "question": "The doctor had come. Soon the patient started recovering. Combine using 'No sooner … than'.",
+          "options": ["No sooner had the doctor come than the patient started recovering", "No sooner did the doctor come than the patient started recovering", "No sooner had the doctor come then the patient started recovering"],
+          "answer": "No sooner had the doctor come than the patient started recovering",
+          "explanation": "The first action uses past perfect ('had come'), so use 'had + V3'. Use 'than' not 'then'. Past perfect ပထမ action မှာ ရှိတဲ့အတွက် 'had + V3' သုံးပါ။",
+          "points": 1
+        },
+        {
+          "id": 3109,
+          "question": "He reached the bus station. The bus came at once. Combine using 'No sooner … than'.",
+          "options": ["No sooner did he reach the bus station than the bus came", "No sooner he reached the bus station than the bus came", "No sooner did he reached the bus station than the bus came"],
+          "answer": "No sooner did he reach the bus station than the bus came",
+          "explanation": "Use 'did + V1'. After 'did', use the base form 'reach' not 'reached'. 'did' နောက်မှာ base form သုံးပါ။",
+          "points": 1
+        },
+        {
+          "id": 3110,
+          "question": "The driver saw the signal. He applied the brake at once. Combine using 'No sooner … than'.",
+          "options": ["No sooner did the driver see the signal than he applied the brake", "No sooner did the driver see the signal then he applied the brake", "No sooner the driver saw the signal than he applied the brake"],
+          "answer": "No sooner did the driver see the signal than he applied the brake",
+          "explanation": "Both actions are simple past, so use 'did + V1'. The auxiliary comes before the subject. Use 'than' not 'then'. 'No sooner' နောက်မှာ auxiliary verb ကို subject ရှေ့မှာ ထားပါ။",
+          "points": 1
+        },
+        {
+          "id": 3111,
+          "question": "We had seen Lisa. She started waving. Combine using 'No sooner … than'.",
+          "options": ["No sooner had we seen Lisa than she started waving", "No sooner did we see Lisa than she started waving", "No sooner had we seen Lisa then she started waving"],
+          "answer": "No sooner had we seen Lisa than she started waving",
+          "explanation": "The first action uses past perfect ('had seen'), so use 'had + V3'. Use 'than' not 'then'. Past perfect ပထမ action မှာ ရှိတဲ့အတွက် 'had + V3' သုံးပါ။",
+          "points": 1
+        },
+        {
+          "id": 3112,
+          "question": "He had arrived in Rome. He was kidnapped. Combine using 'No sooner … than'.",
+          "options": ["No sooner had he arrived in Rome than he was kidnapped", "No sooner did he arrive in Rome than he was kidnapped", "No sooner had he arrived in Rome then he was kidnapped"],
+          "answer": "No sooner had he arrived in Rome than he was kidnapped",
+          "explanation": "The first action uses past perfect ('had arrived'), so use 'had + V3'. Use 'than' not 'then'. Past perfect ပထမ action မှာ ရှိတဲ့အတွက် 'had + V3' သုံးပါ။",
+          "points": 1
+        },
+        {
+          "id": 3113,
+          "question": "I heard the knock. I opened the door immediately. Combine using 'No sooner … than'.",
+          "options": ["No sooner did I hear the knock than I opened the door", "No sooner I heard the knock than I opened the door", "No sooner did I hear the knock then I opened the door"],
+          "answer": "No sooner did I hear the knock than I opened the door",
+          "explanation": "Both actions are simple past, so use 'did + V1'. The auxiliary comes before the subject. 'hear' is the base form after 'did'. 'No sooner' နောက်မှာ auxiliary verb ကို subject ရှေ့မှာ ထားပါ။",
+          "points": 1
+        },
+        {
+          "id": 3114,
+          "question": "She had read the letter. Soon she started crying. Combine using 'No sooner … than'.",
+          "options": ["No sooner had she read the letter than she started crying", "No sooner did she read the letter than she started crying", "No sooner had she read the letter then she started crying"],
+          "answer": "No sooner had she read the letter than she started crying",
+          "explanation": "The first action uses past perfect ('had read'), so use 'had + V3'. Use 'than' not 'then'. Past perfect ပထမ action မှာ ရှိတဲ့အတွက် 'had + V3' သုံးပါ။",
+          "points": 1
+        },
+        {
+          "id": 3115,
+          "question": "The debate had begun. People began to leave the hall at once. Combine using 'No sooner … than'.",
+          "options": ["No sooner had the debate begun than people began to leave the hall", "No sooner did the debate begin than people began to leave the hall", "No sooner had the debate begun then people began to leave the hall"],
+          "answer": "No sooner had the debate begun than people began to leave the hall",
+          "explanation": "The first action uses past perfect ('had begun'), so use 'had + V3'. 'begun' is the past participle of 'begin'. Use 'than' not 'then'. Past perfect ပထမ action မှာ ရှိတဲ့အတွက် 'had + V3' သုံးပါ။",
+          "points": 1
+        }
+      ]
+    }
+  ]
+}

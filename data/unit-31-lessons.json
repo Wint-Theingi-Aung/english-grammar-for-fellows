@@ -1,0 +1,37 @@
+{
+  "unit": 31,
+  "title": "No sooner … than",
+  "lessons": [
+    {
+      "id": "unit31-lesson1",
+      "title": "No sooner … than: Combining Two Sentences",
+      "content": "Use 'No sooner … than' to talk about something that happens immediately after something else. 'No sooner' comes at the beginning of the sentence, followed by the auxiliary verb, then the subject, and 'than' connects the second clause.",
+      "details": [
+        {
+          "concept": "No sooner + did + subject + V1 + than + sentence",
+          "explanation": "Use 'did + V1' when both actions are in the simple past tense. The auxiliary 'did' comes before the subject.",
+          "example": "No sooner did the driver see a green signal than he started his car.",
+          "burmese": "No sooner did the driver see a green signal than he started his car."
+        },
+        {
+          "concept": "No sooner + did + subject + V1 + than + sentence",
+          "explanation": "The pattern applies to any two simple past actions that happen in quick succession.",
+          "example": "No sooner did I finish my homework than I helped my mother.",
+          "burmese": "No sooner did I finish my homework than I helped my mother."
+        },
+        {
+          "concept": "No sooner + had + subject + V3 + than + sentence",
+          "explanation": "Use 'had + V3' when the first action is in the past perfect (happened before the second action in simple past).",
+          "example": "No sooner had the bell rung than the boys rushed to the ground.",
+          "burmese": "No sooner had the bell rung than the boys rushed to the ground."
+        },
+        {
+          "concept": "No sooner + had + subject + V3 + than + sentence",
+          "explanation": "The past perfect pattern is used when the first action was completed before the second action occurred.",
+          "example": "No sooner had we entered the room than they started clapping.",
+          "burmese": "No sooner had we entered the room than they started clapping."
+        }
+      ]
+    }
+  ]
+}

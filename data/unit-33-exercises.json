@@ -1,0 +1,172 @@
+{
+  "unit": 33,
+  "exercises": [
+    {
+      "id": "unit33-ex1",
+      "type": "multiple_choice",
+      "instructions": "Decide whether each noun is countable or uncountable. Choose the correct answer.",
+      "questions": [
+        {
+          "id": 3301,
+          "question": "The children are playing in the garden. Are 'children' countable or uncountable?",
+          "options": ["Countable", "Uncountable", "Both countable and uncountable"],
+          "answer": "Countable",
+          "explanation": "'Children' is the plural of 'child' and can be counted (one child, two children). 'Children' ကို ရေတွက်နိုင်ပါတယ်။",
+          "points": 1
+        },
+        {
+          "id": 3302,
+          "question": "I don't like milk. Is 'milk' countable or uncountable?",
+          "options": ["Uncountable", "Countable", "Both countable and uncountable"],
+          "answer": "Uncountable",
+          "explanation": "'Milk' is a liquid and cannot be counted individually. 'Milk' ကို ရေတွက်မရပါ။",
+          "points": 1
+        },
+        {
+          "id": 3303,
+          "question": "I prefer tea. Is 'tea' countable or uncountable?",
+          "options": ["Uncountable", "Countable", "Both countable and uncountable"],
+          "answer": "Uncountable",
+          "explanation": "'Tea' as a drink/liquid is uncountable. 'Tea' (အဖျော်ရည်) ကို ရေတွက်မရပါ။",
+          "points": 1
+        },
+        {
+          "id": 3304,
+          "question": "Scientists say that the environment is threatened by pollution. Is 'scientists' countable or uncountable?",
+          "options": ["Countable", "Uncountable", "Both countable and uncountable"],
+          "answer": "Countable",
+          "explanation": "'Scientists' is the plural of 'scientist' and can be counted. 'Scientists' ကို ရေတွက်နိုင်ပါတယ်။",
+          "points": 1
+        },
+        {
+          "id": 3305,
+          "question": "My mother uses butter to prepare cakes. Is 'butter' countable or uncountable?",
+          "options": ["Uncountable", "Countable", "Both countable and uncountable"],
+          "answer": "Uncountable",
+          "explanation": "'Butter' is a food substance that cannot be counted. 'Butter' ကို ရေတွက်မရပါ။",
+          "points": 1
+        },
+        {
+          "id": 3306,
+          "question": "There are a lot of windows in our classroom. Is 'windows' countable or uncountable?",
+          "options": ["Countable", "Uncountable", "Both countable and uncountable"],
+          "answer": "Countable",
+          "explanation": "'Windows' is the plural of 'window' and can be counted. 'Windows' ကို ရေတွက်နိုင်ပါတယ်။",
+          "points": 1
+        },
+        {
+          "id": 3307,
+          "question": "We need some glue to fix this vase. Is 'glue' countable or uncountable?",
+          "options": ["Uncountable", "Countable", "Both countable and uncountable"],
+          "answer": "Uncountable",
+          "explanation": "'Glue' is a substance that cannot be counted. 'Glue' ကို ရေတွက်မရပါ။",
+          "points": 1
+        },
+        {
+          "id": 3308,
+          "question": "The waiters in this restaurant are very professional. Is 'waiters' countable or uncountable?",
+          "options": ["Countable", "Uncountable", "Both countable and uncountable"],
+          "answer": "Countable",
+          "explanation": "'Waiters' is the plural of 'waiter' and can be counted. 'Waiters' ကို ရေတွက်နိုင်ပါတယ်။",
+          "points": 1
+        },
+        {
+          "id": 3309,
+          "question": "My father drinks two big glasses of water every morning. Is 'water' countable or uncountable?",
+          "options": ["Uncountable", "Countable", "Both countable and uncountable"],
+          "answer": "Uncountable",
+          "explanation": "'Water' is a liquid and cannot be counted. 'Water' ကို ရေတွက်မရပါ။",
+          "points": 1
+        },
+        {
+          "id": 3310,
+          "question": "The bread my mother prepares is delicious. Is 'bread' countable or uncountable?",
+          "options": ["Uncountable", "Countable", "Both countable and uncountable"],
+          "answer": "Uncountable",
+          "explanation": "'Bread' is a food substance that is uncountable. 'Bread' ကို ရေတွက်မရပါ။",
+          "points": 1
+        },
+        {
+          "id": 3311,
+          "question": "Drivers must be careful; the road is slippery. Is 'drivers' countable or uncountable?",
+          "options": ["Countable", "Uncountable", "Both countable and uncountable"],
+          "answer": "Countable",
+          "explanation": "'Drivers' is the plural of 'driver' and can be counted. 'Drivers' ကို ရေတွက်နိုင်ပါတယ်။",
+          "points": 1
+        },
+        {
+          "id": 3312,
+          "question": "Some policemen are organizing road traffic. Is 'policemen' countable or uncountable?",
+          "options": ["Countable", "Uncountable", "Both countable and uncountable"],
+          "answer": "Countable",
+          "explanation": "'Policemen' is the plural of 'policeman' and can be counted. 'Policemen' ကို ရေတွက်နိုင်ပါတယ်။",
+          "points": 1
+        },
+        {
+          "id": 3313,
+          "question": "I bought three bottles of mineral water for our picnic. Is 'water' countable or uncountable?",
+          "options": ["Uncountable", "Countable", "Both countable and uncountable"],
+          "answer": "Uncountable",
+          "explanation": "'Water' is uncountable. We count it using containers like 'bottles of water'. 'Water' ကို ရေတွက်မရပါ၊ container တွေနဲ့ ရေတွက်ရပါတယ်။",
+          "points": 1
+        },
+        {
+          "id": 3314,
+          "question": "I would like some juice please! Is 'juice' countable or uncountable?",
+          "options": ["Uncountable", "Countable", "Both countable and uncountable"],
+          "answer": "Uncountable",
+          "explanation": "'Juice' is a liquid and is uncountable. 'Juice' ကို ရေတွက်မရပါ။",
+          "points": 1
+        },
+        {
+          "id": 3315,
+          "question": "Successful candidates will join the camp later this year. Is 'candidates' countable or uncountable?",
+          "options": ["Countable", "Uncountable", "Both countable and uncountable"],
+          "answer": "Countable",
+          "explanation": "'Candidates' is the plural of 'candidate' and can be counted. 'Candidates' ကို ရေတွက်နိုင်ပါတယ်။",
+          "points": 1
+        },
+        {
+          "id": 3316,
+          "question": "A rise in oil prices is inevitable since there is more and more world demand for energy. Is 'oil' countable or uncountable?",
+          "options": ["Uncountable", "Countable", "Both countable and uncountable"],
+          "answer": "Uncountable",
+          "explanation": "'Oil' as a substance is uncountable. 'Oil' (ဆီ) ကို ရေတွက်မရပါ။",
+          "points": 1
+        },
+        {
+          "id": 3317,
+          "question": "The exercises on this website are interesting. Is 'exercises' countable or uncountable?",
+          "options": ["Countable", "Uncountable", "Both countable and uncountable"],
+          "answer": "Countable",
+          "explanation": "'Exercises' is the plural of 'exercise' and can be counted. 'Exercises' ကို ရေတွက်နိုင်ပါတယ်။",
+          "points": 1
+        },
+        {
+          "id": 3318,
+          "question": "Dehydrated babies must drink a lot of water. Is 'water' countable or uncountable?",
+          "options": ["Uncountable", "Countable", "Both countable and uncountable"],
+          "answer": "Uncountable",
+          "explanation": "'Water' is a liquid and is uncountable. 'Water' ကို ရေတွက်မရပါ။",
+          "points": 1
+        },
+        {
+          "id": 3319,
+          "question": "Adult illiterates learn through a special government program. Is 'illiterates' countable or uncountable?",
+          "options": ["Countable", "Uncountable", "Both countable and uncountable"],
+          "answer": "Countable",
+          "explanation": "'Illiterates' refers to people who cannot read and can be counted. 'Illiterates' ကို ရေတွက်နိုင်ပါတယ်။",
+          "points": 1
+        },
+        {
+          "id": 3320,
+          "question": "I met some nice people when I was walking along the beach. Is 'people' countable or uncountable?",
+          "options": ["Countable", "Uncountable", "Both countable and uncountable"],
+          "answer": "Countable",
+          "explanation": "'People' is the plural of 'person' and can be counted. 'People' ကို ရေတွက်နိုင်ပါတယ်။",
+          "points": 1
+        }
+      ]
+    }
+  ]
+}

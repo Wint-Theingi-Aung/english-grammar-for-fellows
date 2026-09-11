@@ -1,0 +1,31 @@
+{
+  "unit": 34,
+  "title": "A / an, the, no article",
+  "lessons": [
+    {
+      "id": "unit34-lesson1",
+      "title": "Articles: a/an, the, and no article",
+      "content": "Articles are small words that come before nouns. 'A' and 'an' are used with singular countable nouns for first mentions or professions. 'The' is used for specific, previously mentioned, or unique things. No article is used for general statements about things in general.",
+      "details": [
+        {
+          "concept": "A/an with singular countable nouns",
+          "explanation": "Use 'a' before consonant sounds and 'an' before vowel sounds. Used for first mentions and professions.",
+          "example": "I have got a bike. He is a teacher. She is an engineer.",
+          "burmese": "a/an ကို singular countable noun ရှေ့မှာ သုံးပါ။ Consonant sound ရှေ့မှာ 'a'၊ vowel sound ရှေ့မှာ 'an' သုံးပါ။"
+        },
+        {
+          "concept": "The for specific or previously mentioned things",
+          "explanation": "Use 'the' to refer to something previously mentioned, specific things, or unique things (the sun, the world).",
+          "example": "I have got a problem. The problem is not important. The film I saw was good.",
+          "burmese": "the ကို ရည်ညွှန်းထားပြီးသား ဒါမှမဟုတ် specific thing တွေအတွက် သုံးပါ။ အကြီးဆုံး တစ်ခုတည်းရှိတဲ့ thing တွေမှာလည်း သုံးပါ (the sun, the moon)။"
+        },
+        {
+          "concept": "No article for general statements",
+          "explanation": "Do not use an article with plural countable or uncountable nouns when talking about things in general.",
+          "example": "Education is important. I love oranges. Music is relaxing.",
+          "burmese": "general statement တွေမှာ article မသုံးပါနဲ့။ Plural countable နဲ့ uncountable nouns တွေအတွက် article ကင်းစွာ သုံးပါ။"
+        }
+      ]
+    }
+  ]
+}

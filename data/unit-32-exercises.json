@@ -1,0 +1,164 @@
+{
+  "unit": 32,
+  "exercises": [
+    {
+      "id": "unit32-ex1",
+      "type": "multiple_choice",
+      "instructions": "Rewrite the following sentences using 'If … not' or 'Unless'. Choose the correct form.",
+      "questions": [
+        {
+          "id": 3201,
+          "question": "If the cart is not ready, we will go on foot. Rewrite using 'Unless'.",
+          "options": ["Unless the cart is ready, we will go on foot", "Unless the cart is not ready, we will go on foot", "Unless the cart is ready we will go on foot without comma"],
+          "answer": "Unless the cart is ready, we will go on foot",
+          "explanation": "'Unless' replaces 'If … not'. Remove 'not' from the verb. 'Unless' ကို 'If … not' နေရာမှာ သုံးတဲ့အခါ verb မှာ 'not' ကို ဖယ်ပါ။",
+          "points": 1
+        },
+        {
+          "id": 3202,
+          "question": "We will miss the train if we do not start now. Rewrite using 'Unless'.",
+          "options": ["We will miss the train unless we start now", "We will miss the train unless we do not start now", "Unless we will start now, we will miss the train"],
+          "answer": "We will miss the train unless we start now",
+          "explanation": "'Unless' replaces 'if … not'. Remove 'do not' and keep the positive verb. 'Unless' နောက်မှာ will မသုံးပါနဲ့။",
+          "points": 1
+        },
+        {
+          "id": 3203,
+          "question": "If marketing is not in the hands of farmers' organizations, they will not get a good realization. Rewrite using 'Unless'.",
+          "options": ["Unless marketing is in the hands of farmers' organizations, they will not get a good realization", "Unless marketing is not in the hands of farmers' organizations, they will not get a good realization", "Unless marketing is in the hands of farmers' organizations they will not get a good realization"],
+          "answer": "Unless marketing is in the hands of farmers' organizations, they will not get a good realization",
+          "explanation": "'Unless' replaces 'If … not'. Remove 'not' from the verb and keep the positive form. 'Unless' ကို 'If … not' နေရာမှာ သုံးတဲ့အခါ verb မှာ 'not' ကို ဖယ်ပါ။",
+          "points": 1
+        },
+        {
+          "id": 3204,
+          "question": "If you don't water the plants, they will not grow. Rewrite using 'Unless'.",
+          "options": ["Unless you water the plants, they will not grow", "Unless you don't water the plants, they will not grow", "Unless you water the plants they will not grow"],
+          "answer": "Unless you water the plants, they will not grow",
+          "explanation": "'Unless' replaces 'If … not'. Remove 'don't' and keep the positive verb. 'Unless' နောက်မှာ positive verb ကို သုံးပါ။",
+          "points": 1
+        },
+        {
+          "id": 3205,
+          "question": "If you study, you will pass. Rewrite using 'Unless'.",
+          "options": ["Unless you don't study, you will pass", "Unless you study, you will not pass", "Unless you don't study, you will not pass"],
+          "answer": "Unless you don't study, you will not pass",
+          "explanation": "Convert 'If you study, you will pass' to 'Unless you don't study, you will not pass'. 'Unless' = 'If … not', so negate both clauses. 'Unless' က 'If … not' နဲ့ အဓိပ္ပာယ်တူတယ်။",
+          "points": 1
+        },
+        {
+          "id": 3206,
+          "question": "If you work hard, you will succeed. Rewrite using 'Unless'.",
+          "options": ["Unless you work hard, you will not succeed", "Unless you work hard, you will succeed", "Unless you don't work hard, you will succeed"],
+          "answer": "Unless you work hard, you will not succeed",
+          "explanation": "'Unless' replaces 'If … not'. 'If you work hard → you will succeed' becomes 'Unless you work hard → you will not succeed'. 'Unless' က 'If … not' နဲ့ အဓိပ္ပာယ်တူတယ်။",
+          "points": 1
+        },
+        {
+          "id": 3207,
+          "question": "I will join you unless I am working on Sunday. Rewrite using 'If … not'.",
+          "options": ["I will join you if I am not working on Sunday", "I will join you if I am working on Sunday", "I will not join you if I am working on Sunday"],
+          "answer": "I will join you if I am not working on Sunday",
+          "explanation": "'Unless' = 'If … not'. Add 'not' to the verb after 'if'. 'Unless' ကို 'If … not' ပြောင်းတဲ့အခါ verb မှာ 'not' ထပ်ထည့်ပါ။",
+          "points": 1
+        },
+        {
+          "id": 3208,
+          "question": "Rajesh normally comes on time unless his train is late. Rewrite using 'If … not'.",
+          "options": ["Rajesh normally comes on time if his train is not late", "Rajesh normally comes on time if his train is late", "Rajesh normally does not come on time if his train is late"],
+          "answer": "Rajesh normally comes on time if his train is not late",
+          "explanation": "'Unless' = 'If … not'. Add 'not' to the verb after 'if'. 'Unless' ကို 'If … not' ပြောင်းတဲ့အခါ verb မှာ 'not' ထပ်ထည့်ပါ။",
+          "points": 1
+        },
+        {
+          "id": 3209,
+          "question": "Unless we curb poverty, we will be a poor nation. Rewrite using 'If … not'.",
+          "options": ["If we do not curb poverty, we will be a poor nation", "If we curb poverty, we will not be a poor nation", "Unless we do not curb poverty, we will be a poor nation"],
+          "answer": "If we do not curb poverty, we will be a poor nation",
+          "explanation": "'Unless' = 'If … not'. Add 'not' to the verb after 'if'. 'Unless' ကို 'If … not' ပြောင်းတဲ့အခါ verb မှာ 'not' ထပ်ထည့်ပါ။",
+          "points": 1
+        },
+        {
+          "id": 3210,
+          "question": "Unless the plants get sunlight, they will not grow. Rewrite using 'If … not'.",
+          "options": ["If the plants do not get sunlight, they will not grow", "If the plants get sunlight, they will not grow", "Unless the plants do not get sunlight, they will not grow"],
+          "answer": "If the plants do not get sunlight, they will not grow",
+          "explanation": "'Unless' = 'If … not'. Add 'not' to the verb after 'if'. 'Unless' ကို 'If … not' ပြောင်းတဲ့အခါ verb မှာ 'not' ထပ်ထည့်ပါ။",
+          "points": 1
+        },
+        {
+          "id": 3211,
+          "question": "If Daniel wasn't very ill, he would attend the lecture. Rewrite using 'Unless'.",
+          "options": ["Unless Daniel were very ill, he would attend the lecture", "Unless Daniel was very ill, he would attend the lecture", "Unless Daniel weren't very ill, he would attend the lecture"],
+          "answer": "Unless Daniel were very ill, he would attend the lecture",
+          "explanation": "In conditional sentences with 'would', 'unless' replaces 'if … not'. Use the subjunctive 'were' for formal English. 'Unless' နောက်မှာ would မသုံးပါနဲ့။",
+          "points": 1
+        },
+        {
+          "id": 3212,
+          "question": "Ronald would be here right now if his train wasn't late. Rewrite using 'Unless'.",
+          "options": ["Ronald would be here right now unless his train were late", "Ronald would be here right now unless his train was late", "Ronald would not be here right now unless his train was late"],
+          "answer": "Ronald would be here right now unless his train were late",
+          "explanation": "Replace 'if … not' with 'unless'. The original implies 'if his train was not late'. Use 'were' for the subjunctive. 'Unless' နောက်မှာ would မသုံးပါနဲ့။",
+          "points": 1
+        },
+        {
+          "id": 3213,
+          "question": "I would not invite him if you hadn't suggested it. Rewrite using 'Unless'.",
+          "options": ["I would not invite him unless you had suggested it", "I would invite him unless you had suggested it", "I would invite him unless you hadn't suggested it"],
+          "answer": "I would not invite him unless you had suggested it",
+          "explanation": "'Unless' replaces 'If … not'. 'I would not invite him if you hadn't suggested it' becomes 'I would not invite him unless you had suggested it'. 'Unless' က 'If … not' နဲ့ အဓိပ္ပာယ်တူတယ်။",
+          "points": 1
+        },
+        {
+          "id": 3214,
+          "question": "I can't help Smith unless he tells me a problem. Rewrite using 'If … not'.",
+          "options": ["I can't help Smith if he does not tell me a problem", "I can help Smith if he does not tell me a problem", "I can't help Smith if he tells me a problem"],
+          "answer": "I can't help Smith if he does not tell me a problem",
+          "explanation": "'Unless' = 'If … not'. Add 'not' to the verb after 'if'. 'Unless' ကို 'If … not' ပြောင်းတဲ့အခါ verb မှာ 'not' ထပ်ထည့်ပါ။",
+          "points": 1
+        },
+        {
+          "id": 3215,
+          "question": "Unless the bus comes up, I am going to cancel my plan. Rewrite using 'If … not'.",
+          "options": ["If the bus does not come up, I am going to cancel my plan", "If the bus comes up, I am going to cancel my plan", "Unless the bus does not come up, I am going to cancel my plan"],
+          "answer": "If the bus does not come up, I am going to cancel my plan",
+          "explanation": "'Unless' = 'If … not'. Add 'not' to the verb after 'if'. 'Unless' ကို 'If … not' ပြောင်းတဲ့အခါ verb မှာ 'not' ထပ်ထည့်ပါ။",
+          "points": 1
+        },
+        {
+          "id": 3216,
+          "question": "You will be seriously ill if you don't stop smoking. Rewrite using 'Unless'.",
+          "options": ["You will be seriously ill unless you stop smoking", "You will be seriously ill unless you don't stop smoking", "Unless you will stop smoking, you will be seriously ill"],
+          "answer": "You will be seriously ill unless you stop smoking",
+          "explanation": "'Unless' replaces 'If … not'. Remove 'don't' and keep the positive verb. 'Unless' နောက်မှာ will မသုံးပါနဲ့။",
+          "points": 1
+        },
+        {
+          "id": 3217,
+          "question": "Emily won't tell her plan if you don't help her. Rewrite using 'Unless'.",
+          "options": ["Emily won't tell her plan unless you help her", "Emily won't tell her plan unless you don't help her", "Emily will tell her plan unless you help her"],
+          "answer": "Emily won't tell her plan unless you help her",
+          "explanation": "'Unless' replaces 'If … not'. Remove 'don't' and keep the positive verb. 'Unless' ကို 'If … not' နေရာမှာ သုံးတဲ့အခါ verb မှာ 'not' ကို ဖယ်ပါ။",
+          "points": 1
+        },
+        {
+          "id": 3218,
+          "question": "Brain will not leave the class unless he finishes writing. Rewrite using 'If … not'.",
+          "options": ["Brain will not leave the class if he does not finish writing", "Brain will leave the class if he does not finish writing", "Brain will not leave the class if he finishes writing"],
+          "answer": "Brain will not leave the class if he does not finish writing",
+          "explanation": "'Unless' = 'If … not'. Add 'not' to the verb after 'if'. 'Unless' ကို 'If … not' ပြောင်းတဲ့အခါ verb မှာ 'not' ထပ်ထည့်ပါ။",
+          "points": 1
+        },
+        {
+          "id": 3219,
+          "question": "If you reveal secrets, your friends will not trust you. Rewrite using 'Unless'.",
+          "options": ["Unless you keep secrets, your friends will not trust you", "Unless you reveal secrets, your friends will not trust you", "Unless you keep secrets, your friends will trust you"],
+          "answer": "Unless you keep secrets, your friends will not trust you",
+          "explanation": "'If you reveal secrets → friends will not trust you'. Rewrite: 'Unless you keep secrets, your friends will not trust you'. 'keep' is the opposite of 'reveal'. 'Unless' က 'If … not' နဲ့ အဓိပ္ပာယ်တူတယ်။",
+          "points": 1
+        }
+      ]
+    }
+  ]
+}
