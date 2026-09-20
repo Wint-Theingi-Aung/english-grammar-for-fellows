@@ -1,0 +1,212 @@
+{
+  "unit": 38,
+  "exercises": [
+    {
+      "id": "unit38-ex1",
+      "type": "multiple_choice",
+      "instructions": "Choose the correct preposition of place for each sentence.",
+      "questions": [
+        {
+          "id": 3801,
+          "question": "Do you work ___ an office?",
+          "options": ["in", "on", "under"],
+          "answer": "in",
+          "explanation": "'in' is used for inside an area like an office. 'in' ကို ဧရိယာအတွင်းမှာ ရှိခြင်း ပြဖို့ သုံးပါ။",
+          "points": 1
+        },
+        {
+          "id": 3802,
+          "question": "There was a \"no smoking\" sign ___ the wall.",
+          "options": ["above", "on", "behind"],
+          "answer": "above",
+          "explanation": "'above' is used for a position much higher than 'on'. A sign on the wall is above ground level. 'above' ကို 'on' ထက် အများကြီးပိုမြင့်တဲ့ အနေအထား ပြဖို့ သုံးပါ။",
+          "points": 1
+        },
+        {
+          "id": 3803,
+          "question": "Sit ___ the sofa.",
+          "options": ["on", "above", "in"],
+          "answer": "on",
+          "explanation": "'on' is used for a position above but touching the object. You sit on a sofa. 'on' ကို အရာဝတ္ထုပေါ်မှာ ထိတွေ့နေတဲ့ အနေအထား ပြဖို့ သုံးပါ။",
+          "points": 1
+        },
+        {
+          "id": 3804,
+          "question": "Stars are ___ the sky.",
+          "options": ["above", "on", "in"],
+          "answer": "above",
+          "explanation": "'above' is used for a much higher position. Stars are far above in the sky. 'above' ကို အများကြီးပိုမြင့်တဲ့ အနေအထား ပြဖို့ သုံးပါ။",
+          "points": 1
+        },
+        {
+          "id": 3805,
+          "question": "The cat is ___ the table.",
+          "options": ["under", "above", "on"],
+          "answer": "under",
+          "explanation": "'under' is used for something below or lower than something else. 'under' ကို အခြားအရာတစ်ခုထက် အောက်မှာ ရှိတဲ့အရာ ပြဖို့ သုံးပါ။",
+          "points": 1
+        },
+        {
+          "id": 3806,
+          "question": "He was nervous ___ me.",
+          "options": ["in front of", "in", "behind"],
+          "answer": "in front of",
+          "explanation": "'in front of' is used for a position facing someone. He was facing me. 'in front of' ကို တစ်စုံတစ်ယောက်ကို ရင်ဆိုင်နေတဲ့ အနေအထား ပြဖို့ သုံးပါ။",
+          "points": 1
+        },
+        {
+          "id": 3807,
+          "question": "Go ___ that tree.",
+          "options": ["behind", "under", "on"],
+          "answer": "behind",
+          "explanation": "'behind' is used for the back part of something. Go to the back of the tree. 'behind' ကို အရာဝတ္ထုရဲ့ နောက်ဘက်မှာ ရှိခြင်း ပြဖို့ သုံးပါ။",
+          "points": 1
+        },
+        {
+          "id": 3808,
+          "question": "At a wedding, the bride stands ___ the groom.",
+          "options": ["next to", "behind", "under"],
+          "answer": "next to",
+          "explanation": "'next to' is used for very close to someone. The bride stands very close to the groom. 'next to' ကို တစ်စုံတစ်ယောက်နဲ့ အလွန်နီးကပ်စွာ ရှိခြင်း ပြဖို့ သုံးပါ။",
+          "points": 1
+        },
+        {
+          "id": 3809,
+          "question": "Our house is ___ the supermarket.",
+          "options": ["near", "in", "behind"],
+          "answer": "near",
+          "explanation": "'near' is used for not far away in distance. 'near' ကို အကွာအဝေးအရ မလှမ်းဘဲ ရှိခြင်း ပြဖို့ သုံးပါ။",
+          "points": 1
+        },
+        {
+          "id": 3810,
+          "question": "A smile ___ his face.",
+          "options": ["on", "in", "above"],
+          "answer": "on",
+          "explanation": "'on' is used for a position above but touching the object. A smile is on his face. 'on' ကို အရာဝတ္ထုပေါ်မှာ ထိတွေ့နေတဲ့ အနေအထား ပြဖို့ သုံးပါ။",
+          "points": 1
+        },
+        {
+          "id": 3811,
+          "question": "The receptionist is ___ the front door.",
+          "options": ["near", "on", "behind"],
+          "answer": "near",
+          "explanation": "'near' is used for not far away in distance. 'near' ကို အကွာအဝေးအရ မလှမ်းဘဲ ရှိခြင်း ပြဖို့ သုံးပါ။",
+          "points": 1
+        },
+        {
+          "id": 3812,
+          "question": "There is a ceiling ___ you.",
+          "options": ["above", "on", "in"],
+          "answer": "above",
+          "explanation": "'above' is used for a much higher position. The ceiling is above you. 'above' ကို အများကြီးပိုမြင့်တဲ့ အနေအထား ပြဖို့ သုံးပါ။",
+          "points": 1
+        },
+        {
+          "id": 3813,
+          "question": "A river flows ___ a bridge.",
+          "options": ["under", "in", "on"],
+          "answer": "under",
+          "explanation": "'under' is used for below something. A river flows below a bridge. 'under' ကို အခြားအရာတစ်ခုထက် အောက်မှာ ရှိတဲ့အရာ ပြဖို့ သုံးပါ။",
+          "points": 1
+        },
+        {
+          "id": 3814,
+          "question": "A band plays their music ___ an audience.",
+          "options": ["in front of", "in", "behind"],
+          "answer": "in front of",
+          "explanation": "'in front of' is used for a position facing someone. The band faces the audience. 'in front of' ကို တစ်စုံတစ်ယောက်ကို ရင်ဆိုင်နေတဲ့ အနေအထား ပြဖို့ သုံးပါ။",
+          "points": 1
+        },
+        {
+          "id": 3815,
+          "question": "There is a thermometer ___ its mouth.",
+          "options": ["in", "on", "above"],
+          "answer": "in",
+          "explanation": "'in' is used for inside an area. The thermometer is inside the mouth. 'in' ကို ဧရိယာတစ်ခုအတွင်းမှာ ရှိခြင်း ပြဖို့ သုံးပါ။",
+          "points": 1
+        },
+        {
+          "id": 3816,
+          "question": "The sun vanished ___ the trees.",
+          "options": ["behind", "on", "above"],
+          "answer": "behind",
+          "explanation": "'behind' is used for the back part of something. The sun went behind the trees. 'behind' ကို အရာဝတ္ထုရဲ့ နောက်ဘက်မှာ ရှိခြင်း ပြဖို့ သုံးပါ။",
+          "points": 1
+        },
+        {
+          "id": 3817,
+          "question": "Can I sit ___ the window?",
+          "options": ["next to", "on", "in"],
+          "answer": "next to",
+          "explanation": "'next to' is used for very close to something. 'next to' ကို တစ်စုံတစ်ခုနဲ့ အလွန်နီးကပ်စွာ ရှိခြင်း ပြဖို့ သုံးပါ။",
+          "points": 1
+        },
+        {
+          "id": 3818,
+          "question": "He is sitting ___ his computer.",
+          "options": ["in front of", "in", "behind"],
+          "answer": "in front of",
+          "explanation": "'in front of' is used for a position facing something. He faces the computer. 'in front of' ကို တစ်စုံတစ်ခုကို ရင်ဆိုင်နေတဲ့ အနေအထား ပြဖို့ သုံးပါ။",
+          "points": 1
+        },
+        {
+          "id": 3819,
+          "question": "Look at the picture ___ the book.",
+          "options": ["in", "on", "above"],
+          "answer": "in",
+          "explanation": "'in' is used for inside an area. The picture is inside the book. 'in' ကို ဧရိယာတစ်ခုအတွင်းမှာ ရှိခြင်း ပြဖို့ သုံးပါ။",
+          "points": 1
+        },
+        {
+          "id": 3820,
+          "question": "The carpet ___ my feet is very soft.",
+          "options": ["under", "on", "in"],
+          "answer": "under",
+          "explanation": "'under' is used for below something. The carpet is below my feet. 'under' ကို အခြားအရာတစ်ခုထက် အောက်မှာ ရှိတဲ့အရာ ပြဖို့ သုံးပါ။",
+          "points": 1
+        },
+        {
+          "id": 3821,
+          "question": "There is a mirror ___ the washbasin.",
+          "options": ["above", "on", "in"],
+          "answer": "above",
+          "explanation": "'above' is used for a much higher position. The mirror is above the washbasin. 'above' ကို အများကြီးပိုမြင့်တဲ့ အနေအထား ပြဖို့ သုံးပါ။",
+          "points": 1
+        },
+        {
+          "id": 3822,
+          "question": "The sun peeped out from ___ the clouds.",
+          "options": ["behind", "in front of", "above"],
+          "answer": "behind",
+          "explanation": "'behind' is used for the back part of something. The sun was behind the clouds. 'behind' ကို အရာဝတ္ထုရဲ့ နောက်ဘက်မှာ ရှိခြင်း ပြဖို့ သုံးပါ။",
+          "points": 1
+        },
+        {
+          "id": 3823,
+          "question": "Come and sit ___ me.",
+          "options": ["next to", "above", "behind"],
+          "answer": "next to",
+          "explanation": "'next to' is used for very close to someone. 'next to' ကို တစ်စုံတစ်ယောက်နဲ့ အလွန်နီးကပ်စွာ ရှိခြင်း ပြဖို့ သုံးပါ။",
+          "points": 1
+        },
+        {
+          "id": 3824,
+          "question": "We sat ___ each other.",
+          "options": ["next to", "in", "behind"],
+          "answer": "next to",
+          "explanation": "'next to' is used for very close to someone. We sat very close to each other. 'next to' ကို တစ်စုံတစ်ယောက်နဲ့ အလွန်နီးကပ်စွာ ရှိခြင်း ပြဖို့ သုံးပါ။",
+          "points": 1
+        },
+        {
+          "id": 3825,
+          "question": "The helicopter was hovering ___ the building.",
+          "options": ["above", "on", "behind"],
+          "answer": "above",
+          "explanation": "'above' is used for a much higher position. The helicopter was above the building. 'above' ကို အများကြီးပိုမြင့်တဲ့ အနေအထား ပြဖို့ သုံးပါ။",
+          "points": 1
+        }
+      ]
+    }
+  ]
+}

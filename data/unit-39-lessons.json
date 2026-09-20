@@ -1,0 +1,31 @@
+{
+  "unit": 39,
+  "title": "Some, Any, A/An",
+  "lessons": [
+    {
+      "id": "unit39-lesson1",
+      "title": "Some, Any, A/An: Determiners for nouns",
+      "content": "Use 'some' with uncountable and plural countable nouns in affirmative sentences. Use 'any' with uncountable and plural countable nouns in negative sentences and questions. Use 'a/an' with singular countable nouns; use 'an' before vowel sounds.",
+      "details": [
+        {
+          "concept": "Some – affirmative sentences",
+          "explanation": "We use 'some' with uncountable nouns and with plural countable nouns, in affirmative sentences.",
+          "example": "We have got some water. I have got some apples.",
+          "burmese": "'some' ကို uncountable nouns နဲ့ plural countable nouns တွေမှာ affirmative sentences တွေမှာ သုံးပါ။"
+        },
+        {
+          "concept": "Any – negative sentences and questions",
+          "explanation": "We use 'any' with uncountable nouns and with plural countable nouns, in negative sentences and questions.",
+          "example": "I haven't got any milk. He hasn't got any apples. Have you got any orange juice? Are there any bananas?",
+          "burmese": "'any' ကို uncountable nouns နဲ့ plural countable nouns တွေမှာ negative sentences နဲ့ questions တွေမှာ သုံးပါ။"
+        },
+        {
+          "concept": "A/An – singular countable nouns",
+          "explanation": "We use 'a/an' with singular countable nouns in affirmative and negative sentences and in questions. 'An' goes before a vowel sound.",
+          "example": "I haven't got a burger. He has got an egg. Have you got an MP3 player?",
+          "burmese": "'a/an' ကို singular countable nouns တွေမှာ သုံးပါ။ vowel sound ရှေ့မှာ 'an' ကို သုံးပါ။"
+        }
+      ]
+    }
+  ]
+}

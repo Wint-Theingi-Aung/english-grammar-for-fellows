@@ -1,0 +1,37 @@
+{
+  "unit": 40,
+  "title": "Much, Many, A Lot (of)",
+  "lessons": [
+    {
+      "id": "unit40-lesson1",
+      "title": "Much, Many, A Lot (of): Quantity expressions",
+      "content": "Use 'much' in negative sentences and questions with uncountable nouns. Use 'many' in negative sentences and questions with plural countable nouns. Use 'a lot of' with both countable and uncountable nouns. Use 'a lot' (without 'of') when no noun follows.",
+      "details": [
+        {
+          "concept": "Much – uncountable nouns",
+          "explanation": "We often use 'much' in negative sentences and questions, with uncountable nouns.",
+          "example": "I haven't got much lemonade. Have you got much water?",
+          "burmese": "'much' ကို uncountable nouns တွေနဲ့ negative sentences နဲ့ questions တွေမှာ သုံးပါ။"
+        },
+        {
+          "concept": "Many – plural countable nouns",
+          "explanation": "We often use 'many' in negative sentences and questions, with plural countable nouns.",
+          "example": "I haven't got many chips. Have you got many eggs?",
+          "burmese": "'many' ကို plural countable nouns တွေနဲ့ negative sentences နဲ့ questions တွေမှာ သုံးပါ။"
+        },
+        {
+          "concept": "A lot of – countable and uncountable nouns",
+          "explanation": "We often use 'a lot of' in affirmative and negative sentences and in questions, with countable and uncountable nouns.",
+          "example": "I have got a lot of apples. I haven't got a lot of tomatoes. Have you got a lot of water?",
+          "burmese": "'a lot of' ကို countable နဲ့ uncountable nouns တွေနဲ့ affirmative နဲ့ negative sentences တွေမှာ သုံးပါ။"
+        },
+        {
+          "concept": "A lot (without 'of')",
+          "explanation": "We use 'of' when 'a lot' comes before a noun. But when there is no noun after 'a lot' we do not use 'of'.",
+          "example": "I've got a lot of bananas. Are there any bananas? Yes, there are a lot.",
+          "burmese": "'a lot' ရဲ့နောက်မှာ noun မရှိရင် 'of' ကို မသုံးပါ။"
+        }
+      ]
+    }
+  ]
+}

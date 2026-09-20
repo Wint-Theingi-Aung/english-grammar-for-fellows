@@ -1,0 +1,212 @@
+{
+  "unit": 40,
+  "exercises": [
+    {
+      "id": "unit40-ex1",
+      "type": "multiple_choice",
+      "instructions": "Choose the correct quantity expression (much, many, a lot of, a lot) for each sentence.",
+      "questions": [
+        {
+          "id": 4001,
+          "question": "There are ___ biscuits in the packet.",
+          "options": ["a lot of", "much", "many"],
+          "answer": "a lot of",
+          "explanation": "'a lot of' is used with countable nouns in affirmative sentences. 'biscuits' is plural countable. 'a lot of' ကို countable nouns နဲ့ affirmative sentences တွေမှာ သုံးပါ။",
+          "points": 1
+        },
+        {
+          "id": 4002,
+          "question": "There isn't ___ milk in the fridge.",
+          "options": ["much", "many", "a lot of"],
+          "answer": "much",
+          "explanation": "'much' is used with uncountable nouns in negative sentences. 'milk' is uncountable. 'much' ကို uncountable nouns နဲ့ negative sentences တွေမှာ သုံးပါ။",
+          "points": 1
+        },
+        {
+          "id": 4003,
+          "question": "Have you got ___ tomatoes?",
+          "options": ["many", "much", "a lot"],
+          "answer": "many",
+          "explanation": "'many' is used with plural countable nouns in questions. 'tomatoes' is plural countable. 'many' ကို plural countable nouns နဲ့ questions တွေမှာ သုံးပါ။",
+          "points": 1
+        },
+        {
+          "id": 4004,
+          "question": "There is ___ rice.",
+          "options": ["a lot of", "many", "much"],
+          "answer": "a lot of",
+          "explanation": "'a lot of' is used with uncountable nouns in affirmative sentences. 'rice' is uncountable. 'a lot of' ကို uncountable nouns နဲ့ affirmative sentences တွေမှာ သုံးပါ။",
+          "points": 1
+        },
+        {
+          "id": 4005,
+          "question": "Is there ___ water in the bottle?",
+          "options": ["a lot of", "many", "much"],
+          "answer": "a lot of",
+          "explanation": "'a lot of' is used with uncountable nouns in questions. 'water' is uncountable. 'a lot of' ကို uncountable nouns နဲ့ questions တွေမှာ သုံးပါ။",
+          "points": 1
+        },
+        {
+          "id": 4006,
+          "question": "How ___ times have you been to the USA?",
+          "options": ["many", "much", "a lot of"],
+          "answer": "many",
+          "explanation": "'many' is used with plural countable nouns. 'times' is plural countable. 'many' ကို plural countable nouns နဲ့ သုံးပါ။",
+          "points": 1
+        },
+        {
+          "id": 4007,
+          "question": "How ___ time do we have before the film starts?",
+          "options": ["much", "many", "a lot of"],
+          "answer": "much",
+          "explanation": "'much' is used with uncountable nouns. 'time' is uncountable. 'much' ကို uncountable nouns နဲ့ သုံးပါ။",
+          "points": 1
+        },
+        {
+          "id": 4008,
+          "question": "He spent ___ money on hair implants.",
+          "options": ["a lot of", "many", "much"],
+          "answer": "a lot of",
+          "explanation": "'a lot of' is used with uncountable nouns in affirmative sentences. 'money' is uncountable. 'a lot of' ကို uncountable nouns နဲ့ affirmative sentences တွေမှာ သုံးပါ။",
+          "points": 1
+        },
+        {
+          "id": 4009,
+          "question": "Today it rained ___.",
+          "options": ["a lot", "a lot of", "much"],
+          "answer": "a lot",
+          "explanation": "'a lot' (without 'of') is used when there is no noun after it. 'a lot' ကို 'a lot' ရဲ့နောက်မှာ noun မရှိတဲ့အခါ သုံးပါ။",
+          "points": 1
+        },
+        {
+          "id": 4010,
+          "question": "Haven't they sold ___ tickets?",
+          "options": ["many", "much", "a lot of"],
+          "answer": "many",
+          "explanation": "'many' is used with plural countable nouns in negative sentences and questions. 'tickets' is plural countable. 'many' ကို plural countable nouns နဲ့ negative sentences တွေမှာ သုံးပါ။",
+          "points": 1
+        },
+        {
+          "id": 4011,
+          "question": "How ___ people came?",
+          "options": ["many", "much", "a lot of"],
+          "answer": "many",
+          "explanation": "'many' is used with plural countable nouns. 'people' is plural countable. 'many' ကို plural countable nouns နဲ့ သုံးပါ။",
+          "points": 1
+        },
+        {
+          "id": 4012,
+          "question": "How ___ books are there? There are ___.",
+          "options": ["many, a lot", "much, a lot of", "many, a lot of"],
+          "answer": "many, a lot",
+          "explanation": "'many' is used with plural countable nouns like 'books'. 'a lot' (without 'of') is used when no noun follows. 'many' ကို plural countable nouns နဲ့ သုံးပါ။ noun မရှိရင် 'a lot' ကို သုံးပါ။",
+          "points": 1
+        },
+        {
+          "id": 4013,
+          "question": "Is there ___ milk in the fridge?",
+          "options": ["much", "many", "a lot"],
+          "answer": "much",
+          "explanation": "'much' is used with uncountable nouns in questions. 'milk' is uncountable. 'much' ကို uncountable nouns နဲ့ questions တွေမှာ သုံးပါ။",
+          "points": 1
+        },
+        {
+          "id": 4014,
+          "question": "I don't have ___ time.",
+          "options": ["much", "many", "a lot of"],
+          "answer": "much",
+          "explanation": "'much' is used with uncountable nouns in negative sentences. 'time' is uncountable. 'much' ကို uncountable nouns နဲ့ negative sentences တွေမှာ သုံးပါ။",
+          "points": 1
+        },
+        {
+          "id": 4015,
+          "question": "There are ___ cars on the street.",
+          "options": ["a lot of", "much", "many"],
+          "answer": "a lot of",
+          "explanation": "'a lot of' is used with countable nouns in affirmative sentences. 'cars' is plural countable. 'a lot of' ကို countable nouns နဲ့ affirmative sentences တွေမှာ သုံးပါ။",
+          "points": 1
+        },
+        {
+          "id": 4016,
+          "question": "Does it use ___ electricity?",
+          "options": ["much", "many", "a lot of"],
+          "answer": "much",
+          "explanation": "'much' is used with uncountable nouns in questions. 'electricity' is uncountable. 'much' ကို uncountable nouns နဲ့ questions တွေမှာ သုံးပါ။",
+          "points": 1
+        },
+        {
+          "id": 4017,
+          "question": "I like basketball ___.",
+          "options": ["a lot", "a lot of", "much"],
+          "answer": "a lot",
+          "explanation": "'a lot' (without 'of') is used when there is no noun after it. 'a lot' ကို 'a lot' ရဲ့နောက်မှာ noun မရှိတဲ့အခါ သုံးပါ။",
+          "points": 1
+        },
+        {
+          "id": 4018,
+          "question": "I haven't got ___ bread.",
+          "options": ["much", "many", "a lot of"],
+          "answer": "much",
+          "explanation": "'much' is used with uncountable nouns in negative sentences. 'bread' is uncountable. 'much' ကို uncountable nouns နဲ့ negative sentences တွေမှာ သုံးပါ။",
+          "points": 1
+        },
+        {
+          "id": 4019,
+          "question": "How ___ is the entrance fee?",
+          "options": ["much", "many", "a lot of"],
+          "answer": "much",
+          "explanation": "'much' is used to ask about price/quantity of uncountable things. 'entrance fee' is treated as uncountable here. 'much' ကို စျေးနှုန်းမေးဖို့ သုံးပါ။",
+          "points": 1
+        },
+        {
+          "id": 4020,
+          "question": "Does she want ___ dresses?",
+          "options": ["many", "much", "a lot of"],
+          "answer": "many",
+          "explanation": "'many' is used with plural countable nouns in questions. 'dresses' is plural countable. 'many' ကို plural countable nouns နဲ့ questions တွေမှာ သုံးပါ။",
+          "points": 1
+        },
+        {
+          "id": 4021,
+          "question": "I have ___ time.",
+          "options": ["a lot of", "many", "much"],
+          "answer": "a lot of",
+          "explanation": "'a lot of' is used with uncountable nouns in affirmative sentences. 'time' is uncountable. 'a lot of' ကို uncountable nouns နဲ့ affirmative sentences တွေမှာ သုံးပါ။",
+          "points": 1
+        },
+        {
+          "id": 4022,
+          "question": "I have ___ things to do.",
+          "options": ["many", "much", "a lot of"],
+          "answer": "many",
+          "explanation": "'many' is used with plural countable nouns in affirmative sentences. 'things' is plural countable. 'many' ကို plural countable nouns နဲ့ သုံးပါ။",
+          "points": 1
+        },
+        {
+          "id": 4023,
+          "question": "I dance ___.",
+          "options": ["a lot", "a lot of", "much"],
+          "answer": "a lot",
+          "explanation": "'a lot' (without 'of') is used when there is no noun after it. 'a lot' ကို 'a lot' ရဲ့နောက်မှာ noun မရှိတဲ့အခါ သုံးပါ။",
+          "points": 1
+        },
+        {
+          "id": 4024,
+          "question": "I don't have ___ friends.",
+          "options": ["many", "much", "a lot of"],
+          "answer": "many",
+          "explanation": "'many' is used with plural countable nouns in negative sentences. 'friends' is plural countable. 'many' ကို plural countable nouns နဲ့ negative sentences တွေမှာ သုံးပါ။",
+          "points": 1
+        },
+        {
+          "id": 4025,
+          "question": "He likes her very ___.",
+          "options": ["much", "many", "a lot of"],
+          "answer": "much",
+          "explanation": "'very much' is a fixed expression used after verbs to mean 'a great deal'. 'much' ကို 'very much' အဖြစ် verb ပြီးနောက်မှာ သုံးပါ။",
+          "points": 1
+        }
+      ]
+    }
+  ]
+}

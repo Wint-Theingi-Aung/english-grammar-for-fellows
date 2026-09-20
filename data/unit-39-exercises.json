@@ -1,0 +1,156 @@
+{
+  "unit": 39,
+  "exercises": [
+    {
+      "id": "unit39-ex1",
+      "type": "multiple_choice",
+      "instructions": "Choose the correct determiner (some, any, a, an) for each sentence.",
+      "questions": [
+        {
+          "id": 3901,
+          "question": "There is ___ bread.",
+          "options": ["some", "any", "a"],
+          "answer": "some",
+          "explanation": "'some' is used with uncountable nouns in affirmative sentences. 'bread' is uncountable. 'some' ကို uncountable nouns နဲ့ affirmative sentences တွေမှာ သုံးပါ။",
+          "points": 1
+        },
+        {
+          "id": 3902,
+          "question": "There aren't ___ bananas.",
+          "options": ["any", "some", "a"],
+          "answer": "any",
+          "explanation": "'any' is used with plural countable nouns in negative sentences. 'bananas' is plural countable. 'any' ကို negative sentences တွေမှာ သုံးပါ။",
+          "points": 1
+        },
+        {
+          "id": 3903,
+          "question": "There is ___ university on this street.",
+          "options": ["a", "an", "some"],
+          "answer": "a",
+          "explanation": "'a' is used before words starting with a consonant sound. 'university' starts with a 'yoo' sound (consonant). 'a' ကို consonant sound ရှိတဲ့ စကားလုံးတွေရှေ့မှာ သုံးပါ။",
+          "points": 1
+        },
+        {
+          "id": 3904,
+          "question": "There are ___ apples.",
+          "options": ["some", "any", "a"],
+          "answer": "some",
+          "explanation": "'some' is used with plural countable nouns in affirmative sentences. 'apples' is plural countable. 'some' ကို affirmative sentences တွေမှာ သုံးပါ။",
+          "points": 1
+        },
+        {
+          "id": 3905,
+          "question": "There is ___ water.",
+          "options": ["some", "any", "a"],
+          "answer": "some",
+          "explanation": "'some' is used with uncountable nouns in affirmative sentences. 'water' is uncountable. 'some' ကို uncountable nouns နဲ့ affirmative sentences တွေမှာ သုံးပါ။",
+          "points": 1
+        },
+        {
+          "id": 3906,
+          "question": "There isn't ___ milk.",
+          "options": ["any", "some", "a"],
+          "answer": "any",
+          "explanation": "'any' is used with uncountable nouns in negative sentences. 'milk' is uncountable. 'any' ကို negative sentences တွေမှာ သုံးပါ။",
+          "points": 1
+        },
+        {
+          "id": 3907,
+          "question": "I have got ___ time.",
+          "options": ["some", "any", "a"],
+          "answer": "some",
+          "explanation": "'some' is used with uncountable nouns in affirmative sentences. 'time' is uncountable. 'some' ကို uncountable nouns နဲ့ affirmative sentences တွေမှာ သုံးပါ။",
+          "points": 1
+        },
+        {
+          "id": 3908,
+          "question": "Is there ___ tea left?",
+          "options": ["any", "some", "a"],
+          "answer": "any",
+          "explanation": "'any' is used with uncountable nouns in questions. 'tea' is uncountable. 'any' ကို questions တွေမှာ သုံးပါ။",
+          "points": 1
+        },
+        {
+          "id": 3909,
+          "question": "There are ___ mushrooms.",
+          "options": ["some", "any", "a"],
+          "answer": "some",
+          "explanation": "'some' is used with plural countable nouns in affirmative sentences. 'mushrooms' is plural countable. 'some' ကို affirmative sentences တွေမှာ သုံးပါ။",
+          "points": 1
+        },
+        {
+          "id": 3910,
+          "question": "There is ___ cat near the wall.",
+          "options": ["a", "an", "some"],
+          "answer": "a",
+          "explanation": "'a' is used before words starting with a consonant sound. 'cat' starts with a consonant. 'a' ကို consonant sound ရှိတဲ့ စကားလုံးတွေရှေ့မှာ သုံးပါ။",
+          "points": 1
+        },
+        {
+          "id": 3911,
+          "question": "There is ___ apple in the table.",
+          "options": ["an", "a", "some"],
+          "answer": "an",
+          "explanation": "'an' is used before vowel sounds. 'apple' starts with a vowel sound. 'an' ကို vowel sound ရှိတဲ့ စကားလုံးတွေရှေ့မှာ သုံးပါ။",
+          "points": 1
+        },
+        {
+          "id": 3912,
+          "question": "When I was at the zoo, I saw ___ elephant.",
+          "options": ["an", "a", "some"],
+          "answer": "an",
+          "explanation": "'an' is used before vowel sounds. 'elephant' starts with a vowel sound. 'an' ကို vowel sound ရှိတဲ့ စကားလုံးတွေရှေ့မှာ သုံးပါ။",
+          "points": 1
+        },
+        {
+          "id": 3913,
+          "question": "There is ___ cheese.",
+          "options": ["some", "any", "a"],
+          "answer": "some",
+          "explanation": "'some' is used with uncountable nouns in affirmative sentences. 'cheese' is uncountable. 'some' ကို uncountable nouns နဲ့ affirmative sentences တွေမှာ သုံးပါ။",
+          "points": 1
+        },
+        {
+          "id": 3914,
+          "question": "There aren't ___ strawberries.",
+          "options": ["any", "some", "a"],
+          "answer": "any",
+          "explanation": "'any' is used with plural countable nouns in negative sentences. 'strawberries' is plural countable. 'any' ကို negative sentences တွေမှာ သုံးပါ။",
+          "points": 1
+        },
+        {
+          "id": 3915,
+          "question": "There is ___ big pizza.",
+          "options": ["a", "an", "some"],
+          "answer": "a",
+          "explanation": "'a' is used before words starting with a consonant sound. 'big' starts with a consonant. 'a' ကို consonant sound ရှိတဲ့ စကားလုံးတွေရှေ့မှာ သုံးပါ။",
+          "points": 1
+        },
+        {
+          "id": 3916,
+          "question": "Brian is ___ Irishman.",
+          "options": ["an", "a", "some"],
+          "answer": "an",
+          "explanation": "'an' is used before vowel sounds. 'Irishman' starts with a vowel sound. 'an' ကို vowel sound ရှိတဲ့ စကားလုံးတွေရှေ့မှာ သုံးပါ။",
+          "points": 1
+        },
+        {
+          "id": 3917,
+          "question": "I live in ___ apartment.",
+          "options": ["an", "a", "some"],
+          "answer": "an",
+          "explanation": "'an' is used before vowel sounds. 'apartment' starts with a vowel sound. 'an' ကို vowel sound ရှိတဲ့ စကားလုံးတွေရှေ့မှာ သုံးပါ။",
+          "points": 1
+        },
+        {
+          "id": 3918,
+          "question": "I need ___ bottle of water.",
+          "options": ["a", "an", "some"],
+          "answer": "a",
+          "explanation": "'a' is used before words starting with a consonant sound. 'bottle' starts with a consonant. 'a' ကို consonant sound ရှိတဲ့ စကားလုံးတွေရှေ့မှာ သုံးပါ။",
+          "points": 1
+        }
+      ]
+    }
+  ]
+}

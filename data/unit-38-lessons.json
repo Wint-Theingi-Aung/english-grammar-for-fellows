@@ -1,0 +1,61 @@
+{
+  "unit": 38,
+  "title": "Prepositions of Place",
+  "lessons": [
+    {
+      "id": "unit38-lesson1",
+      "title": "Prepositions of Place: on, under, above, near, behind, in front of, next to, in",
+      "content": "Use 'on' for a position above but touching the object. Use 'under' for something below. Use 'above' for a much higher position. Use 'near' for not far away. Use 'behind' for the back part. Use 'in front of' for a facing position. Use 'next to' for very close. Use 'in' for inside an area.",
+      "details": [
+        {
+          "concept": "On – above but touching",
+          "explanation": "Use 'on' to indicate a position above but touching the object.",
+          "example": "There's a cat on the desk.",
+          "burmese": "'on' ကို အရာဝတ္ထုပေါ်မှာ ထိတွေ့နေတဲ့ အနေအထား ပြဖို့ သုံးပါ။"
+        },
+        {
+          "concept": "Under – below or lower than",
+          "explanation": "Use 'under' to talk about something that is below or lower than something else.",
+          "example": "The dog usually sits under the table, on your feet!",
+          "burmese": "'under' ကို အခြားအရာတစ်ခုထက် အောက်မှာ ရှိတဲ့အရာ ပြဖို့ သုံးပါ။"
+        },
+        {
+          "concept": "Above – much higher position",
+          "explanation": "Use 'above' to indicate a much higher position than the preposition 'on' does.",
+          "example": "We have a new light above the dining table.",
+          "burmese": "'above' ကို 'on' ထက် အများကြီးပိုမြင့်တဲ့ အနေအထား ပြဖို့ သုံးပါ။"
+        },
+        {
+          "concept": "Near – not far away in distance",
+          "explanation": "Use 'near' to mean 'not far away in distance'.",
+          "example": "My house is near my school – only two minutes away.",
+          "burmese": "'near' ကို အကွာအဝေးအရ မလှမ်းဘဲ ရှိခြင်း ပြဖို့ သုံးပါ။"
+        },
+        {
+          "concept": "Behind – at the back of",
+          "explanation": "Use 'behind' to indicate the back part of something. 'Behind' is opposite of 'in front of'.",
+          "example": "Susie is standing behind the tree so I can't see her.",
+          "burmese": "'behind' ကို အရာဝတ္ထုရဲ့ နောက်ဘက်မှာ ရှိခြင်း ပြဖို့ သုံးပါ။ 'behind' က 'in front of' ရဲ့ ဆန့်ကျင်ဘက် ဖြစ်ပါတယ်။"
+        },
+        {
+          "concept": "In front of – facing position",
+          "explanation": "Use 'in front of' to indicate a position facing someone/something.",
+          "example": "The teacher usually stands in front of the class.",
+          "burmese": "'in front of' ကို တစ်စုံတစ်ယောက်/တစ်စုံတစ်ခုကို ရင်ဆိုင်နေတဲ့ အနေအထား ပြဖို့ သုံးပါ။"
+        },
+        {
+          "concept": "Next to – very close to",
+          "explanation": "Use 'next to' to indicate very close to someone or something.",
+          "example": "The lamp is next to the sofa.",
+          "burmese": "'next to' ကို တစ်စုံတစ်ယောက်/တစ်စုံတစ်ခုနဲ့ အလွန်နီးကပ်စွာ ရှိခြင်း ပြဖို့ သုံးပါ။"
+        },
+        {
+          "concept": "In – inside an area",
+          "explanation": "Use 'in' to indicate inside an area, moving from a point outside to a point inside.",
+          "example": "The fish is in the bowl.",
+          "burmese": "'in' ကို ဧရိယာတစ်ခုအတွင်းမှာ ရှိခြင်း ပြဖို့ သုံးပါ။"
+        }
+      ]
+    }
+  ]
+}
