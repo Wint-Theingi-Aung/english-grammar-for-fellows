@@ -2,6 +2,7 @@
 
 import Link from "next/link";
 import { useMemo } from "react";
+import BookCover from "@/components/BookCover";
 import ProgressBar from "@/components/ProgressBar";
 import { getLessonsData, getTotalQuestionCount, isUnitAvailable } from "@/lib/data";
 import { useAllProgress, useTodayStats } from "@/lib/hooks";
@@ -92,16 +93,16 @@ const UNIT_DESCRIPTIONS: Record<number, string> = {
   40: "Learn when to use much, many, a lot of, and a lot to talk about quantities.",
 };
 
-function StatCard({ icon, label, value, color }: { icon: React.ReactNode; label: string; value: string | number; color: string }) {
+function StatCard({ icon, label, value }: { icon: React.ReactNode; label: string; value: string | number }) {
   return (
-    <div className={`bg-surface rounded-xl border border-border p-4 sm:p-5 shadow-sm ${color}`}>
-      <div className="flex items-center gap-3">
-        <span className="flex-shrink-0 w-10 h-10 rounded-xl flex items-center justify-center" aria-hidden="true">
+    <div className="bg-white rounded-2xl border border-[#e8e4df] p-5 sm:p-6 shadow-sm hover:shadow-md transition-shadow duration-300">
+      <div className="flex items-center gap-4">
+        <span className="flex-shrink-0 w-11 h-11 rounded-xl flex items-center justify-center bg-[#faf8f5]" aria-hidden="true">
           {icon}
         </span>
         <div className="min-w-0">
-          <p className="text-2xl font-bold text-ink animate-count">{value}</p>
-          <p className="text-xs font-medium text-ink-muted uppercase tracking-wider">{label}</p>
+          <p className="text-2xl font-bold text-[#1a1f36] font-sans tabular-nums">{value}</p>
+          <p className="text-xs font-medium text-[#8b8fa3] uppercase tracking-wider">{label}</p>
         </div>
       </div>
     </div>
@@ -118,18 +119,18 @@ function LearningPathNode({ unit, status, title, progress, questionCount, answer
 }) {
   const slug = `unit-${unit}`;
   const nodeColor = status === "completed"
-    ? "bg-success-500 text-white"
+    ? "bg-[#2a9d8f] text-white"
     : status === "current"
-      ? "bg-primary-500 text-white ring-4 ring-primary-100"
+      ? "bg-[#e76f51] text-white ring-4 ring-[#e76f51]/15"
       : status === "available"
-        ? "bg-surface border-2 border-border text-ink-muted"
-        : "bg-surface-alt border-2 border-border text-ink-muted/40";
+        ? "bg-white border-2 border-[#e8e4df] text-[#8b8fa3]"
+        : "bg-[#faf8f5] border-2 border-[#e8e4df] text-[#8b8fa3]/40";
 
   const isClickable = status !== "locked";
 
   return (
     <div className="flex items-start gap-4 path-connector">
-      <div className={`flex-shrink-0 w-10 h-10 rounded-xl flex items-center justify-center font-bold text-sm transition-all duration-200 ${nodeColor}`}>
+      <div className={`flex-shrink-0 w-10 h-10 rounded-full flex items-center justify-center font-bold text-sm transition-all duration-200 ${nodeColor}`}>
         {status === "completed" ? (
           <svg className="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2.5}>
             <path strokeLinecap="round" strokeLinejoin="round" d="M5 13l4 4L19 7" />
@@ -141,10 +142,10 @@ function LearningPathNode({ unit, status, title, progress, questionCount, answer
       <div className="flex-1 min-w-0 pb-8">
         {isClickable ? (
           <Link href={`/${slug}`} className="block group">
-            <h3 className={`font-bold text-sm sm:text-base ${status === "current" ? "text-primary-700" : "text-ink"} group-hover:text-primary-600 transition-colors duration-200`}>
+            <h3 className={`font-semibold text-sm sm:text-base ${status === "current" ? "text-[#e76f51]" : "text-[#1a1f36]"} group-hover:text-[#e76f51] transition-colors duration-200`}>
               {title}
             </h3>
-            <p className="text-xs text-ink-muted mt-0.5">{questionCount} questions</p>
+            <p className="text-xs text-[#8b8fa3] mt-0.5">{questionCount} questions</p>
             {progress > 0 && (
               <div className="mt-2 max-w-xs">
                 <ProgressBar current={answeredCount} total={questionCount} />
@@ -153,8 +154,8 @@ function LearningPathNode({ unit, status, title, progress, questionCount, answer
           </Link>
         ) : (
           <div>
-            <h3 className="font-bold text-sm sm:text-base text-ink-muted/50">{title}</h3>
-            <p className="text-xs text-ink-muted/40 mt-0.5">Coming soon</p>
+            <h3 className="font-semibold text-sm sm:text-base text-[#8b8fa3]/50">{title}</h3>
+            <p className="text-xs text-[#8b8fa3]/40 mt-0.5">Coming soon</p>
           </div>
         )}
       </div>
@@ -166,30 +167,30 @@ function ContinueCard({ unit, slug, title, answered, total, completed }: {
   unit: number; slug: string; title: string; answered: number; total: number; completed: boolean;
 }) {
   return (
-    <div className="bg-gradient-to-br from-primary-600 to-primary-700 rounded-2xl p-6 sm:p-8 text-white shadow-lg shadow-primary-600/20 animate-fade-in">
+    <div className="bg-white rounded-2xl border border-[#e8e4df] p-6 sm:p-8 shadow-sm animate-fade-in">
       <div className="flex items-center gap-2 mb-3">
-        <span className="inline-flex items-center justify-center w-6 h-6 rounded-md bg-white/20">
-          <svg className="w-3.5 h-3.5" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2.5}>
+        <span className="inline-flex items-center justify-center w-6 h-6 rounded-md bg-[#e76f51]/10">
+          <svg className="w-3.5 h-3.5 text-[#e76f51]" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2.5}>
             <path strokeLinecap="round" strokeLinejoin="round" d="M13 7l5 5m0 0l-5 5m5-5H6" />
           </svg>
         </span>
-        <span className="text-sm font-semibold text-white/80 uppercase tracking-wider">
+        <span className="text-sm font-semibold text-[#e76f51] uppercase tracking-wider">
           {completed ? "Review" : "Continue Learning"}
         </span>
       </div>
-      <h2 className="text-xl sm:text-2xl font-bold mb-2">
+      <h2 className="text-xl sm:text-2xl font-bold text-[#1a1f36] mb-2 font-serif">
         Unit {unit}: {title}
       </h2>
-      <p className="text-sm text-white/70 mb-4">
+      <p className="text-sm text-[#8b8fa3] mb-4">
         {completed
           ? `You scored ${answered} points. Review your answers or retry.`
           : `${answered} of ${total} questions answered`}
       </p>
       {!completed && (
         <div className="mb-5">
-          <div className="w-full h-2 bg-white/20 rounded-full overflow-hidden">
+          <div className="w-full h-2 bg-[#f0eeeb] rounded-full overflow-hidden">
             <div
-              className="h-full rounded-full bg-white progress-fill transition-all duration-300"
+              className="h-full rounded-full bg-[#2a9d8f] progress-fill transition-all duration-300"
               style={{ width: `${total > 0 ? Math.round((answered / total) * 100) : 0}%` }}
             />
           </div>
@@ -198,7 +199,7 @@ function ContinueCard({ unit, slug, title, answered, total, completed }: {
       <div className="flex flex-wrap gap-3">
         <Link
           href={`/${slug}/practice`}
-          className="inline-flex items-center justify-center gap-2 bg-white text-primary-700 font-semibold px-5 py-2.5 rounded-xl hover:bg-white/90 transition-all duration-200 shadow-sm text-sm focus-visible:ring-2 focus-visible:ring-white focus-visible:ring-offset-2 focus-visible:ring-offset-primary-600"
+          className="inline-flex items-center justify-center gap-2 bg-[#e76f51] text-white font-semibold px-5 py-2.5 rounded-xl hover:bg-[#d4603f] transition-all duration-200 shadow-sm text-sm focus-visible:ring-2 focus-visible:ring-[#e76f51] focus-visible:ring-offset-2"
         >
           {completed ? "Retry Practice" : "Continue Practice"}
           <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
@@ -207,7 +208,7 @@ function ContinueCard({ unit, slug, title, answered, total, completed }: {
         </Link>
         <Link
           href={`/${slug}`}
-          className="inline-flex items-center justify-center gap-2 bg-white/15 text-white font-semibold px-5 py-2.5 rounded-xl hover:bg-white/25 transition-all duration-200 text-sm focus-visible:ring-2 focus-visible:ring-white focus-visible:ring-offset-2 focus-visible:ring-offset-primary-600"
+          className="inline-flex items-center justify-center gap-2 bg-[#faf8f5] text-[#1a1f36] font-semibold px-5 py-2.5 rounded-xl hover:bg-[#f0eeeb] transition-all duration-200 text-sm focus-visible:ring-2 focus-visible:ring-[#e76f51] focus-visible:ring-offset-2"
         >
           View Unit
         </Link>
@@ -223,16 +224,16 @@ function UnitCard({ unit, title, description, answered, total, completed, score 
   const accuracy = score && score.total > 0 ? Math.round((score.score / score.total) * 100) : 0;
 
   return (
-    <div className="bg-surface rounded-2xl border border-border shadow-sm overflow-hidden card-hover animate-fade-in">
+    <div className="bg-white rounded-2xl border border-[#e8e4df] shadow-sm overflow-hidden hover:shadow-md transition-all duration-300 animate-fade-in">
       <div className="p-5 sm:p-6">
         <div className="flex items-start justify-between mb-3">
           <div className="flex items-center gap-3">
             <span className={`inline-flex items-center justify-center w-9 h-9 rounded-xl text-sm font-bold flex-shrink-0 ${
               completed
-                ? "bg-success-50 text-success-600"
+                ? "bg-[#f0faf9] text-[#2a9d8f]"
                 : answered > 0
-                  ? "bg-primary-50 text-primary-600"
-                  : "bg-surface-alt text-ink-muted"
+                  ? "bg-[#fff4f1] text-[#e76f51]"
+                  : "bg-[#faf8f5] text-[#8b8fa3]"
             }`}>
               {completed ? (
                 <svg className="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2.5}>
@@ -243,18 +244,18 @@ function UnitCard({ unit, title, description, answered, total, completed, score 
               )}
             </span>
             <div>
-              <h3 className="font-bold text-ink text-sm sm:text-base leading-tight">{title}</h3>
-              <p className="text-xs text-ink-muted mt-0.5">{total} questions</p>
+              <h3 className="font-bold text-[#1a1f36] text-sm sm:text-base leading-tight">{title}</h3>
+              <p className="text-xs text-[#8b8fa3] mt-0.5">{total} questions</p>
             </div>
           </div>
           {completed && score && (
-            <span className="inline-flex items-center gap-1 text-xs font-bold text-success-600 bg-success-50 px-2.5 py-1 rounded-full border border-success-500/20 flex-shrink-0">
+            <span className="inline-flex items-center gap-1 text-xs font-bold text-[#2a9d8f] bg-[#f0faf9] px-2.5 py-1 rounded-full border border-[#2a9d8f]/20 flex-shrink-0">
               {accuracy}%
             </span>
           )}
         </div>
 
-        <p className="text-xs text-ink-muted mb-4 leading-relaxed line-clamp-2">{description}</p>
+        <p className="text-xs text-[#8b8fa3] mb-4 leading-relaxed line-clamp-2">{description}</p>
 
         {answered > 0 && (
           <div className="mb-4">
@@ -265,12 +266,10 @@ function UnitCard({ unit, title, description, answered, total, completed, score 
         <div className="flex gap-2">
           <Link
             href={`/${slug}/practice`}
-            className={`flex-1 inline-flex items-center justify-center gap-1.5 font-semibold px-4 py-2.5 rounded-xl transition-all duration-200 text-sm focus-visible:ring-2 focus-visible:ring-primary-500 focus-visible:ring-offset-2 ${
+            className={`flex-1 inline-flex items-center justify-center gap-1.5 font-semibold px-4 py-2.5 rounded-xl transition-all duration-200 text-sm focus-visible:ring-2 focus-visible:ring-[#e76f51] focus-visible:ring-offset-2 ${
               completed
-                ? "bg-surface text-primary-700 border-2 border-primary-200 hover:bg-primary-50 hover:border-primary-300"
-                : answered > 0
-                  ? "bg-gradient-to-r from-primary-600 to-primary-700 text-white shadow-md shadow-primary-600/20 hover:from-primary-700 hover:to-primary-800"
-                  : "bg-gradient-to-r from-primary-600 to-primary-700 text-white shadow-md shadow-primary-600/20 hover:from-primary-700 hover:to-primary-800"
+                ? "bg-white text-[#2a9d8f] border-2 border-[#2a9d8f]/20 hover:bg-[#f0faf9] hover:border-[#2a9d8f]/40"
+                : "bg-[#e76f51] text-white hover:bg-[#d4603f]"
             }`}
           >
             {completed ? "Review" : answered > 0 ? "Continue" : "Start"}
@@ -280,7 +279,7 @@ function UnitCard({ unit, title, description, answered, total, completed, score 
           </Link>
           <Link
             href={`/${slug}`}
-            className="inline-flex items-center justify-center px-3 py-2.5 rounded-xl border-2 border-border text-ink-muted hover:bg-surface-alt hover:border-primary-200 transition-all duration-200 text-sm focus-visible:ring-2 focus-visible:ring-primary-500 focus-visible:ring-offset-2"
+            className="inline-flex items-center justify-center px-3 py-2.5 rounded-xl border-2 border-[#e8e4df] text-[#8b8fa3] hover:bg-[#faf8f5] hover:border-[#e76f51]/30 transition-all duration-200 text-sm focus-visible:ring-2 focus-visible:ring-[#e76f51] focus-visible:ring-offset-2"
             aria-label={`View Unit ${unit} details`}
           >
             <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
@@ -369,64 +368,153 @@ export default function HomePage() {
   }, [allProgress]);
 
   return (
-    <div className="hero-gradient hero-pattern min-h-screen">
-      <div className="max-w-5xl mx-auto px-4 sm:px-6 py-8 sm:py-10 lg:py-12">
-        {/* Welcome */}
-        <section className="mb-8 animate-fade-in">
-          <h1 className="text-2xl sm:text-3xl lg:text-4xl font-bold text-ink tracking-tight mb-1 font-serif">
-            English Grammar for Fellows
-          </h1>
-          <p className="text-ink-muted text-sm sm:text-base">
-            Master English grammar with interactive lessons and exercises.
-          </p>
-        </section>
+    <div className="min-h-screen" style={{ backgroundColor: "#faf8f5" }}>
+      {/* Hero Section */}
+      <section className="relative overflow-hidden" style={{ background: "linear-gradient(135deg, #faf8f5 0%, #f5f0eb 50%, #faf8f5 100%)" }}>
+        <div className="absolute inset-0 opacity-[0.03]">
+          <div className="absolute top-0 right-0 w-96 h-96 rounded-full bg-[#e76f51] blur-3xl translate-x-1/2 -translate-y-1/2" />
+          <div className="absolute bottom-0 left-0 w-80 h-80 rounded-full bg-[#2a9d8f] blur-3xl -translate-x-1/3 translate-y-1/3" />
+        </div>
+        <div className="relative max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-12 sm:py-16 lg:py-20">
+          <div className="flex flex-col lg:flex-row items-center gap-10 lg:gap-16">
+            <div className="flex-1 text-center lg:text-left animate-fade-in">
+              <h1 className="text-4xl sm:text-5xl lg:text-6xl font-serif font-bold text-[#1a1f36] leading-tight tracking-tight mb-5">
+                English that feels clear.
+              </h1>
+              <p className="text-base sm:text-lg text-[#8b8fa3] max-w-xl mx-auto lg:mx-0 mb-8 leading-relaxed">
+                Master English grammar through understanding, practice, and memory. 40 structured units with interactive exercises and Myanmar translations.
+              </p>
+              <div className="flex flex-col sm:flex-row gap-3 justify-center lg:justify-start">
+                <Link
+                  href="/"
+                  className="inline-flex items-center justify-center gap-2 bg-[#e76f51] text-white font-semibold px-7 py-3.5 rounded-xl hover:bg-[#d4603f] transition-all duration-200 shadow-sm text-sm focus-visible:ring-2 focus-visible:ring-[#e76f51] focus-visible:ring-offset-2"
+                >
+                  Start Learning
+                  <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
+                    <path strokeLinecap="round" strokeLinejoin="round" d="M13 7l5 5m0 0l-5 5m5-5H6" />
+                  </svg>
+                </Link>
+                <button
+                  onClick={() => document.getElementById("all-units")?.scrollIntoView({ behavior: "smooth" })}
+                  className="inline-flex items-center justify-center gap-2 bg-white text-[#1a1f36] font-semibold px-7 py-3.5 rounded-xl hover:bg-[#f0eeeb] border border-[#e8e4df] transition-all duration-200 text-sm focus-visible:ring-2 focus-visible:ring-[#e76f51] focus-visible:ring-offset-2"
+                >
+                  View All Units
+                  <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
+                    <path strokeLinecap="round" strokeLinejoin="round" d="M19 9l-7 7-7-7" />
+                  </svg>
+                </button>
+              </div>
+            </div>
+            <div className="flex-shrink-0 animate-scale-in hidden sm:block">
+              <div className="relative">
+                <div className="absolute -inset-8 bg-gradient-to-br from-[#e76f51]/10 via-transparent to-[#2a9d8f]/10 rounded-3xl blur-2xl" />
+                <div className="relative" style={{ perspective: "1200px" }}>
+                  <div style={{ transform: "rotateY(-4deg) rotateX(2deg)" }}>
+                    <BookCover className="w-56 sm:w-64 lg:w-72" />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
 
+      <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 pb-16">
         {/* Continue Learning Card */}
         {continueData && (
-          <section className="mb-8" aria-label="Continue learning">
+          <section className="mt-10 mb-8" aria-label="Continue learning">
             <ContinueCard {...continueData} />
           </section>
         )}
 
-        {/* Stats */}
-        <section className="grid grid-cols-2 sm:grid-cols-4 gap-3 sm:gap-4 mb-8" aria-label="Learning statistics">
-          <StatCard
-            icon={<svg className="w-5 h-5 text-primary-500" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}><path strokeLinecap="round" strokeLinejoin="round" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" /></svg>}
-            label="Day Streak"
-            value={streak}
-            color="stat-glow-teal"
-          />
-          <StatCard
-            icon={<svg className="w-5 h-5 text-accent-500" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}><path strokeLinecap="round" strokeLinejoin="round" d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2" /></svg>}
-            label="Questions"
-            value={stats.totalAnswered}
-            color="stat-glow-coral"
-          />
-          <StatCard
-            icon={<svg className="w-5 h-5 text-success-500" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}><path strokeLinecap="round" strokeLinejoin="round" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" /></svg>}
-            label="Accuracy"
-            value={`${stats.accuracy}%`}
-            color="stat-glow-teal"
-          />
-          <StatCard
-            icon={<svg className="w-5 h-5 text-info-500" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}><path strokeLinecap="round" strokeLinejoin="round" d="M19 11H5m14 0a2 2 0 012 2v6a2 2 0 01-2 2H5a2 2 0 01-2-2v-6a2 2 0 012-2m14 0V9a2 2 0 00-2-2M5 11V9a2 2 0 012-2m0 0V5a2 2 0 012-2h6a2 2 0 012 2v2M7 7h10" /></svg>}
-            label="Completed"
-            value={`${stats.totalCompleted}/40`}
-            color="stat-glow-navy"
-          />
+        {/* Stats Grid */}
+        <section className="grid grid-cols-2 sm:grid-cols-4 gap-3 sm:gap-4 mb-10 mt-8" aria-label="Learning statistics">
+          <div className="animate-fade-in" style={{ animationDelay: "0ms" }}>
+            <StatCard
+              icon={<svg className="w-5 h-5 text-[#e76f51]" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}><path strokeLinecap="round" strokeLinejoin="round" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" /></svg>}
+              label="Day Streak"
+              value={streak}
+            />
+          </div>
+          <div className="animate-fade-in" style={{ animationDelay: "50ms" }}>
+            <StatCard
+              icon={<svg className="w-5 h-5 text-[#2a9d8f]" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}><path strokeLinecap="round" strokeLinejoin="round" d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2" /></svg>}
+              label="Questions"
+              value={stats.totalAnswered}
+            />
+          </div>
+          <div className="animate-fade-in" style={{ animationDelay: "100ms" }}>
+            <StatCard
+              icon={<svg className="w-5 h-5 text-[#2a9d8f]" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}><path strokeLinecap="round" strokeLinejoin="round" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" /></svg>}
+              label="Accuracy"
+              value={`${stats.accuracy}%`}
+            />
+          </div>
+          <div className="animate-fade-in" style={{ animationDelay: "150ms" }}>
+            <StatCard
+              icon={<svg className="w-5 h-5 text-[#1a1f36]" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}><path strokeLinecap="round" strokeLinejoin="round" d="M19 11H5m14 0a2 2 0 012 2v6a2 2 0 01-2 2H5a2 2 0 01-2-2v-6a2 2 0 012-2m14 0V9a2 2 0 00-2-2M5 11V9a2 2 0 012-2m0 0V5a2 2 0 012-2h6a2 2 0 012 2v2M7 7h10" /></svg>}
+              label="Completed"
+              value={`${stats.totalCompleted}/40`}
+            />
+          </div>
+        </section>
+
+        {/* Quick Links */}
+        <section className="mb-10" aria-label="Quick links">
+          <div className="grid sm:grid-cols-3 gap-4">
+            <Link
+              href="/"
+              className="group bg-white rounded-2xl border border-[#e8e4df] p-6 hover:shadow-md transition-all duration-300 animate-fade-in"
+              style={{ animationDelay: "0ms" }}
+            >
+              <div className="w-10 h-10 rounded-xl bg-[#fff4f1] flex items-center justify-center mb-4 group-hover:scale-110 transition-transform duration-200">
+                <svg className="w-5 h-5 text-[#e76f51]" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
+                  <path strokeLinecap="round" strokeLinejoin="round" d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253" />
+                </svg>
+              </div>
+              <h3 className="font-bold text-[#1a1f36] mb-1 font-serif">Grammar Guides</h3>
+              <p className="text-sm text-[#8b8fa3]">40 structured units covering all essential grammar topics</p>
+            </Link>
+            <Link
+              href="/"
+              className="group bg-white rounded-2xl border border-[#e8e4df] p-6 hover:shadow-md transition-all duration-300 animate-fade-in"
+              style={{ animationDelay: "50ms" }}
+            >
+              <div className="w-10 h-10 rounded-xl bg-[#f0faf9] flex items-center justify-center mb-4 group-hover:scale-110 transition-transform duration-200">
+                <svg className="w-5 h-5 text-[#2a9d8f]" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
+                  <path strokeLinecap="round" strokeLinejoin="round" d="M15.232 5.232l3.536 3.536m-2.036-5.036a2.5 2.5 0 113.536 3.536L6.5 21.036H3v-3.572L16.732 3.732z" />
+                </svg>
+              </div>
+              <h3 className="font-bold text-[#1a1f36] mb-1 font-serif">Practice Exercises</h3>
+              <p className="text-sm text-[#8b8fa3]">Interactive questions with instant feedback and explanations</p>
+            </Link>
+            <Link
+              href="/about"
+              className="group bg-white rounded-2xl border border-[#e8e4df] p-6 hover:shadow-md transition-all duration-300 animate-fade-in"
+              style={{ animationDelay: "100ms" }}
+            >
+              <div className="w-10 h-10 rounded-xl bg-[#faf8f5] flex items-center justify-center mb-4 group-hover:scale-110 transition-transform duration-200">
+                <svg className="w-5 h-5 text-[#1a1f36]" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
+                  <path strokeLinecap="round" strokeLinejoin="round" d="M19 11a7 7 0 01-7 7m0 0a7 7 0 01-7-7m7 7v4m0 0H8m4 0h4m-4-8a3 3 0 01-3-3V5a3 3 0 116 0v6a3 3 0 01-3 3z" />
+                </svg>
+              </div>
+              <h3 className="font-bold text-[#1a1f36] mb-1 font-serif">Audio & Resources</h3>
+              <p className="text-sm text-[#8b8fa3]">Additional learning materials and pronunciation guides</p>
+            </Link>
+          </div>
         </section>
 
         {/* Learning Path */}
-        <section className="mb-8" aria-labelledby="path-heading">
-          <h2 id="path-heading" className="text-lg font-bold text-ink mb-5 flex items-center gap-2 font-serif">
-            <span className="inline-flex items-center justify-center w-7 h-7 rounded-lg bg-primary-50 text-primary-600">
-              <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
+        <section className="mb-10" aria-labelledby="path-heading">
+          <h2 id="path-heading" className="text-lg font-bold text-[#1a1f36] mb-5 flex items-center gap-2 font-serif">
+            <span className="inline-flex items-center justify-center w-7 h-7 rounded-lg bg-[#fff4f1]">
+              <svg className="w-4 h-4 text-[#e76f51]" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
                 <path strokeLinecap="round" strokeLinejoin="round" d="M9 20l-5.447-2.724A1 1 0 013 16.382V5.618a1 1 0 011.447-.894L9 7m0 13l6-3m-6 3V7m6 10l4.553 2.276A1 1 0 0021 18.382V7.618a1 1 0 00-.553-.894L15 4m0 13V4m0 0L9 7" />
               </svg>
             </span>
             Learning Path
           </h2>
-          <div className="bg-surface rounded-2xl border border-border p-5 sm:p-6 shadow-sm">
+          <div className="bg-white rounded-2xl border border-[#e8e4df] p-5 sm:p-6 shadow-sm">
             {pathNodes.map((node) => (
               <LearningPathNode
                 key={node.unit}
@@ -442,10 +530,10 @@ export default function HomePage() {
         </section>
 
         {/* All Units Grid */}
-        <section aria-labelledby="units-heading">
-          <h2 id="units-heading" className="text-lg font-bold text-ink mb-5 flex items-center gap-2 font-serif">
-            <span className="inline-flex items-center justify-center w-7 h-7 rounded-lg bg-accent-50 text-accent-500">
-              <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
+        <section id="all-units" aria-labelledby="units-heading">
+          <h2 id="units-heading" className="text-lg font-bold text-[#1a1f36] mb-5 flex items-center gap-2 font-serif">
+            <span className="inline-flex items-center justify-center w-7 h-7 rounded-lg bg-[#f0faf9]">
+              <svg className="w-4 h-4 text-[#2a9d8f]" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
                 <path strokeLinecap="round" strokeLinejoin="round" d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253" />
               </svg>
             </span>

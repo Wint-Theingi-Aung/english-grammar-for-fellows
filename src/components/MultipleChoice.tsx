@@ -21,30 +21,31 @@ export default function MultipleChoice({
 }: MultipleChoiceProps) {
   return (
     <div>
-      <p className="text-base sm:text-lg font-semibold text-ink mb-5 leading-relaxed">
+      <p className="text-lg sm:text-xl font-serif font-semibold text-[#1a1f36] mb-6 leading-relaxed">
         {question}
       </p>
-      <div className="space-y-2.5" role="radiogroup" aria-label="Answer options">
+      <div className="space-y-3" role="radiogroup" aria-label="Answer options">
         {options.map((opt, index) => {
           const isSelected = selectedAnswer === opt;
           const isCorrect = opt === correctAnswer;
 
           let stateClasses =
-            "bg-surface border-border text-ink-light answer-btn";
+            "bg-white border-[#e8e4df] text-[#3d4263]";
 
           if (isSubmitted) {
             if (isCorrect) {
               stateClasses =
-                "bg-success-50 border-success-500/50 text-success-700";
+                "bg-[#e6f5f3] border-[#2a9d8f] text-[#1a6b62]";
             } else if (isSelected && !isCorrect) {
-              stateClasses = "bg-error-50 border-error-500/50 text-error-700";
+              stateClasses =
+                "bg-[#fdf0ec] border-[#e76f51] text-[#a94a3a]";
             } else {
               stateClasses =
-                "bg-surface-alt border-border text-ink-muted opacity-60";
+                "bg-[#f5f3f0] border-[#e8e4df] text-[#6b7194] opacity-50";
             }
           } else if (isSelected) {
             stateClasses =
-              "bg-primary-50 border-primary-400 text-primary-700 ring-2 ring-primary-200/60";
+              "bg-[#e6f5f3] border-[#2a9d8f] text-[#1a6b62] ring-2 ring-[#2a9d8f]/20";
           }
 
           return (
@@ -57,11 +58,11 @@ export default function MultipleChoice({
               data-correct={isSubmitted && isCorrect ? "true" : undefined}
               data-incorrect={isSubmitted && isSelected && !isCorrect ? "true" : undefined}
               className={`
-                w-full text-left px-4 py-3.5 sm:py-4 rounded-xl border-2
+                w-full text-left px-5 py-4 rounded-xl border-2
                 transition-all duration-200
                 ${stateClasses}
                 ${!isSubmitted
-                  ? "hover:border-primary-300 hover:bg-primary-50/40 cursor-pointer focus-visible:ring-2 focus-visible:ring-primary-500 focus-visible:ring-offset-1"
+                  ? "hover:border-[#2a9d8f]/40 hover:bg-[#e6f5f3]/40 hover:-translate-y-0.5 hover:shadow-md cursor-pointer focus-visible:ring-2 focus-visible:ring-[#2a9d8f] focus-visible:ring-offset-2"
                   : "cursor-default"
                 }
               `}
@@ -69,18 +70,18 @@ export default function MultipleChoice({
               aria-checked={isSelected}
               aria-label={`Option ${LABELS[index]}: ${opt}`}
             >
-              <span className={`inline-flex items-center justify-center w-7 h-7 rounded-lg text-xs font-bold mr-3 flex-shrink-0 align-middle transition-colors duration-200 ${
+              <span className={`inline-flex items-center justify-center w-8 h-8 rounded-lg text-xs font-bold mr-3.5 flex-shrink-0 align-middle transition-colors duration-200 ${
                 isSubmitted && isCorrect
-                  ? "bg-success-500 text-white"
+                  ? "bg-[#2a9d8f] text-white"
                   : isSubmitted && isSelected && !isCorrect
-                    ? "bg-error-500 text-white"
+                    ? "bg-[#e76f51] text-white"
                     : isSelected && !isSubmitted
-                      ? "bg-primary-600 text-white"
-                      : "bg-surface-alt text-ink-muted"
+                      ? "bg-[#2a9d8f] text-white"
+                      : "bg-[#f0ede8] text-[#6b7194]"
               }`}>
                 {LABELS[index]}
               </span>
-              <span className="align-middle text-sm sm:text-base">{opt}</span>
+              <span className="align-middle text-sm sm:text-base font-sans">{opt}</span>
             </button>
           );
         })}

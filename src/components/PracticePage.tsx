@@ -57,6 +57,16 @@ interface PracticePageProps {
   unitSlug: string;
 }
 
+const GRAMMAR_TIPS = [
+  "Use 'a' before consonant sounds and 'an' before vowel sounds.",
+  "Subject-verb agreement: A singular subject needs a singular verb.",
+  "Use the active voice for clearer, more direct writing.",
+  "When listing three or more items, use commas to separate them.",
+  "Use 'its' for possession and 'it's' as a contraction of 'it is'.",
+  "Avoid double negatives: they make sentences confusing.",
+  "Use 'who' for subjects and 'whom' for objects.",
+];
+
 export default function PracticePage({ unit, unitSlug }: PracticePageProps) {
   const router = useRouter();
   const allQuestions = useMemo(() => getAllQuestions(unit), [unit]);
@@ -180,11 +190,11 @@ export default function PracticePage({ unit, unitSlug }: PracticePageProps) {
 
   if (!current) {
     return (
-      <div className="max-w-5xl mx-auto px-4 sm:px-6 py-10 text-center">
-        <p className="text-ink-muted">No questions available.</p>
+      <div className="max-w-6xl mx-auto px-4 sm:px-6 py-10 text-center">
+        <p className="text-[#6b7194] font-sans">No questions available.</p>
         <Link
           href={`/${unitSlug}`}
-          className="text-primary-600 mt-4 inline-block font-medium hover:text-primary-700 transition-colors duration-200"
+          className="text-[#e76f51] mt-4 inline-block font-medium hover:text-[#d4613f] transition-colors duration-200 font-sans"
         >
           &larr; Back to Unit
         </Link>
@@ -193,12 +203,13 @@ export default function PracticePage({ unit, unitSlug }: PracticePageProps) {
   }
 
   const canSubmit = currentAnswer !== null && currentAnswer.trim() !== "" && !isSubmitted;
+  const tipIndex = currentIndex % GRAMMAR_TIPS.length;
 
   return (
-    <div className="max-w-5xl mx-auto px-4 sm:px-6 py-8 sm:py-10 lg:py-12">
+    <div className="max-w-6xl mx-auto px-4 sm:px-6 py-8 sm:py-10 lg:py-12">
       <Link
         href={`/${unitSlug}`}
-        className="inline-flex items-center gap-1.5 text-sm font-medium text-primary-600 hover:text-primary-700 mb-5 transition-colors duration-200 focus-visible:ring-2 focus-visible:ring-primary-500 focus-visible:ring-offset-1 rounded-lg px-1 -ml-1"
+        className="inline-flex items-center gap-1.5 text-sm font-medium text-[#e76f51] hover:text-[#d4613f] mb-6 transition-colors duration-200 focus-visible:ring-2 focus-visible:ring-[#e76f51] focus-visible:ring-offset-2 rounded-lg px-1 -ml-1 font-sans"
       >
         <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2} aria-hidden="true">
           <path strokeLinecap="round" strokeLinejoin="round" d="M15 19l-7-7 7-7" />
@@ -206,89 +217,139 @@ export default function PracticePage({ unit, unitSlug }: PracticePageProps) {
         Back to Unit Overview
       </Link>
 
-      {/* Question counter */}
-      <div className="flex items-center justify-between mb-3">
-        <span className="text-sm font-semibold text-primary-600">
-          Question {currentIndex + 1} of {total}
-        </span>
-        <span className="text-xs font-medium text-ink-muted bg-surface-alt px-2.5 py-1 rounded-full">
-          {current.points} pt{current.points !== 1 ? "s" : ""}
-        </span>
-      </div>
+      <div className="flex gap-8">
+        {/* Main content area */}
+        <div className="flex-1 min-w-0">
+          {/* Progress and question info */}
+          <div className="mb-8">
+            <ProgressBar current={currentIndex + 1} total={total} />
+          </div>
 
-      <div className="mb-6">
-        <ProgressBar current={currentIndex + 1} total={total} />
-      </div>
+          <div className="flex items-center justify-between mb-6">
+            <span className="inline-flex items-center gap-2 bg-[#e8e4df] text-[#1a1f36] font-serif font-bold text-sm px-3.5 py-1.5 rounded-lg">
+              Q {currentIndex + 1} of {total}
+            </span>
+            <span className="inline-flex items-center gap-1.5 bg-[#fdf0ec] text-[#e76f51] font-sans font-semibold text-xs px-3 py-1.5 rounded-lg">
+              <svg className="w-3.5 h-3.5" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
+                <path strokeLinecap="round" strokeLinejoin="round" d="M11.049 2.927c.3-.921 1.603-.921 1.902 0l1.519 4.674a1 1 0 00.95.69h4.915c.969 0 1.371 1.24.588 1.81l-3.976 2.888a1 1 0 00-.363 1.118l1.518 4.674c.3.922-.755 1.688-1.538 1.118l-3.976-2.888a1 1 0 00-1.176 0l-3.976 2.888c-.783.57-1.838-.197-1.538-1.118l1.518-4.674a1 1 0 00-.363-1.118l-3.976-2.888c-.784-.57-.38-1.81.588-1.81h4.914a1 1 0 00.951-.69l1.519-4.674z" />
+              </svg>
+              {current.points} pt{current.points !== 1 ? "s" : ""}
+            </span>
+          </div>
 
-      {/* Question card */}
-      <div className="bg-surface rounded-2xl border border-border p-5 sm:p-8 mb-6 shadow-sm animate-fade-in">
-        <MultipleChoice
-          question={current.question}
-          options={shuffledOptions}
-          selectedAnswer={currentAnswer}
-          isSubmitted={isSubmitted}
-          correctAnswer={current.answer}
-          onSelect={handleSelect}
-        />
+          {/* Question card */}
+          <div className="bg-white rounded-2xl border border-[#e8e4df] p-6 sm:p-8 mb-8 shadow-sm">
+            <MultipleChoice
+              question={current.question}
+              options={shuffledOptions}
+              selectedAnswer={currentAnswer}
+              isSubmitted={isSubmitted}
+              correctAnswer={current.answer}
+              onSelect={handleSelect}
+            />
 
-        {isSubmitted && current && (
-          <Feedback
-            isCorrect={isCorrect(current, currentAnswer ?? "")}
-            selectedAnswer={currentAnswer}
-            correctAnswer={current.answer}
-            explanation={current.explanation}
-          />
-        )}
-      </div>
+            {isSubmitted && current && (
+              <Feedback
+                isCorrect={isCorrect(current, currentAnswer ?? "")}
+                selectedAnswer={currentAnswer}
+                correctAnswer={current.answer}
+                explanation={current.explanation}
+              />
+            )}
+          </div>
 
-      {/* Navigation */}
-      <div className="flex items-center justify-between gap-3">
-        <button
-          type="button"
-          onClick={handlePrev}
-          disabled={currentIndex === 0}
-          className="inline-flex items-center gap-1.5 px-5 py-2.5 rounded-xl border-2 border-border text-ink-muted font-medium hover:bg-surface-alt hover:border-primary-200 transition-all duration-200 disabled:opacity-30 disabled:cursor-not-allowed disabled:hover:bg-transparent focus-visible:ring-2 focus-visible:ring-primary-500 focus-visible:ring-offset-1 text-sm"
-        >
-          <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2} aria-hidden="true">
-            <path strokeLinecap="round" strokeLinejoin="round" d="M15 19l-7-7 7-7" />
-          </svg>
-          Previous
-        </button>
-
-        <div className="flex gap-2">
-          {!isSubmitted ? (
+          {/* Navigation */}
+          <div className="flex items-center justify-between gap-3">
             <button
               type="button"
-              onClick={handleSubmit}
-              disabled={!canSubmit}
-              className="px-6 py-2.5 rounded-xl bg-gradient-to-r from-primary-600 to-primary-700 text-white font-semibold hover:from-primary-700 hover:to-primary-800 transition-all duration-200 shadow-md shadow-primary-600/20 disabled:opacity-40 disabled:cursor-not-allowed disabled:shadow-none focus-visible:ring-2 focus-visible:ring-primary-400 focus-visible:ring-offset-2 text-sm"
+              onClick={handlePrev}
+              disabled={currentIndex === 0}
+              className="inline-flex items-center gap-1.5 px-5 py-2.5 rounded-xl border-2 border-[#e8e4df] text-[#6b7194] font-sans font-medium hover:bg-[#f5f3f0] hover:border-[#d4d0c9] transition-all duration-200 disabled:opacity-30 disabled:cursor-not-allowed disabled:hover:bg-transparent focus-visible:ring-2 focus-visible:ring-[#2a9d8f] focus-visible:ring-offset-2 text-sm"
             >
-              Check Answer
+              <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2} aria-hidden="true">
+                <path strokeLinecap="round" strokeLinejoin="round" d="M15 19l-7-7 7-7" />
+              </svg>
+              Previous
             </button>
-          ) : (
-            <button
-              type="button"
-              onClick={handleNext}
-              className="px-6 py-2.5 rounded-xl bg-gradient-to-r from-primary-600 to-primary-700 text-white font-semibold hover:from-primary-700 hover:to-primary-800 transition-all duration-200 shadow-md shadow-primary-600/20 focus-visible:ring-2 focus-visible:ring-primary-400 focus-visible:ring-offset-2 text-sm"
-            >
-              {currentIndex < total - 1 ? (
-                <span className="inline-flex items-center gap-1.5">
-                  Next Question
-                  <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2} aria-hidden="true">
-                    <path strokeLinecap="round" strokeLinejoin="round" d="M9 5l7 7-7 7" />
-                  </svg>
-                </span>
+
+            <div className="flex gap-3">
+              {!isSubmitted ? (
+                <button
+                  type="button"
+                  onClick={handleSubmit}
+                  disabled={!canSubmit}
+                  className="px-6 py-2.5 rounded-xl bg-[#e76f51] text-white font-sans font-semibold hover:bg-[#d4613f] transition-all duration-200 shadow-md shadow-[#e76f51]/20 disabled:opacity-40 disabled:cursor-not-allowed disabled:shadow-none focus-visible:ring-2 focus-visible:ring-[#e76f51] focus-visible:ring-offset-2 text-sm"
+                >
+                  Check Answer
+                </button>
               ) : (
-                <span className="inline-flex items-center gap-1.5">
-                  See Results
-                  <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2} aria-hidden="true">
-                    <path strokeLinecap="round" strokeLinejoin="round" d="M9 5l7 7-7 7" />
+                <button
+                  type="button"
+                  onClick={handleNext}
+                  className="px-6 py-2.5 rounded-xl bg-[#e76f51] text-white font-sans font-semibold hover:bg-[#d4613f] transition-all duration-200 shadow-md shadow-[#e76f51]/20 focus-visible:ring-2 focus-visible:ring-[#e76f51] focus-visible:ring-offset-2 text-sm"
+                >
+                  {currentIndex < total - 1 ? (
+                    <span className="inline-flex items-center gap-1.5">
+                      Next Question
+                      <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2} aria-hidden="true">
+                        <path strokeLinecap="round" strokeLinejoin="round" d="M9 5l7 7-7 7" />
+                      </svg>
+                    </span>
+                  ) : (
+                    <span className="inline-flex items-center gap-1.5">
+                      See Results
+                      <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2} aria-hidden="true">
+                        <path strokeLinecap="round" strokeLinejoin="round" d="M9 5l7 7-7 7" />
+                      </svg>
+                    </span>
+                  )}
+                </button>
+              )}
+            </div>
+          </div>
+        </div>
+
+        {/* Sidebar - desktop only */}
+        <aside className="hidden lg:block w-72 flex-shrink-0">
+          <div className="sticky top-8">
+            <div className="bg-white rounded-2xl border border-[#e8e4df] p-6 shadow-sm">
+              <div className="flex items-center gap-2.5 mb-3">
+                <span className="inline-flex items-center justify-center w-8 h-8 rounded-lg bg-[#e6f5f3]">
+                  <svg className="w-4.5 h-4.5 text-[#2a9d8f]" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
+                    <path strokeLinecap="round" strokeLinejoin="round" d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z" />
                   </svg>
                 </span>
-              )}
-            </button>
-          )}
-        </div>
+                <h3 className="font-serif font-bold text-[#1a1f36] text-sm">Grammar Tip</h3>
+              </div>
+              <p className="text-sm text-[#3d4263] font-sans leading-relaxed">
+                {GRAMMAR_TIPS[tipIndex]}
+              </p>
+            </div>
+
+            <div className="mt-4 bg-white rounded-2xl border border-[#e8e4df] p-6 shadow-sm">
+              <div className="flex items-center gap-2.5 mb-3">
+                <span className="inline-flex items-center justify-center w-8 h-8 rounded-lg bg-[#fdf0ec]">
+                  <svg className="w-4.5 h-4.5 text-[#e76f51]" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
+                    <path strokeLinecap="round" strokeLinejoin="round" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+                  </svg>
+                </span>
+                <h3 className="font-serif font-bold text-[#1a1f36] text-sm">Progress</h3>
+              </div>
+              <div className="space-y-2">
+                <div className="flex justify-between text-sm font-sans">
+                  <span className="text-[#6b7194]">Answered</span>
+                  <span className="font-semibold text-[#1a1f36]">{Object.keys(submitted).length}/{total}</span>
+                </div>
+                <div className="flex justify-between text-sm font-sans">
+                  <span className="text-[#6b7194]">Points</span>
+                  <span className="font-semibold text-[#2a9d8f]">
+                    {allQuestions.filter((q) => submitted[q.id]).reduce((sum, q) => sum + q.points, 0)}/{totalPoints}
+                  </span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </aside>
       </div>
     </div>
   );

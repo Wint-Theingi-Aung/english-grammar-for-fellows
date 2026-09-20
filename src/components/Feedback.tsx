@@ -13,28 +13,36 @@ export default function Feedback({
 }: FeedbackProps) {
   return (
     <div
-      className={`mt-5 p-5 rounded-xl border-2 animate-scale-in ${
+      className={`mt-6 p-5 rounded-xl border-2 transition-colors duration-200 ${
         isCorrect
-          ? "bg-success-50 border-success-500/30"
-          : "bg-error-50 border-error-500/30"
+          ? "bg-[#e6f5f3] border-[#2a9d8f]/30"
+          : "bg-[#fdf0ec] border-[#e76f51]/30"
       }`}
       role="alert"
       aria-live="polite"
     >
-      <div className="flex items-center gap-2.5 mb-3">
+      <div className="flex items-center gap-3 mb-3">
         <span
-          className={`inline-flex items-center justify-center w-7 h-7 rounded-full text-sm font-bold ${
+          className={`inline-flex items-center justify-center w-8 h-8 rounded-full text-sm font-bold ${
             isCorrect
-              ? "bg-success-500 text-white"
-              : "bg-error-500 text-white"
+              ? "bg-[#2a9d8f] text-white"
+              : "bg-[#e76f51] text-white"
           }`}
           aria-hidden="true"
         >
-          {isCorrect ? "\u2713" : "\u2717"}
+          {isCorrect ? (
+            <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2.5}>
+              <path strokeLinecap="round" strokeLinejoin="round" d="M5 13l4 4L19 7" />
+            </svg>
+          ) : (
+            <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2.5}>
+              <path strokeLinecap="round" strokeLinejoin="round" d="M6 18L18 6M6 6l12 12" />
+            </svg>
+          )}
         </span>
         <span
-          className={`font-bold text-base ${
-            isCorrect ? "text-success-700" : "text-error-700"
+          className={`font-serif font-bold text-base ${
+            isCorrect ? "text-[#1a6b62]" : "text-[#a94a3a]"
           }`}
         >
           {isCorrect ? "Correct!" : "Incorrect"}
@@ -42,24 +50,20 @@ export default function Feedback({
       </div>
 
       {!isCorrect && selectedAnswer && (
-        <p className="text-sm mb-1.5 text-error-600">
+        <p className="text-sm mb-1.5 font-sans text-[#a94a3a]">
           <span className="font-semibold">Your answer:</span>{" "}
-          <span className="text-error-700">{selectedAnswer}</span>
+          <span>{selectedAnswer}</span>
         </p>
       )}
       {!isCorrect && (
-        <p className="text-sm mb-2 text-success-600">
+        <p className="text-sm mb-2 font-sans text-[#1a6b62]">
           <span className="font-semibold">Correct answer:</span>{" "}
-          <span className="text-success-700 font-medium">{correctAnswer}</span>
+          <span className="font-medium">{correctAnswer}</span>
         </p>
       )}
 
-      <div className="mt-3 pt-3 border-t border-ink/10">
-        <p
-          className={`text-sm leading-relaxed myanmar-text ${
-            isCorrect ? "text-success-700" : "text-error-700"
-          }`}
-        >
+      <div className="mt-3 pt-3 border-t border-[#1a1f36]/10">
+        <p className="text-sm leading-relaxed font-sans text-[#3d4263] myanmar-text">
           {explanation}
         </p>
       </div>
