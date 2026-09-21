@@ -1,0 +1,31 @@
+{
+  "unit": 42,
+  "title": "Three Degrees of Adjectives",
+  "lessons": [
+    {
+      "id": "unit42-lesson1",
+      "title": "Three Degrees of Adjectives: Positive, Comparative, Superlative",
+      "content": "When we compare one person or one thing with another, we use three degrees: Positive Degree, Comparative Degree, and Superlative Degree.",
+      "details": [
+        {
+          "concept": "Positive Degree",
+          "explanation": "When we speak about only one person or thing, we use the Positive Degree. Use 'as + adjective + as' to show two things are equal.",
+          "example": "My car is as expensive as his car. Sue is as smart as Susan. John is as tall as Xin.",
+          "burmese": "တစ်ယောက်တည်း သို့မဟုတ် တစ်ခုတည်းအကြောင်း ပြောတဲ့အခါ Positive Degree သုံးပါ။ 'as + adjective + as' ဖွဲ့စည်းပုံကို အဓိပ္ပာယ်တူညီမှုပြဖို့ သုံးပါ။"
+        },
+        {
+          "concept": "Comparative Degree",
+          "explanation": "When we compare two persons or two things with each other, we use the Comparative Degree. Use '-er ... than' for short adjectives and 'more ... than' for longer adjectives. The negative form uses 'not as + adjective + as'.",
+          "example": "Sue is taller than Susan. Susan is not as tall as Sue. Football is more popular than golf. Golf is not as popular as football.",
+          "burmese": "လူနှစ်ယောက် သို့မဟုတ် အရာဝတ္ထုနှစ်ခုကို နှိုင်းယှဉ်တဲ့အခါ Comparative Degree သုံးပါ။ စကားလုံးတိုတွေအတွက် '-er ... than' နဲ့ ရှည်တဲ့ စကားလုံးတွေအတွက် 'more ... than' သုံးပါ။"
+        },
+        {
+          "concept": "Superlative Degree",
+          "explanation": "When we compare more than two persons or things with one another, we use all three Positive, Comparative, and Superlative Degrees. Use 'the + adjective-est' for short adjectives and 'the most + adjective' for longer adjectives.",
+          "example": "Leo is the most famous person in this class. Leo is more famous than any other person in this class. No other person in this class is as famous as Leo.",
+          "burmese": "လူသုံးယောက် သို့မဟုတ် အရာဝတ္ထုသုံးခုထက်မကကို နှိုင်းယှဉ်တဲ့အခါ Positive, Comparative နဲ့ Superlative Degree သုံးပါ။ 'the + adjective-est' သို့မဟုတ် 'the most + adjective' ဖွဲ့စည်းပုံသုံးပါ။"
+        }
+      ]
+    }
+  ]
+}

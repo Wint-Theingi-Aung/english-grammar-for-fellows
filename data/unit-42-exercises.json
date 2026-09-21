@@ -1,0 +1,338 @@
+{
+  "unit": 42,
+  "exercises": [
+    {
+      "id": "unit42-ex1",
+      "type": "multiple_choice",
+      "instructions": "Choose the correct Positive Degree form (as ... as) to complete each sentence.",
+      "questions": [
+        {
+          "id": 4201,
+          "question": "John is tall. Glen is tall. John is ___.",
+          "options": ["as tall as Glen", "taller than Glen", "the tallest of all"],
+          "answer": "as tall as Glen",
+          "explanation": "Use 'as + adjective + as' for the Positive Degree to show two things are equal. Positive Degree မှာ 'as + adjective + as' ဖွဲ့စည်းပုံသုံးပါ။",
+          "points": 1
+        },
+        {
+          "id": 4202,
+          "question": "Janet is beautiful. So is Jenifer. Janet is ___.",
+          "options": ["as beautiful as Jenifer", "more beautiful than Jenifer", "the most beautiful"],
+          "answer": "as beautiful as Jenifer",
+          "explanation": "Use 'as + adjective + as' to show equality in the Positive Degree. Positive Degree မှာ ညီမျှမှုပြဖို့ 'as + adjective + as' သုံးပါ။",
+          "points": 1
+        },
+        {
+          "id": 4203,
+          "question": "Both you and my sister are crazy. You are ___.",
+          "options": ["as crazy as my sister", "crazier than my sister", "the craziest of all"],
+          "answer": "as crazy as my sister",
+          "explanation": "Use 'as + adjective + as' to show two people are equal in the Positive Degree. Positive Degree မှာ 'as + adjective + as' သုံးပါ။",
+          "points": 1
+        },
+        {
+          "id": 4204,
+          "question": "My mother is very busy and she is like a bee. My mother is ___.",
+          "options": ["as busy as a bee", "busier than a bee", "the busiest of all"],
+          "answer": "as busy as a bee",
+          "explanation": "Use 'as + adjective + as' for the Positive Degree. Positive Degree မှာ 'as + adjective + as' ဖွဲ့စည်းပုံသုံးပါ။",
+          "points": 1
+        },
+        {
+          "id": 4205,
+          "question": "I can run fast. So can John. I can ___.",
+          "options": ["run as fast as John", "run faster than John", "run the fastest of all"],
+          "answer": "run as fast as John",
+          "explanation": "Use 'as + adverb + as' for the Positive Degree to show two people are equal. Positive Degree မှာ 'as + adverb + as' သုံးပါ။",
+          "points": 1
+        },
+        {
+          "id": 4206,
+          "question": "My mom is strict. It is like your mom. My mom is ___.",
+          "options": ["as strict as your mom", "stricter than your mom", "the strictest of all"],
+          "answer": "as strict as your mom",
+          "explanation": "Use 'as + adjective + as' to show equality in the Positive Degree. Positive Degree မှာ 'as + adjective + as' သုံးပါ။",
+          "points": 1
+        },
+        {
+          "id": 4207,
+          "question": "My mobile phone is trendy and so is yours. My mobile phone is ___.",
+          "options": ["as trendy as yours", "more trendy than yours", "the most trendy of all"],
+          "answer": "as trendy as yours",
+          "explanation": "Use 'as + adjective + as' for the Positive Degree. Positive Degree မှာ 'as + adjective + as' ဖွဲ့စည်းပုံသုံးပါ။",
+          "points": 1
+        },
+        {
+          "id": 4208,
+          "question": "Your tablet is expensive. Susan's tablet is also expensive. Your tablet is ___.",
+          "options": ["as expensive as Susan's tablet", "more expensive than Susan's tablet", "the most expensive of all"],
+          "answer": "as expensive as Susan's tablet",
+          "explanation": "Use 'as + adjective + as' to show equality in the Positive Degree. Positive Degree မှာ 'as + adjective + as' သုံးပါ။",
+          "points": 1
+        },
+        {
+          "id": 4209,
+          "question": "He is brave. It is like a lion. He is ___.",
+          "options": ["as brave as a lion", "braver than a lion", "the bravest of all"],
+          "answer": "as brave as a lion",
+          "explanation": "Use 'as + adjective + as' for the Positive Degree. Positive Degree မှာ 'as + adjective + as' ဖွဲ့စည်းပုံသုံးပါ။",
+          "points": 1
+        },
+        {
+          "id": 4210,
+          "question": "James is weak like a child. James is ___.",
+          "options": ["as weak as a child", "weaker than a child", "the weakest of all"],
+          "answer": "as weak as a child",
+          "explanation": "Use 'as + adjective + as' for the Positive Degree. Positive Degree မှာ 'as + adjective + as' ဖွဲ့စည်းပုံသုံးပါ။",
+          "points": 1
+        },
+        {
+          "id": 4211,
+          "question": "India is large. So is China. India is ___.",
+          "options": ["as large as China", "larger than China", "the largest of all"],
+          "answer": "as large as China",
+          "explanation": "Use 'as + adjective + as' to show equality in the Positive Degree. Positive Degree မှာ 'as + adjective + as' သုံးပါ။",
+          "points": 1
+        },
+        {
+          "id": 4212,
+          "question": "Lion is strong. Tiger is also strong. Lion is ___.",
+          "options": ["as strong as Tiger", "stronger than Tiger", "the strongest of all"],
+          "answer": "as strong as Tiger",
+          "explanation": "Use 'as + adjective + as' to show equality in the Positive Degree. Positive Degree မှာ 'as + adjective + as' သုံးပါ။",
+          "points": 1
+        },
+        {
+          "id": 4213,
+          "question": "A sloth is slow. It is like a turtle. A sloth is ___.",
+          "options": ["as slow as a turtle", "slower than a turtle", "the slowest of all"],
+          "answer": "as slow as a turtle",
+          "explanation": "Use 'as + adjective + as' for the Positive Degree. Positive Degree မှာ 'as + adjective + as' ဖွဲ့စည်းပုံသုံးပါ။",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "id": "unit42-ex2",
+      "type": "multiple_choice",
+      "instructions": "Choose the correct Comparative Degree form to complete each sentence.",
+      "questions": [
+        {
+          "id": 4214,
+          "question": "John is brighter than Leo. Leo is ___.",
+          "options": ["not as bright as John", "brighter than John", "the brightest of all"],
+          "answer": "not as bright as John",
+          "explanation": "Use 'not as + adjective + as' to express the Comparative Degree in negative form. Comparative Degree ကို 'not as + adjective + as' ဖွဲ့စည်းပုံနဲ့ ပြပါ။",
+          "points": 1
+        },
+        {
+          "id": 4215,
+          "question": "Asia is bigger than Europe. Europe is ___.",
+          "options": ["not as big as Asia", "bigger than Asia", "the biggest of all"],
+          "answer": "not as big as Asia",
+          "explanation": "Use 'not as + adjective + as' for the negative Comparative Degree. Comparative Degree ကို 'not as + adjective + as' ဖွဲ့စည်းပုံနဲ့ ပြပါ။",
+          "points": 1
+        },
+        {
+          "id": 4216,
+          "question": "Health is more important than wealth. Wealth is ___.",
+          "options": ["not as important as Health", "more important than Health", "the most important of all"],
+          "answer": "not as important as Health",
+          "explanation": "Use 'not as + adjective + as' for the negative Comparative Degree. Comparative Degree ကို 'not as + adjective + as' ဖွဲ့စည်းပုံနဲ့ ပြပါ။",
+          "points": 1
+        },
+        {
+          "id": 4217,
+          "question": "Grace is more attractive than Sue. Sue is ___.",
+          "options": ["not as attractive as Grace", "more attractive than Grace", "the most attractive of all"],
+          "answer": "not as attractive as Grace",
+          "explanation": "Use 'not as + adjective + as' for the negative Comparative Degree. Comparative Degree ကို 'not as + adjective + as' ဖွဲ့စည်းပုံနဲ့ ပြပါ။",
+          "points": 1
+        },
+        {
+          "id": 4218,
+          "question": "His watch is more expensive than my car. My car is ___.",
+          "options": ["not as expensive as his watch", "more expensive than his watch", "the most expensive of all"],
+          "answer": "not as expensive as his watch",
+          "explanation": "Use 'not as + adjective + as' for the negative Comparative Degree. Comparative Degree ကို 'not as + adjective + as' ဖွဲ့စည်းပုံနဲ့ ပြပါ။",
+          "points": 1
+        },
+        {
+          "id": 4219,
+          "question": "My father is older than my mother. My mother is ___.",
+          "options": ["not as old as my father", "older than my father", "the oldest of all"],
+          "answer": "not as old as my father",
+          "explanation": "Use 'not as + adjective + as' for the negative Comparative Degree. Comparative Degree ကို 'not as + adjective + as' ဖွဲ့စည်းပုံနဲ့ ပြပါ။",
+          "points": 1
+        },
+        {
+          "id": 4220,
+          "question": "January is longer than February. February is ___.",
+          "options": ["not as long as January", "longer than January", "the longest of all"],
+          "answer": "not as long as January",
+          "explanation": "Use 'not as + adjective + as' for the negative Comparative Degree. Comparative Degree ကို 'not as + adjective + as' ဖွဲ့စည်းပုံနဲ့ ပြပါ။",
+          "points": 1
+        },
+        {
+          "id": 4221,
+          "question": "My house is bigger than yours. Your house is ___.",
+          "options": ["not as big as mine", "bigger than mine", "the biggest of all"],
+          "answer": "not as big as mine",
+          "explanation": "Use 'not as + adjective + as' for the negative Comparative Degree. Comparative Degree ကို 'not as + adjective + as' ဖွဲ့စည်းပုံနဲ့ ပြပါ။",
+          "points": 1
+        },
+        {
+          "id": 4222,
+          "question": "An elephant is heavier than a fly. A fly is ___.",
+          "options": ["not as heavy as an elephant", "heavier than an elephant", "the heaviest of all"],
+          "answer": "not as heavy as an elephant",
+          "explanation": "Use 'not as + adjective + as' for the negative Comparative Degree. Comparative Degree ကို 'not as + adjective + as' ဖွဲ့စည်းပုံနဲ့ ပြပါ။",
+          "points": 1
+        },
+        {
+          "id": 4223,
+          "question": "Rugby is funnier than football. Football is ___.",
+          "options": ["not as funny as rugby", "funnier than rugby", "the funniest of all"],
+          "answer": "not as funny as rugby",
+          "explanation": "Use 'not as + adjective + as' for the negative Comparative Degree. Comparative Degree ကို 'not as + adjective + as' ဖွဲ့စည်းပုံနဲ့ ပြပါ။",
+          "points": 1
+        },
+        {
+          "id": 4224,
+          "question": "Maria is prettier than Alice. Alice is ___.",
+          "options": ["not as pretty as Maria", "prettier than Maria", "the prettiest of all"],
+          "answer": "not as pretty as Maria",
+          "explanation": "Use 'not as + adjective + as' for the negative Comparative Degree. Comparative Degree ကို 'not as + adjective + as' ဖွဲ့စည်းပုံနဲ့ ပြပါ။",
+          "points": 1
+        },
+        {
+          "id": 4225,
+          "question": "Ram is stronger than Majid. Majid is ___.",
+          "options": ["not as strong as Ram", "stronger than Ram", "the strongest of all"],
+          "answer": "not as strong as Ram",
+          "explanation": "Use 'not as + adjective + as' for the negative Comparative Degree. Comparative Degree ကို 'not as + adjective + as' ဖွဲ့စည်းပုံနဲ့ ပြပါ။",
+          "points": 1
+        },
+        {
+          "id": 4226,
+          "question": "John is weaker than Leo. Leo is ___.",
+          "options": ["not as weak as John", "weaker than John", "the weakest of all"],
+          "answer": "not as weak as John",
+          "explanation": "Use 'not as + adjective + as' for the negative Comparative Degree. Comparative Degree ကို 'not as + adjective + as' ဖွဲ့စည်းပုံနဲ့ ပြပါ။",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "id": "unit42-ex3",
+      "type": "multiple_choice",
+      "instructions": "Choose the correct Comparative and Positive Degree forms to complete each sentence.",
+      "questions": [
+        {
+          "id": 4227,
+          "question": "My sister is the youngest person in my family. My sister is younger than any other person in my family. No other person in my family is ___.",
+          "options": ["as young as my sister", "younger than my sister", "the youngest of all"],
+          "answer": "as young as my sister",
+          "explanation": "The Superlative can be expressed in Positive Degree using 'no other + noun + as + adjective + as'. Superlative ကို Positive Degree ပုံစံနဲ့ 'no other + noun + as + adjective + as' ဖွဲ့စည်းပုံနဲ့ ပြပါ။",
+          "points": 1
+        },
+        {
+          "id": 4228,
+          "question": "Federer is the best tennis player in the world. Federer is more famous than any other tennis player in the world. No other tennis player in the world is ___.",
+          "options": ["as good as Federer", "better than Federer", "the best of all"],
+          "answer": "as good as Federer",
+          "explanation": "Use 'no other + noun + as + adjective + as' to express the Superlative in Positive Degree form. Superlative ကို Positive Degree ပုံစံနဲ့ 'no other + noun + as + adjective + as' ဖွဲ့စည်းပုံနဲ့ ပြပါ။",
+          "points": 1
+        },
+        {
+          "id": 4229,
+          "question": "Winter is the coldest season of the year in Europe. No other season is ___.",
+          "options": ["as cold as winter", "colder than winter", "the coldest of all"],
+          "answer": "as cold as winter",
+          "explanation": "Use 'no other + noun + as + adjective + as' for the Superlative in Positive Degree. Superlative ကို Positive Degree ပုံစံနဲ့ 'no other + noun + as + adjective + as' ဖွဲ့စည်းပုံနဲ့ ပြပါ။",
+          "points": 1
+        },
+        {
+          "id": 4230,
+          "question": "Susan is the smartest girl in our class. No other girl is ___.",
+          "options": ["as smart as Susan", "smarter than Susan", "the smartest of all"],
+          "answer": "as smart as Susan",
+          "explanation": "Use 'no other + noun + as + adjective + as' for the Superlative in Positive Degree. Superlative ကို Positive Degree ပုံစံနဲ့ 'no other + noun + as + adjective + as' ဖွဲ့စည်းပုံနဲ့ ပြပါ။",
+          "points": 1
+        },
+        {
+          "id": 4231,
+          "question": "Sam is the most handsome boy in the whole school. No other boy is ___.",
+          "options": ["as handsome as Sam", "more handsome than Sam", "the most handsome of all"],
+          "answer": "as handsome as Sam",
+          "explanation": "Use 'no other + noun + as + adjective + as' for the Superlative in Positive Degree. Superlative ကို Positive Degree ပုံစံနဲ့ 'no other + noun + as + adjective + as' ဖွဲ့စည်းပုံနဲ့ ပြပါ။",
+          "points": 1
+        },
+        {
+          "id": 4232,
+          "question": "Mount Everest is the highest mountain in the world. No other mountain is ___.",
+          "options": ["as high as Mount Everest", "higher than Mount Everest", "the highest of all"],
+          "answer": "as high as Mount Everest",
+          "explanation": "Use 'no other + noun + as + adjective + as' for the Superlative in Positive Degree. Superlative ကို Positive Degree ပုံစံနဲ့ 'no other + noun + as + adjective + as' ဖွဲ့စည်းပုံနဲ့ ပြပါ။",
+          "points": 1
+        },
+        {
+          "id": 4233,
+          "question": "Jupiter is the biggest planet in our solar system. No other planet is ___.",
+          "options": ["as big as Jupiter", "bigger than Jupiter", "the biggest of all"],
+          "answer": "as big as Jupiter",
+          "explanation": "Use 'no other + noun + as + adjective + as' for the Superlative in Positive Degree. Superlative ကို Positive Degree ပုံစံနဲ့ 'no other + noun + as + adjective + as' ဖွဲ့စည်းပုံနဲ့ ပြပါ။",
+          "points": 1
+        },
+        {
+          "id": 4234,
+          "question": "Sarah is the richest person in this company. No other person is ___.",
+          "options": ["as rich as Sarah", "richer than Sarah", "the richest of all"],
+          "answer": "as rich as Sarah",
+          "explanation": "Use 'no other + noun + as + adjective + as' for the Superlative in Positive Degree. Superlative ကို Positive Degree ပုံစံနဲ့ 'no other + noun + as + adjective + as' ဖွဲ့စည်းပုံနဲ့ ပြပါ။",
+          "points": 1
+        },
+        {
+          "id": 4235,
+          "question": "Switzerland is the most expensive country in Europe. No other country is ___.",
+          "options": ["as expensive as Switzerland", "more expensive than Switzerland", "the most expensive of all"],
+          "answer": "as expensive as Switzerland",
+          "explanation": "Use 'no other + noun + as + adjective + as' for the Superlative in Positive Degree. Superlative ကို Positive Degree ပုံစံနဲ့ 'no other + noun + as + adjective + as' ဖွဲ့စည်းပုံနဲ့ ပြပါ။",
+          "points": 1
+        },
+        {
+          "id": 4236,
+          "question": "AJ is the most hard-working student in this class. No other student is ___.",
+          "options": ["as hard-working as AJ", "more hard-working than AJ", "the most hard-working of all"],
+          "answer": "as hard-working as AJ",
+          "explanation": "Use 'no other + noun + as + adjective + as' for the Superlative in Positive Degree. Superlative ကို Positive Degree ပုံစံနဲ့ 'no other + noun + as + adjective + as' ဖွဲ့စည်းပုံနဲ့ ပြပါ။",
+          "points": 1
+        },
+        {
+          "id": 4237,
+          "question": "Gold is the most precious of all metal. No other metal is ___.",
+          "options": ["as precious as gold", "more precious than gold", "the most precious of all"],
+          "answer": "as precious as gold",
+          "explanation": "Use 'no other + noun + as + adjective + as' for the Superlative in Positive Degree. Superlative ကို Positive Degree ပုံစံနဲ့ 'no other + noun + as + adjective + as' ဖွဲ့စည်းပုံနဲ့ ပြပါ။",
+          "points": 1
+        },
+        {
+          "id": 4238,
+          "question": "India is the largest democracy in the world. No other democracy is ___.",
+          "options": ["as large as India", "larger than India", "the largest of all"],
+          "answer": "as large as India",
+          "explanation": "Use 'no other + noun + as + adjective + as' for the Superlative in Positive Degree. Superlative ကို Positive Degree ပုံစံနဲ့ 'no other + noun + as + adjective + as' ဖွဲ့စည်းပုံနဲ့ ပြပါ။",
+          "points": 1
+        },
+        {
+          "id": 4239,
+          "question": "Susie is the cleverest girl in the class. No other girl is ___.",
+          "options": ["as clever as Susie", "cleverer than Susie", "the cleverest of all"],
+          "answer": "as clever as Susie",
+          "explanation": "Use 'no other + noun + as + adjective + as' for the Superlative in Positive Degree. Superlative ကို Positive Degree ပုံစံနဲ့ 'no other + noun + as + adjective + as' ဖွဲ့စည်းပုံနဲ့ ပြပါ။",
+          "points": 1
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "unit": 43,
+  "title": "Active and Passive Voice",
+  "lessons": [
+    {
+      "id": "unit43-lesson1",
+      "title": "Active and Passive Voice: Converting Between Tenses",
+      "content": "Active Voice means that a sentence has a subject that acts upon its verb. Passive Voice means that the subject is a recipient of a verb's action. We can convert active voice to passive voice in many tenses.",
+      "details": [
+        {
+          "concept": "Simple Present Tense",
+          "explanation": "Active: Subject + verb(s) + object. Passive: Object + am/is/are + past participle (+ by subject).",
+          "example": "Active: Reporters write news reports. Passive: News reports are written by Reporters.",
+          "burmese": "Simple Present Tense မှာ Active: Subject + verb(s) + object။ Passive: Object + am/is/are + past participle (+ by subject)။"
+        },
+        {
+          "concept": "Simple Past Tense",
+          "explanation": "Active: Subject + verb-ed/past + object. Passive: Object + was/were + past participle (+ by subject).",
+          "example": "Active: He wrote a letter. Passive: A letter was written.",
+          "burmese": "Simple Past Tense မှာ Active: Subject + verb-ed/past + object။ Passive: Object + was/were + past participle (+ by subject)။"
+        },
+        {
+          "concept": "Simple Future Tense",
+          "explanation": "Active: Subject + will + verb + object. Passive: Object + will + be + past participle (+ by subject).",
+          "example": "Active: The company will hire new workers. Passive: New workers will be hired by the company.",
+          "burmese": "Simple Future Tense မှာ Active: Subject + will + verb + object။ Passive: Object + will + be + past participle (+ by subject)။"
+        },
+        {
+          "concept": "Present Continuous Tense",
+          "explanation": "Active: Subject + am/is/are + verb-ing + object. Passive: Object + am/is/are + being + past participle (+ by subject).",
+          "example": "Active: A robot is serving food in this hotel. Passive: Food is being served by a robot in this hotel.",
+          "burmese": "Present Continuous Tense မှာ Active: Subject + am/is/are + verb-ing + object။ Passive: Object + am/is/are + being + past participle (+ by subject)။"
+        },
+        {
+          "concept": "Past Continuous Tense",
+          "explanation": "Active: Subject + was/were + verb-ing + object. Passive: Object + was/were + being + past participle (+ by subject).",
+          "example": "Active: She was writing a novel. Passive: A novel was being written.",
+          "burmese": "Past Continuous Tense မှာ Active: Subject + was/were + verb-ing + object။ Passive: Object + was/were + being + past participle (+ by subject)။"
+        },
+        {
+          "concept": "Present Perfect Tense",
+          "explanation": "Active: Subject + have/has + past participle + object. Passive: Object + have/has + been + past participle (+ by subject).",
+          "example": "Active: They have already discussed the book. Passive: The book has already been discussed.",
+          "burmese": "Present Perfect Tense မှာ Active: Subject + have/has + past participle + object။ Passive: Object + have/has + been + past participle (+ by subject)။"
+        },
+        {
+          "concept": "Past Perfect Tense",
+          "explanation": "Active: Subject + had + past participle + object. Passive: Object + had + been + past participle (+ by subject).",
+          "example": "Active: He had delivered the letters. Passive: The letters had been delivered.",
+          "burmese": "Past Perfect Tense မှာ Active: Subject + had + past participle + object။ Passive: Object + had + been + past participle (+ by subject)။"
+        },
+        {
+          "concept": "Future Perfect Tense",
+          "explanation": "Active: Subject + will have + past participle + object. Passive: Object + will have + been + past participle (+ by subject).",
+          "example": "Active: I will have written a letter. Passive: A letter will have been written.",
+          "burmese": "Future Perfect Tense မှာ Active: Subject + will have + past participle + object။ Passive: Object + will have + been + past participle (+ by subject)။"
+        }
+      ]
+    }
+  ]
+}

@@ -78,6 +78,12 @@ import unit39Lessons from "../../data/unit-39-lessons.json";
 import unit39Exercises from "../../data/unit-39-exercises.json";
 import unit40Lessons from "../../data/unit-40-lessons.json";
 import unit40Exercises from "../../data/unit-40-exercises.json";
+import unit41Lessons from "../../data/unit-41-lessons.json";
+import unit41Exercises from "../../data/unit-41-exercises.json";
+import unit42Lessons from "../../data/unit-42-lessons.json";
+import unit42Exercises from "../../data/unit-42-exercises.json";
+import unit43Lessons from "../../data/unit-43-lessons.json";
+import unit43Exercises from "../../data/unit-43-exercises.json";
 import type { LessonsData, ExercisesData, Exercise, ExerciseQuestion } from "./types";
 
 const UNIT_DATA: Record<number, { lessons: LessonsData; exercises: ExercisesData }> = {
@@ -121,6 +127,9 @@ const UNIT_DATA: Record<number, { lessons: LessonsData; exercises: ExercisesData
   38: { lessons: unit38Lessons as LessonsData, exercises: unit38Exercises as ExercisesData },
   39: { lessons: unit39Lessons as LessonsData, exercises: unit39Exercises as ExercisesData },
   40: { lessons: unit40Lessons as LessonsData, exercises: unit40Exercises as ExercisesData },
+  41: { lessons: unit41Lessons as LessonsData, exercises: unit41Exercises as ExercisesData },
+  42: { lessons: unit42Lessons as LessonsData, exercises: unit42Exercises as ExercisesData },
+  43: { lessons: unit43Lessons as LessonsData, exercises: unit43Exercises as ExercisesData },
 };
 
 export const UNIT_TITLES: Record<number, string> = {
@@ -164,6 +173,9 @@ export const UNIT_TITLES: Record<number, string> = {
   38: "Prepositions of Place",
   39: "Some, Any, A/An",
   40: "Much, Many, A Lot (of)",
+  41: "Present Perfect with ever, never, just, already and yet",
+  42: "Three Degrees of Adjectives",
+  43: "Active and Passive Voice",
 };
 
 export const UNIT_DESCRIPTIONS: Record<number, string> = {
@@ -207,6 +219,9 @@ export const UNIT_DESCRIPTIONS: Record<number, string> = {
   38: "Learn to use on, under, above, near, behind, in front of, next to, and in to describe positions.",
   39: "Learn when to use some, any, a, and an with countable and uncountable nouns.",
   40: "Learn when to use much, many, a lot of, and a lot to talk about quantities.",
+  41: "Learn to use ever, never, just, already, and yet with the present perfect tense.",
+  42: "Learn the Positive, Comparative, and Superlative degrees of adjectives.",
+  43: "Learn to convert Active Voice to Passive Voice across eight different tenses.",
 };
 
 export function getLessonsData(unit: number = 1): LessonsData {

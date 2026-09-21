@@ -1,0 +1,43 @@
+{
+  "unit": 41,
+  "title": "Present Perfect with ever, never, just, already and yet",
+  "lessons": [
+    {
+      "id": "unit41-lesson1",
+      "title": "Present Perfect with ever, never, just, already and yet",
+      "content": "We can use ever, never, just, already and yet with the present perfect to talk about life experiences, recent events, and expected actions.",
+      "details": [
+        {
+          "concept": "Ever – in questions",
+          "explanation": "We use 'ever' in questions with the present perfect. It means 'at any time in your life'. Ever comes just before the past participle.",
+          "example": "Have you ever worn a suit? Has she ever appeared on TV?",
+          "burmese": "'ever' ကို present perfect နဲ့ questions တွေမှာ သုံးပါ။ 'ဘယ်တုန်းကများ' ဆိုတဲ့ အဓိပ္ပာယ်ပေးပါတယ်။ past participle ရဲ့ ရှေ့မှာ ထားပါ။"
+        },
+        {
+          "concept": "Never – in negative sentences",
+          "explanation": "We use 'never' in negative sentences in the present perfect. It means 'at no time in your life'. Never comes before the past participle.",
+          "example": "I have never been to London. He has never done the shopping.",
+          "burmese": "'never' ကို present perfect နဲ့ negative sentences တွေမှာ သုံးပါ။ 'ဘယ်တုန်းကမှ' ဆိုတဲ့ အဓိပ္ပာယ်ပေးပါတယ်။ past participle ရဲ့ ရှေ့မှာ ထားပါ။"
+        },
+        {
+          "concept": "Just – recent events",
+          "explanation": "We use 'just' with the present perfect to emphasize the fact that something happened very recently. Just goes before the past participle.",
+          "example": "I have just washed my hair. Has she just taken the rubbish out?",
+          "burmese": "'just' ကို present perfect နဲ့ ဖြစ်ပျက်ပြီးခါစ အရာတွေကို ပြောဖို့ သုံးပါ။ past participle ရဲ့ ရှေ့မှာ ထားပါ။"
+        },
+        {
+          "concept": "Already – earlier than expected",
+          "explanation": "We use 'already' to talk about something that has happened earlier than we expected. Already usually goes just before the past participle.",
+          "example": "Don't buy any bread. I have already bought some. They have already switched off the TV.",
+          "burmese": "'already' ကို မျှော်လင့်ထားတာထက် စောပြီးဖြစ်ပျက်တဲ့ အရာတွေကို ပြောဖို့ သုံးပါ။ past participle ရဲ့ ရှေ့မှာ ထားပါ။"
+        },
+        {
+          "concept": "Yet – expected actions",
+          "explanation": "We use 'yet' to ask if something expected has happened or to say that it hasn't. It is used in questions or negative sentences. Yet usually goes at the end of a sentence or clause.",
+          "example": "Have you spoken to the teacher yet? I haven't read the book yet. She hasn't arrived yet.",
+          "burmese": "'yet' ကို မျှော်လင့်ထားတဲ့ အရာတစ်ခု ဖြစ်ပျက်ပြီးလား မဖြစ်သေးဘူးလား မေးဖို့ သုံးပါ။ questions နဲ့ negative sentences တွေမှာ သုံးပြီး ဝါကျရဲ့ အဆုံးမှာ ထားပါ။"
+        }
+      ]
+    }
+  ]
+}

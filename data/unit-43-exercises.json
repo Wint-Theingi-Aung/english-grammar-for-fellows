@@ -1,0 +1,220 @@
+{
+  "unit": 43,
+  "exercises": [
+    {
+      "id": "unit43-ex1",
+      "type": "multiple_choice",
+      "instructions": "Change the following active sentences into passive voice. Choose the correct passive form.",
+      "questions": [
+        {
+          "id": 4301,
+          "question": "Doctors treat patients. → Patients ___.",
+          "options": ["are treated by doctors", "are treating by doctors", "treated by doctors"],
+          "answer": "are treated by doctors",
+          "explanation": "Simple Present passive: Object + am/is/are + past participle + by subject. Simple Present passive: Object + am/is/are + past participle + by subject။",
+          "points": 1
+        },
+        {
+          "id": 4302,
+          "question": "Parents bring up children. → Children ___.",
+          "options": ["are brought up by parents", "are bringing up by parents", "brought up by parents"],
+          "answer": "are brought up by parents",
+          "explanation": "Simple Present passive: Object + are + past participle + by subject. Simple Present passive: Object + are + past participle + by subject။",
+          "points": 1
+        },
+        {
+          "id": 4303,
+          "question": "We love our country. → Our country ___.",
+          "options": ["is loved by us", "is loving by us", "loved by us"],
+          "answer": "is loved by us",
+          "explanation": "Simple Present passive: Object + is + past participle + by subject. Simple Present passive: Object + is + past participle + by subject။",
+          "points": 1
+        },
+        {
+          "id": 4304,
+          "question": "Masons build houses. → Houses ___.",
+          "options": ["are built by masons", "are building by masons", "built by masons"],
+          "answer": "are built by masons",
+          "explanation": "Simple Present passive: Object + are + past participle + by subject. Simple Present passive: Object + are + past participle + by subject။",
+          "points": 1
+        },
+        {
+          "id": 4305,
+          "question": "Carpenters make furniture. → Furniture ___.",
+          "options": ["is made by carpenters", "is making by carpenters", "made by carpenters"],
+          "answer": "is made by carpenters",
+          "explanation": "Simple Present passive: Object + is + past participle + by subject. Simple Present passive: Object + is + past participle + by subject။",
+          "points": 1
+        },
+        {
+          "id": 4306,
+          "question": "Mother made a cake yesterday. → A cake ___.",
+          "options": ["was made by mother yesterday", "were made by mother yesterday", "is made by mother yesterday"],
+          "answer": "was made by mother yesterday",
+          "explanation": "Simple Past passive: Object + was/were + past participle + by subject. Simple Past passive: Object + was/were + past participle + by subject။",
+          "points": 1
+        },
+        {
+          "id": 4307,
+          "question": "The boy teased the girl. → The girl ___.",
+          "options": ["was teased by the boy", "were teased by the boy", "is teased by the boy"],
+          "answer": "was teased by the boy",
+          "explanation": "Simple Past passive: Object + was + past participle + by subject. Simple Past passive: Object + was + past participle + by subject။",
+          "points": 1
+        },
+        {
+          "id": 4308,
+          "question": "My friend bought a new car. → A new car ___.",
+          "options": ["was bought by my friend", "were bought by my friend", "is bought by my friend"],
+          "answer": "was bought by my friend",
+          "explanation": "Simple Past passive: Object + was + past participle + by subject. Simple Past passive: Object + was + past participle + by subject။",
+          "points": 1
+        },
+        {
+          "id": 4309,
+          "question": "Sue changed the flat tire. → The flat tire ___.",
+          "options": ["was changed by Sue", "were changed by Sue", "is changed by Sue"],
+          "answer": "was changed by Sue",
+          "explanation": "Simple Past passive: Object + was + past participle + by subject. Simple Past passive: Object + was + past participle + by subject။",
+          "points": 1
+        },
+        {
+          "id": 4310,
+          "question": "I will clean the house every Saturday. → The house ___.",
+          "options": ["will be cleaned by me every Saturday", "will cleaned by me every Saturday", "is cleaned by me every Saturday"],
+          "answer": "will be cleaned by me every Saturday",
+          "explanation": "Simple Future passive: Object + will + be + past participle + by subject. Simple Future passive: Object + will + be + past participle + by subject။",
+          "points": 1
+        },
+        {
+          "id": 4311,
+          "question": "I will write a letter. → A letter ___.",
+          "options": ["will be written by me", "will written by me", "is written by me"],
+          "answer": "will be written by me",
+          "explanation": "Simple Future passive: Object + will + be + past participle. Simple Future passive: Object + will + be + past participle။",
+          "points": 1
+        },
+        {
+          "id": 4312,
+          "question": "She will not help us. → We ___.",
+          "options": ["will not be helped by her", "will not helped by her", "are not helped by her"],
+          "answer": "will not be helped by her",
+          "explanation": "Simple Future passive negative: Object + will + not + be + past participle. Simple Future passive negative: Object + will + not + be + past participle။",
+          "points": 1
+        },
+        {
+          "id": 4313,
+          "question": "She is reading the newspaper now. → The newspaper ___.",
+          "options": ["is being read by her now", "is reading by her now", "was being read by her now"],
+          "answer": "is being read by her now",
+          "explanation": "Present Continuous passive: Object + am/is/are + being + past participle. Present Continuous passive: Object + am/is/are + being + past participle။",
+          "points": 1
+        },
+        {
+          "id": 4314,
+          "question": "I am reading a story. → A story ___.",
+          "options": ["is being read by me", "is reading by me", "was being read by me"],
+          "answer": "is being read by me",
+          "explanation": "Present Continuous passive: Object + is + being + past participle. Present Continuous passive: Object + is + being + past participle။",
+          "points": 1
+        },
+        {
+          "id": 4315,
+          "question": "She is singing a song. → A song ___.",
+          "options": ["is being sung by her", "is singing by her", "was being sung by her"],
+          "answer": "is being sung by her",
+          "explanation": "Present Continuous passive: Object + is + being + past participle. Present Continuous passive: Object + is + being + past participle။",
+          "points": 1
+        },
+        {
+          "id": 4316,
+          "question": "The tiger was chasing the deer. → The deer ___.",
+          "options": ["was being chased by the tiger", "were being chased by the tiger", "is being chased by the tiger"],
+          "answer": "was being chased by the tiger",
+          "explanation": "Past Continuous passive: Object + was/were + being + past participle. Past Continuous passive: Object + was/were + being + past participle။",
+          "points": 1
+        },
+        {
+          "id": 4317,
+          "question": "Megha was writing a poem. → A poem ___.",
+          "options": ["was being written by Megha", "were being written by Megha", "is being written by Megha"],
+          "answer": "was being written by Megha",
+          "explanation": "Past Continuous passive: Object + was + being + past participle. Past Continuous passive: Object + was + being + past participle။",
+          "points": 1
+        },
+        {
+          "id": 4318,
+          "question": "The girl was painting a picture. → A picture ___.",
+          "options": ["was being painted by the girl", "were being painted by the girl", "is being painted by the girl"],
+          "answer": "was being painted by the girl",
+          "explanation": "Past Continuous passive: Object + was + being + past participle. Past Continuous passive: Object + was + being + past participle။",
+          "points": 1
+        },
+        {
+          "id": 4319,
+          "question": "She has written a novel. → A novel ___.",
+          "options": ["has been written by her", "have been written by her", "had been written by her"],
+          "answer": "has been written by her",
+          "explanation": "Present Perfect passive: Object + has/have + been + past participle. Present Perfect passive: Object + has/have + been + past participle။",
+          "points": 1
+        },
+        {
+          "id": 4320,
+          "question": "The police have caught the thief. → The thief ___.",
+          "options": ["has been caught by the police", "have been caught by the police", "had been caught by the police"],
+          "answer": "has been caught by the police",
+          "explanation": "Present Perfect passive: Object (singular) + has + been + past participle. Present Perfect passive: Object (singular) + has + been + past participle။",
+          "points": 1
+        },
+        {
+          "id": 4321,
+          "question": "I have written a story. → A story ___.",
+          "options": ["has been written by me", "have been written by me", "had been written by me"],
+          "answer": "has been written by me",
+          "explanation": "Present Perfect passive: Object (singular) + has + been + past participle. Present Perfect passive: Object (singular) + has + been + past participle။",
+          "points": 1
+        },
+        {
+          "id": 4322,
+          "question": "They had finished the job by Monday. → The job ___.",
+          "options": ["had been finished by them", "has been finished by them", "was finished by them"],
+          "answer": "had been finished by them",
+          "explanation": "Past Perfect passive: Object + had + been + past participle. Past Perfect passive: Object + had + been + past participle။",
+          "points": 1
+        },
+        {
+          "id": 4323,
+          "question": "Amar had made a big mistake. → A big mistake ___.",
+          "options": ["had been made by Amar", "has been made by Amar", "was made by Amar"],
+          "answer": "had been made by Amar",
+          "explanation": "Past Perfect passive: Object + had + been + past participle. Past Perfect passive: Object + had + been + past participle။",
+          "points": 1
+        },
+        {
+          "id": 4324,
+          "question": "The teacher had punished the boy. → The boy ___.",
+          "options": ["had been punished by the teacher", "has been punished by the teacher", "was punished by the teacher"],
+          "answer": "had been punished by the teacher",
+          "explanation": "Past Perfect passive: Object + had + been + past participle. Past Perfect passive: Object + had + been + past participle။",
+          "points": 1
+        },
+        {
+          "id": 4325,
+          "question": "I will have finished the job by Monday. → The job ___.",
+          "options": ["will have been finished by me", "will has been finished by me", "has been finished by me"],
+          "answer": "will have been finished by me",
+          "explanation": "Future Perfect passive: Object + will + have + been + past participle. Future Perfect passive: Object + will + have + been + past participle။",
+          "points": 1
+        },
+        {
+          "id": 4326,
+          "question": "She will have won the first prize. → The first prize ___.",
+          "options": ["will have been won by her", "will has been won by her", "has been won by her"],
+          "answer": "will have been won by her",
+          "explanation": "Future Perfect passive: Object + will + have + been + past participle. Future Perfect passive: Object + will + have + been + past participle။",
+          "points": 1
+        }
+      ]
+    }
+  ]
+}

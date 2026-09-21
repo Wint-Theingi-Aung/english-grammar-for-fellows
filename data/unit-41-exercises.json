@@ -1,0 +1,212 @@
+{
+  "unit": 41,
+  "exercises": [
+    {
+      "id": "unit41-ex1",
+      "type": "multiple_choice",
+      "instructions": "Choose the correct present perfect word (ever, never, just, already, yet) for each sentence.",
+      "questions": [
+        {
+          "id": 4101,
+          "question": "I haven't spoken to my mum ___.",
+          "options": ["yet", "ever", "never"],
+          "answer": "yet",
+          "explanation": "'Yet' goes at the end of negative sentences to indicate something expected has not happened. 'yet' ကို negative sentences ရဲ့ အဆုံးမှာ ထားပါ။",
+          "points": 1
+        },
+        {
+          "id": 4102,
+          "question": "I am bored because I have ___ seen this programme.",
+          "options": ["already", "yet", "never"],
+          "answer": "already",
+          "explanation": "'Already' goes before the past participle to say something happened earlier than expected. 'already' ကို past participle ရဲ့ ရှေ့မှာ ထားပါ။",
+          "points": 1
+        },
+        {
+          "id": 4103,
+          "question": "Has the teacher arrived ___?",
+          "options": ["yet", "already", "just"],
+          "answer": "yet",
+          "explanation": "'Yet' goes at the end of questions to ask if something expected has happened. 'yet' ကို questions ရဲ့ အဆုံးမှာ ထားပါ။",
+          "points": 1
+        },
+        {
+          "id": 4104,
+          "question": "Have you ___ thought how important T-shirts are?",
+          "options": ["ever", "yet", "already"],
+          "answer": "ever",
+          "explanation": "'Ever' goes in questions with the present perfect to mean 'at any time in your life'. 'ever' ကို questions မှာ သုံးပါ။",
+          "points": 1
+        },
+        {
+          "id": 4105,
+          "question": "I have ___ worn that T-shirt.",
+          "options": ["never", "yet", "already"],
+          "answer": "never",
+          "explanation": "'Never' goes before the past participle in negative sentences to mean 'at no time'. 'never' ကို past participle ရဲ့ ရှေ့မှာ ထားပါ။",
+          "points": 1
+        },
+        {
+          "id": 4106,
+          "question": "You are fast! You have ___ finished this exercise!",
+          "options": ["already", "yet", "ever"],
+          "answer": "already",
+          "explanation": "'Already' emphasizes something happened earlier than expected. 'already' ကို past participle ရဲ့ ရှေ့မှာ ထားပါ။",
+          "points": 1
+        },
+        {
+          "id": 4107,
+          "question": "He had ___ finished dinner when he came.",
+          "options": ["just", "ever", "yet"],
+          "answer": "just",
+          "explanation": "'Just' emphasizes something happened very recently. 'just' ကို past participle ရဲ့ ရှေ့မှာ ထားပါ။",
+          "points": 1
+        },
+        {
+          "id": 4108,
+          "question": "Has he ___ scored a goal before?",
+          "options": ["ever", "never", "already"],
+          "answer": "ever",
+          "explanation": "'Ever' goes in questions to mean 'at any time in your life'. 'ever' ကို questions မှာ သုံးပါ။",
+          "points": 1
+        },
+        {
+          "id": 4109,
+          "question": "I've ___ heard him.",
+          "options": ["never", "yet", "just"],
+          "answer": "never",
+          "explanation": "'Never' goes before the past participle in negative sentences. 'never' ကို past participle ရဲ့ ရှေ့မှာ ထားပါ။",
+          "points": 1
+        },
+        {
+          "id": 4110,
+          "question": "I had ___ seen him in the corridor.",
+          "options": ["just", "ever", "yet"],
+          "answer": "just",
+          "explanation": "'Just' emphasizes something happened very recently. 'just' ကို past participle ရဲ့ ရှေ့မှာ ထားပါ။",
+          "points": 1
+        },
+        {
+          "id": 4111,
+          "question": "Haven't they been shopping ___?",
+          "options": ["yet", "ever", "just"],
+          "answer": "yet",
+          "explanation": "'Yet' goes at the end of questions to ask about something expected. 'yet' ကို questions ရဲ့ အဆုံးမှာ ထားပါ။",
+          "points": 1
+        },
+        {
+          "id": 4112,
+          "question": "She has ___ bought a car before.",
+          "options": ["never", "ever", "yet"],
+          "answer": "never",
+          "explanation": "'Never' goes before the past participle to mean 'at no time'. 'never' ကို past participle ရဲ့ ရှေ့မှာ ထားပါ။",
+          "points": 1
+        },
+        {
+          "id": 4113,
+          "question": "Have you ___ been to New Zealand?",
+          "options": ["ever", "never", "just"],
+          "answer": "ever",
+          "explanation": "'Ever' goes in questions to mean 'at any time in your life'. 'ever' ကို questions မှာ သုံးပါ။",
+          "points": 1
+        },
+        {
+          "id": 4114,
+          "question": "We have ___ seen this method work.",
+          "options": ["already", "yet", "never"],
+          "answer": "already",
+          "explanation": "'Already' goes before the past participle when something happened earlier than expected. 'already' ကို past participle ရဲ့ ရှေ့မှာ ထားပါ။",
+          "points": 1
+        },
+        {
+          "id": 4115,
+          "question": "I have ___ started a typing course.",
+          "options": ["just", "ever", "already"],
+          "answer": "just",
+          "explanation": "'Just' emphasizes something happened very recently. 'just' ကို past participle ရဲ့ ရှေ့မှာ ထားပါ။",
+          "points": 1
+        },
+        {
+          "id": 4116,
+          "question": "He has ___ arrived.",
+          "options": ["just", "yet", "ever"],
+          "answer": "just",
+          "explanation": "'Just' emphasizes something happened very recently. 'just' ကို past participle ရဲ့ ရှေ့မှာ ထားပါ။",
+          "points": 1
+        },
+        {
+          "id": 4117,
+          "question": "The children had ___ been on an aeroplane.",
+          "options": ["never", "yet", "just"],
+          "answer": "never",
+          "explanation": "'Never' goes before the past participle in negative sentences. 'never' ကို past participle ရဲ့ ရှေ့မှာ ထားပါ။",
+          "points": 1
+        },
+        {
+          "id": 4118,
+          "question": "She'd ___ spoken English before she came to London.",
+          "options": ["never", "ever", "already"],
+          "answer": "never",
+          "explanation": "'Never' goes before the past participle to mean 'at no time'. 'never' ကို past participle ရဲ့ ရှေ့မှာ ထားပါ။",
+          "points": 1
+        },
+        {
+          "id": 4119,
+          "question": "We've ___ had our breakfast.",
+          "options": ["already", "never", "yet"],
+          "answer": "already",
+          "explanation": "'Already' goes before the past participle when something happened earlier than expected. 'already' ကို past participle ရဲ့ ရှေ့မှာ ထားပါ။",
+          "points": 1
+        },
+        {
+          "id": 4120,
+          "question": "Has the post arrived ___?",
+          "options": ["yet", "ever", "already"],
+          "answer": "yet",
+          "explanation": "'Yet' goes at the end of questions to ask about something expected. 'yet' ကို questions ရဲ့ အဆုံးမှာ ထားပါ။",
+          "points": 1
+        },
+        {
+          "id": 4121,
+          "question": "I haven't made a decision ___.",
+          "options": ["yet", "never", "already"],
+          "answer": "yet",
+          "explanation": "'Yet' goes at the end of negative sentences to indicate something expected has not happened. 'yet' ကို negative sentences ရဲ့ အဆုံးမှာ ထားပါ။",
+          "points": 1
+        },
+        {
+          "id": 4122,
+          "question": "Have you ___ seen such a lovely picture?",
+          "options": ["ever", "never", "yet"],
+          "answer": "ever",
+          "explanation": "'Ever' goes in questions to mean 'at any time in your life'. 'ever' ကို questions မှာ သုံးပါ။",
+          "points": 1
+        },
+        {
+          "id": 4123,
+          "question": "I have ___ done it!",
+          "options": ["already", "ever", "just"],
+          "answer": "already",
+          "explanation": "'Already' goes before the past participle when something is completed. 'already' ကို past participle ရဲ့ ရှေ့မှာ ထားပါ။",
+          "points": 1
+        },
+        {
+          "id": 4124,
+          "question": "Have you ___ heard of The Ivy restaurant?",
+          "options": ["ever", "yet", "already"],
+          "answer": "ever",
+          "explanation": "'Ever' goes in questions to mean 'at any time in your life'. 'ever' ကို questions မှာ သုံးပါ။",
+          "points": 1
+        },
+        {
+          "id": 4125,
+          "question": "I've ___ decided to sell my apartment.",
+          "options": ["just", "yet", "never"],
+          "answer": "just",
+          "explanation": "'Just' emphasizes something happened very recently. 'just' ကို past participle ရဲ့ ရှေ့မှာ ထားပါ။",
+          "points": 1
+        }
+      ]
+    }
+  ]
+}
