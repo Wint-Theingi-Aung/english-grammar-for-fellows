@@ -1,0 +1,139 @@
+{
+  "unit": 46,
+  "title": "Idioms",
+  "lessons": [
+    {
+      "id": "unit46-lesson1",
+      "title": "Idioms: Common English Idioms",
+      "content": "Idioms are expressions that have a figurative meaning different from their literal meaning. Learning common idioms helps you understand native English speakers and express yourself more naturally.",
+      "details": [
+        {
+          "concept": "walk of life",
+          "explanation": "A person's occupation, status, or social class. Used in the phrase 'all walks of life' to mean people from many different backgrounds.",
+          "example": "She has friends from all walks of life.",
+          "burmese": "'walk of life' ဆိုတာ လူတစ်ယောက်ရဲ့ အလုပ်၊ လူမှုအဆင့်အတန်းကို ဆိုလိုပါတယ်။"
+        },
+        {
+          "concept": "a piece of cake",
+          "explanation": "Something very easy to do. Used to describe tasks that require little effort.",
+          "example": "The exam was a piece of cake.",
+          "burmese": "'a piece of cake' ဆိုတာ အလွယ်တကူ လုပ်နိုင်တဲ့ အရာကို ဆိုလိုပါတယ်။"
+        },
+        {
+          "concept": "a penny for your thoughts",
+          "explanation": "A gentle way to ask someone what they are thinking about, especially when they are quiet.",
+          "example": "You have been quiet all morning, a penny for your thoughts?",
+          "burmese": "'a penny for your thoughts' ဆိုတာ တစ်ယောက်ယောက် ဘာတွေတွေးနေလဲ မေးတဲ့ နည်းလမ်းပါ။"
+        },
+        {
+          "concept": "all smiles",
+          "explanation": "Very happy and smiling. Used to describe someone who is showing great happiness.",
+          "example": "She was all smiles at the news of her win.",
+          "burmese": "'all smiles' ဆိုတာ ပျော်ပျော်ပန်းပန်း ရှိနေတာကို ဆိုလိုပါတယ်။"
+        },
+        {
+          "concept": "black sheep",
+          "explanation": "A person who is considered a disgrace or failure by their family or group.",
+          "example": "My brother is the black sheep of the family.",
+          "burmese": "'black sheep' ဆိုတာ မိသားစုရဲ့ စိတ်နှောင့်ရှက်ဖွယ်လူကို ဆိုလိုပါတယ်။"
+        },
+        {
+          "concept": "break the ice",
+          "explanation": "To initiate a conversation or ease tension in a social situation, especially when people are meeting for the first time.",
+          "example": "She sent him a text to break the ice.",
+          "burmese": "'break the ice' ဆိုတာ ပထမဆုံးတွေ့တဲ့အခါ စကားစပြပြီး ရင်းနှီးအောင်လုပ်တာပါ။"
+        },
+        {
+          "concept": "child's play",
+          "explanation": "Something very easy to do; something that requires little skill or effort.",
+          "example": "The test was real child's play.",
+          "burmese": "'child's play' ဆိုတာ အလွန်လွယ်ကူတဲ့ အရာကို ဆိုလိုပါတယ်။"
+        },
+        {
+          "concept": "crocodile tears",
+          "explanation": "Fake or insincere tears; pretending to be sad when you are not really sad.",
+          "example": "Don't soften your heart; he was shedding crocodile tears.",
+          "burmese": "'crocodile tears' ဆိုတာ ဟန်ဆောင်ပြီးငိုတာကို ဆိုလိုပါတယ်။"
+        },
+        {
+          "concept": "foot the bill",
+          "explanation": "To pay for something; to cover the cost of something.",
+          "example": "Who's going to foot the bill for the damage?",
+          "burmese": "'foot the bill' ဆိုတာ ကုန်ကျစရိတ်ကို ပေးဆောင်တာပါ။"
+        },
+        {
+          "concept": "get rid of",
+          "explanation": "To remove, throw away, or eliminate something unwanted.",
+          "example": "It is difficult to get rid of insects.",
+          "burmese": "'get rid of' ဆိုတာ မလိုချင်တဲ့အရာကို ဖယ်ရှားပစ်တာပါ။"
+        },
+        {
+          "concept": "get a grip",
+          "explanation": "To control oneself or a situation; to calm down and behave sensibly.",
+          "example": "Get a grip on yourself!",
+          "burmese": "'get a grip' ဆိုတာ ကိုယ့်ကိုယ်ကို ထိန်းချုပ်တာပါ။"
+        },
+        {
+          "concept": "go through the roof",
+          "explanation": "To become extremely angry or furious about something.",
+          "example": "Mom will go through the roof when she finds out we disobeyed her again.",
+          "burmese": "'go through the roof' ဆိုတာ အလွန်ဒေါသထွက်တာကို ဆိုလိုပါတယ်။"
+        },
+        {
+          "concept": "I'm afraid",
+          "explanation": "A polite way to express that something is not possible or to deliver bad news.",
+          "example": "I'm afraid we can't come.",
+          "burmese": "'I'm afraid' ဆိုတာ စိတ်မကောင်းစွာ ငြင်းဆိုတဲ့ ယဉ်ကျေးတဲ့ ပုံစံပါ။"
+        },
+        {
+          "concept": "leave it at that",
+          "explanation": "To stop talking about something; to accept the current situation and not continue further.",
+          "example": "We will never agree, so let's just leave it at that.",
+          "burmese": "'leave it at that' ဆိုတာ ဒီလောက်ပဲထားလိုက်ကြပါလို့ ဆိုလိုပါတယ်။"
+        },
+        {
+          "concept": "not at all",
+          "explanation": "A polite response to thanks, meaning 'you're welcome'; also means 'not in any way'.",
+          "example": "Thank you for all your help. Not at all.",
+          "burmese": "'not at all' ဆိုတာ ကျေးဇူးတင်တဲ့အခါ ပြန်ဖြေတဲ့ ယဉ်ကျေးတဲ့ စကားပါ။"
+        },
+        {
+          "concept": "on the spot",
+          "explanation": "Immediately; right away; at that very moment without delay.",
+          "example": "The policeman arrested the thief on the spot.",
+          "burmese": "'on the spot' ဆိုတာ ချက်ချင်း၊ ချိန်ချိန်ဆဆ ဆိုလိုပါတယ်။"
+        },
+        {
+          "concept": "off colour",
+          "explanation": "Feeling unwell, slightly ill, or not in one's usual good health.",
+          "example": "You look a little off colour today.",
+          "burmese": "'off colour' ဆိုတာ နမကောင်းဖြစ်နေတာကို ဆိုလိုပါတယ်။"
+        },
+        {
+          "concept": "over the moon",
+          "explanation": "Extremely happy and delighted about something.",
+          "example": "She's over the moon about her new job.",
+          "burmese": "'over the moon' ဆိုတာ အလွန်ပျော်ရွှင်နေတာကို ဆိုလိုပါတယ်။"
+        },
+        {
+          "concept": "once in a blue moon",
+          "explanation": "Very rarely; almost never; something that happens extremely infrequently.",
+          "example": "I see her once in a blue moon.",
+          "burmese": "'once in a blue moon' ဆိုတာ အလွန်ရှားရှားဖြစ်ဖြစ် ဖြစ်တာကို ဆိုလိုပါတယ်။"
+        },
+        {
+          "concept": "out of the blue",
+          "explanation": "Unexpectedly; without warning; completely surprising.",
+          "example": "His resignation came out of the blue.",
+          "burmese": "'out of the blue' ဆိုတာ မမျှော်လင့်ဘဲ ဖြစ်လာတာကို ဆိုလိုပါတယ်။"
+        },
+        {
+          "concept": "pie in the sky",
+          "explanation": "An unrealistic or impossible hope or plan; a dream that is unlikely to come true.",
+          "example": "His dream to become President is just a pie in the sky.",
+          "burmese": "'pie in the sky' ဆိုတာ မဖြစ်နိုင်တဲ့ မျှော်လင့်ချက်ကို ဆိုလိုပါတယ်။"
+        }
+      ]
+    }
+  ]
+}

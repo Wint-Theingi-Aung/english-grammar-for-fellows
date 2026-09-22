@@ -1,0 +1,68 @@
+{
+  "unit": 44,
+  "title": "Reported Speech",
+  "lessons": [
+    {
+      "id": "unit44-lesson1",
+      "title": "Tense Changes in Reported Speech",
+      "content": "Reported speech is when we tell someone what another person said. When converting direct speech to reported speech, tenses shift back.",
+      "details": [
+        {
+          "concept": "Simple Present → Simple Past",
+          "explanation": "Direct Speech ရဲ့ Simple Present Tense ကို Reported Speech မှာ Simple Past Tense ပြောင်းပါတယ်။",
+          "example": "She said, \"I work at home.\" → She said that she worked at home. / He said, \"I like this song.\" → He said that he liked that song.",
+          "burmese": "Direct Speech ရဲ့ Simple Present Tense ကို Reported Speech မှာ Simple Past Tense ပြောင်းပါတယ်။"
+        },
+        {
+          "concept": "Simple Past → Past Perfect",
+          "explanation": "Direct Speech ရဲ့ Simple Past Tense ကို Reported Speech မှာ Past Perfect Tense ပြောင်းပါတယ်။",
+          "example": "John said to mother, \"You made my day...\" → John told mother that she had made his day... / Sue said, \"I was very happy.\" → She said that she had been very happy.",
+          "burmese": "Direct Speech ရဲ့ Simple Past Tense ကို Reported Speech မှာ Past Perfect Tense ပြောင်းပါတယ်။"
+        },
+        {
+          "concept": "Modal Verbs",
+          "explanation": "Modal Verbs တွေလည်း ပြောင်းပါတယ်။ will→would, can→could, may→might, must/have to→had to",
+          "example": "\"I will work.\" → She said she would work. / \"I can work.\" → She said she could work.",
+          "burmese": "Modal Verbs တွေလည်း ပြောင်းပါတယ်။ will→would, can→could, may→might, must/have to→had to"
+        },
+        {
+          "concept": "Present Continuous → Past Continuous",
+          "explanation": "Present Continuous ကို Past Continuous ပြောင်းပါတယ်။",
+          "example": "\"I am working.\" → She said that she was working.",
+          "burmese": "Present Continuous ကို Past Continuous ပြောင်းပါတယ်။"
+        },
+        {
+          "concept": "Present Perfect → Past Perfect",
+          "explanation": "Present Perfect ကို Past Perfect ပြောင်းပါတယ်။",
+          "example": "\"She has finished her dance practice.\" → Adele said that she had finished her dance practice.",
+          "burmese": "Present Perfect ကို Past Perfect ပြောင်းပါတယ်။"
+        },
+        {
+          "concept": "Past Perfect doesn't change",
+          "explanation": "Past Perfect ကတော့ မပြောင်းပါဘူး။",
+          "example": "\"I had worked.\" → She said she had worked.",
+          "burmese": "Past Perfect ကတော့ မပြောင်းပါဘူး။"
+        }
+      ]
+    },
+    {
+      "id": "unit44-lesson2",
+      "title": "Pronoun and Place/Time Changes",
+      "content": "In reported speech, pronouns and place and time words also change.",
+      "details": [
+        {
+          "concept": "Pronoun Changes",
+          "explanation": "Pronoun တွေ ပြောင်းပါတယ်။ I→he/she, We→they, my→his/her, your→my, our→their",
+          "example": "I → he/she, We → they, my → his/her, your → my, our → their, me → him/her, us → them",
+          "burmese": "Pronoun တွေ ပြောင်းပါတယ်။ I→he/she, We→they, my→his/her, your→my, our→their"
+        },
+        {
+          "concept": "Place and Time Word Changes",
+          "explanation": "Place နဲ့ Time words တွေ ပြောင်းပါတယ်။ this→that, here→there, today→that day, yesterday→the day before, tomorrow→the next day",
+          "example": "this/these → that/those, here → there, today → that day, yesterday → the day before, tomorrow → the next/following day, last night → the night before, next → the following, last → the previous, ago → before",
+          "burmese": "Place နဲ့ Time words တွေ ပြောင်းပါတယ်။ this→that, here→there, today→that day, yesterday→the day before, tomorrow→the next day"
+        }
+      ]
+    }
+  ]
+}

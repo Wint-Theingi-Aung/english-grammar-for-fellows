@@ -1,0 +1,172 @@
+{
+  "unit": 45,
+  "exercises": [
+    {
+      "id": "unit45-ex1",
+      "type": "multiple_choice",
+      "instructions": "Choose the correct meaning or usage of the phrasal verb.",
+      "questions": [
+        {
+          "id": 4501,
+          "question": "What does 'bow to' mean?",
+          "options": ["ပန်ကြားသည်၊ အမှတ်ရပ်ခံသည်။", "အလျော့ပေးရသည်၊ လက်လွှတ်ရသည်။", "အပြင်းအသင်းဖြစ်သည်။"],
+          "answer": "အလျော့ပေးရသည်၊ လက်လွှတ်ရသည်။",
+          "explanation": "'bow to' means to yield or give in to pressure. 'bow to' ဆိုတာ အလျော့ပေးရတာ၊ လက်လွှတ်ရတာကို ဆိုလိုပါတယ်။",
+          "points": 1
+        },
+        {
+          "id": 4502,
+          "question": "Which phrasal verb means '(စက်)ပျက်သည်။ (ကိစ္စမရှိတဲ့အခြေအနေ)ယိုယွင်းသည်။'?",
+          "options": ["pull down", "wipe out", "break down"],
+          "answer": "break down",
+          "explanation": "'break down' means a machine stops working or a situation deteriorates. 'break down' ဆိုတာ စက်ပျက်တာ သို့မဟုတ် အခြေအနေယိုယွင်းတာကို ဆိုလိုပါတယ်။",
+          "points": 1
+        },
+        {
+          "id": 4503,
+          "question": "The company president finally ___ to pressure and resigned.",
+          "options": ["chummed", "bowed", "hinged"],
+          "answer": "bowed",
+          "explanation": "'bowed to pressure' means he yielded to the pressure. 'bowed to pressure' ဆိုတာ ဖိအားကို အလျော့ပေးတာကို ဆိုလိုပါတယ်။",
+          "points": 1
+        },
+        {
+          "id": 4504,
+          "question": "What does 'call on' mean?",
+          "options": ["ဆူသည်၊ ကန့်သတ်သည်။", "ပန်ကြားသည်၊ အမှတ်ရပ်ခံသည်။", "လှည့်ပတ်ကြည့်သည်။"],
+          "answer": "ပန်ကြားသည်၊ အမှတ်ရပ်ခံသည်။",
+          "explanation": "'call on' means to appeal to or ask someone to do something. 'call on' ဆိုတာ ပန်ကြားတာ၊ အမှတ်ရပ်ခံတာကို ဆိုလိုပါတယ်။",
+          "points": 1
+        },
+        {
+          "id": 4505,
+          "question": "Which phrasal verb means 'အပြင်းအသင်းဖြစ်သည်။'?",
+          "options": ["go after", "get back at", "chum up"],
+          "answer": "chum up",
+          "explanation": "'chum up' means to become close friends. 'chum up' ဆိုတာ အပြင်းအသင်းဖြစ်တာကို ဆိုလိုပါတယ်။",
+          "points": 1
+        },
+        {
+          "id": 4506,
+          "question": "He could ___ half the words because they were unnecessary.",
+          "options": ["flick through", "cross out", "read on"],
+          "answer": "cross out",
+          "explanation": "'cross out' means to draw a line through words to show they are not needed. 'cross out' ဆိုတာ စာလုံးတွေကို ခြစ်ပစ်တာကို ဆိုလိုပါတယ်။",
+          "points": 1
+        },
+        {
+          "id": 4507,
+          "question": "What does 'flick through' mean?",
+          "options": ["လှန်လှန်ကြည့်သည်။", "ဖတ်ပြသည်။", "ဆက်ဖတ်သည်။"],
+          "answer": "လှန်လှန်ကြည့်သည်။",
+          "explanation": "'flick through' means to look through something quickly. 'flick through' ဆိုတာ လှန်လှန်ကြည့်တာကို ဆိုလိုပါတယ်။",
+          "points": 1
+        },
+        {
+          "id": 4508,
+          "question": "I couldn't ___ what the teacher was talking about.",
+          "options": ["look back", "figure out", "sum up"],
+          "answer": "figure out",
+          "explanation": "'figure out' means to understand or solve something. 'figure out' ဆိုတာ နားလည်တာ၊ တွက်ချက်တာကို ဆိုလိုပါတယ်။",
+          "points": 1
+        },
+        {
+          "id": 4509,
+          "question": "Which phrasal verb means 'ရွေးချယ်သည်၊ ရယူရန် ကြိုးစားသည်။'?",
+          "options": ["go after", "go for sth", "get back at"],
+          "answer": "go for sth",
+          "explanation": "'go for sth' means to choose or try to achieve something. 'go for sth' ဆိုတာ ရွေးချယ်တာ၊ ရယူဖို့ ကြိုးစားတာကို ဆိုလိုပါတယ်။",
+          "points": 1
+        },
+        {
+          "id": 4510,
+          "question": "He ___ the burglars.",
+          "options": ["bowed to", "chummed up", "went after"],
+          "answer": "went after",
+          "explanation": "'went after' means to chase or pursue someone. 'went after' ဆိုတာ လိုက်တာကို ဆိုလိုပါတယ်။",
+          "points": 1
+        },
+        {
+          "id": 4511,
+          "question": "What does 'get back at' mean?",
+          "options": ["ကလည်စေချင်သည်။", "ဖျက်ချသည်။", "တင်သပ်သည်၊ အပ်နှံသည်။"],
+          "answer": "ကလည်စေချင်သည်။",
+          "explanation": "'get back at' means to get revenge on someone. 'get back at' ဆိုတာ ကလည်စေချင်တာကို ဆိုလိုပါတယ်။",
+          "points": 1
+        },
+        {
+          "id": 4512,
+          "question": "I need to ___ my homework tomorrow.",
+          "options": ["wipe out", "hand in", "read on"],
+          "answer": "hand in",
+          "explanation": "'hand in' means to submit or give something to someone. 'hand in' ဆိုတာ တင်သပ်တာ၊ အပ်နှံတာကို ဆိုလိုပါတယ်။",
+          "points": 1
+        },
+        {
+          "id": 4513,
+          "question": "My decision will ___ your views.",
+          "options": ["look down on", "hinge on", "look forward to"],
+          "answer": "hinge on",
+          "explanation": "'hinge on' means to depend on something. 'hinge on' ဆိုတာ တည်တာ၊ မူတည်တာကို ဆိုလိုပါတယ်။",
+          "points": 1
+        },
+        {
+          "id": 4514,
+          "question": "What does 'look back' mean?",
+          "options": ["လှည့်ပတ်ကြည့်သည်။", "ပြန်လည်တူးဆွဲကြည့်သည်။", "ကြည့်ရှုစောင့်ရှောက်သည်။"],
+          "answer": "ပြန်လည်တူးဆွဲကြည့်သည်။",
+          "explanation": "'look back' means to think about something in the past. 'look back' ဆိုတာ ပြန်လည်တူးဆွဲကြည့်တာကို ဆိုလိုပါတယ်။",
+          "points": 1
+        },
+        {
+          "id": 4515,
+          "question": "We ___ the neighbours' cat while they are away.",
+          "options": ["look round", "look down on", "look after"],
+          "answer": "look after",
+          "explanation": "'look after' means to take care of someone or something. 'look after' ဆိုတာ ကြည့်ရှုစောင့်ရှောက်တာကို ဆိုလိုပါတယ်။",
+          "points": 1
+        },
+        {
+          "id": 4516,
+          "question": "Which phrasal verb means 'လှည့်ပတ်ကြည့်သည်။'?",
+          "options": ["look round", "look after", "look back"],
+          "answer": "look round",
+          "explanation": "'look round' means to go around a place and look at things. 'look round' ဆိုတာ လှည့်ပတ်ကြည့်တာကို ဆိုလိုပါတယ်။",
+          "points": 1
+        },
+        {
+          "id": 4517,
+          "question": "She ___ anyone who hasn't had a university education.",
+          "options": ["looks forward to", "looks down on", "looks after"],
+          "answer": "looks down on",
+          "explanation": "'look down on' means to consider someone as inferior. 'look down on' ဆိုတာ အထင်အမြင်သေးတာကို ဆိုလိုပါတယ်။",
+          "points": 1
+        },
+        {
+          "id": 4518,
+          "question": "What does 'look forward to' mean?",
+          "options": ["အထင်အမြင်သေးသည်။", "မျှော်လင့်စောင့်စားသည်။", "ပြန်လည်တူးဆွဲကြည့်သည်။"],
+          "answer": "မျှော်လင့်စောင့်စားသည်။",
+          "explanation": "'look forward to' means to feel excited about something coming. 'look forward to' ဆိုတာ မျှော်လင့်စောင့်စားတာကို ဆိုလိုပါတယ်။",
+          "points": 1
+        },
+        {
+          "id": 4519,
+          "question": "The old warehouse has been ___.",
+          "options": ["wiped out", "shaped up", "pulled down"],
+          "answer": "pulled down",
+          "explanation": "'pull down' means to demolish a building. 'pull down' ဆိုတာ ဖျက်ချတာကို ဆိုလိုပါတယ်။",
+          "points": 1
+        },
+        {
+          "id": 4520,
+          "question": "What does 'wipe out' mean?",
+          "options": ["အကျဉ်းချုပ်သည်။", "ချမ်းနှိမ်သည်၊ တိုက်ဖျက်သည်။", "တိုးတက်အားကောင်းစေသည်။"],
+          "answer": "ချမ်းနှိမ်သည်၊ တိုက်ဖျက်သည်။",
+          "explanation": "'wipe out' means to completely destroy or eliminate something. 'wipe out' ဆိုတာ ချမ်းနှိမ်တာ၊ တိုက်ဖျက်တာကို ဆိုလိုပါတယ်။",
+          "points": 1
+        }
+      ]
+    }
+  ]
+}

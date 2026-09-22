@@ -84,6 +84,12 @@ import unit42Lessons from "../../data/unit-42-lessons.json";
 import unit42Exercises from "../../data/unit-42-exercises.json";
 import unit43Lessons from "../../data/unit-43-lessons.json";
 import unit43Exercises from "../../data/unit-43-exercises.json";
+import unit44Lessons from "../../data/unit-44-lessons.json";
+import unit44Exercises from "../../data/unit-44-exercises.json";
+import unit45Lessons from "../../data/unit-45-lessons.json";
+import unit45Exercises from "../../data/unit-45-exercises.json";
+import unit46Lessons from "../../data/unit-46-lessons.json";
+import unit46Exercises from "../../data/unit-46-exercises.json";
 import type { LessonsData, ExercisesData, Exercise, ExerciseQuestion } from "./types";
 
 const UNIT_DATA: Record<number, { lessons: LessonsData; exercises: ExercisesData }> = {
@@ -130,6 +136,9 @@ const UNIT_DATA: Record<number, { lessons: LessonsData; exercises: ExercisesData
   41: { lessons: unit41Lessons as LessonsData, exercises: unit41Exercises as ExercisesData },
   42: { lessons: unit42Lessons as LessonsData, exercises: unit42Exercises as ExercisesData },
   43: { lessons: unit43Lessons as LessonsData, exercises: unit43Exercises as ExercisesData },
+  44: { lessons: unit44Lessons as LessonsData, exercises: unit44Exercises as ExercisesData },
+  45: { lessons: unit45Lessons as LessonsData, exercises: unit45Exercises as ExercisesData },
+  46: { lessons: unit46Lessons as LessonsData, exercises: unit46Exercises as ExercisesData },
 };
 
 export const UNIT_TITLES: Record<number, string> = {
@@ -176,6 +185,9 @@ export const UNIT_TITLES: Record<number, string> = {
   41: "Present Perfect with ever, never, just, already and yet",
   42: "Three Degrees of Adjectives",
   43: "Active and Passive Voice",
+  44: "Reported Speech",
+  45: "Phrasal Verbs",
+  46: "Idioms",
 };
 
 export const UNIT_DESCRIPTIONS: Record<number, string> = {
@@ -222,6 +234,9 @@ export const UNIT_DESCRIPTIONS: Record<number, string> = {
   41: "Learn to use ever, never, just, already, and yet with the present perfect tense.",
   42: "Learn the Positive, Comparative, and Superlative degrees of adjectives.",
   43: "Learn to convert Active Voice to Passive Voice across eight different tenses.",
+  44: "Learn how to convert direct speech into reported speech with correct tense, pronoun, and time word changes.",
+  45: "Learn 25 common English phrasal verbs with their meanings, examples, and Burmese explanations.",
+  46: "Learn 21 common English idioms with their meanings, examples, and Burmese explanations.",
 };
 
 export function getLessonsData(unit: number = 1): LessonsData {

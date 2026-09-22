@@ -1,0 +1,172 @@
+{
+  "unit": 46,
+  "exercises": [
+    {
+      "id": "unit46-ex1",
+      "type": "multiple_choice",
+      "instructions": "Choose the correct meaning of the idiom.",
+      "questions": [
+        {
+          "id": 4601,
+          "question": "What does 'a piece of cake' mean?",
+          "options": ["something very easy to do", "a delicious dessert", "a small portion of food"],
+          "answer": "something very easy to do",
+          "explanation": "'A piece of cake' means something very easy to do. 'a piece of cake' ဆိုတာ အလွယ်တကူလုပ်နိုင်တဲ့ အရာကို ဆိုလိုပါတယ်။",
+          "points": 1
+        },
+        {
+          "id": 4602,
+          "question": "What does 'black sheep' mean?",
+          "options": ["a fast runner", "a person who is considered a disgrace or failure by their family", "a quiet person"],
+          "answer": "a person who is considered a disgrace or failure by their family",
+          "explanation": "'Black sheep' refers to a person who is considered a disgrace or failure by their family or group. 'black sheep' ဆိုတာ မိသားစုရဲ့ စိတ်နှောင့်ရှက်ဖွယ်လူကို ဆိုလိုပါတယ်။",
+          "points": 1
+        },
+        {
+          "id": 4603,
+          "question": "What does 'all smiles' mean?",
+          "options": ["feeling sad", "very happy and smiling", "wearing makeup"],
+          "answer": "very happy and smiling",
+          "explanation": "'All smiles' means very happy and smiling. 'all smiles' ဆိုတာ ပျော်ပျော်ပန်းပန်း ရှိနေတာကို ဆိုလိုပါတယ်။",
+          "points": 1
+        },
+        {
+          "id": 4604,
+          "question": "What does 'break the ice' mean?",
+          "options": ["to freeze water", "to initiate a conversation or ease tension", "to stop talking"],
+          "answer": "to initiate a conversation or ease tension",
+          "explanation": "'Break the ice' means to initiate a conversation or ease tension in a social situation. 'break the ice' ဆိုတာ ပထမဆုံးတွေ့တဲ့အခါ စကားစပြပြီး ရင်းနှီးအောင်လုပ်တာပါ။",
+          "points": 1
+        },
+        {
+          "id": 4605,
+          "question": "What does 'foot the bill' mean?",
+          "options": ["to walk quickly", "to pay for something", "to kick something"],
+          "answer": "to pay for something",
+          "explanation": "'Foot the bill' means to pay for something; to cover the cost. 'foot the bill' ဆိုတာ ကုန်ကျစရိတ်ကို ပေးဆောင်တာပါ။",
+          "points": 1
+        },
+        {
+          "id": 4606,
+          "question": "What does 'over the moon' mean?",
+          "options": ["very high up", "extremely happy and delighted", "confused"],
+          "answer": "extremely happy and delighted",
+          "explanation": "'Over the moon' means extremely happy and delighted about something. 'over the moon' ဆိုတာ အလွန်ပျော်ရွှင်နေတာကို ဆိုလိုပါတယ်။",
+          "points": 1
+        },
+        {
+          "id": 4607,
+          "question": "What does 'crocodile tears' mean?",
+          "options": ["real sadness", "fake or insincere tears", "tears from an animal"],
+          "answer": "fake or insincere tears",
+          "explanation": "'Crocodile tears' means fake or insincere tears; pretending to be sad. 'crocodile tears' ဆိုတာ ဟန်ဆောင်ပြီးငိုတာကို ဆိုလိုပါတယ်။",
+          "points": 1
+        },
+        {
+          "id": 4608,
+          "question": "What does 'get a grip' mean?",
+          "options": ["to hold something tightly", "to control oneself or a situation", "to slip and fall"],
+          "answer": "to control oneself or a situation",
+          "explanation": "'Get a grip' means to control oneself or a situation; to calm down. 'get a grip' ဆိုတာ ကိုယ့်ကိုယ်ကို ထိန်းချုပ်တာပါ။",
+          "points": 1
+        },
+        {
+          "id": 4609,
+          "question": "What does 'go through the roof' mean?",
+          "options": ["to climb a building", "to become extremely angry", "to escape quickly"],
+          "answer": "to become extremely angry",
+          "explanation": "'Go through the roof' means to become extremely angry or furious. 'go through the roof' ဆိုတာ အလွန်ဒေါသထွက်တာကို ဆိုလိုပါတယ်။",
+          "points": 1
+        },
+        {
+          "id": 4610,
+          "question": "What does 'pie in the sky' mean?",
+          "options": ["a type of dessert", "an unrealistic or impossible hope", "a beautiful view"],
+          "answer": "an unrealistic or impossible hope",
+          "explanation": "'Pie in the sky' means an unrealistic or impossible hope or plan. 'pie in the sky' ဆိုတာ မဖြစ်နိုင်တဲ့ မျှော်လင့်ချက်ကို ဆိုလိုပါတယ်။",
+          "points": 1
+        },
+        {
+          "id": 4611,
+          "question": "What does 'once in a blue moon' mean?",
+          "options": ["every night", "very rarely or almost never", "once a month"],
+          "answer": "very rarely or almost never",
+          "explanation": "'Once in a blue moon' means very rarely; almost never. 'once in a blue moon' ဆိုတာ အလွန်ရှားရှားဖြစ်ဖြစ် ဖြစ်တာကို ဆိုလိုပါတယ်။",
+          "points": 1
+        },
+        {
+          "id": 4612,
+          "question": "What does 'out of the blue' mean?",
+          "options": ["from the sky", "unexpectedly or without warning", "in the morning"],
+          "answer": "unexpectedly or without warning",
+          "explanation": "'Out of the blue' means unexpectedly; without warning; completely surprising. 'out of the blue' ဆိုတာ မမျှော်လင့်ဘဲ ဖြစ်လာတာကို ဆိုလိုပါတယ်။",
+          "points": 1
+        },
+        {
+          "id": 4613,
+          "question": "What does 'get rid of' mean?",
+          "options": ["to find something", "to remove or throw away something unwanted", "to hide something"],
+          "answer": "to remove or throw away something unwanted",
+          "explanation": "'Get rid of' means to remove, throw away, or eliminate something unwanted. 'get rid of' ဆိုတာ မလိုချင်တဲ့အရာကို ဖယ်ရှားပစ်တာပါ။",
+          "points": 1
+        },
+        {
+          "id": 4614,
+          "question": "What does 'off colour' mean?",
+          "options": ["wearing colorful clothes", "feeling unwell or slightly ill", "angry"],
+          "answer": "feeling unwell or slightly ill",
+          "explanation": "'Off colour' means feeling unwell, slightly ill, or not in one's usual good health. 'off colour' ဆိုတာ နမကောင်းဖြစ်နေတာကို ဆိုလိုပါတယ်။",
+          "points": 1
+        },
+        {
+          "id": 4615,
+          "question": "What does 'on the spot' mean?",
+          "options": ["in a specific place", "immediately or right away", "on a dirty surface"],
+          "answer": "immediately or right away",
+          "explanation": "'On the spot' means immediately; right away; at that very moment. 'on the spot' ဆိုတာ ချက်ချင်း၊ ချိန်ချိန်ဆဆ ဆိုလိုပါတယ်။",
+          "points": 1
+        },
+        {
+          "id": 4616,
+          "question": "What does 'leave it at that' mean?",
+          "options": ["to forget about something", "to stop talking about something or accept the current situation", "to put something down"],
+          "answer": "to stop talking about something or accept the current situation",
+          "explanation": "'Leave it at that' means to stop talking about something; to accept the current situation. 'leave it at that' ဆိုတာ ဒီလောက်ပဲထားလိုက်ကြပါလို့ ဆိုလိုပါတယ်။",
+          "points": 1
+        },
+        {
+          "id": 4617,
+          "question": "What does 'walk of life' mean?",
+          "options": ["a walking path", "a person's occupation, status, or social class", "a type of exercise"],
+          "answer": "a person's occupation, status, or social class",
+          "explanation": "'Walk of life' refers to a person's occupation, status, or social class. 'walk of life' ဆိုတာ လူတစ်ယောက်ရဲ့ အလုပ်၊ လူမှုအဆင့်အတန်းကို ဆိုလိုပါတယ်။",
+          "points": 1
+        },
+        {
+          "id": 4618,
+          "question": "What does 'a penny for your thoughts' mean?",
+          "options": ["an offer to buy something cheap", "a way to ask someone what they are thinking", "a request for money"],
+          "answer": "a way to ask someone what they are thinking",
+          "explanation": "'A penny for your thoughts' is a gentle way to ask someone what they are thinking about. 'a penny for your thoughts' ဆိုတာ တစ်ယောက်ယောက် ဘာတွေတွေးနေလဲ မေးတဲ့ နည်းလမ်းပါ။",
+          "points": 1
+        },
+        {
+          "id": 4619,
+          "question": "What does 'not at all' mean?",
+          "options": ["completely disagree", "a polite response to thanks; not in any way", "very tired"],
+          "answer": "a polite response to thanks; not in any way",
+          "explanation": "'Not at all' is a polite response to thanks, meaning 'you're welcome'; also means 'not in any way'. 'not at all' ဆိုတာ ကျေးဇူးတင်တဲ့အခါ ပြန်ဖြေတဲ့ ယဉ်ကျေးတဲ့ စကားပါ။",
+          "points": 1
+        },
+        {
+          "id": 4620,
+          "question": "What does 'child's play' mean?",
+          "options": ["a children's game", "something very easy to do", "a toy"],
+          "answer": "something very easy to do",
+          "explanation": "'Child's play' means something very easy to do. 'a piece of cake' has the same meaning. 'child's play' ဆိုတာ အလွန်လွယ်ကူတဲ့ အရာကို ဆိုလိုပါတယ်။",
+          "points": 1
+        }
+      ]
+    }
+  ]
+}

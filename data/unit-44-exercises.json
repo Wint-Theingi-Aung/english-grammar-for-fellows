@@ -1,0 +1,372 @@
+{
+  "unit": 44,
+  "exercises": [
+    {
+      "id": "unit44-ex1",
+      "type": "multiple_choice",
+      "instructions": "Rewrite the following sentences in reported speech. Choose the correct reported form.",
+      "questions": [
+        {
+          "id": 4401,
+          "question": "\"I don't speak Italian,\" she said. → She said that ___.",
+          "options": [
+            "she doesn't speak Italian",
+            "she didn't speak Italian",
+            "she hadn't spoken Italian"
+          ],
+          "answer": "she didn't speak Italian",
+          "explanation": "Simple Present → Simple Past: don't speak → didn't speak. Simple Present ကို Simple Past ပြောင်းပါတယ်။",
+          "points": 1
+        },
+        {
+          "id": 4402,
+          "question": "\"I never make mistakes,\" he said. → He said that ___.",
+          "options": [
+            "he had never made mistakes",
+            "he never makes mistakes",
+            "he never made mistakes"
+          ],
+          "answer": "he never made mistakes",
+          "explanation": "Simple Present → Simple Past: make → made. Simple Present ကို Simple Past ပြောင်းပါတယ်။",
+          "points": 1
+        },
+        {
+          "id": 4403,
+          "question": "They said, \"We are busy.\" → They said that ___.",
+          "options": [
+            "they are busy",
+            "they had been busy",
+            "they were busy"
+          ],
+          "answer": "they were busy",
+          "explanation": "Present Continuous → Past Continuous: are → were. Present Continuous ကို Past Continuous ပြောင်းပါတယ်။",
+          "points": 1
+        },
+        {
+          "id": 4404,
+          "question": "He said, \"I know a better restaurant.\" → He said that ___.",
+          "options": [
+            "he knows a better restaurant",
+            "he had known a better restaurant",
+            "he knew a better restaurant"
+          ],
+          "answer": "he knew a better restaurant",
+          "explanation": "Simple Present → Simple Past: know → knew. Simple Present ကို Simple Past ပြောင်းပါတယ်။",
+          "points": 1
+        },
+        {
+          "id": 4405,
+          "question": "She said, \"I am not hungry now.\" → She said ___.",
+          "options": [
+            "she is not hungry now",
+            "she was not hungry then",
+            "she had not been hungry then"
+          ],
+          "answer": "she was not hungry then",
+          "explanation": "Present Continuous → Past Continuous + time change: now → then. Present Continuous ကို Past Continuous ပြောင်းပြီး time word ပြောင်းပါတယ်။",
+          "points": 1
+        },
+        {
+          "id": 4406,
+          "question": "She said, \"It is very quiet here.\" → She said ___.",
+          "options": [
+            "it was very quiet there",
+            "it is very quiet here",
+            "it had been very quiet there"
+          ],
+          "answer": "it was very quiet there",
+          "explanation": "Simple Present → Simple Past + place change: here → there. Simple Present ကို Simple Past ပြောင်းပြီး place word ပြောင်းပါတယ်။",
+          "points": 1
+        },
+        {
+          "id": 4407,
+          "question": "\"Don't play on the grass, boys,\" she said. → She told the boys ___.",
+          "options": [
+            "to not play on the grass",
+            "don't play on the grass",
+            "not to play on the grass"
+          ],
+          "answer": "not to play on the grass",
+          "explanation": "Negative command: don't + verb → not + to + verb. Negative command မှာ don't → not to ဖြစ်ပါတယ်။",
+          "points": 1
+        },
+        {
+          "id": 4408,
+          "question": "\"Where is your sister?\" she asked me. → She asked me ___.",
+          "options": [
+            "where is my sister",
+            "where my sister is",
+            "where my sister was"
+          ],
+          "answer": "where my sister was",
+          "explanation": "Wh-question: is → was (tense shift back). Wh-question မှာ tense shift back ဖြစ်ပါတယ်။",
+          "points": 1
+        },
+        {
+          "id": 4409,
+          "question": "\"How are you?\" Martin asked us. → Martin asked us ___.",
+          "options": [
+            "how are we",
+            "how we are",
+            "how we were"
+          ],
+          "answer": "how we were",
+          "explanation": "Wh-question: are → were (tense shift back). Wh-question မှာ tense shift back ဖြစ်ပါတယ်။",
+          "points": 1
+        },
+        {
+          "id": 4410,
+          "question": "He asked, \"Do I have to do it?\" → He asked ___.",
+          "options": [
+            "if he has to do it",
+            "if he had to do it",
+            "whether he has to do it"
+          ],
+          "answer": "if he had to do it",
+          "explanation": "Yes/No question with 'do': use 'if' + tense shift back. Yes/No question မှာ 'if' သုံးပြီး tense shift back ဖြစ်ပါတယ်။",
+          "points": 1
+        },
+        {
+          "id": 4411,
+          "question": "\"Which dresses do you like best?\" she asked her boyfriend. → She asked her boyfriend ___.",
+          "options": [
+            "which dresses he liked best",
+            "which dresses does he like best",
+            "which dresses he likes best"
+          ],
+          "answer": "which dresses he liked best",
+          "explanation": "Wh-question: do like → liked (tense shift back). Wh-question မှာ tense shift back ဖြစ်ပါတယ်။",
+          "points": 1
+        },
+        {
+          "id": 4412,
+          "question": "The teacher asked, \"Who speaks English?\" → The teacher wanted to know ___.",
+          "options": [
+            "who had spoken English",
+            "who speaks English",
+            "who spoke English"
+          ],
+          "answer": "who spoke English",
+          "explanation": "Wh-question: speaks → spoke (tense shift back). Wh-question မှာ tense shift back ဖြစ်ပါတယ်။",
+          "points": 1
+        },
+        {
+          "id": 4413,
+          "question": "\"Is it your birthday today?\" Beth asked Nathan. → Beth asked Nathan ___.",
+          "options": [
+            "if it was his birthday that day",
+            "if it is his birthday today",
+            "whether it was his birthday today"
+          ],
+          "answer": "if it was his birthday that day",
+          "explanation": "Yes/No question: is → was, your → his, today → that day. Yes/No question မှာ tense, pronoun, time word ပြောင်းပါတယ်။",
+          "points": 1
+        },
+        {
+          "id": 4414,
+          "question": "\"Say hello to Jim,\" they said. → They asked me ___.",
+          "options": [
+            "say hello to Jim",
+            "saying hello to Jim",
+            "to say hello to Jim"
+          ],
+          "answer": "to say hello to Jim",
+          "explanation": "Command/request: say → to say. Command/request မှာ to + verb ဖြစ်ပါတယ်။",
+          "points": 1
+        },
+        {
+          "id": 4415,
+          "question": "\"Be careful, Ben,\" she said. → She told Ben ___.",
+          "options": [
+            "to be careful",
+            "be careful",
+            "being careful"
+          ],
+          "answer": "to be careful",
+          "explanation": "Command/request: be → to be. Command/request မှာ to + verb ဖြစ်ပါတယ်။",
+          "points": 1
+        },
+        {
+          "id": 4416,
+          "question": "She said, \"Go upstairs.\" → She told me ___.",
+          "options": [
+            "to go upstairs",
+            "going upstairs",
+            "go upstairs"
+          ],
+          "answer": "to go upstairs",
+          "explanation": "Command/request: go → to go. Command/request မှာ to + verb ဖြစ်ပါတယ်။",
+          "points": 1
+        },
+        {
+          "id": 4417,
+          "question": "\"Close the door behind you,\" he told me. → He told me ___.",
+          "options": [
+            "close the door behind me",
+            "closing the door behind me",
+            "to close the door behind me"
+          ],
+          "answer": "to close the door behind me",
+          "explanation": "Command/request: close → to close, you → me. Command/request မှာ to + verb ဖြစ်ပြီး pronoun ပြောင်းပါတယ်။",
+          "points": 1
+        },
+        {
+          "id": 4418,
+          "question": "\"Stop staring at me,\" she said. → She told him ___.",
+          "options": [
+            "stopping staring at her",
+            "to stop staring at her",
+            "stop staring at her"
+          ],
+          "answer": "to stop staring at her",
+          "explanation": "Command/request: stop → to stop, me → her. Command/request မှာ to + verb ဖြစ်ပြီး pronoun ပြောင်းပါတယ်။",
+          "points": 1
+        },
+        {
+          "id": 4419,
+          "question": "\"Leave me alone,\" she said. → She told me ___.",
+          "options": [
+            "leaving her alone",
+            "leave her alone",
+            "to leave her alone"
+          ],
+          "answer": "to leave her alone",
+          "explanation": "Command/request: leave → to leave, me → her. Command/request မှာ to + verb ဖြစ်ပြီး pronoun ပြောင်းပါတယ်။",
+          "points": 1
+        },
+        {
+          "id": 4420,
+          "question": "\"John, stop smoking,\" she said. → She told John ___.",
+          "options": [
+            "stopping smoking",
+            "stop smoking",
+            "to stop smoking"
+          ],
+          "answer": "to stop smoking",
+          "explanation": "Command/request: stop → to stop. Command/request မှာ to + verb ဖြစ်ပါတယ်။",
+          "points": 1
+        },
+        {
+          "id": 4421,
+          "question": "\"What's the time?\" he asked. → He wanted to know ___.",
+          "options": [
+            "what the time was",
+            "what the time is",
+            "what is the time"
+          ],
+          "answer": "what the time was",
+          "explanation": "Wh-question: is → was (tense shift back). Wh-question မှာ tense shift back ဖြစ်ပါတယ်။",
+          "points": 1
+        },
+        {
+          "id": 4422,
+          "question": "\"Are you crazy?\" she asked him. → She asked him ___.",
+          "options": [
+            "whether he is crazy",
+            "if he is crazy",
+            "if he was crazy"
+          ],
+          "answer": "if he was crazy",
+          "explanation": "Yes/No question: are → was, you → he. Yes/No question မှာ 'if' သုံးပြီး tense shift back ဖြစ်ပါတယ်။",
+          "points": 1
+        },
+        {
+          "id": 4423,
+          "question": "\"Why don't you help me?\" she asked him. → She wanted to know ___.",
+          "options": [
+            "why he doesn't help her",
+            "why he didn't help her",
+            "why he hadn't helped her"
+          ],
+          "answer": "why he didn't help her",
+          "explanation": "Wh-question: don't → didn't, you → he, me → her. Wh-question မှာ tense shift back ဖြစ်ပြီး pronoun ပြောင်းပါတယ်။",
+          "points": 1
+        },
+        {
+          "id": 4424,
+          "question": "\"The film began at seven o'clock,\" he said. → He said that ___.",
+          "options": [
+            "the film has begun at seven o'clock",
+            "the film had begun at seven o'clock",
+            "the film began at seven o'clock"
+          ],
+          "answer": "the film had begun at seven o'clock",
+          "explanation": "Simple Past → Past Perfect: began → had begun. Simple Past ကို Past Perfect ပြောင်းပါတယ်။",
+          "points": 1
+        },
+        {
+          "id": 4425,
+          "question": "\"I was very tired,\" she said. → She said that ___.",
+          "options": [
+            "she had been very tired",
+            "she was very tired",
+            "she has been very tired"
+          ],
+          "answer": "she had been very tired",
+          "explanation": "Simple Past → Past Perfect: was → had been. Simple Past ကို Past Perfect ပြောင်းပါတယ်။",
+          "points": 1
+        },
+        {
+          "id": 4426,
+          "question": "She said, \"I did not say that.\" → She said that ___.",
+          "options": [
+            "she had not said that",
+            "she did not say that",
+            "she has not said that"
+          ],
+          "answer": "she had not said that",
+          "explanation": "Simple Past → Past Perfect: did not say → had not said. Simple Past ကို Past Perfect ပြောင်းပါတယ်။",
+          "points": 1
+        },
+        {
+          "id": 4427,
+          "question": "\"Where did you spend your holidays last year?\" she asked me. → She asked me ___.",
+          "options": [
+            "where I spent my holidays last year",
+            "where I had spent my holidays the previous year",
+            "where did I spend my holidays last year"
+          ],
+          "answer": "where I had spent my holidays the previous year",
+          "explanation": "Wh-question: did spend → had spent, your → my, last year → the previous year. Wh-question မှာ tense shift back ဖြစ်ပြီး pronoun နဲ့ time word ပြောင်းပါတယ်။",
+          "points": 1
+        },
+        {
+          "id": 4428,
+          "question": "She said, \"I went to the cinema yesterday.\" → She said that ___.",
+          "options": [
+            "she went to the cinema yesterday",
+            "she had gone to the cinema the day before",
+            "she has gone to the cinema the day before"
+          ],
+          "answer": "she had gone to the cinema the day before",
+          "explanation": "Simple Past → Past Perfect + time change: went → had gone, yesterday → the day before. Simple Past ကို Past Perfect ပြောင်းပြီး time word ပြောင်းပါတယ်။",
+          "points": 1
+        },
+        {
+          "id": 4429,
+          "question": "\"I will do this for him,\" you said. → You said that ___.",
+          "options": [
+            "you will do this for him",
+            "you had done that for him",
+            "you would do that for him"
+          ],
+          "answer": "you would do that for him",
+          "explanation": "Modal change: will → would, this → that. Modal verb will ကို would ပြောင်းပါတယ်။",
+          "points": 1
+        },
+        {
+          "id": 4430,
+          "question": "He said, \"They won't sleep.\" → He said that ___.",
+          "options": [
+            "they hadn't slept",
+            "they wouldn't sleep",
+            "they won't sleep"
+          ],
+          "answer": "they wouldn't sleep",
+          "explanation": "Modal change: won't → wouldn't. Modal verb won't ကို wouldn't ပြောင်းပါတယ်။",
+          "points": 1
+        }
+      ]
+    }
+  ]
+}

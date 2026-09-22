@@ -1,0 +1,163 @@
+{
+  "unit": 45,
+  "title": "Phrasal Verbs",
+  "lessons": [
+    {
+      "id": "unit45-lesson1",
+      "title": "Common Phrasal Verbs: Meanings and Examples",
+      "content": "Phrasal verbs are combinations of a verb and a preposition or adverb that create a meaning different from the original verb. Here are 25 common phrasal verbs with their meanings and examples.",
+      "details": [
+        {
+          "concept": "bow to",
+          "explanation": "To yield or give in to pressure or demands.",
+          "example": "The company president finally bowed to pressure and resigned. / The government had to bow to public pressure. / I can't agree with you but I bow to your greater experience and knowledge.",
+          "burmese": "အလျော့ပေးရသည်၊ လက်လွှတ်ရသည်။"
+        },
+        {
+          "concept": "break down",
+          "explanation": "To stop working (of a machine), or to deteriorate (of health or a situation).",
+          "example": "Her health broke down under the pressure of work. / The machine must break down at this busy hour. / His van broke down.",
+          "burmese": "(စက်)ပျက်သည်။ (ကိစ္စမရှိတဲ့အခြေအနေ)ယိုယွင်းသည်။"
+        },
+        {
+          "concept": "call on",
+          "explanation": "To appeal to or ask someone to do something; to visit someone.",
+          "example": "The human rights group has called on the US to end the death penalty. / We sometimes have to call on outside expertise. / The President paid a courtesy call on Emperor Akihito.",
+          "burmese": "ပန်ကြားသည်၊ အမှတ်ရပ်ခံသည်။"
+        },
+        {
+          "concept": "chum up",
+          "explanation": "To become close friends with someone.",
+          "example": "She chummed up with some girls from Bristol on holiday. / They chummed up in a short time. / It's good to see your children chumming up with mine so well.",
+          "burmese": "အပြင်းအသင်းဖြစ်သည်။"
+        },
+        {
+          "concept": "cross out",
+          "explanation": "To draw a line through a word or words to show they are wrong or not needed.",
+          "example": "He could cross out half the words because they were unnecessary. / Two sentences were crossed out. / He crossed out three wrong words.",
+          "burmese": "စာလုံး မကျက် ခြစ်ပစ်သည်။"
+        },
+        {
+          "concept": "flick through",
+          "explanation": "To look through something quickly, browsing casually.",
+          "example": "In bookshop, I picked up a novel by a new writer and began to flick through it. / I had a quick flick through your report. / I had a flick through the catalogue while I was waiting.",
+          "burmese": "လှန်လှန်ကြည့်သည်။"
+        },
+        {
+          "concept": "figure out",
+          "explanation": "To understand, solve, or calculate something.",
+          "example": "I couldn't figure out what the teacher was talking about. / Please figure out the total cost. / We must figure out how to solve the problem.",
+          "burmese": "သဘောပေါက်သည်၊ နားလည်သည်၊ တွက်ချက်သည်။"
+        },
+        {
+          "concept": "go for sth",
+          "explanation": "To choose something or try to achieve something.",
+          "example": "I think I'll go for the steak. What are you having? / I think I will go for the fruit salad. / She is going for the world record in the high jump.",
+          "burmese": "ရွေးချယ်သည်၊ ရယူရန် ကြိုးစားသည်။"
+        },
+        {
+          "concept": "go after",
+          "explanation": "To chase or pursue someone or something.",
+          "example": "He went after the burglars. / Go after him and apologize. / He goes after every woman he meets.",
+          "burmese": "လိုက်သည်။"
+        },
+        {
+          "concept": "get back at",
+          "explanation": "To get revenge on someone for something they did.",
+          "example": "She was trying to get back at him for humiliating her. / I will get back at him one day. / He will get back at you for this.",
+          "burmese": "ကလည်စေချင်သည်။"
+        },
+        {
+          "concept": "hand in",
+          "explanation": "To submit or give something to someone in authority.",
+          "example": "I need to hand in my homework tomorrow. / Please hand in the document to me. / We handed in a letter of protest.",
+          "burmese": "တင်သပ်သည်၊ အပ်အပ်သည်၊ အပ်နှံသည်။"
+        },
+        {
+          "concept": "hinge on",
+          "explanation": "To depend on something for its success or outcome.",
+          "example": "My decision will hinge on your views. / The answers hinge on supply and demand. / But elections hinge on shorter-term concerns.",
+          "burmese": "တည်သည်။"
+        },
+        {
+          "concept": "look back",
+          "explanation": "To think about something in the past.",
+          "example": "Stop spending your time looking back. Live your life now and enjoy every moment! / Adults often look back on their childhood as a golden age. / When I look back I can see where we went wrong.",
+          "burmese": "ပြန်လည်တူးဆွဲကြည့်သည်။"
+        },
+        {
+          "concept": "look after",
+          "explanation": "To take care of someone or something.",
+          "example": "We look after the neighbours' cat while they are away. / I will look after her child when she is on a business trip. / It is a tradition that the young look after the old in their family.",
+          "burmese": "ကြည့်ရှုစောင့်ရှောက်သည်။"
+        },
+        {
+          "concept": "look round",
+          "explanation": "To go around a place and look at things.",
+          "example": "Let's look round this museum slowly. I think it will be interesting. / Let's look round the town this afternoon. / Have a look round the shop.",
+          "burmese": "လှည့်ပတ်ကြည့်သည်။"
+        },
+        {
+          "concept": "look down on",
+          "explanation": "To consider someone as being inferior or less important.",
+          "example": "She looks down on anyone who hasn't had a university education. / You should never look down on poor people. / Never look down on yourself.",
+          "burmese": "အထင်အမြင်သေးသည်။"
+        },
+        {
+          "concept": "look forward to",
+          "explanation": "To feel excited and pleased about something that is going to happen.",
+          "example": "We look forward to hearing from you soon. / I always look forward to getting home to my wife and children. / I look forward to seeing you again.",
+          "burmese": "မျှော်လင့်စောင့်စားသည်။"
+        },
+        {
+          "concept": "pull down",
+          "explanation": "To demolish or destroy a building.",
+          "example": "The old warehouse has been pulled down. / It is easier to pull down than build. / The house was pulled down and the site redeveloped.",
+          "burmese": "ဖျက်ချသည်။"
+        },
+        {
+          "concept": "read on",
+          "explanation": "To continue reading.",
+          "example": "Please read on to the end of the chapter. / I took a book with me to read on the train. / If you like a good story, read on.",
+          "burmese": "ဆက်ဖတ်သည်။"
+        },
+        {
+          "concept": "read out",
+          "explanation": "To read something aloud to others.",
+          "example": "He began to read out loud. / She read out the letters to all of us. / He read out the names of all the winners.",
+          "burmese": "ဖတ်ပြသည်။"
+        },
+        {
+          "concept": "sum up",
+          "explanation": "To give a brief summary of something.",
+          "example": "I can't sum up his whole philosophy in one sentence. / To sum up, there are three main ways of tackling the problem... / You have only 100 words in which to sum up his speech.",
+          "burmese": "အကျဉ်းချုပ်သည်။"
+        },
+        {
+          "concept": "shape up",
+          "explanation": "To improve or develop in a satisfactory way.",
+          "example": "I have been told that if I don't shape up, I will lose my job. / He will shape up into an excellent basketball player. / Mark didn't shape up until he was thirty years old.",
+          "burmese": "တိုးတက်အားကောင်းစေသည်။"
+        },
+        {
+          "concept": "tell off",
+          "explanation": "To scold or reprimand someone.",
+          "example": "The pupil was told off for being careless. / My parents told me off for coming home late. / They were told off to clean the latrines.",
+          "burmese": "ဆူသည်၊ ကန့်သတ်သည်။"
+        },
+        {
+          "concept": "wear off",
+          "explanation": "To gradually disappear or diminish.",
+          "example": "The pain is slowly wearing off. / The effects of the drug were wearing off. / After the effectiveness of the vaccines wears off, the risk of actual infection returns.",
+          "burmese": "တဖြည်းဖြည်းချင် ပျက်ပြယ်သွားသည်။"
+        },
+        {
+          "concept": "wipe out",
+          "explanation": "To completely destroy or eliminate something.",
+          "example": "The government is trying to wipe out drug trafficking. / One dose of penicillin can wipe out the infection. / The plague once could wipe out a village.",
+          "burmese": "ချမ်းနှိမ်သည်၊ တိုက်ဖျက်သည်။"
+        }
+      ]
+    }
+  ]
+}
