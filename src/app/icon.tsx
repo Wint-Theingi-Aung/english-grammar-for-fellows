@@ -16,13 +16,12 @@ export default function Icon() {
           display: "flex",
           alignItems: "center",
           justifyContent: "center",
-          background: "#1a2744",
+          background: "#1a1f36",
           borderRadius: 6,
           position: "relative",
           overflow: "hidden",
         }}
       >
-        {/* Teal spine accent */}
         <div
           style={{
             position: "absolute",
@@ -34,32 +33,6 @@ export default function Icon() {
             borderRadius: "1.75px 0 0 1.75px",
           }}
         />
-        {/* Page lines */}
-        <div
-          style={{
-            position: "absolute",
-            top: 7,
-            left: 8,
-            width: 18,
-            height: 1.8,
-            background: "white",
-            opacity: 0.85,
-            borderRadius: 1,
-          }}
-        />
-        <div
-          style={{
-            position: "absolute",
-            top: 12,
-            left: 8,
-            width: 18,
-            height: 1.3,
-            background: "white",
-            opacity: 0.4,
-            borderRadius: 0.75,
-          }}
-        />
-        {/* EG monogram */}
         <div
           style={{
             position: "absolute",

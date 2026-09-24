@@ -1,8 +1,8 @@
 "use client";
 
 import Link from "next/link";
+import Image from "next/image";
 import { useMemo } from "react";
-import BookCover from "@/components/BookCover";
 import ProgressBar from "@/components/ProgressBar";
 import { getLessonsData, getTotalQuestionCount, isUnitAvailable } from "@/lib/data";
 import { useAllProgress, useTodayStats } from "@/lib/hooks";
@@ -116,60 +116,6 @@ function StatCard({ icon, label, value }: { icon: React.ReactNode; label: string
           <p className="text-2xl font-bold text-[#1a1f36] font-sans tabular-nums">{value}</p>
           <p className="text-xs font-medium text-[#8b8fa3] uppercase tracking-wider">{label}</p>
         </div>
-      </div>
-    </div>
-  );
-}
-
-function LearningPathNode({ unit, status, title, progress, questionCount, answeredCount }: {
-  unit: number;
-  status: "completed" | "current" | "available" | "locked";
-  title: string;
-  progress: number;
-  questionCount: number;
-  answeredCount: number;
-}) {
-  const slug = `unit-${unit}`;
-  const nodeColor = status === "completed"
-    ? "bg-[#2a9d8f] text-white"
-    : status === "current"
-      ? "bg-[#e76f51] text-white ring-4 ring-[#e76f51]/15"
-      : status === "available"
-        ? "bg-white border-2 border-[#e8e4df] text-[#8b8fa3]"
-        : "bg-[#faf8f5] border-2 border-[#e8e4df] text-[#8b8fa3]/40";
-
-  const isClickable = status !== "locked";
-
-  return (
-    <div className="flex items-start gap-4 path-connector">
-      <div className={`flex-shrink-0 w-10 h-10 rounded-full flex items-center justify-center font-bold text-sm transition-all duration-200 ${nodeColor}`}>
-        {status === "completed" ? (
-          <svg className="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2.5}>
-            <path strokeLinecap="round" strokeLinejoin="round" d="M5 13l4 4L19 7" />
-          </svg>
-        ) : (
-          unit
-        )}
-      </div>
-      <div className="flex-1 min-w-0 pb-8">
-        {isClickable ? (
-          <Link href={`/${slug}`} className="block group">
-            <h3 className={`font-semibold text-sm sm:text-base ${status === "current" ? "text-[#e76f51]" : "text-[#1a1f36]"} group-hover:text-[#e76f51] transition-colors duration-200`}>
-              {title}
-            </h3>
-            <p className="text-xs text-[#8b8fa3] mt-0.5">{questionCount} questions</p>
-            {progress > 0 && (
-              <div className="mt-2 max-w-xs">
-                <ProgressBar current={answeredCount} total={questionCount} />
-              </div>
-            )}
-          </Link>
-        ) : (
-          <div>
-            <h3 className="font-semibold text-sm sm:text-base text-[#8b8fa3]/50">{title}</h3>
-            <p className="text-xs text-[#8b8fa3]/40 mt-0.5">Coming soon</p>
-          </div>
-        )}
       </div>
     </div>
   );
@@ -358,27 +304,6 @@ export default function HomePage() {
     };
   })();
 
-  const pathNodes = useMemo(() => {
-    return Array.from({ length: 46 }, (_, i) => {
-      const u = i + 1;
-      const p = allProgress[String(u)];
-      const total = getTotalQuestionCount(u);
-      const answered = p?.answered ?? 0;
-      const completed = p?.completed ?? false;
-      let status: "completed" | "current" | "available" | "locked" = "available";
-      if (completed) status = "completed";
-      else if (answered > 0) status = "current";
-      else if (u > 1) {
-        const prev = allProgress[String(u - 1)];
-        if (!prev?.completed && u > 1) {
-          const hasAnyPrev = Array.from({ length: u - 1 }, (_, j) => allProgress[String(j + 1)]?.completed ?? false).some(Boolean);
-          if (!hasAnyPrev && u > 1) status = "locked";
-        }
-      }
-      return { unit: u, status, title: UNIT_TITLES[u], total, answered, completed };
-    });
-  }, [allProgress]);
-
   return (
     <div className="min-h-screen" style={{ backgroundColor: "#faf8f5" }}>
       {/* Hero Section */}
@@ -422,7 +347,14 @@ export default function HomePage() {
                 <div className="absolute -inset-8 bg-gradient-to-br from-[#e76f51]/10 via-transparent to-[#2a9d8f]/10 rounded-3xl blur-2xl" />
                 <div className="relative" style={{ perspective: "1200px" }}>
                   <div style={{ transform: "rotateY(-4deg) rotateX(2deg)" }}>
-                    <BookCover className="w-56 sm:w-64 lg:w-72" />
+                    <Image
+                      src="/book-cover.png"
+                      alt="English Grammar for Fellows book cover"
+                      width={288}
+                      height={384}
+                      className="w-56 sm:w-64 lg:w-72 h-auto rounded-lg shadow-lg"
+                      priority
+                    />
                   </div>
                 </div>
               </div>
@@ -513,31 +445,6 @@ export default function HomePage() {
               <h3 className="font-bold text-[#1a1f36] mb-1 font-serif">Audio & Resources</h3>
               <p className="text-sm text-[#8b8fa3]">Additional learning materials and pronunciation guides</p>
             </Link>
-          </div>
-        </section>
-
-        {/* Learning Path */}
-        <section className="mb-10" aria-labelledby="path-heading">
-          <h2 id="path-heading" className="text-lg font-bold text-[#1a1f36] mb-5 flex items-center gap-2 font-serif">
-            <span className="inline-flex items-center justify-center w-7 h-7 rounded-lg bg-[#fff4f1]">
-              <svg className="w-4 h-4 text-[#e76f51]" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
-                <path strokeLinecap="round" strokeLinejoin="round" d="M9 20l-5.447-2.724A1 1 0 013 16.382V5.618a1 1 0 011.447-.894L9 7m0 13l6-3m-6 3V7m6 10l4.553 2.276A1 1 0 0021 18.382V7.618a1 1 0 00-.553-.894L15 4m0 13V4m0 0L9 7" />
-              </svg>
-            </span>
-            Learning Path
-          </h2>
-          <div className="bg-white rounded-2xl border border-[#e8e4df] p-5 sm:p-6 shadow-sm">
-            {pathNodes.map((node) => (
-              <LearningPathNode
-                key={node.unit}
-                unit={node.unit}
-                status={node.status}
-                title={node.title}
-                progress={node.total > 0 ? Math.round((node.answered / node.total) * 100) : 0}
-                questionCount={node.total}
-                answeredCount={node.answered}
-              />
-            ))}
           </div>
         </section>
 

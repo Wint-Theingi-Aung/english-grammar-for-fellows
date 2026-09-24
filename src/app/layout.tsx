@@ -23,16 +23,17 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Grammar Fellows - English Grammar for Fellows",
+  title: "English Grammar for Fellows",
   description:
     "Master English grammar with interactive lessons and exercises. Learn tenses, modals, question tags, and more with Burmese translations.",
   icons: {
     icon: [
+      { url: "/images/favicon.png", type: "image/png" },
       { url: "/favicon.svg", type: "image/svg+xml" },
       { url: "/favicon.ico", sizes: "any" },
     ],
-    shortcut: "/favicon.svg",
-    apple: "/favicon.svg",
+    shortcut: "/images/favicon.png",
+    apple: "/images/favicon.png",
   },
 };
 

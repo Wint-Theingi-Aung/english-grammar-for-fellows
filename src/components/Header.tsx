@@ -41,7 +41,7 @@ export default function Header() {
           aria-label="Grammar Fellows - Home"
         >
           <span className="inline-flex items-center justify-center w-8 h-8 sm:w-9 sm:h-9 rounded-lg overflow-hidden shadow-sm group-hover:shadow-md transition-shadow duration-200">
-            <Image src="/logo-mark.svg" alt="" className="w-full h-full" width={36} height={36} unoptimized />
+            <Image src="/book-cover.png" alt="English Grammar for Fellows" width={36} height={36} className="w-full h-full object-cover" unoptimized />
           </span>
           <span className="font-serif font-bold text-base sm:text-lg text-ink tracking-tight">
             Grammar Fellows
