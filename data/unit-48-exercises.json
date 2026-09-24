@@ -1,0 +1,195 @@
+{
+  "unit": 48,
+  "exercises": [
+    {
+      "id": "unit48-ex1",
+      "type": "multiple_choice",
+      "instructions": "Choose the correct English translation of the Myanmar phrase.",
+      "questions": [
+        {
+          "id": 4801,
+          "question": "What does 'ဝါသနာကိုယ်စီ' mean in English?",
+          "options": ["each person's hobby", "everyone's job", "personal opinion"],
+          "answer": "each person's hobby",
+          "explanation": "'ဝါသနာကိုယ်စီ' means 'each person's hobby' or 'his or her own hobby'. 'ဝါသနာ' = hobby, 'ကိုယ်စီ' = each one's own.",
+          "points": 1
+        },
+        {
+          "id": 4802,
+          "question": "What does 'အနာဂတ်၏ခေါင်းဆောင်များ' mean in English?",
+          "options": ["leaders of the past", "leaders of the future", "current leaders"],
+          "answer": "leaders of the future",
+          "explanation": "'အနာဂတ်၏ခေါင်းဆောင်များ' means 'leaders of the future'. 'အနာဂတ်' = future, 'ခေါင်းဆောင်' = leader.",
+          "points": 1
+        },
+        {
+          "id": 4803,
+          "question": "What does 'သစ်တောများ' mean in English?",
+          "options": ["mountains", "forests", "rivers"],
+          "answer": "forests",
+          "explanation": "'သစ်တောများ' means 'forests'. 'သစ်တော' = forest, 'များ' = plural marker.",
+          "points": 1
+        },
+        {
+          "id": 4804,
+          "question": "What does 'အပြည်ပြည်ဆိုင်ရာ သစ်တောနေ့' mean in English?",
+          "options": ["National Forest Day", "International Forests Day", "World Tree Day"],
+          "answer": "International Forests Day",
+          "explanation": "'အပြည်ပြည်ဆိုင်ရာ သစ်တောနေ့' means 'International Forests Day'. 'အပြည်ပြည်ဆိုင်ရာ' = international, 'သစ်တောနေ့' = Forest Day.",
+          "points": 1
+        },
+        {
+          "id": 4805,
+          "question": "What does 'သဘာဝပတ်ဝန်းကျင်' mean in English?",
+          "options": ["artificial environment", "natural environment", "urban environment"],
+          "answer": "natural environment",
+          "explanation": "'သဘာဝပတ်ဝန်းကျင်' means 'natural environment'. 'သဘာဝ' = natural, 'ပတ်ဝန်းကျင်' = environment.",
+          "points": 1
+        },
+        {
+          "id": 4806,
+          "question": "What does 'ပြောင်းလဲမှု' mean in English?",
+          "options": ["improvement", "change", "destruction"],
+          "answer": "change",
+          "explanation": "'ပြောင်းလဲမှု' means 'change' or 'transformation'. It refers to the process of changing.",
+          "points": 1
+        },
+        {
+          "id": 4807,
+          "question": "What does 'သဘာဝဘေးအန္တရာယ်' mean in English?",
+          "options": ["man-made disaster", "natural disaster", "economic crisis"],
+          "answer": "natural disaster",
+          "explanation": "'သဘာဝဘေးအန္တရာယ်' means 'natural disaster'. 'သဘာဝ' = natural, 'ဘေးအန္တရာယ်' = disaster.",
+          "points": 1
+        },
+        {
+          "id": 4808,
+          "question": "What does 'စွမ်းအင်' mean in English?",
+          "options": ["resource", "energy", "power"],
+          "answer": "energy",
+          "explanation": "'စွမ်းအင်' means 'energy'. It is used in contexts like renewable energy (ပြန်လည်သုံးစွဲနိုင်သည့် စွမ်းအင်).",
+          "points": 1
+        },
+        {
+          "id": 4809,
+          "question": "What does 'သိပ္ပံနည်းပညာ' mean in English?",
+          "options": ["art and culture", "science and technology", "mathematics and science"],
+          "answer": "science and technology",
+          "explanation": "'သိပ္ပံနည်းပညာ' means 'science and technology'. 'သိပ္ပံ' = science, 'နည်းပညာ' = technology.",
+          "points": 1
+        },
+        {
+          "id": 4810,
+          "question": "What does 'ဆက်သွယ်ရေးနည်းပညာ' mean in English?",
+          "options": ["transportation technology", "communication technology", "medical technology"],
+          "answer": "communication technology",
+          "explanation": "'ဆက်သွယ်ရေးနည်းပညာ' means 'communication technology'. 'ဆက်သွယ်ရေး' = communication, 'နည်းပညာ' = technology.",
+          "points": 1
+        },
+        {
+          "id": 4811,
+          "question": "What does 'ပရဟိတစိတ်ဓာတ်' mean in English?",
+          "options": ["selfish spirit", "altruism", "competitive spirit"],
+          "answer": "altruism",
+          "explanation": "'ပရဟိတစိတ်ဓာတ်' means 'altruism' - the spirit to serve the interest of others. 'ပရဟိတ' = altruism, 'စိတ်ဓာတ်' = spirit.",
+          "points": 1
+        },
+        {
+          "id": 4812,
+          "question": "What does 'ဓလေ့ထုံးတမ်း' mean in English?",
+          "options": ["modern trends", "traditional customs", "new regulations"],
+          "answer": "traditional customs",
+          "explanation": "'ဓလေ့ထုံးတမ်း' means 'traditional customs'. 'ဓလေ့' = custom, 'ထုံးတမ်း' = tradition.",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "id": "unit48-ex2",
+      "type": "multiple_choice",
+      "instructions": "Choose the correct Myanmar phrase that matches the English translation.",
+      "questions": [
+        {
+          "id": 4813,
+          "question": "Which Myanmar phrase means 'each person's own hobby'?",
+          "options": ["ဝါသနာကိုယ်စီ", "ဘာသာစကားကိုယ်စီ", "အလုပ်ကိုယ်စီ"],
+          "answer": "ဝါသနာကိုယ်စီ",
+          "explanation": "'ဝါသနာကိုယ်စီ' means 'each person's own hobby'. 'ဝါသနာ' = hobby, 'ကိုယ်စီ' = each one's own.",
+          "points": 1
+        },
+        {
+          "id": 4814,
+          "question": "Which Myanmar phrase means 'leaders of the future'?",
+          "options": ["အတိတ်၏ခေါင်းဆောင်များ", "အနာဂတ်၏ခေါင်းဆောင်များ", "လက်ရှိခေါင်းဆောင်များ"],
+          "answer": "အနာဂတ်၏ခေါင်းဆောင်များ",
+          "explanation": "'အနာဂတ်၏ခေါင်းဆောင်များ' means 'leaders of the future'. 'အနာဂတ်' = future, 'ခေါင်းဆောင်' = leader.",
+          "points": 1
+        },
+        {
+          "id": 4815,
+          "question": "Which Myanmar phrase means 'natural environment'?",
+          "options": ["သဘာဝပတ်ဝန်းကျင်", "လူလုပ်ပတ်ဝန်းကျင်", "မြို့ပြပတ်ဝန်းကျင်"],
+          "answer": "သဘာဝပတ်ဝန်းကျင်",
+          "explanation": "'သဘာဝပတ်ဝန်းကျင်' means 'natural environment'. 'သဘာဝ' = natural, 'ပတ်ဝန်းကျင်' = environment.",
+          "points": 1
+        },
+        {
+          "id": 4816,
+          "question": "Which Myanmar phrase means 'International Forests Day'?",
+          "options": ["အမျိုးသားသစ်တောနေ့", "အပြည်ပြည်ဆိုင်ရာ သစ်တောနေ့", "ကမ္ဘာ့သစ်ပင်နေ့"],
+          "answer": "အပြည်ပြည်ဆိုင်ရာ သစ်တောနေ့",
+          "explanation": "'အပြည်ပြည်ဆိုင်ရာ သစ်တောနေ့' means 'International Forests Day'. 'အပြည်ပြည်ဆိုင်ရာ' = international, 'သစ်တောနေ့' = Forest Day.",
+          "points": 1
+        },
+        {
+          "id": 4817,
+          "question": "Which Myanmar phrase means 'renewable energy'?",
+          "options": ["ပြန်လည်သုံးစွဲနိုင်သည့် စွမ်းအင်", "ဓာတ်ငွေ့စွမ်းအင်", "လျှပ်စစ်စွမ်းအင်"],
+          "answer": "ပြန်လည်သုံးစွဲနိုင်သည့် စွမ်းအင်",
+          "explanation": "'ပြန်လည်သုံးစွဲနိုင်သည့် စွမ်းအင်' means 'renewable energy'. 'ပြန်လည်' = renewable, 'စွမ်းအင်' = energy.",
+          "points": 1
+        },
+        {
+          "id": 4818,
+          "question": "Which Myanmar phrase means 'natural disaster'?",
+          "options": ["သဘာဝဘေးအန္တရာယ်", "လူလုပ်ဘေးအန္တရာယ်", "စီးပွားဘေးအန္တရာယ်"],
+          "answer": "သဘာဝဘေးအန္တရာယ်",
+          "explanation": "'သဘာဝဘေးအန္တရာယ်' means 'natural disaster'. 'သဘာဝ' = natural, 'ဘေးအန္တရာယ်' = disaster.",
+          "points": 1
+        },
+        {
+          "id": 4819,
+          "question": "Which Myanmar phrase means 'communication technology'?",
+          "options": ["ဆက်သွယ်ရေးနည်းပညာ", "ထုတ်လုပ်ရေးနည်းပညာ", "သိပ္ပံနည်းပညာ"],
+          "answer": "ဆက်သွယ်ရေးနည်းပညာ",
+          "explanation": "'ဆက်သွယ်ရေးနည်းပညာ' means 'communication technology'. 'ဆက်သွယ်ရေး' = communication, 'နည်းပညာ' = technology.",
+          "points": 1
+        },
+        {
+          "id": 4820,
+          "question": "Which Myanmar phrase means 'traditional customs'?",
+          "options": ["ဓလေ့ထုံးတမ်း", "ခေတ်ပေါ်ဓလေ့", "နိုင်ငံတကာဓလေ့"],
+          "answer": "ဓလေ့ထုံးတမ်း",
+          "explanation": "'ဓလေ့ထုံးတမ်း' means 'traditional customs'. 'ဓလေ့' = custom, 'ထုံးတမ်း' = tradition.",
+          "points": 1
+        },
+        {
+          "id": 4821,
+          "question": "Which Myanmar phrase means 'altruism'?",
+          "options": ["ကိုယ်ကျိုးစီးပွား", "ပရဟိတစိတ်ဓာတ်", "အတ္ထုပ္ပတ္တိစိတ်ဓာတ်"],
+          "answer": "ပရဟိတစိတ်ဓာတ်",
+          "explanation": "'ပရဟိတစိတ်ဓာတ်' means 'altruism' - the spirit to serve the interest of others. 'ပရဟိတ' = altruism, 'စိတ်ဓာတ်' = spirit.",
+          "points": 1
+        },
+        {
+          "id": 4822,
+          "question": "Which Myanmar phrase means 'science and technology'?",
+          "options": ["ဘာသာစကားနည်းပညာ", "သိပ္ပံနည်းပညာ", "စီးပွားနည်းပညာ"],
+          "answer": "သိပ္ပံနည်းပညာ",
+          "explanation": "'သိပ္ပံနည်းပညာ' means 'science and technology'. 'သိပ္ပံ' = science, 'နည်းပညာ' = technology.",
+          "points": 1
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,343 @@
+{
+  "unit": 47,
+  "title": "Proverbs",
+  "lessons": [
+    {
+      "id": "unit47-lesson1",
+      "title": "English Proverbs: Wisdom and Advice",
+      "content": "Proverbs are short, well-known sayings that express a general truth or piece of advice. Learning proverbs helps you understand cultural wisdom and express ideas more effectively in English.",
+      "details": [
+        {
+          "concept": "A leopard cannot change its spots.",
+          "explanation": "People cannot change their fundamental nature.",
+          "example": "He promised to be more patient, but he got angry again. A leopard cannot change its spots.",
+          "burmese": "လူတစ်ယောက်ရဲ့ မူလသဘာဝကို ပြောင်းလဲလို့မရဘူး။"
+        },
+        {
+          "concept": "A fool and his money are soon parted.",
+          "explanation": "A foolish person quickly loses their money.",
+          "example": "He bought another useless gadget. A fool and his money are soon parted.",
+          "burmese": "အသိဥာဏ်နည်းတဲ့လူက ငွေကိုမြန်မြန်ဆုံးရှုံးတတ်တယ်။"
+        },
+        {
+          "concept": "A barking dog seldom bites.",
+          "explanation": "People who make loud threats rarely carry them out.",
+          "example": "Don't worry about his threats. A barking dog seldom bites.",
+          "burmese": "အော်ဟစ်ခြိမ်းခြောက်တတ်တဲ့လူက ရှားရှားပါးပါး လုပ်တတ်တယ်။"
+        },
+        {
+          "concept": "A mouse may help a lion.",
+          "explanation": "Even small or weak beings can help the powerful.",
+          "example": "Don't underestimate the new intern. A mouse may help a lion.",
+          "burmese": "အားနည်းတဲ့လူက အားကြီးတဲ့လူကို ကူညီနိုင်တယ်။"
+        },
+        {
+          "concept": "A friend to all is a friend to none.",
+          "explanation": "Someone who tries to be friends with everyone truly has no real friends.",
+          "example": "He talks to everyone but no one trusts him. A friend to all is a friend to none.",
+          "burmese": "အားလုံးနဲ့ သူငယ်ချင်းဖြစ်ချင်တဲ့လူက တကယ့်သူငယ်ချင်းမရှိဘူး။"
+        },
+        {
+          "concept": "All that glitters is not gold.",
+          "explanation": "Something that looks valuable or attractive may not be so.",
+          "example": "That job offer looks amazing, but check the details. All that glitters is not gold.",
+          "burmese": "တောက်ပတဲ့အရာအားလုံး ရွှေမဟုတ်ဘူး။"
+        },
+        {
+          "concept": "All covet, all lose.",
+          "explanation": "Greed causes people to lose everything.",
+          "example": "He tried to invest in every opportunity and lost everything. All covet, all lose.",
+          "burmese": "တစ်ခုတည်းကို လိုချင်ရင် ဆုံးရှုံးတတ်တယ်။"
+        },
+        {
+          "concept": "Blood is thicker than water.",
+          "explanation": "Family relationships are stronger than other relationships.",
+          "example": "After all the arguments, they still helped each other. Blood is thicker than water.",
+          "burmese": "သွေးသားဆက်ဆံက ရေထက်ပိုထူတယ်။"
+        },
+        {
+          "concept": "Better late than never.",
+          "explanation": "It is better to do something late than not at all.",
+          "example": "She finally apologized. Better late than never.",
+          "burmese": "နောက်ကျပေမယ့် မလုပ်တာထက်ပိုကောင်းတယ်။"
+        },
+        {
+          "concept": "Bad news travels fast.",
+          "explanation": "Negative information spreads quickly.",
+          "example": "Everyone already knows about the mistake. Bad news travels fast.",
+          "burmese": "ဆိုးဆိုးရွားရွားသတင်းက မြန်မြန်ပျံ့နှံ့တယ်။"
+        },
+        {
+          "concept": "Charity begins at home.",
+          "explanation": "One should take care of family first before helping others.",
+          "example": "He donates to strangers but ignores his parents. Charity begins at home.",
+          "burmese": "ကျေးဇူးပြုခြင်းက အိမ်မှာစတင်တယ်။"
+        },
+        {
+          "concept": "Don't look a gift horse in the mouth.",
+          "explanation": "Do not criticize or find fault with something given to you for free.",
+          "example": "The old car they gave you works fine. Don't look a gift horse in the mouth.",
+          "burmese": "လက်ဆောင်ရတဲ့မြင်းရဲ့ပါးစပ်ကို မကြည့်ပါနဲ့။"
+        },
+        {
+          "concept": "Don't put all your eggs in one basket.",
+          "explanation": "Do not risk everything on a single plan or opportunity.",
+          "example": "Apply to many schools, not just one. Don't put all your eggs in one basket.",
+          "burmese": "ဥအုန်းအားလုံးကို ခြင်းတစ်ခုထဲမှာ မထားပါနဲ့။"
+        },
+        {
+          "concept": "Don't judge a book by its cover.",
+          "explanation": "Do not judge something or someone by outward appearance alone.",
+          "example": "The small restaurant has the best food. Don't judge a book by its cover.",
+          "burmese": "စာအုပ်ရဲ့အဖုံးကြည့်ပြီး မတရားပါနဲ့။"
+        },
+        {
+          "concept": "Easier said than done.",
+          "explanation": "Something is much harder to do than to talk about.",
+          "example": "Just quit smoking? Easier said than done.",
+          "burmese": "ပြောတာ လုပ်တာထက် လွယ်တယ်။"
+        },
+        {
+          "concept": "Empty vessels make the greatest song.",
+          "explanation": "People with little knowledge often talk the most.",
+          "example": "He talks the most but knows the least. Empty vessels make the greatest song.",
+          "burmese": "အလွတ်ဗူးက အကြီးဆုံးအသံထွက်တယ်။"
+        },
+        {
+          "concept": "Every cloud has a silver lining.",
+          "explanation": "There is something good in every bad situation.",
+          "example": "Losing that job led to a better one. Every cloud has a silver lining.",
+          "burmese": "မိုးတိမ်တိုင်းရဲ့ ငွေရောင်အစွန်းရှိတယ်။"
+        },
+        {
+          "concept": "Easy come, easy go.",
+          "explanation": "What is gained easily is lost easily.",
+          "example": "He won the lottery and spent it all in a week. Easy come, easy go.",
+          "burmese": "လွယ်လွယ်ရတာ လွယ်လွယ်ဆုံးရှုံးတယ်။"
+        },
+        {
+          "concept": "Familiarity breeds contempt.",
+          "explanation": "Too much closeness leads to a lack of respect.",
+          "example": "They argue all the time now. Familiarity breeds contempt.",
+          "burmese": "ရင်းနှီးမှုက အထင်အမြင်သေးခြင်းကို ဖန်တီးတယ်။"
+        },
+        {
+          "concept": "Fools are wise as long as silent.",
+          "explanation": "A fool seems wise when they do not speak.",
+          "example": "He stayed quiet during the meeting. Fools are wise as long as silent.",
+          "burmese": "အသံမထွက်သရွယ် ပါးစပ်မရှိသလို ဉာဏ်ကောင်းတယ်။"
+        },
+        {
+          "concept": "Gardens are not made by sitting in the shade.",
+          "explanation": "Success requires effort and hard work.",
+          "example": "You need to study if you want to pass. Gardens are not made by sitting in the shade.",
+          "burmese": "ဥယျာဉ်ကို အရိပ်ထဲမှာ ထိုင်ပြီး ဖန်တီးလို့မရဘူး။"
+        },
+        {
+          "concept": "Grasp all, lose all.",
+          "explanation": "If you try to hold on to everything, you will lose everything.",
+          "example": "He took on too many projects and failed them all. Grasp all, lose all.",
+          "burmese": "အားလုံးကို ဆွဲကိုင်ရင် အားလုံးဆုံးရှုံးမယ်။"
+        },
+        {
+          "concept": "Hatred is as blind as love.",
+          "explanation": "Hatred, like love, can cloud a person's judgment.",
+          "example": "He attacked his rival without thinking. Hatred is as blind as love.",
+          "burmese": "အမုန်းက ချစ်ခြင်းလောက် မျက်စိကန်းတယ်။"
+        },
+        {
+          "concept": "Ignorance is bliss.",
+          "explanation": "Not knowing something can sometimes make you happier.",
+          "example": "I don't want to know the spoilers. Ignorance is bliss.",
+          "burmese": "မသိခြင်းက ပျော်ရွှင်ခြင်းပဲ။"
+        },
+        {
+          "concept": "If you want a friend, be a friend.",
+          "explanation": "To have friends, you must first be a good friend.",
+          "example": "Be kind to others if you want them to be kind to you. If you want a friend, be a friend.",
+          "burmese": "သူငယ်ချင်းလိုချင်ရင် သူငယ်ချင်းဖြစ်ပါ။"
+        },
+        {
+          "concept": "Keep something for a rainy day.",
+          "explanation": "Save resources for a time of need.",
+          "example": "Don't spend all your salary. Keep something for a rainy day.",
+          "burmese": "မိုးရွာတဲ့နေ့အတွက် တစ်ခုခုထားပါ။"
+        },
+        {
+          "concept": "Kill the goose that lays the golden eggs.",
+          "explanation": "Destroy something that produces valuable results for you.",
+          "example": "He fired his best worker and the company suffered. He killed the goose that lays the golden eggs.",
+          "burmese": "ရွှေဥဥတဲ့ ဘဲကြက်ကို သတ်ပစ်တယ်။"
+        },
+        {
+          "concept": "Living well is the best revenge.",
+          "explanation": "The best response to those who wrong you is to live happily.",
+          "example": "After the breakup, she focused on her career. Living well is the best revenge.",
+          "burmese": "ကောင်းကောင်းနေထိုင်ခြင်းက အကောင်းဆုံးလက်စားချေခြင်းပဲ။"
+        },
+        {
+          "concept": "Look after number one.",
+          "explanation": "Take care of yourself first.",
+          "example": "You can't help others if you're exhausted. Look after number one.",
+          "burmese": "ပထမဦးစားပေး ကိုယ့်ကိုယ်ကို ဂရုစိုက်ပါ။"
+        },
+        {
+          "concept": "Lend only that which you can afford to lose.",
+          "explanation": "Only lend what you can afford not to get back.",
+          "example": "I only lend small amounts. Lend only that which you can afford to lose.",
+          "burmese": "ဆုံးရှုံးနိုင်တဲ့ပမာဏပဲ ချေးပါ။"
+        },
+        {
+          "concept": "Make hay while the sun shines.",
+          "explanation": "Take advantage of favorable conditions while they last.",
+          "example": "Business is booming now, so expand. Make hay while the sun shines.",
+          "burmese": "နေရောင်ရှိတုန်း မြက်ခြောက်လှပ်ပါ။"
+        },
+        {
+          "concept": "Might is right.",
+          "explanation": "The powerful determine what is considered right.",
+          "example": "The stronger country won the dispute. Might is right.",
+          "burmese": "အားကြီးတာက မှန်တယ်။"
+        },
+        {
+          "concept": "Mind your own business.",
+          "explanation": "Do not interfere in other people's affairs.",
+          "example": "Stop asking about my salary. Mind your own business.",
+          "burmese": "ကိုယ့်အလုပ်ကိုယ်လုပ်ပါ။"
+        },
+        {
+          "concept": "More haste, less speed.",
+          "explanation": "Going too fast leads to mistakes and slows you down.",
+          "example": "Take your time with the assignment. More haste, less speed.",
+          "burmese": "အလျင်စောလေ အနှေးပိုလေ။"
+        },
+        {
+          "concept": "One rotten apple spoils the whole bunch.",
+          "explanation": "One bad person can negatively influence an entire group.",
+          "example": "One lazy student affected the whole class. One rotten apple spoils the whole bunch.",
+          "burmese": "ပုပ်သောအသီးတစ်လုံးက အုပ်စုတစ်ခုလုံးကို ပျက်စေတယ်။"
+        },
+        {
+          "concept": "Opportunity seldom knocks twice.",
+          "explanation": "Good opportunities are rare and should be seized.",
+          "example": "Apply for the scholarship now. Opportunity seldom knocks twice.",
+          "burmese": "အခွင့်အရေးက ရှားရှားပါးပါးလာတတ်တယ်။"
+        },
+        {
+          "concept": "Out of sight, out of mind.",
+          "explanation": "When something is not seen, it is easily forgotten.",
+          "example": "I haven't thought about my old school in years. Out of sight, out of mind.",
+          "burmese": "မျက်မှောက်မှာ မရှိရင် စိတ်ထဲက ပျောက်သွားတယ်။"
+        },
+        {
+          "concept": "Prevention is better than cure.",
+          "explanation": "It is better to stop something bad from happening than to fix it later.",
+          "example": "Get vaccinated now. Prevention is better than cure.",
+          "burmese": "ကာကွယ်ခြင်းက ကုသခြင်းထက် ပိုကောင်းတယ်။"
+        },
+        {
+          "concept": "Rome was not built in a day.",
+          "explanation": "Important achievements take time and patience.",
+          "example": "Learning a language takes years. Rome was not built in a day.",
+          "burmese": "ရောမမြို့ကို တစ်နေ့ထဲနဲ့ မဆောက်နိုင်ဘူး။"
+        },
+        {
+          "concept": "Solitude is often the best company.",
+          "explanation": "Being alone can be more enjoyable than being with others.",
+          "example": "She enjoys reading alone. Solitude is often the best company.",
+          "burmese": "တစ်ယောက်တည်းနေခြင်းက အကောင်းဆုံးအဖော်ဖြစ်တတ်တယ်။"
+        },
+        {
+          "concept": "The longest night will have an end.",
+          "explanation": "Even the most difficult times will eventually pass.",
+          "example": "Don't give up during hard times. The longest night will have an end.",
+          "burmese": "အရှည်ဆုံးညက အဆုံးရှိတယ်။"
+        },
+        {
+          "concept": "The pen is mightier than the sword.",
+          "explanation": "Words and ideas have more influence than violence.",
+          "example": "The protest was peaceful but changed the law. The pen is mightier than the sword.",
+          "burmese": "ဘောပင်က ဓားထက် ပိုအားကြီးတယ်။"
+        },
+        {
+          "concept": "The last straw breaks the camel's back.",
+          "explanation": "A small final burden causes something to fail.",
+          "example": "After years of stress, one more problem made her quit. The last straw breaks the camel's back.",
+          "burmese": "ကုန်းကူးကြက်ရဲ့ နောက်ဆုံးဖိတဲ့ နွားခြောက်ပွင့်ပဲ။"
+        },
+        {
+          "concept": "The early bird catches the worm.",
+          "explanation": "Success comes to those who act early and prepare well.",
+          "example": "She got the job because she applied first. The early bird catches the worm.",
+          "burmese": "အစောပိုင်းငှက်က ပုရွက်ဆိတ်ကို ဖမ်းမိတယ်။"
+        },
+        {
+          "concept": "Time cures all ills.",
+          "explanation": "Given enough time, problems and suffering will fade.",
+          "example": "You'll feel better after a few months. Time cures all ills.",
+          "burmese": "အချိန်က အနာတရအားလုံးကို ကုသပေးတယ်။"
+        },
+        {
+          "concept": "There is a time to speak and a time to be silent.",
+          "explanation": "It is important to know when to talk and when to stay quiet.",
+          "example": "During the negotiation, she chose her words carefully. There is a time to speak and a time to be silent.",
+          "burmese": "ပြောရမယ့်အချိန်ရှိတယ်၊ ငြိမ်နေရမယ့်အချိန်ရှိတယ်။"
+        },
+        {
+          "concept": "There is truth in wine.",
+          "explanation": "People reveal their true feelings when they are drunk.",
+          "example": "He confessed his love after drinking. There is truth in wine.",
+          "burmese": "စပျစ်ရည်ထဲမှာ မှန်ကန်မှုရှိတယ်။"
+        },
+        {
+          "concept": "When in Rome do as Romans do.",
+          "explanation": "When in a new place, follow the customs of the people there.",
+          "example": "In Japan, you remove your shoes indoors. When in Rome do as Romans do.",
+          "burmese": "ရောမမှာနေရင် ရောမလူတွေလို လုပ်ပါ။"
+        },
+        {
+          "concept": "What will be, will be.",
+          "explanation": "The future is determined and cannot be changed.",
+          "example": "Don't worry too much about tomorrow. What will be, will be.",
+          "burmese": "ဖြစ်မည့်အရာက ဖြစ်မှာပဲ။"
+        },
+        {
+          "concept": "What's done is done.",
+          "explanation": "The past cannot be changed, so move on.",
+          "example": "Stop regretting the past. What's done is done.",
+          "burmese": "ပြီးသွားတာက ပြီးသွားပြီ။"
+        },
+        {
+          "concept": "Words have wings and cannot be recalled.",
+          "explanation": "Once spoken, words cannot be taken back.",
+          "example": "Think before you speak. Words have wings and cannot be recalled.",
+          "burmese": "စကားက အတောင်ရှိပြီး ပြန်မခေါ်နိုင်ဘူး။"
+        },
+        {
+          "concept": "Words cut more than swords.",
+          "explanation": "Hurtful words cause deeper wounds than physical weapons.",
+          "example": "His insults hurt her deeply. Words cut more than swords.",
+          "burmese": "စကားက ဓားထက် ပိုဖြတ်တယ်။"
+        },
+        {
+          "concept": "You can't take it with you when you die.",
+          "explanation": "Material wealth cannot be taken to the afterlife.",
+          "example": "Enjoy life now, not just working. You can't take it with you when you die.",
+          "burmese": "သေတဲ့အခါ ဘာမှ မခေါ်သွားနိုင်ဘူး။"
+        },
+        {
+          "concept": "You can't please everyone.",
+          "explanation": "It is impossible to satisfy every person.",
+          "example": "Some people liked the movie, others didn't. You can't please everyone.",
+          "burmese": "အားလုံးကို ကျေနပ်အောင် လုပ်လို့မရဘူး။"
+        },
+        {
+          "concept": "You can't make an omelette without breaking egg.",
+          "explanation": "Achieving something worthwhile requires sacrifice.",
+          "example": "Starting a business is risky. You can't make an omelette without breaking egg.",
+          "burmese": "ဥကြက်ကြော်လုပ်ဖို့ ဥကွဲအောင် လုပ်ရတယ်။"
+        }
+      ]
+    }
+  ]
+}

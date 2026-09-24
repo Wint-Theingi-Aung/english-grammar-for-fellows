@@ -90,6 +90,10 @@ import unit45Lessons from "../../data/unit-45-lessons.json";
 import unit45Exercises from "../../data/unit-45-exercises.json";
 import unit46Lessons from "../../data/unit-46-lessons.json";
 import unit46Exercises from "../../data/unit-46-exercises.json";
+import unit47Lessons from "../../data/unit-47-lessons.json";
+import unit47Exercises from "../../data/unit-47-exercises.json";
+import unit48Lessons from "../../data/unit-48-lessons.json";
+import unit48Exercises from "../../data/unit-48-exercises.json";
 import type { LessonsData, ExercisesData, Exercise, ExerciseQuestion } from "./types";
 
 const UNIT_DATA: Record<number, { lessons: LessonsData; exercises: ExercisesData }> = {
@@ -139,6 +143,8 @@ const UNIT_DATA: Record<number, { lessons: LessonsData; exercises: ExercisesData
   44: { lessons: unit44Lessons as LessonsData, exercises: unit44Exercises as ExercisesData },
   45: { lessons: unit45Lessons as LessonsData, exercises: unit45Exercises as ExercisesData },
   46: { lessons: unit46Lessons as LessonsData, exercises: unit46Exercises as ExercisesData },
+  47: { lessons: unit47Lessons as LessonsData, exercises: unit47Exercises as ExercisesData },
+  48: { lessons: unit48Lessons as LessonsData, exercises: unit48Exercises as ExercisesData },
 };
 
 export const UNIT_TITLES: Record<number, string> = {
@@ -188,6 +194,8 @@ export const UNIT_TITLES: Record<number, string> = {
   44: "Reported Speech",
   45: "Phrasal Verbs",
   46: "Idioms",
+  47: "Proverbs",
+  48: "Translation (From Myanmar to English)",
 };
 
 export const UNIT_DESCRIPTIONS: Record<number, string> = {
@@ -237,6 +245,8 @@ export const UNIT_DESCRIPTIONS: Record<number, string> = {
   44: "Learn how to convert direct speech into reported speech with correct tense, pronoun, and time word changes.",
   45: "Learn 25 common English phrasal verbs with their meanings, examples, and Burmese explanations.",
   46: "Learn 21 common English idioms with their meanings, examples, and Burmese explanations.",
+  47: "Learn 55 common English proverbs and their meanings with practice exercises.",
+  48: "Practice translating Myanmar sentences into English with detailed examples and exercises.",
 };
 
 export function getLessonsData(unit: number = 1): LessonsData {

@@ -1,0 +1,97 @@
+{
+  "unit": 48,
+  "title": "Translation (From Myanmar to English)",
+  "lessons": [
+    {
+      "id": "unit48-lesson1",
+      "title": "Myanmar to English Translation: Practice and Understanding",
+      "content": "Translation from Myanmar to English requires understanding both languages' sentence structures. This lesson covers common translation patterns with examples from the source text.",
+      "details": [
+        {
+          "concept": "Example 1: Hobbies and Habits",
+          "explanation": "Translating sentences about personal habits and their effects.",
+          "example": "လူတိုင်းတိုင်း / ဝါသနာကိုယ်စီ / ရှိကြသည်။ → Everybody / has / his or her own hobby.",
+          "burmese": "ဝါသနာ = hobby, ကိုယ်စီ = each one's own"
+        },
+        {
+          "concept": "Example 2: Youth and Future",
+          "explanation": "Translating sentences about youth leadership and national future.",
+          "example": "လူငယ်များကို / အနာဂတ်၏ခေါင်းဆောင်များ → We proudly say that / youths / are / leaders of future.",
+          "burmese": "အနာဂတ် = future, ခေါင်းဆောင် = leader"
+        },
+        {
+          "concept": "Example 3: Climate and Forests",
+          "explanation": "Translating sentences about environmental issues.",
+          "example": "ကမ္ဘာ့ရာသီဥတု ပြောင်းလဲမှုနှင့် / ကမ္ဘာ့က ပို့ လောင်စာတို့က → The world climate change and / global warming / are completely depending on / forests of the world.",
+          "burmese": "ရာသီဥတု = climate, လောင်စာ = fuel, သစ်တော = forest"
+        },
+        {
+          "concept": "Example 4: International Forest Day",
+          "explanation": "Translating sentences about international designations.",
+          "example": "ယနေ့သည် / အပြည်ပြည်ဆိုင်ရာ သစ်တောနေ့ ဖြစ်ပါသည်။ → Today / is / the International Forests Day.",
+          "burmese": "အပြည်ပြည်ဆိုင်ရာ = international, သစ်တောနေ့ = Forest Day"
+        },
+        {
+          "concept": "Example 5: Environmental Protection",
+          "explanation": "Translating sentences about environmental conservation.",
+          "example": "ယနေ့ကျွန်မတို့ / သဘာဝပတ်ဝန်းကျင် ပျက်ယွင်းမှုမရှိ စေရအတွက် → Today, / it is found that / people / come to seriously talk about / the national environment / not to be depleted.",
+          "burmese": "သဘာဝပတ်ဝန်းကျင် = natural environment, ပျက်ယွင်း = depleted"
+        },
+        {
+          "concept": "Example 6: Climate Change Processes",
+          "explanation": "Translating complex sentences about climate change effects.",
+          "example": "ရာသီဥတု ပြောင်းလဲဖြစ်ပေါ်ခြင်းသည် → In parallel with time / through the media, / it is found that / the process of climate change / in various forms / is occurring / all over the world.",
+          "burmese": "ပြောင်းလဲဖြစ်ပေါ်ခြင်း = change process, ဖြစ်ပေါ်နေသည် = occurring"
+        },
+        {
+          "concept": "Example 7: Natural Disasters",
+          "explanation": "Translating sentences about natural disasters and prevention.",
+          "example": "ရာသီဥတု ပြောင်းလဲမှုအတွင်း / ကမ္ဘာတစ်ဝန်းမှာမနေနိုင်သည့် သဘာဝဘေးအန္တရာယ် → We have noticed that / with the changing climates, / more and more unexpected natural disasters / occur / year after year.",
+          "burmese": "သဘာဝဘေးအန္တရာယ် = natural disaster, ကပ်ရောဂါ = epidemic"
+        },
+        {
+          "concept": "Example 8: Renewable Energy",
+          "explanation": "Translating sentences about energy and environmental policy.",
+          "example": "ကမ္ဘာ့က ပို့ လောင်စာတို့ကို လျှော့ချရန်သည် → Most of the world nations / are striving / to extensively exploit / the renewable energies.",
+          "burmese": "လောင်စာ = fuel, စွမ်းအင် = energy, ကြိုးပမ်း = strive"
+        },
+        {
+          "concept": "Example 9: Science and Technology",
+          "explanation": "Translating sentences about technological development.",
+          "example": "မကြာမကြာ ကျက်လတ်တိုင်း / သိပ္ပံနည်းပညာများသည် → At present, / Sciences and Technologies / are improving / with momentum.",
+          "burmese": "သိပ္ပံနည်းပညာ = science and technology, တိုးတက် = improve"
+        },
+        {
+          "concept": "Example 10: Youth Leadership",
+          "explanation": "Translating sentences about youth in the information age.",
+          "example": "အင်ဖော်မေရှင်နည်းပညာများ တိုးတက်လာသည်ဖြင့် → With the improvement of the Information Technologies, / the leadership role / of new generations / gradually / becomes wide.",
+          "burmese": "အင်ဖော်မေရှင် = information, ဦးဆောင်မှု = leadership"
+        },
+        {
+          "concept": "Example 11: Communication Technologies",
+          "explanation": "Translating sentences about global communication and culture.",
+          "example": "ယနေ့ကမ္ဘာတစ်ဝန်းတွင် / ဆက်သွယ်ရေးနည်းပညာများသည် → In the world today, / Communication Technologies / are wonderfully developing.",
+          "burmese": "ဆက်သွယ်ရေး = communication, ဓလေ့စတိုင် = culture"
+        },
+        {
+          "concept": "Example 12: Altruism",
+          "explanation": "Translating sentences about altruism and service.",
+          "example": "ပရဟိတစိတ်ဓာတ်ဟာသည် / အများအကျိုးသယ်ပိုးကြွေးမြွက်သည့် → Altruism / is the spirit / to serve the interest of others.",
+          "burmese": "ပရဟိတ = altruism, စိတ်ဓာတ် = spirit, သယ်ပိုးကြွေးမြွက် = serve"
+        },
+        {
+          "concept": "Example 13: Myanmar Women",
+          "explanation": "Translating sentences about cultural traditions and women.",
+          "example": "မြန်မာလူ့ ဘာသာအဖွဲ့အစည်းတွင် / မြန်မာအမျိုးသမီးများသည် → In Myanmar Society, / Myanmar women / are polite and gentle / in accordance with traditional customs.",
+          "burmese": "ဓလေ့ထုံးတမ်း = traditional customs, ယဉ်ကျေး = polite"
+        },
+        {
+          "concept": "Example 14: Education Promotion",
+          "explanation": "Translating sentences about education and development.",
+          "example": "ပညာရေးမြှင့်တင်မှုအစအစများအရ → According to the Education Promotion Programme, / modern educated developments / such as international standard education.",
+          "burmese": "ပညာရေး = education, မြှင့်တင် = promote, အတတ်ပညာ = skill"
+        }
+      ]
+    }
+  ]
+}
