@@ -96,6 +96,8 @@ import unit48Lessons from "../../data/unit-48-lessons.json";
 import unit48Exercises from "../../data/unit-48-exercises.json";
 import unit49Lessons from "../../data/unit-49-lessons.json";
 import unit49Exercises from "../../data/unit-49-exercises.json";
+import unit50Lessons from "../../data/unit-50-lessons.json";
+import unit50Exercises from "../../data/unit-50-exercises.json";
 import type { LessonsData, ExercisesData, Exercise, ExerciseQuestion } from "./types";
 
 const UNIT_DATA: Record<number, { lessons: LessonsData; exercises: ExercisesData }> = {
@@ -148,6 +150,7 @@ const UNIT_DATA: Record<number, { lessons: LessonsData; exercises: ExercisesData
   47: { lessons: unit47Lessons as LessonsData, exercises: unit47Exercises as ExercisesData },
   48: { lessons: unit48Lessons as LessonsData, exercises: unit48Exercises as ExercisesData },
   49: { lessons: unit49Lessons as LessonsData, exercises: unit49Exercises as ExercisesData },
+  50: { lessons: unit50Lessons as LessonsData, exercises: unit50Exercises as ExercisesData },
 };
 
 export const UNIT_TITLES: Record<number, string> = {
@@ -200,6 +203,7 @@ export const UNIT_TITLES: Record<number, string> = {
   47: "Proverbs",
   48: "Translation (From Myanmar to English)",
   49: "Vocabulary — Topic-Based Lessons",
+  50: "Placement Test",
 };
 
 export const UNIT_DESCRIPTIONS: Record<number, string> = {
@@ -252,6 +256,7 @@ export const UNIT_DESCRIPTIONS: Record<number, string> = {
   47: "Learn 55 common English proverbs and their meanings with practice exercises.",
   48: "Practice translating Myanmar sentences into English with detailed examples and exercises.",
   49: "Build your vocabulary across 31 essential topics — from school and work to nature, culture, and daily life.",
+  50: "Take a comprehensive 577-question placement assessment covering grammar, vocabulary, and English usage.",
 };
 
 export function getLessonsData(unit: number = 1): LessonsData {

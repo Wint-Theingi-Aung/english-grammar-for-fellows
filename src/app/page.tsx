@@ -57,6 +57,7 @@ const UNIT_TITLES: Record<number, string> = {
   47: "Proverbs",
   48: "Translation (From Myanmar to English)",
   49: "Vocabulary — Topic-Based Lessons",
+  50: "Placement Test",
 };
 
 const UNIT_DESCRIPTIONS: Record<number, string> = {
@@ -109,6 +110,7 @@ const UNIT_DESCRIPTIONS: Record<number, string> = {
   47: "Learn 55 common English proverbs and their meanings with practice exercises.",
   48: "Practice translating Myanmar sentences into English with detailed examples and exercises.",
   49: "Build your vocabulary across 31 essential topics — from school and work to nature, culture, and daily life.",
+  50: "Take a comprehensive 577-question placement assessment covering grammar, vocabulary, and English usage.",
 };
 
 function StatCard({ icon, label, value }: { icon: React.ReactNode; label: string; value: string | number }) {
@@ -265,7 +267,7 @@ export default function HomePage() {
     let totalCompleted = 0;
     let totalCorrect = 0;
     let totalPoints = 0;
-    for (let u = 1; u <= 49; u++) {
+    for (let u = 1; u <= 50; u++) {
       const p = allProgress[String(u)];
       if (p) {
         totalAnswered += p.answered;
@@ -279,14 +281,14 @@ export default function HomePage() {
   }, [allProgress]);
 
   const continueUnit = (() => {
-    for (let u = 1; u <= 49; u++) {
+    for (let u = 1; u <= 50; u++) {
       if (!isUnitAvailable(u)) continue;
       const p = allProgress[String(u)];
       if (!p || (!p.completed && p.answered > 0)) {
         return { unit: u, ...p };
       }
     }
-    for (let u = 1; u <= 49; u++) {
+    for (let u = 1; u <= 50; u++) {
       if (!isUnitAvailable(u)) continue;
       const p = allProgress[String(u)];
       if (!p || !p.completed) {
@@ -325,7 +327,7 @@ export default function HomePage() {
                 English that feels clear.
               </h1>
               <p className="text-base sm:text-lg text-[#8b8fa3] max-w-xl mx-auto lg:mx-0 mb-8 leading-relaxed">
-                Master English grammar through understanding, practice, and memory. 49 structured units with interactive exercises and Myanmar translations.
+                Master English grammar through understanding, practice, and memory. 50 structured units with interactive exercises and Myanmar translations.
               </p>
               <div className="flex flex-col sm:flex-row gap-3 justify-center lg:justify-start">
                 <Link
@@ -404,7 +406,7 @@ export default function HomePage() {
             <StatCard
               icon={<svg className="w-5 h-5 text-[#1a1f36]" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}><path strokeLinecap="round" strokeLinejoin="round" d="M19 11H5m14 0a2 2 0 012 2v6a2 2 0 01-2 2H5a2 2 0 01-2-2v-6a2 2 0 012-2m14 0V9a2 2 0 00-2-2M5 11V9a2 2 0 012-2m0 0V5a2 2 0 012-2h6a2 2 0 012 2v2M7 7h10" /></svg>}
               label="Completed"
-              value={`${stats.totalCompleted}/49`}
+              value={`${stats.totalCompleted}/50`}
             />
           </div>
         </section>
@@ -423,7 +425,7 @@ export default function HomePage() {
                 </svg>
               </div>
               <h3 className="font-bold text-[#1a1f36] mb-1 font-serif">Grammar Guides</h3>
-              <p className="text-sm text-[#8b8fa3]">49 structured units covering all essential grammar topics</p>
+              <p className="text-sm text-[#8b8fa3]">50 structured units covering all essential grammar topics</p>
             </Link>
             <Link
               href="/"
@@ -465,7 +467,7 @@ export default function HomePage() {
             All Units
           </h2>
           <div className="grid gap-4 sm:grid-cols-2">
-            {Array.from({ length: 49 }, (_, i) => i + 1).map((u) => {
+            {Array.from({ length: 50 }, (_, i) => i + 1).map((u) => {
               const p = allProgress[String(u)];
               const total = getTotalQuestionCount(u);
               return (

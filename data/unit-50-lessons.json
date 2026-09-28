@@ -1,0 +1,33 @@
+{
+  "unit": 50,
+  "title": "Placement Test",
+  "lessons": [
+    {
+      "id": "unit50-lesson1",
+      "title": "Placement Test Instructions",
+      "content": "This is a comprehensive 577-question placement assessment that evaluates your English grammar, vocabulary, and usage skills. Answer all questions to the best of your ability. Your score will determine your placement level.",
+      "details": [
+        {
+          "concept": "Purpose of the Test",
+          "example": "This test evaluates your current English proficiency across all grammar topics covered in Units 1-49."
+        },
+        {
+          "concept": "How to Take the Test",
+          "example": "Answer each question by selecting the best option. You can navigate between questions using the question navigator."
+        },
+        {
+          "concept": "Scoring",
+          "example": "Each question is worth 1 point. Your total score determines your placement level."
+        },
+        {
+          "concept": "Placement Levels",
+          "example": "90-100%: Advanced | 70-89%: Upper Intermediate | 50-69%: Intermediate | 30-49%: Elementary | 0-29%: Beginner"
+        },
+        {
+          "concept": "Tips for Success",
+          "example": "Read each question carefully, eliminate obviously wrong answers, and trust your knowledge. You can change your answers before submitting."
+        }
+      ]
+    }
+  ]
+}
