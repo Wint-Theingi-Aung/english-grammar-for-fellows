@@ -1,0 +1,1617 @@
+{
+  "unit": 49,
+  "exercises": [
+    {
+      "id": "unit49-ex1",
+      "type": "multiple_choice",
+      "instructions": "Choose the correct answer for each question about school subjects and daily routines.",
+      "questions": [
+        {
+          "id": 4901,
+          "question": "Which subject studies living organisms?",
+          "options": ["art", "biology", "geography"],
+          "answer": "biology",
+          "explanation": "Biology is the study of living organisms and life processes.",
+          "explanation_burmese": "",
+          "points": 1
+        },
+        {
+          "id": 4902,
+          "question": "What do you do before leaving the house in the morning?",
+          "options": ["have dinner", "go to bed", "get dressed"],
+          "answer": "get dressed",
+          "explanation": "Getting dressed is part of the morning routine before leaving the house.",
+          "explanation_burmese": "",
+          "points": 1
+        },
+        {
+          "id": 4903,
+          "question": "Which subject involves learning about countries and maps?",
+          "options": ["history", "geography", "physics"],
+          "answer": "geography",
+          "explanation": "Geography is the study of countries, maps, and the physical features of the Earth.",
+          "explanation_burmese": "",
+          "points": 1
+        },
+        {
+          "id": 4904,
+          "question": "When do you have lunch?",
+          "options": ["in the morning", "in the middle of the day", "at night"],
+          "answer": "in the middle of the day",
+          "explanation": "Lunch is a meal eaten in the middle of the day.",
+          "explanation_burmese": "",
+          "points": 1
+        },
+        {
+          "id": 4905,
+          "question": "Which subject studies matter, energy, and forces?",
+          "options": ["physics", "Spanish", "ICT"],
+          "answer": "physics",
+          "explanation": "Physics is the study of matter, energy, motion, and forces.",
+          "explanation_burmese": "",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "id": "unit49-ex2",
+      "type": "multiple_choice",
+      "instructions": "Choose the correct free-time activity for each description.",
+      "questions": [
+        {
+          "id": 4906,
+          "question": "What do you do when you use a computer to explore websites?",
+          "options": ["draw", "surf the Internet", "take photos"],
+          "answer": "surf the Internet",
+          "explanation": "Surfing the Internet means browsing websites online.",
+          "explanation_burmese": "",
+          "points": 1
+        },
+        {
+          "id": 4907,
+          "question": "Which activity involves moving to music?",
+          "options": ["read", "chat online", "dance"],
+          "answer": "dance",
+          "explanation": "Dancing involves moving your body to the rhythm of music.",
+          "explanation_burmese": "",
+          "points": 1
+        },
+        {
+          "id": 4908,
+          "question": "What do you do when you go to a shop to buy things?",
+          "options": ["go out with friends", "go shopping", "play the piano"],
+          "answer": "go shopping",
+          "explanation": "Going shopping means visiting shops to buy items.",
+          "explanation_burmese": "",
+          "points": 1
+        },
+        {
+          "id": 4909,
+          "question": "Which activity uses a camera?",
+          "options": ["listen to music", "take photos", "draw"],
+          "answer": "take photos",
+          "explanation": "Taking photos means capturing images with a camera.",
+          "explanation_burmese": "",
+          "points": 1
+        },
+        {
+          "id": 4910,
+          "question": "What do you do when you use a musical instrument with strings and keys?",
+          "options": ["play the guitar", "do sport", "surf the Internet"],
+          "answer": "play the guitar",
+          "explanation": "Playing the guitar involves performing music on a guitar.",
+          "explanation_burmese": "",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "id": "unit49-ex3",
+      "type": "multiple_choice",
+      "instructions": "Choose the correct place to go in a town for each description.",
+      "questions": [
+        {
+          "id": 4911,
+          "question": "Where do you go to watch films on a big screen?",
+          "options": ["library", "cinema", "museum"],
+          "answer": "cinema",
+          "explanation": "A cinema is where you go to watch films on a big screen.",
+          "explanation_burmese": "",
+          "points": 1
+        },
+        {
+          "id": 4912,
+          "question": "Where can you borrow books to read?",
+          "options": ["theatre", "library", "sports centre"],
+          "answer": "library",
+          "explanation": "A library is a place where you can borrow and read books.",
+          "explanation_burmese": "",
+          "points": 1
+        },
+        {
+          "id": 4913,
+          "question": "Where do you go to swim in a pool?",
+          "options": ["stadium", "park", "swimming pool"],
+          "answer": "swimming pool",
+          "explanation": "A swimming pool is designed for swimming activities.",
+          "explanation_burmese": "",
+          "points": 1
+        },
+        {
+          "id": 4914,
+          "question": "Where can you eat a quick meal like burgers and chips?",
+          "options": ["museum", "fast-food restaurant", "library"],
+          "answer": "fast-food restaurant",
+          "explanation": "A fast-food restaurant serves quick meals like burgers and chips.",
+          "explanation_burmese": "",
+          "points": 1
+        },
+        {
+          "id": 4915,
+          "question": "Where do you go to see plays and performances?",
+          "options": ["theatre", "shopping centre", "cinema"],
+          "answer": "theatre",
+          "explanation": "A theatre is where live plays and performances are shown.",
+          "explanation_burmese": "",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "id": "unit49-ex4",
+      "type": "multiple_choice",
+      "instructions": "Choose the correct room in a house for each description.",
+      "questions": [
+        {
+          "id": 4916,
+          "question": "Which room do you sleep in?",
+          "options": ["kitchen", "bedroom", "garage"],
+          "answer": "bedroom",
+          "explanation": "A bedroom is the room where you sleep.",
+          "explanation_burmese": "",
+          "points": 1
+        },
+        {
+          "id": 4917,
+          "question": "Which room has a bath and shower?",
+          "options": ["living room", "dining room", "bathroom"],
+          "answer": "bathroom",
+          "explanation": "A bathroom contains a bath, shower, and toilet.",
+          "explanation_burmese": "",
+          "points": 1
+        },
+        {
+          "id": 4918,
+          "question": "Which room do you cook food in?",
+          "options": ["kitchen", "garden", "hall"],
+          "answer": "kitchen",
+          "explanation": "A kitchen is where you cook and prepare food.",
+          "explanation_burmese": "",
+          "points": 1
+        },
+        {
+          "id": 4919,
+          "question": "Where do you eat meals with your family?",
+          "options": ["bathroom", "dining room", "garage"],
+          "answer": "dining room",
+          "explanation": "A dining room is the room where family meals are eaten.",
+          "explanation_burmese": "",
+          "points": 1
+        },
+        {
+          "id": 4920,
+          "question": "Which room do you relax and watch TV in?",
+          "options": ["kitchen", "living room", "bathroom"],
+          "answer": "living room",
+          "explanation": "A living room is where you relax, watch TV, and spend time with family.",
+          "explanation_burmese": "",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "id": "unit49-ex5",
+      "type": "multiple_choice",
+      "instructions": "Choose the correct household object or furniture for each description.",
+      "questions": [
+        {
+          "id": 4921,
+          "question": "What do you sit on to eat at a table?",
+          "options": ["sofa", "chair", "shelf"],
+          "answer": "chair",
+          "explanation": "A chair is furniture you sit on, especially at a table.",
+          "explanation_burmese": "",
+          "points": 1
+        },
+        {
+          "id": 4922,
+          "question": "Which appliance keeps food cold and fresh?",
+          "options": ["microwave", "fridge", "cooker"],
+          "answer": "fridge",
+          "explanation": "A fridge keeps food cold and fresh to stop it from going bad.",
+          "explanation_burmese": "",
+          "points": 1
+        },
+        {
+          "id": 4923,
+          "question": "What do you watch programmes on?",
+          "options": ["TV", "lamp", "mirror"],
+          "answer": "TV",
+          "explanation": "A TV is used to watch programmes, films, and news.",
+          "explanation_burmese": "",
+          "points": 1
+        },
+        {
+          "id": 4924,
+          "question": "Which appliance cooks food quickly using radiation?",
+          "options": ["dishwasher", "microwave", "washing machine"],
+          "answer": "microwave",
+          "explanation": "A microwave cooks or heats food quickly using microwave radiation.",
+          "explanation_burmese": "",
+          "points": 1
+        },
+        {
+          "id": 4925,
+          "question": "What do you sleep on at night?",
+          "options": ["armchair", "bed", "desk"],
+          "answer": "bed",
+          "explanation": "A bed is where you sleep at night.",
+          "explanation_burmese": "",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "id": "unit49-ex6",
+      "type": "multiple_choice",
+      "instructions": "Choose the correct job around the house for each description.",
+      "questions": [
+        {
+          "id": 4926,
+          "question": "What do you do when you put clothes in a machine with water and soap?",
+          "options": ["tidy up", "do the washing", "lay the table"],
+          "answer": "do the washing",
+          "explanation": "Doing the washing means putting clothes in a washing machine.",
+          "explanation_burmese": "",
+          "points": 1
+        },
+        {
+          "id": 4927,
+          "question": "What do you do before eating a meal?",
+          "options": ["take the rubbish out", "lay the table", "do the ironing"],
+          "answer": "lay the table",
+          "explanation": "Laying the table means putting plates, knives, and forks on the table before a meal.",
+          "explanation_burmese": "",
+          "points": 1
+        },
+        {
+          "id": 4928,
+          "question": "What do you do with dirty plates after eating?",
+          "options": ["make the bed", "wash the dishes", "do the shopping"],
+          "answer": "wash the dishes",
+          "explanation": "Washing the dishes means cleaning plates and cutlery after a meal.",
+          "explanation_burmese": "",
+          "points": 1
+        },
+        {
+          "id": 4929,
+          "question": "What do you do when you make a room neat and orderly?",
+          "options": ["do the ironing", "tidy up", "take the rubbish out"],
+          "answer": "tidy up",
+          "explanation": "Tidying up means making a room or space neat and orderly.",
+          "explanation_burmese": "",
+          "points": 1
+        },
+        {
+          "id": 4930,
+          "question": "What do you do with a hot iron and clothes?",
+          "options": ["do the ironing", "do the washing", "lay the table"],
+          "answer": "do the ironing",
+          "explanation": "Doing the ironing means using a hot iron to remove wrinkles from clothes.",
+          "explanation_burmese": "",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "id": "unit49-ex7",
+      "type": "multiple_choice",
+      "instructions": "Choose the correct part of the body for each description.",
+      "questions": [
+        {
+          "id": 4931,
+          "question": "Which body part do you see with?",
+          "options": ["ear", "nose", "eye"],
+          "answer": "eye",
+          "explanation": "Eyes are the body parts used for seeing.",
+          "explanation_burmese": "",
+          "points": 1
+        },
+        {
+          "id": 4932,
+          "question": "Which body part is used for hearing?",
+          "options": ["ear", "mouth", "shoulder"],
+          "explanation": "Ears are used for hearing sounds.",
+          "answer": "ear",
+          "explanation_burmese": "",
+          "points": 1
+        },
+        {
+          "id": 4933,
+          "question": "Which body part bends in the middle of your leg?",
+          "options": ["ankle", "knee", "wrist"],
+          "answer": "knee",
+          "explanation": "The knee is the joint in the middle of your leg that bends.",
+          "explanation_burmese": "",
+          "points": 1
+        },
+        {
+          "id": 4934,
+          "question": "Which body part do you use to hold things?",
+          "options": ["hand", "foot", "head"],
+          "answer": "hand",
+          "explanation": "Hands are used to hold, touch, and grab things.",
+          "explanation_burmese": "",
+          "points": 1
+        },
+        {
+          "id": 4935,
+          "question": "Where is your stomach located?",
+          "options": ["on your head", "on your chest", "in the middle of your body"],
+          "answer": "in the middle of your body",
+          "explanation": "The stomach is located in the middle part of the body, below the chest.",
+          "explanation_burmese": "",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "id": "unit49-ex8",
+      "type": "multiple_choice",
+      "instructions": "Choose the correct physical activity for each description.",
+      "questions": [
+        {
+          "id": 4936,
+          "question": "What do you do when you move quickly on your feet?",
+          "options": ["swim", "run", "ski"],
+          "answer": "run",
+          "explanation": "Running means moving quickly on your feet.",
+          "explanation_burmese": "",
+          "points": 1
+        },
+        {
+          "id": 4937,
+          "question": "What do you do in water without sinking?",
+          "options": ["jump", "ride", "swim"],
+          "answer": "swim",
+          "explanation": "Swimming means moving through water without sinking.",
+          "explanation_burmese": "",
+          "points": 1
+        },
+        {
+          "id": 4938,
+          "question": "What do you do when you use your foot to hit a ball?",
+          "options": ["kick", "hit", "climb"],
+          "answer": "kick",
+          "explanation": "Kicking means hitting something with your foot.",
+          "explanation_burmese": "",
+          "points": 1
+        },
+        {
+          "id": 4939,
+          "question": "What do you do when you go up a mountain or wall?",
+          "options": ["fall", "climb", "dive"],
+          "answer": "climb",
+          "explanation": "Climbing means going up a mountain, wall, or other high structure.",
+          "explanation_burmese": "",
+          "points": 1
+        },
+        {
+          "id": 4940,
+          "question": "What do you do on ice with special boots?",
+          "options": ["ski", "skate", "ride"],
+          "answer": "skate",
+          "explanation": "Skating means moving on ice wearing special boots with blades.",
+          "explanation_burmese": "",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "id": "unit49-ex9",
+      "type": "multiple_choice",
+      "instructions": "Choose the correct sport for each description.",
+      "questions": [
+        {
+          "id": 4941,
+          "question": "Which sport uses a bat and ball on a diamond-shaped field?",
+          "options": ["baseball", "tennis", "golf"],
+          "answer": "baseball",
+          "explanation": "Baseball is played with a bat and ball on a diamond-shaped field.",
+          "explanation_burmese": "",
+          "points": 1
+        },
+        {
+          "id": 4942,
+          "question": "Which sport involves jumping on a horse?",
+          "options": ["cycling", "horse-riding", "skiing"],
+          "answer": "horse-riding",
+          "explanation": "Horse-riding involves riding and jumping on a horse.",
+          "explanation_burmese": "",
+          "points": 1
+        },
+        {
+          "id": 4943,
+          "question": "Which sport is played in a pool with cues and balls?",
+          "options": ["volleyball", "swimming", "table tennis"],
+          "answer": "table tennis",
+          "explanation": "Table tennis, also known as ping pong, is played on a table with paddles and a ball.",
+          "explanation_burmese": "",
+          "points": 1
+        },
+        {
+          "id": 4944,
+          "question": "Which sport involves moving through water in the sea?",
+          "options": ["sailing", "fishing", "climbing"],
+          "answer": "sailing",
+          "explanation": "Sailing involves traveling through water on a boat with sails.",
+          "explanation_burmese": "",
+          "points": 1
+        },
+        {
+          "id": 4945,
+          "question": "Which sport involves two people hitting a ball over a net?",
+          "options": ["rugby", "tennis", "diving"],
+          "answer": "tennis",
+          "explanation": "Tennis is played by two people (or pairs) hitting a ball over a net.",
+          "explanation_burmese": "",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "id": "unit49-ex10",
+      "type": "multiple_choice",
+      "instructions": "Choose the correct nationality for each country.",
+      "questions": [
+        {
+          "id": 4946,
+          "question": "Someone from Japan is called a...",
+          "options": ["Chinese", "Japanese", "Korean"],
+          "answer": "Japanese",
+          "explanation": "People from Japan are called Japanese.",
+          "explanation_burmese": "",
+          "points": 1
+        },
+        {
+          "id": 4947,
+          "question": "Someone from Brazil is called a...",
+          "options": ["Argentinian", "Mexican", "Brazilian"],
+          "answer": "Brazilian",
+          "explanation": "People from Brazil are called Brazilian.",
+          "explanation_burmese": "",
+          "points": 1
+        },
+        {
+          "id": 4948,
+          "question": "Someone from Poland is called a...",
+          "options": ["Polish", "Russian", "Czech"],
+          "answer": "Polish",
+          "explanation": "People from Poland are called Polish.",
+          "explanation_burmese": "",
+          "points": 1
+        },
+        {
+          "id": 4949,
+          "question": "Someone from Egypt is called a...",
+          "options": ["Turkish", "Egyptian", "Peruvian"],
+          "answer": "Egyptian",
+          "explanation": "People from Egypt are called Egyptian.",
+          "explanation_burmese": "",
+          "points": 1
+        },
+        {
+          "id": 4950,
+          "question": "Someone from Spain is called a...",
+          "options": ["Spanish", "Italian", "Greek"],
+          "answer": "Spanish",
+          "explanation": "People from Spain are called Spanish.",
+          "explanation_burmese": "",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "id": "unit49-ex11",
+      "type": "multiple_choice",
+      "instructions": "Choose the correct word connected with tourism for each description.",
+      "questions": [
+        {
+          "id": 4951,
+          "question": "What do you need to travel to another country?",
+          "options": ["souvenir", "passport", "guidebook"],
+          "answer": "passport",
+          "explanation": "A passport is an official document needed to travel to another country.",
+          "explanation_burmese": "",
+          "points": 1
+        },
+        {
+          "id": 4952,
+          "question": "What do you buy to enter a concert or museum?",
+          "options": ["luggage", "tickets", "souvenir"],
+          "answer": "tickets",
+          "explanation": "Tickets are bought to enter events, concerts, museums, and transport.",
+          "explanation_burmese": "",
+          "points": 1
+        },
+        {
+          "id": 4953,
+          "question": "What is a book that helps tourists find their way around?",
+          "options": ["luggage", "guidebook", "package holiday"],
+          "answer": "guidebook",
+          "explanation": "A guidebook is a book that gives tourists information about a place.",
+          "explanation_burmese": "",
+          "points": 1
+        },
+        {
+          "id": 4954,
+          "question": "What do you buy to remember a holiday?",
+          "options": ["souvenir", "tickets", "passport"],
+          "answer": "souvenir",
+          "explanation": "A souvenir is something you buy to remember a holiday or trip.",
+          "explanation_burmese": "",
+          "points": 1
+        },
+        {
+          "id": 4955,
+          "question": "What is a trip where flights, hotel, and food are all included?",
+          "options": ["sightseeing", "package holiday", "excursion"],
+          "answer": "package holiday",
+          "explanation": "A package holiday includes flights, hotel, and meals all together.",
+          "explanation_burmese": "",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "id": "unit49-ex12",
+      "type": "multiple_choice",
+      "instructions": "Choose the correct type of transport for each description.",
+      "questions": [
+        {
+          "id": 4956,
+          "question": "Which transport flies in the sky?",
+          "options": ["bus", "plane", "boat"],
+          "answer": "plane",
+          "explanation": "A plane is a vehicle that flies through the sky.",
+          "explanation_burmese": "",
+          "points": 1
+        },
+        {
+          "id": 4957,
+          "question": "Which transport travels on rails?",
+          "options": ["car", "coach", "train"],
+          "answer": "train",
+          "explanation": "A train travels on rails along a railway track.",
+          "explanation_burmese": "",
+          "points": 1
+        },
+        {
+          "id": 4958,
+          "question": "Which transport is the smallest and goes on two wheels?",
+          "options": ["bus", "moped", "ship"],
+          "answer": "moped",
+          "explanation": "A moped is a small motorized vehicle with two wheels.",
+          "explanation_burmese": "",
+          "points": 1
+        },
+        {
+          "id": 4959,
+          "question": "Which transport travels on water and is large?",
+          "options": ["van", "ship", "lorry"],
+          "answer": "ship",
+          "explanation": "A ship is a large vehicle that travels on water.",
+          "explanation_burmese": "",
+          "points": 1
+        },
+        {
+          "id": 4960,
+          "question": "Which transport has four wheels and carries passengers on the road?",
+          "options": ["car", "tram", "bike"],
+          "answer": "car",
+          "explanation": "A car is a four-wheeled vehicle used for road transport.",
+          "explanation_burmese": "",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "id": "unit49-ex13",
+      "type": "multiple_choice",
+      "instructions": "Choose the correct place of work for each description.",
+      "questions": [
+        {
+          "id": 4961,
+          "question": "Where do people who make things work?",
+          "options": ["office", "factory", "studio"],
+          "answer": "factory",
+          "explanation": "A factory is where products are made by workers.",
+          "explanation_burmese": "",
+          "points": 1
+        },
+        {
+          "id": 4962,
+          "question": "Where do people who treat sick people work?",
+          "options": ["hospital", "restaurant", "clinic"],
+          "answer": "hospital",
+          "explanation": "A hospital is where doctors and nurses treat sick people.",
+          "explanation_burmese": "",
+          "points": 1
+        },
+        {
+          "id": 4963,
+          "question": "Where do teachers and students go?",
+          "options": ["shop", "school", "studio"],
+          "answer": "school",
+          "explanation": "A school is where teachers teach and students learn.",
+          "explanation_burmese": "",
+          "points": 1
+        },
+        {
+          "id": 4964,
+          "question": "Where do people buy food and drink to eat?",
+          "options": ["restaurant", "factory", "office"],
+          "answer": "restaurant",
+          "explanation": "A restaurant is where people pay to eat meals prepared by a cook.",
+          "explanation_burmese": "",
+          "points": 1
+        },
+        {
+          "id": 4965,
+          "question": "Where do artists create paintings and sculptures?",
+          "options": ["studio", "clinic", "garage"],
+          "answer": "studio",
+          "explanation": "A studio is where artists create their work, such as paintings or music.",
+          "explanation_burmese": "",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "id": "unit49-ex14",
+      "type": "multiple_choice",
+      "instructions": "Choose the correct job for each description.",
+      "questions": [
+        {
+          "id": 4966,
+          "question": "Who looks after patients in a hospital?",
+          "options": ["nurse", "secretary", "waiter"],
+          "answer": "nurse",
+          "explanation": "A nurse looks after patients in a hospital.",
+          "explanation_burmese": "",
+          "points": 1
+        },
+        {
+          "id": 4967,
+          "question": "Who repairs cars?",
+          "options": ["builder", "mechanic", "engineer"],
+          "answer": "mechanic",
+          "explanation": "A mechanic repairs and maintains vehicles.",
+          "explanation_burmese": "",
+          "points": 1
+        },
+        {
+          "id": 4968,
+          "question": "Who teaches students in a school?",
+          "options": ["doctor", "teacher", "farmer"],
+          "answer": "teacher",
+          "explanation": "A teacher teaches students in a school.",
+          "explanation_burmese": "",
+          "points": 1
+        },
+        {
+          "id": 4969,
+          "question": "Who serves food and drink to customers in a restaurant?",
+          "options": ["chef", "waiter", "journalist"],
+          "answer": "waiter",
+          "explanation": "A waiter serves food and drink to customers in a restaurant.",
+          "explanation_burmese": "",
+          "points": 1
+        },
+        {
+          "id": 4970,
+          "question": "Who writes articles for newspapers?",
+          "options": ["journalist", "dentist", "artist"],
+          "answer": "journalist",
+          "explanation": "A journalist writes articles and reports for newspapers and media.",
+          "explanation_burmese": "",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "id": "unit49-ex15",
+      "type": "multiple_choice",
+      "instructions": "Choose the correct word connected with culture and work.",
+      "questions": [
+        {
+          "id": 4971,
+          "question": "Who writes plays for the theatre?",
+          "options": ["poet", "playwright", "painter"],
+          "answer": "playwright",
+          "explanation": "A playwright is a person who writes plays for the theatre.",
+          "explanation_burmese": "",
+          "points": 1
+        },
+        {
+          "id": 4972,
+          "question": "Who writes poems?",
+          "options": ["novelist", "poet", "dancer"],
+          "answer": "poet",
+          "explanation": "A poet is a person who writes poems.",
+          "explanation_burmese": "",
+          "points": 1
+        },
+        {
+          "id": 4973,
+          "question": "Who creates paintings and artworks?",
+          "options": ["composer", "director", "painter"],
+          "answer": "painter",
+          "explanation": "A painter is a person who creates paintings and artworks.",
+          "explanation_burmese": "",
+          "points": 1
+        },
+        {
+          "id": 4974,
+          "question": "Who writes novels and longer works of fiction?",
+          "options": ["novelist", "musician", "singer"],
+          "answer": "novelist",
+          "explanation": "A novelist is a person who writes novels.",
+          "explanation_burmese": "",
+          "points": 1
+        },
+        {
+          "id": 4975,
+          "question": "Who creates music and compositions?",
+          "options": ["dancer", "composer", "actor"],
+          "answer": "composer",
+          "explanation": "A composer is a person who creates and writes music.",
+          "explanation_burmese": "",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "id": "unit49-ex16",
+      "type": "multiple_choice",
+      "instructions": "Choose the correct container for each item.",
+      "questions": [
+        {
+          "id": 4976,
+          "question": "Water usually comes in a...",
+          "options": ["packet", "bottle", "slice"],
+          "answer": "bottle",
+          "explanation": "Water usually comes in a bottle of water.",
+          "explanation_burmese": "",
+          "points": 1
+        },
+        {
+          "id": 4977,
+          "question": "Biscuits usually come in a...",
+          "options": ["can", "carton", "packet"],
+          "answer": "packet",
+          "explanation": "Biscuits usually come in a packet of biscuits.",
+          "explanation_burmese": "",
+          "points": 1
+        },
+        {
+          "id": 4978,
+          "question": "Orange juice often comes in a...",
+          "options": ["carton", "slice", "bottle"],
+          "answer": "carton",
+          "explanation": "Orange juice often comes in a carton of orange juice.",
+          "explanation_burmese": "",
+          "points": 1
+        },
+        {
+          "id": 4979,
+          "question": "Fizzy drinks like cola come in a...",
+          "options": ["glass", "can", "carton"],
+          "answer": "can",
+          "explanation": "Fizzy drinks like cola come in a can of fizzy drink.",
+          "explanation_burmese": "",
+          "points": 1
+        },
+        {
+          "id": 4980,
+          "question": "Pizza is often served as a...",
+          "options": ["slice", "can", "cup"],
+          "answer": "slice",
+          "explanation": "A slice of pizza is a single piece cut from a whole pizza.",
+          "explanation_burmese": "",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "id": "unit49-ex17",
+      "type": "multiple_choice",
+      "instructions": "Choose the correct wild animal or insect for each description.",
+      "questions": [
+        {
+          "id": 4981,
+          "question": "Which animal has black and yellow stripes and makes honey?",
+          "options": ["spider", "bee", "scorpion"],
+          "answer": "bee",
+          "explanation": "A bee has black and yellow stripes and produces honey.",
+          "explanation_burmese": "",
+          "points": 1
+        },
+        {
+          "id": 4982,
+          "question": "Which animal is a large cat with orange and black stripes?",
+          "options": ["wolf", "tiger", "bear"],
+          "answer": "tiger",
+          "explanation": "A tiger is a large cat with distinctive orange and black stripes.",
+          "explanation_burmese": "",
+          "points": 1
+        },
+        {
+          "id": 4983,
+          "question": "Which creature has eight legs and spins webs?",
+          "options": ["snake", "lizard", "spider"],
+          "answer": "spider",
+          "explanation": "A spider has eight legs and is known for spinning webs.",
+          "explanation_burmese": "",
+          "points": 1
+        },
+        {
+          "id": 4984,
+          "question": "Which animal lives in water and has sharp teeth?",
+          "options": ["shark", "eagle", "wolf"],
+          "answer": "shark",
+          "explanation": "A shark lives in the sea and has sharp teeth.",
+          "explanation_burmese": "",
+          "points": 1
+        },
+        {
+          "id": 4985,
+          "question": "Which animal flies high in the sky and has sharp eyes?",
+          "options": ["tiger", "eagle", "bear"],
+          "answer": "eagle",
+          "explanation": "An eagle is a bird that flies high and has very sharp eyesight.",
+          "explanation_burmese": "",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "id": "unit49-ex18",
+      "type": "multiple_choice",
+      "instructions": "Choose the correct feature of the natural world for each description.",
+      "questions": [
+        {
+          "id": 4986,
+          "question": "A large body of fresh water surrounded by land is called a...",
+          "options": ["river", "lake", "field"],
+          "answer": "lake",
+          "explanation": "A lake is a large body of fresh water surrounded by land.",
+          "explanation_burmese": "",
+          "points": 1
+        },
+        {
+          "id": 4987,
+          "question": "What is a very tall natural elevation of the earth's surface?",
+          "options": ["valley", "mountain", "island"],
+          "answer": "mountain",
+          "explanation": "A mountain is a very tall natural elevation of the earth's surface.",
+          "explanation_burmese": "",
+          "points": 1
+        },
+        {
+          "id": 4988,
+          "question": "Where do you find trees growing together in a large area?",
+          "options": ["forest", "hill", "sky"],
+          "answer": "forest",
+          "explanation": "A forest is a large area covered with many trees.",
+          "explanation_burmese": "",
+          "points": 1
+        },
+        {
+          "id": 4989,
+          "question": "What is land completely surrounded by water called?",
+          "options": ["valley", "island", "waterfall"],
+          "answer": "island",
+          "explanation": "An island is land completely surrounded by water.",
+          "explanation_burmese": "",
+          "points": 1
+        },
+        {
+          "id": 4990,
+          "question": "What do you call water falling from a height in nature?",
+          "options": ["river", "waterfall", "lake"],
+          "answer": "waterfall",
+          "explanation": "A waterfall is water falling from a height in nature.",
+          "explanation_burmese": "",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "id": "unit49-ex19",
+      "type": "multiple_choice",
+      "instructions": "Choose the correct weather word for each description.",
+      "questions": [
+        {
+          "id": 4991,
+          "question": "When water falls from clouds, what is the weather?",
+          "options": ["windy", "rainy", "sunny"],
+          "answer": "rainy",
+          "explanation": "Rainy weather means water falls from clouds.",
+          "explanation_burmese": "",
+          "points": 1
+        },
+        {
+          "id": 4992,
+          "question": "When the sun is shining and the sky is clear, the weather is...",
+          "options": ["sunny", "cloudy", "stormy"],
+          "answer": "sunny",
+          "explanation": "Sunny weather means the sun is shining and the sky is clear.",
+          "explanation_burmese": "",
+          "points": 1
+        },
+        {
+          "id": 4993,
+          "question": "When it snows, the weather is called...",
+          "options": ["foggy", "snowy", "dry"],
+          "answer": "snowy",
+          "explanation": "Snowy weather means snow is falling from the sky.",
+          "explanation_burmese": "",
+          "points": 1
+        },
+        {
+          "id": 4994,
+          "question": "When strong winds blow and there is thunder, what is the weather?",
+          "options": ["warm", "stormy", "hot"],
+          "answer": "stormy",
+          "explanation": "Stormy weather includes strong winds, thunder, and lightning.",
+          "explanation_burmese": "",
+          "points": 1
+        },
+        {
+          "id": 4995,
+          "question": "When you cannot see far because of thick cloud near the ground, the weather is...",
+          "options": ["dry", "windy", "foggy"],
+          "answer": "foggy",
+          "explanation": "Foggy weather means thick cloud is near the ground and you cannot see far.",
+          "explanation_burmese": "",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "id": "unit49-ex20",
+      "type": "multiple_choice",
+      "instructions": "Choose the correct feeling for each description.",
+      "questions": [
+        {
+          "id": 4996,
+          "question": "When something unexpected happens, how might you feel?",
+          "options": ["tired", "surprised", "bored"],
+          "answer": "surprised",
+          "explanation": "Feeling surprised means something unexpected has happened.",
+          "explanation_burmese": "",
+          "points": 1
+        },
+        {
+          "id": 4997,
+          "question": "When you have nothing interesting to do, you feel...",
+          "options": ["excited", "bored", "happy"],
+          "answer": "bored",
+          "explanation": "Feeling bored means you have nothing interesting to do.",
+          "explanation_burmese": "",
+          "points": 1
+        },
+        {
+          "id": 4998,
+          "question": "When something bad happens and you feel unhappy, you are...",
+          "options": ["disappointed", "excited", "relaxed"],
+          "answer": "disappointed",
+          "explanation": "Feeling disappointed means you are unhappy because something did not go well.",
+          "explanation_burmese": "",
+          "points": 1
+        },
+        {
+          "id": 4999,
+          "question": "When you are calm and not worried, you feel...",
+          "options": ["stressed", "angry", "relaxed"],
+          "answer": "relaxed",
+          "explanation": "Feeling relaxed means you are calm and not worried.",
+          "explanation_burmese": "",
+          "points": 1
+        },
+        {
+          "id": 5000,
+          "question": "When you are afraid of something, you feel...",
+          "options": ["frightened", "interested", "happy"],
+          "answer": "frightened",
+          "explanation": "Feeling frightened means you are afraid of something.",
+          "explanation_burmese": "",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "id": "unit49-ex21",
+      "type": "multiple_choice",
+      "instructions": "Choose the correct personality trait for each description.",
+      "questions": [
+        {
+          "id": 5001,
+          "question": "Someone who always works hard is...",
+          "options": ["lazy", "hard-working", "quiet"],
+          "answer": "hard-working",
+          "explanation": "A hard-working person always puts effort into their work.",
+          "explanation_burmese": "",
+          "points": 1
+        },
+        {
+          "id": 5002,
+          "question": "Someone who is very clever and good at learning is...",
+          "options": ["cheerful", "lazy", "intelligent"],
+          "answer": "intelligent",
+          "explanation": "An intelligent person is very clever and good at learning.",
+          "explanation_burmese": "",
+          "points": 1
+        },
+        {
+          "id": 5003,
+          "question": "Someone who does not talk much is...",
+          "options": ["serious", "quiet", "cheerful"],
+          "answer": "quiet",
+          "explanation": "A quiet person does not talk much.",
+          "explanation_burmese": "",
+          "points": 1
+        },
+        {
+          "id": 5004,
+          "question": "Someone who is always happy and smiles a lot is...",
+          "options": ["cheerful", "serious", "lazy"],
+          "answer": "cheerful",
+          "explanation": "A cheerful person is always happy and smiles a lot.",
+          "explanation_burmese": "",
+          "points": 1
+        },
+        {
+          "id": 5005,
+          "question": "Someone who always does what they are supposed to do is...",
+          "options": ["lazy", "responsible", "angry"],
+          "answer": "responsible",
+          "explanation": "A responsible person always does what they are supposed to do.",
+          "explanation_burmese": "",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "id": "unit49-ex22",
+      "type": "multiple_choice",
+      "instructions": "Choose the correct social problem for each description.",
+      "questions": [
+        {
+          "id": 5006,
+          "question": "When people do not have enough food, the problem is...",
+          "options": ["pollution", "hunger", "unemployment"],
+          "answer": "hunger",
+          "explanation": "Hunger is the social problem when people do not have enough food.",
+          "explanation_burmese": "",
+          "points": 1
+        },
+        {
+          "id": 5007,
+          "question": "When people do not have jobs, the problem is...",
+          "options": ["violence", "homelessness", "unemployment"],
+          "answer": "unemployment",
+          "explanation": "Unemployment is the problem when people do not have jobs.",
+          "explanation_burmese": "",
+          "points": 1
+        },
+        {
+          "id": 5008,
+          "question": "When the air and water are dirty, the problem is...",
+          "options": ["crime", "poverty", "pollution"],
+          "answer": "pollution",
+          "explanation": "Pollution is the problem when the air, water, or land is dirty.",
+          "explanation_burmese": "",
+          "points": 1
+        },
+        {
+          "id": 5009,
+          "question": "When people do not have enough money to live, the problem is...",
+          "options": ["poverty", "crime", "hunger"],
+          "answer": "poverty",
+          "explanation": "Poverty is the social problem when people do not have enough money to live.",
+          "explanation_burmese": "",
+          "points": 1
+        },
+        {
+          "id": 5010,
+          "question": "When people hurt or harm others, the problem is...",
+          "options": ["violence", "pollution", "homelessness"],
+          "answer": "violence",
+          "explanation": "Violence is the social problem when people hurt or harm others.",
+          "explanation_burmese": "",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "id": "unit49-ex23",
+      "type": "multiple_choice",
+      "instructions": "Choose the correct item of clothing for each description.",
+      "questions": [
+        {
+          "id": 5011,
+          "question": "What do you wear on your legs and feet?",
+          "options": ["jacket", "trousers", "shirt"],
+          "answer": "trousers",
+          "explanation": "Trousers are worn on the legs and cover the lower body.",
+          "explanation_burmese": "",
+          "points": 1
+        },
+        {
+          "id": 5012,
+          "question": "What do women wear as a one-piece garment for the body?",
+          "options": ["shorts", "dress", "jumper"],
+          "answer": "dress",
+          "explanation": "A dress is a one-piece garment worn mainly by women.",
+          "explanation_burmese": "",
+          "points": 1
+        },
+        {
+          "id": 5013,
+          "question": "What do you wear over a shirt when it is cold?",
+          "options": ["sweatshirt", "belt", "hat"],
+          "answer": "sweatshirt",
+          "explanation": "A sweatshirt is worn over a shirt to keep warm.",
+          "explanation_burmese": "",
+          "points": 1
+        },
+        {
+          "id": 5014,
+          "question": "What do men wear around their neck with a suit?",
+          "options": ["scarf", "tie", "jewellery"],
+          "answer": "tie",
+          "explanation": "A tie is worn around the neck with a suit, usually by men.",
+          "explanation_burmese": "",
+          "points": 1
+        },
+        {
+          "id": 5015,
+          "question": "What is a warm outer garment worn in winter?",
+          "options": ["jeans", "coat", "shorts"],
+          "answer": "coat",
+          "explanation": "A coat is a warm outer garment worn in cold weather.",
+          "explanation_burmese": "",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "id": "unit49-ex24",
+      "type": "multiple_choice",
+      "instructions": "Choose the correct accessory for each description.",
+      "questions": [
+        {
+          "id": 5016,
+          "question": "What do you wear on your head to protect from the sun?",
+          "options": ["belt", "hat", "watch"],
+          "answer": "hat",
+          "explanation": "A hat is worn on the head for protection or fashion.",
+          "explanation_burmese": "",
+          "points": 1
+        },
+        {
+          "id": 5017,
+          "question": "What do you wear to protect your eyes from the sun?",
+          "options": ["glasses", "sunglasses", "scarf"],
+          "answer": "sunglasses",
+          "explanation": "Sunglasses protect your eyes from the sun's bright light.",
+          "explanation_burmese": "",
+          "points": 1
+        },
+        {
+          "id": 5018,
+          "question": "What do you wear around your waist to hold up trousers?",
+          "options": ["scarf", "belt", "jewellery"],
+          "answer": "belt",
+          "explanation": "A belt is worn around the waist to hold up trousers.",
+          "explanation_burmese": "",
+          "points": 1
+        },
+        {
+          "id": 5019,
+          "question": "What do you wear around your neck to keep warm?",
+          "options": ["watch", "hat", "scarf"],
+          "answer": "scarf",
+          "explanation": "A scarf is worn around the neck to keep warm in cold weather.",
+          "explanation_burmese": "",
+          "points": 1
+        },
+        {
+          "id": 5020,
+          "question": "What do you look at to tell the time?",
+          "options": ["glasses", "belt", "watch"],
+          "answer": "watch",
+          "explanation": "A watch is worn on the wrist to tell the time.",
+          "explanation_burmese": "",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "id": "unit49-ex25",
+      "type": "multiple_choice",
+      "instructions": "Choose the correct type of shop for each description.",
+      "questions": [
+        {
+          "id": 5021,
+          "question": "Where do you buy bread and cakes?",
+          "options": ["bakery", "butcher's", "bank"],
+          "answer": "bakery",
+          "explanation": "A bakery is where you buy bread, cakes, and other baked goods.",
+          "explanation_burmese": "",
+          "points": 1
+        },
+        {
+          "id": 5022,
+          "question": "Where do you buy meat?",
+          "options": ["greengrocer's", "butcher's", "bakery"],
+          "answer": "butcher's",
+          "explanation": "A butcher's shop is where you buy meat.",
+          "explanation_burmese": "",
+          "points": 1
+        },
+        {
+          "id": 5023,
+          "question": "Where do you buy vegetables and fruit?",
+          "options": ["supermarket", "greengrocer's", "chemist's"],
+          "answer": "greengrocer's",
+          "explanation": "A greengrocer's is where you buy vegetables and fruit.",
+          "explanation_burmese": "",
+          "points": 1
+        },
+        {
+          "id": 5024,
+          "question": "Where do you buy medicine?",
+          "options": ["newsagent's", "chemist's", "stationery shop"],
+          "answer": "chemist's",
+          "explanation": "A chemist's shop is where you buy medicine and health products.",
+          "explanation_burmese": "",
+          "points": 1
+        },
+        {
+          "id": 5025,
+          "question": "Where do you send and collect letters?",
+          "options": ["bookshop", "post office", "department store"],
+          "answer": "post office",
+          "explanation": "A post office is where you send and collect letters and packages.",
+          "explanation_burmese": "",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "id": "unit49-ex26",
+      "type": "multiple_choice",
+      "instructions": "Choose the correct age or stage of life for each description.",
+      "questions": [
+        {
+          "id": 5026,
+          "question": "A person who is 15 years old is called a...",
+          "options": ["young adult", "teenager", "child"],
+          "answer": "teenager",
+          "explanation": "A teenager is someone between 13 and 19 years old.",
+          "explanation_burmese": "",
+          "points": 1
+        },
+        {
+          "id": 5027,
+          "question": "A person who is 70 years old is called a...",
+          "options": ["middle-aged", "baby", "senior citizen"],
+          "answer": "senior citizen",
+          "explanation": "A senior citizen is someone who is 65 years old or older.",
+          "explanation_burmese": "",
+          "points": 1
+        },
+        {
+          "id": 5028,
+          "question": "A person who is 25 years old is called a...",
+          "options": ["young adult", "child", "senior citizen"],
+          "answer": "young adult",
+          "explanation": "A young adult is someone between 20 and 34 years old.",
+          "explanation_burmese": "",
+          "points": 1
+        },
+        {
+          "id": 5029,
+          "question": "A person who is 50 years old is called...",
+          "options": ["middle-aged", "teenager", "young adult"],
+          "answer": "middle-aged",
+          "explanation": "A middle-aged person is someone between 35 and 64 years old.",
+          "explanation_burmese": "",
+          "points": 1
+        },
+        {
+          "id": 5030,
+          "question": "A person who is 2 years old is called a...",
+          "options": ["child", "baby", "teenager"],
+          "answer": "baby",
+          "explanation": "A baby is a very young child, usually from birth to 3 years old.",
+          "explanation_burmese": "",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "id": "unit49-ex27",
+      "type": "multiple_choice",
+      "instructions": "Choose the correct family member for each description.",
+      "questions": [
+        {
+          "id": 5031,
+          "question": "Your mother's mother is your...",
+          "options": ["aunt", "grandmother", "niece"],
+          "answer": "grandmother",
+          "explanation": "Your mother's mother is your grandmother.",
+          "explanation_burmese": "",
+          "points": 1
+        },
+        {
+          "id": 5032,
+          "question": "Your father's brother is your...",
+          "options": ["nephew", "cousin", "uncle"],
+          "answer": "uncle",
+          "explanation": "Your father's brother is your uncle.",
+          "explanation_burmese": "",
+          "points": 1
+        },
+        {
+          "id": 5033,
+          "question": "Your sister's son is your...",
+          "options": ["grandson", "nephew", "niece"],
+          "answer": "nephew",
+          "explanation": "Your sister's son is your nephew.",
+          "explanation_burmese": "",
+          "points": 1
+        },
+        {
+          "id": 5034,
+          "question": "Your uncle's daughter is your...",
+          "options": ["niece", "cousin", "daughter"],
+          "answer": "cousin",
+          "explanation": "Your uncle's or aunt's daughter is your cousin.",
+          "explanation_burmese": "",
+          "points": 1
+        },
+        {
+          "id": 5035,
+          "question": "A person you live with but are not married to is called your...",
+          "options": ["wife", "partner", "brother"],
+          "answer": "partner",
+          "explanation": "A partner is someone you live with but are not married to.",
+          "explanation_burmese": "",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "id": "unit49-ex28",
+      "type": "multiple_choice",
+      "instructions": "Choose the correct crime or criminal for each description.",
+      "questions": [
+        {
+          "id": 5036,
+          "question": "A person who breaks into houses to steal things is a...",
+          "options": ["burglar", "vandal", "shoplifter"],
+          "answer": "burglar",
+          "explanation": "A burglar breaks into houses or buildings to steal things.",
+          "explanation_burmese": "",
+          "points": 1
+        },
+        {
+          "id": 5037,
+          "question": "Taking things from a shop without paying is called...",
+          "options": ["robbery", "shoplifting", "burglary"],
+          "answer": "shoplifting",
+          "explanation": "Shoplifting is taking things from a shop without paying.",
+          "explanation_burmese": "",
+          "points": 1
+        },
+        {
+          "id": 5038,
+          "question": "A person who steals from shops is a...",
+          "options": ["burglar", "shoplifter", "robber"],
+          "answer": "shoplifter",
+          "explanation": "A shoplifter is a person who steals from shops.",
+          "explanation_burmese": "",
+          "points": 1
+        },
+        {
+          "id": 5039,
+          "question": "Breaking into a building to steal is called...",
+          "options": ["vandalism", "burglary", "fraud"],
+          "answer": "burglary",
+          "explanation": "Burglary is the crime of breaking into a building to steal.",
+          "explanation_burmese": "",
+          "points": 1
+        },
+        {
+          "id": 5040,
+          "question": "Damaging property on purpose is called...",
+          "options": ["theft", "vandalism", "fraud"],
+          "answer": "vandalism",
+          "explanation": "Vandalism is the crime of deliberately damaging property.",
+          "explanation_burmese": "",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "id": "unit49-ex29",
+      "type": "multiple_choice",
+      "instructions": "Choose the correct country, nationality, or language for each description.",
+      "questions": [
+        {
+          "id": 5041,
+          "question": "The official language of Japan is...",
+          "options": ["Chinese", "Korean", "Japanese"],
+          "answer": "Japanese",
+          "explanation": "The official language of Japan is Japanese.",
+          "explanation_burmese": "",
+          "points": 1
+        },
+        {
+          "id": 5042,
+          "question": "People from Switzerland are called...",
+          "options": ["Austrian", "Swiss", "Dutch"],
+          "answer": "Swiss",
+          "explanation": "People from Switzerland are called Swiss.",
+          "explanation_burmese": "",
+          "points": 1
+        },
+        {
+          "id": 5043,
+          "question": "The language spoken in Russia is...",
+          "options": ["Polish", "Russian", "Ukrainian"],
+          "answer": "Russian",
+          "explanation": "The language spoken in Russia is Russian.",
+          "explanation_burmese": "",
+          "points": 1
+        },
+        {
+          "id": 5044,
+          "question": "People from Austria are called...",
+          "options": ["German", "Austrian", "Swiss"],
+          "answer": "Austrian",
+          "explanation": "People from Austria are called Austrian.",
+          "explanation_burmese": "",
+          "points": 1
+        },
+        {
+          "id": 5045,
+          "question": "The official language of Egypt is...",
+          "options": ["French", "English", "Arabic"],
+          "answer": "Arabic",
+          "explanation": "The official language of Egypt is Arabic.",
+          "explanation_burmese": "",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "id": "unit49-ex30",
+      "type": "multiple_choice",
+      "instructions": "Choose the correct type of fiction for each description.",
+      "questions": [
+        {
+          "id": 5046,
+          "question": "A story with magic and imaginary worlds is called...",
+          "options": ["horror", "fantasy", "thriller"],
+          "answer": "fantasy",
+          "explanation": "Fantasy is a type of fiction with magic and imaginary worlds.",
+          "explanation_burmese": "",
+          "points": 1
+        },
+        {
+          "id": 5047,
+          "question": "A story intended to frighten people is called...",
+          "options": ["romance", "horror", "fairy tale"],
+          "answer": "horror",
+          "explanation": "Horror is a type of fiction intended to frighten readers.",
+          "explanation_burmese": "",
+          "points": 1
+        },
+        {
+          "id": 5048,
+          "question": "A story about a past time period is called...",
+          "options": ["science fiction", "historical fiction", "comic"],
+          "answer": "historical fiction",
+          "explanation": "Historical fiction is a story set in a past time period.",
+          "explanation_burmese": "",
+          "points": 1
+        },
+        {
+          "id": 5049,
+          "question": "A story set in the future with advanced technology is called...",
+          "options": ["thriller", "romance", "science fiction"],
+          "answer": "science fiction",
+          "explanation": "Science fiction is a story set in the future with advanced technology.",
+          "explanation_burmese": "",
+          "points": 1
+        },
+        {
+          "id": 5050,
+          "question": "A book with pictures and speech bubbles is called a...",
+          "options": ["novel", "comic", "poem"],
+          "answer": "comic",
+          "explanation": "A comic is a book with pictures and speech bubbles telling a story.",
+          "explanation_burmese": "",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "id": "unit49-ex31",
+      "type": "multiple_choice",
+      "instructions": "Choose the correct type of non-fiction book for each description.",
+      "questions": [
+        {
+          "id": 5051,
+          "question": "A book with maps of the world is called an...",
+          "options": ["encyclopaedia", "atlas", "manual"],
+          "answer": "atlas",
+          "explanation": "An atlas is a book containing maps of the world.",
+          "explanation_burmese": "",
+          "points": 1
+        },
+        {
+          "id": 5052,
+          "question": "A book about someone's life written by that person is called an...",
+          "options": ["biography", "autobiography", "magazine"],
+          "answer": "autobiography",
+          "explanation": "An autobiography is a book about someone's life written by that person.",
+          "explanation_burmese": "",
+          "points": 1
+        },
+        {
+          "id": 5053,
+          "question": "A book about someone's life written by another person is called a...",
+          "options": ["biography", "cookbook", "textbook"],
+          "answer": "biography",
+          "explanation": "A biography is a book about someone's life written by another person.",
+          "explanation_burmese": "",
+          "points": 1
+        },
+        {
+          "id": 5054,
+          "question": "A book with recipes for cooking is called a...",
+          "options": ["manual", "cookbook", "newspaper"],
+          "answer": "cookbook",
+          "explanation": "A cookbook is a book containing recipes and cooking instructions.",
+          "explanation_burmese": "",
+          "points": 1
+        },
+        {
+          "id": 5055,
+          "question": "A book that teaches students about a subject is called a...",
+          "options": ["textbook", "magazine", "atlas"],
+          "answer": "textbook",
+          "explanation": "A textbook is a book used by students to learn about a subject.",
+          "explanation_burmese": "",
+          "points": 1
+        }
+      ]
+    }
+  ]
+}
