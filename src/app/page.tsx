@@ -132,6 +132,9 @@ function StatCard({ icon, label, value }: { icon: React.ReactNode; label: string
 function ContinueCard({ unit, slug, title, answered, total, completed }: {
   unit: number; slug: string; title: string; answered: number; total: number; completed: boolean;
 }) {
+  const isWorkshop = unit === 48;
+  const detailHref = isWorkshop ? "/unit-48" : `/${slug}/practice`;
+
   return (
     <div className="bg-white rounded-2xl border border-[#e8e4df] p-6 sm:p-8 shadow-sm animate-fade-in">
       <div className="flex items-center gap-2 mb-3">
@@ -141,7 +144,7 @@ function ContinueCard({ unit, slug, title, answered, total, completed }: {
           </svg>
         </span>
         <span className="text-sm font-semibold text-[#e76f51] uppercase tracking-wider">
-          {completed ? "Review" : "Continue Learning"}
+          {completed ? (isWorkshop ? "Review Unit" : "Review") : "Continue Learning"}
         </span>
       </div>
       <h2 className="text-xl sm:text-2xl font-bold text-[#1a1f36] mb-2 font-serif">
@@ -150,7 +153,9 @@ function ContinueCard({ unit, slug, title, answered, total, completed }: {
       <p className="text-sm text-[#8b8fa3] mb-4">
         {completed
           ? `You scored ${answered} points. Review your answers or retry.`
-          : `${answered} of ${total} questions answered`}
+          : isWorkshop
+            ? `${answered} of ${total} questions answered`
+            : `${answered} of ${total} questions answered`}
       </p>
       {!completed && (
         <div className="mb-5">
@@ -164,10 +169,12 @@ function ContinueCard({ unit, slug, title, answered, total, completed }: {
       )}
       <div className="flex flex-wrap gap-3">
         <Link
-          href={`/${slug}/practice`}
+          href={detailHref}
           className="inline-flex items-center justify-center gap-2 bg-[#e76f51] text-white font-semibold px-5 py-2.5 rounded-xl hover:bg-[#d4603f] transition-all duration-200 shadow-sm text-sm focus-visible:ring-2 focus-visible:ring-[#e76f51] focus-visible:ring-offset-2"
         >
-          {completed ? "Retry Practice" : "Continue Practice"}
+          {isWorkshop
+            ? (completed ? "Review Unit" : "Open Unit")
+            : (completed ? "Retry Practice" : "Continue Practice")}
           <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
             <path strokeLinecap="round" strokeLinejoin="round" d="M13 7l5 5m0 0l-5 5m5-5H6" />
           </svg>
@@ -188,6 +195,8 @@ function UnitCard({ unit, title, description, answered, total, completed, score 
 }) {
   const slug = `unit-${unit}`;
   const accuracy = score && score.total > 0 ? Math.round((score.score / score.total) * 100) : 0;
+  const isWorkshop = unit === 48;
+  const primaryHref = isWorkshop ? "/unit-48" : `/${slug}/practice`;
 
   return (
     <div className="bg-white rounded-2xl border border-[#e8e4df] shadow-sm overflow-hidden hover:shadow-md transition-all duration-300 animate-fade-in">
@@ -231,14 +240,16 @@ function UnitCard({ unit, title, description, answered, total, completed, score 
 
         <div className="flex gap-2">
           <Link
-            href={`/${slug}/practice`}
+            href={primaryHref}
             className={`flex-1 inline-flex items-center justify-center gap-1.5 font-semibold px-4 py-2.5 rounded-xl transition-all duration-200 text-sm focus-visible:ring-2 focus-visible:ring-[#e76f51] focus-visible:ring-offset-2 ${
               completed
                 ? "bg-white text-[#2a9d8f] border-2 border-[#2a9d8f]/20 hover:bg-[#f0faf9] hover:border-[#2a9d8f]/40"
                 : "bg-[#e76f51] text-white hover:bg-[#d4603f]"
             }`}
           >
-            {completed ? "Review" : answered > 0 ? "Continue" : "Start"}
+            {isWorkshop
+              ? (completed ? "Review Unit" : answered > 0 ? "Open Unit" : "Start")
+              : (completed ? "Review" : answered > 0 ? "Continue" : "Start")}
             <svg className="w-3.5 h-3.5" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
               <path strokeLinecap="round" strokeLinejoin="round" d="M13 7l5 5m0 0l-5 5m5-5H6" />
             </svg>
