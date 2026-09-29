@@ -80,3 +80,6 @@ screenshots/
 
 # Source book PDFs
 books/EnglishGrammarForFellows/
+
+# Local source books - do not commit
+books/
