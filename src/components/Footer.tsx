@@ -59,7 +59,7 @@ export default function Footer() {
         </div>
         <div className="mt-8 pt-6 border-t border-border flex flex-col sm:flex-row items-center justify-between gap-3">
           <p className="text-xs text-ink-muted">
-            &copy; {new Date().getFullYear()} Grammar Fellows. All rights reserved.
+            &copy; {new Date().getFullYear()} Grammar Fellows. Third-party content belongs to its respective rights holders.
           </p>
           <p className="text-xs text-ink-muted">
             40 Units &middot; Interactive Exercises &middot; Myanmar Translations

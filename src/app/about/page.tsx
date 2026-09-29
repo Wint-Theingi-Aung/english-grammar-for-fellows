@@ -13,24 +13,23 @@ type TabId = (typeof TABS)[number]["id"];
 
 const references = [
   { label: "Retrieved from Diploma in English Course" },
-  { url: "https://www.perfect-english-grammar.com" },
-  { url: "https://www.usingenglish.com" },
-  { url: "https://learningenglish.voanews.com" },
-  { url: "https://www.talkenglish.com" },
-  { url: "https://www.crownacademyenglish.com" },
-  { url: "https://www.oxfordlearnersdictionaries.com" },
-  { url: "https://www.oxfordonlineenglish.com" },
-  { url: "https://www.kidslearningstation4u.com" },
-  { url: "https://www.learnesl.net" },
-  { url: "https://www.englishclub.com" },
-  { url: "https://www.wallstreetenglish.com" },
-  { url: "https://www.englishclub.com" },
-  { url: "https://www.ego4u.com" },
-  { url: "https://www.englisch-hilfen.de" },
-  { url: "https://www.learngrammar.net" },
-  { url: "https://www.englishgrammar.org" },
-  { url: "https://www.grammarbank.com" },
-  { url: "https://www.englishpractice.com" },
+  { url: "https://www.perfect-english-grammar.com", label: "Perfect English Grammar" },
+  { url: "https://www.usingenglish.com", label: "UsingEnglish" },
+  { url: "https://learningenglish.voanews.com", label: "VOA Learning English" },
+  { url: "https://www.talkenglish.com", label: "TalkEnglish" },
+  { url: "https://www.crownacademyenglish.com", label: "Crown Academy of English" },
+  { url: "https://www.oxfordlearnersdictionaries.com", label: "Oxford Learner's Dictionaries" },
+  { url: "https://www.oxfordonlineenglish.com", label: "Oxford Online English" },
+  { url: "https://www.kidslearningstation4u.com", label: "Kids Learning Station 4U" },
+  { url: "https://www.learnesl.net", label: "Learn ESL" },
+  { url: "https://www.englishclub.com", label: "EnglishClub" },
+  { url: "https://www.wallstreetenglish.com", label: "Wall Street English" },
+  { url: "https://www.ego4u.com", label: "Ego4u" },
+  { url: "https://www.englisch-hilfen.de", label: "Englisch-Hilfen" },
+  { url: "https://www.learngrammar.net", label: "LearnGrammar.net" },
+  { url: "https://www.englishgrammar.org", label: "EnglishGrammar.org" },
+  { url: "https://www.grammarbank.com", label: "GrammarBank" },
+  { url: "https://www.englishpractice.com", label: "EnglishPractice.com" },
 ];
 
 const steps = [
@@ -382,6 +381,21 @@ export default function AboutPage() {
                   >
                     References
                   </h2>
+                  <p
+                    className="text-sm sm:text-base leading-relaxed mb-6"
+                    style={{ color: "#3d4263" }}
+                  >
+                    Sources and content notice: This learning app was developed
+                    with reference to the educational sources listed below. Links
+                    are provided for attribution and further study. The
+                    application code is licensed separately from third-party
+                    educational content. Copyright and licensing rights for
+                    external text, examples, exercises, translations, images, and
+                    other materials remain with their respective owners. A source
+                    link does not grant permission to copy, redistribute, or use
+                    third-party content commercially. Please contact the project
+                    owner regarding attribution, correction, or removal requests.
+                  </p>
                   <ol className="space-y-3 text-sm sm:text-base">
                     {references.map((ref, index) => (
                       <li key={index} className="flex gap-3">
@@ -402,7 +416,7 @@ export default function AboutPage() {
                               onMouseEnter={(e) => (e.currentTarget.style.color = "#218579")}
                               onMouseLeave={(e) => (e.currentTarget.style.color = "#2a9d8f")}
                             >
-                              {ref.url}
+                              {ref.label || ref.url}
                             </a>
                           ) : (
                             <p style={{ color: "#1a1f36" }}>{ref.label}</p>

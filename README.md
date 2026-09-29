@@ -100,3 +100,13 @@ npm run validate  # Validate exercise data files
 - **Styling**: Tailwind CSS v4
 - **Database**: Neon PostgreSQL with Drizzle ORM
 - **Runtime**: React 19
+
+## License and third-party content
+
+The original application source code is licensed under the MIT License; see `LICENSE`.
+
+The educational content used by this application may include or be based on third-party books, websites, examples, exercises, translations, answer keys, images, and other materials. Those materials are not automatically covered by the MIT License. Copyright and licensing rights remain with their respective owners. Source links are provided for attribution and further study; a source link alone is not permission to copy, redistribute, or use material commercially.
+
+Where a source publishes an explicit license, follow that license for the applicable material. Where no explicit license is stated, treat the material as all rights reserved unless permission or another clearly applicable legal basis exists. Contact the project owner for attribution, correction, or removal requests.
+
+Do not state that the entire project is MIT licensed unless every included asset and content item is owned by the project owner or separately permitted under compatible terms.
