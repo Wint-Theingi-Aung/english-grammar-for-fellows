@@ -1,10 +1,12 @@
 "use client";
 
-import { useState } from "react";
+import { useState, useCallback, Suspense } from "react";
 import Link from "next/link";
+import { useRouter, useSearchParams } from "next/navigation";
 import { getLessonsData } from "@/lib/data";
 
 const UNIT = 48;
+const TOTAL_EXAMPLES = 14;
 
 interface TranslationExample {
   number: number;
@@ -20,28 +22,50 @@ function getExamples(): TranslationExample[] {
   return (data as unknown as { translationExamples: TranslationExample[] }).translationExamples ?? [];
 }
 
-export default function Unit48LessonPage() {
+function parseExampleParam(value: string | null): number {
+  if (value === null || value === undefined || value === "") return 1;
+  const num = Number(value);
+  if (!Number.isFinite(num)) return 1;
+  const intVal = Math.trunc(num);
+  if (intVal < 1 || intVal > TOTAL_EXAMPLES) return 1;
+  return intVal;
+}
+
+function WorkshopContent() {
+  const router = useRouter();
+  const searchParams = useSearchParams();
   const examples = getExamples();
   const total = examples.length;
 
-  const [currentIndex, setCurrentIndex] = useState(0);
+  const currentIndex = parseExampleParam(searchParams.get("example")) - 1;
   const [showTranslation, setShowTranslation] = useState(false);
   const [understood, setUnderstood] = useState<Record<number, boolean>>({});
 
   const current = examples[currentIndex];
 
+  const navigateToExample = useCallback(
+    (index: number) => {
+      const exampleNum = index + 1;
+      router.push(`/unit-48/lesson?example=${exampleNum}`, { scroll: false });
+      setShowTranslation(false);
+    },
+    [router]
+  );
+
   function handleNext() {
     if (currentIndex < total - 1) {
-      setCurrentIndex((i) => i + 1);
-      setShowTranslation(false);
+      navigateToExample(currentIndex + 1);
     }
   }
 
   function handlePrev() {
     if (currentIndex > 0) {
-      setCurrentIndex((i) => i - 1);
-      setShowTranslation(false);
+      navigateToExample(currentIndex - 1);
     }
+  }
+
+  function handleSelectExample(index: number) {
+    navigateToExample(index);
   }
 
   function handleToggleUnderstood() {
@@ -123,10 +147,7 @@ export default function Unit48LessonPage() {
             role="tab"
             aria-selected={ex.number === current.number}
             aria-label={`Example ${ex.number}: ${ex.topic}${understood[ex.number] ? " (understood)" : ""}`}
-            onClick={() => {
-              setCurrentIndex(ex.number - 1);
-              setShowTranslation(false);
-            }}
+            onClick={() => handleSelectExample(ex.number - 1)}
             className={`w-9 h-9 rounded-lg text-xs font-bold transition-all duration-200 focus-visible:ring-2 focus-visible:ring-primary-500 focus-visible:ring-offset-1 ${
               ex.number === current.number
                 ? "bg-primary-600 text-white shadow-md shadow-primary-600/20"
@@ -224,7 +245,6 @@ export default function Unit48LessonPage() {
         {/* English Translation */}
         {showTranslation && (
           <div id="translation-content" className="px-6 sm:px-8 pb-6 animate-fade-in">
-            {/* Full English Translation */}
             <div className="mb-6">
               <div className="mb-2 flex items-center gap-2">
                 <span className="text-xs font-semibold text-ink-muted uppercase tracking-wider">English Translation</span>
@@ -243,7 +263,6 @@ export default function Unit48LessonPage() {
                 ))}
               </div>
             </div>
-
           </div>
         )}
       </div>
@@ -299,12 +318,31 @@ export default function Unit48LessonPage() {
             className="inline-flex items-center gap-1.5 px-5 py-2.5 rounded-xl bg-primary-600 text-white font-semibold hover:bg-primary-700 transition-all duration-200 shadow-md shadow-primary-600/20 focus-visible:ring-2 focus-visible:ring-primary-400 focus-visible:ring-offset-2 text-sm"
           >
             Start Practice
-            <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2} aria-hidden="true">
+            <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
               <path strokeLinecap="round" strokeLinejoin="round" d="M13 7l5 5m0 0l-5 5m5-5H6" />
             </svg>
           </Link>
         )}
       </div>
     </div>
+  );
+}
+
+function LoadingFallback() {
+  return (
+    <div className="max-w-5xl mx-auto px-4 sm:px-6 py-10 text-center">
+      <div className="animate-pulse">
+        <div className="h-8 bg-surface-alt rounded w-64 mx-auto mb-4" />
+        <div className="h-4 bg-surface-alt rounded w-48 mx-auto" />
+      </div>
+    </div>
+  );
+}
+
+export default function Unit48LessonPage() {
+  return (
+    <Suspense fallback={<LoadingFallback />}>
+      <WorkshopContent />
+    </Suspense>
   );
 }
