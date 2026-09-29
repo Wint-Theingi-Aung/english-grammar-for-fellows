@@ -77,3 +77,6 @@ EnglishGrammarForFellows_Unit1.pdf
 # Generated screenshots and exports
 screenshots/
 *.webp
+
+# Source book PDFs
+books/EnglishGrammarForFellows/
